@@ -2,10 +2,10 @@
 title: Novo arquivo
 description: Descrição
 keywords: novo arquivo, adicionar arquivo, arquivo
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Propriedades do fluxo de trabalho"
->abstract="Nesta tela, escolha o modelo a ser usado para criar o fluxo de trabalho e especifique um rótulo. Expanda a seção OPÇÕES ADICIONAIS para definir mais configurações, como o nome interno do fluxo de trabalho, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os(as) operadores(as) sejam alertados(as)."
 
 
 >[!CONTEXTUALHELP]
