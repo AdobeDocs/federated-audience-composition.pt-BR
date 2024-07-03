@@ -2,10 +2,10 @@
 audience: end-user
 title: Criar composições
 description: Saiba como criar composições
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 2%
+source-wordcount: '1034'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ A variável **Em caso de erro** permite especificar a ação a ser executada cas
 
 ### Script de inicialização
 
-A variável **Script de inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique em **Editar código** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada. Consulte a seção relacionada ao [variáveis de evento](../workflows/event-variables.md).
+A variável **Script de inicialização** permite inicializar variáveis ou modificar propriedades da atividade. Clique em **Editar código** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada.
 
 ## Exemplo {#example}
 
@@ -108,4 +108,4 @@ Para isso, as atividades abaixo foram adicionadas:
 
 Após concluir o workflow, adicione en **[!UICONTROL Fim]** atividade no final do diagrama. Essa atividade permite marcar visualmente o final de um fluxo de trabalho e não tem impacto funcional.
 
-Depois de criar o diagrama de workflow com êxito, você pode executá-lo e acompanhar o progresso de suas várias tarefas. [Saiba como iniciar um workflow e monitorar sua execução](start-monitor-workflows.md)
+Depois de criar o diagrama de workflow com êxito, você pode executá-lo e acompanhar o progresso de suas várias tarefas.
