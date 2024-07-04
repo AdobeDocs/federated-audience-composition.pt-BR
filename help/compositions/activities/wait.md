@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade de espera
 description: Saiba como usar a atividade de espera
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 60%
@@ -27,4 +27,5 @@ Siga estas etapas para configurar a atividade **Aguardar**:
 1. Especifique a **Duração** da espera entre as transições de entrada e saída.
 
 1. Selecione a unidade de tempo na variável **Períodos** campo: segundos, minutos, horas, dias.
+
 

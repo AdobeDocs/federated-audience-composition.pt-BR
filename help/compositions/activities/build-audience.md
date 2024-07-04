@@ -2,12 +2,13 @@
 audience: end-user
 title: Usar a atividade Criar público-alvo
 description: Saiba como usar a atividade Criar público
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # Criar público-alvo {#build-audience}
 
@@ -24,10 +25,7 @@ Para definir o público-alvo, você pode:
 * Selecionar um público-alvo da Adobe Experience Platform.
 * Crie um novo público-alvo com o construtor do modelador de consultas definindo e combinando critérios de filtragem.
 
-
-
 A variável **Criar público-alvo** A atividade pode ser colocada no início da composição ou após qualquer outra atividade. Qualquer atividade pode ser colocada após a variável **Criar público-alvo**.
-
 
 ## Configurar a atividade Criar público-alvo {#build-audience-configuration}
 

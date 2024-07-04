@@ -2,7 +2,9 @@
 audience: end-user
 title: Usar a atividade Query incremental
 description: Saiba como usar a atividade de Query incremental
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+hide: true
+hidefromtoc: true
+source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 24%

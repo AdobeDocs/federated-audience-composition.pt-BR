@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade Fork
 description: Saiba como usar a atividade Bifurcação
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -32,4 +32,5 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 1. Adicionar um **Bifurcar** atividade para sua composição.
 1. Clique em **Adicionar transição** para adicionar uma nova transição de saída. Por padrão, são definidas duas transições.
 1. Adicione um rótulo a cada transição.
+
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: Usar a atividade Combinar
 description: Saiba como usar a atividade Combinar
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 70%
 
 ---
+
 
 # Combinar {#combine}
 
@@ -22,9 +23,7 @@ A atividade **Combinar** permite executar a segmentação na população de entr
 * A **Interseção** permite manter somente os elementos comuns às diferentes populações de entrada na atividade.
 * A **Exclusão** permite excluir elementos de uma população de acordo com determinados critérios.
 
-
 A variável **Combinar** A atividade pode ser colocada após qualquer outra atividade, mas não no início da composição. Qualquer atividade pode ser colocada após a variável **Combinar**.
-
 
 ## Configurar a atividade Combinar {#combine-configuration}
 
