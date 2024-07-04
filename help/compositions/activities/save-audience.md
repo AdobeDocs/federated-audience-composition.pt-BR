@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Usar a atividade Save audience
-description: Saiba como usar a atividade Bifurcação
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Saiba como usar a atividade Salvar público
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '358'
 ht-degree: 12%
 
 ---
+
 
 # Salvar público-alvo {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 12%
 >abstract="Selecione a identidade principal a ser usada para perfis."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Saiba mais na documentação do Experience Platform"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namespace de identidade"
 >abstract="Selecione o namespace a ser usado para perfis."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação do Experience Platform"
-
-
 
 A variável **Salvar público-alvo** A atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
 
@@ -46,21 +44,23 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 
 1. Adicionar um **Salvar público-alvo** atividade para sua composição.
 
-1. No **Modo** selecione a ação que deseja executar:
+   ![](../assets/save-audience.png)
 
-   * **Criar ou atualizar um público existente**: definir um **Rótulo de público**. Se o público-alvo já existir, ele será atualizado, caso contrário, um novo público-alvo será criado.
+1. Especifique o rótulo do público-alvo a ser criado.
 
-   * **Atualizar um público existente**: escolha a variável **Público** você deseja atualizar na lista de públicos-alvo existentes.
+1. Clique em **Adicionar mapeamento de público-alvo** em seguida, escolha os campos de público-alvo de origem e destino:
 
-1. Selecione o **Modo de atualização** que se aplicarão aos públicos-alvo existentes:
+   * **Campo de público-alvo do Source**:
+   * **Campo de público-alvo**:
 
-   * **Substituir o conteúdo do público-alvo por novos dados**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos. Essa opção apaga o tipo de público-alvo e o targeting dimension do público-alvo atualizado.
+   Repita a operação para adicionar quantos mapeamentos de público-alvo forem necessários.
 
-   * **Público-alvo completo com novos dados**: o conteúdo antigo do público-alvo é mantido e os dados da transição de entrada da atividade Save audience são adicionados a ele.
+1. Selecione a identidade e o namespace principais a serem usados para identificar os perfis direcionados no banco de dados:
 
-1. Verifique a **Gerar uma transição de saída** se desejar adicionar uma transição após a variável **Salvar público-alvo** atividade.
+   * **Campo de identidade principal**: selecione o campo que será usado para identificar os perfis. Por exemplo, seu endereço de email ou número de telefone.
+   * **Namespace de identidade**: selecione o namespace que será usado para identificar os perfis, ou seja, o tipo de dados a ser usado como chave de identificação. Por exemplo, se o endereço de email tiver sido selecionado como o campo de identidade principal, o namespace de identidade **E-mail** deve ser selecionado. Se o identificador exclusivo for o número de telefone, o namespace de identidade **Telefone** deve ser selecionado.
 
-O conteúdo do público-alvo salvo ficará disponível na visualização detalhada do público-alvo, que pode ser acessada no **Públicos-alvo** menu. As colunas disponíveis nessa visualização correspondem às da transição de entrada do **Salvar público-alvo** atividade.
+Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform e acessível no **Públicos-alvo** menu.
 
 <!--
 
