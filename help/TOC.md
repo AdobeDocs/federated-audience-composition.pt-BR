@@ -2,9 +2,9 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 38%
 
 ---
@@ -25,9 +25,8 @@ ht-degree: 38%
    + [Introdução a composições](compositions/gs-compositions.md)
    + Criar e executar sua primeira composição {#create-composition}
       + [Princípios fundamentais da criação de composição](compositions/gs-composition-creation.md)
-      + [Criar a composição](compositions/create-composition.md)
+      + [Criar e configurar a composição](compositions/create-composition.md)
       + [Orquestrar atividades](compositions/orchestrate-activities.md)
-      + [Definir configurações de composição](compositions/composition-settings.md)
       + [Iniciar e monitorar sua composição](compositions/start-monitor-composition.md)
    + Trabalhar com atividades {#activities}
       + [Lista de atividades](compositions/activities/about-activities.md)
