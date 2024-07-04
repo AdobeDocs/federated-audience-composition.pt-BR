@@ -2,10 +2,10 @@
 audience: end-user
 title: Introdução a composições
 description: Saiba como começar com composições
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ A Composição de dados de Adobe permite criar composições, onde você pode ap
 
 ![](assets/composition-example.png)
 
-## Acessar composições {#access}
+## Acessar e gerenciar composições {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -26,17 +26,15 @@ A Composição de dados de Adobe permite criar composições, onde você pode ap
 
 As composições podem ser acessadas no Adobe Experience Platform **[!UICONTROL Públicos-alvo]** no menu, no **Composições federadas** guia.
 
-![](assets/compositions-list.png)
+Nessa tela, é possível criar novas composições e acessar as existentes. Também é possível duplicar ou excluir uma composição existente clicando no botão de reticências ao lado do nome.
 
-Nessa tela, é possível criar novas composições e acessar as existentes.
+![](assets/compositions-list.png)
 
 Para refinar a lista e encontrar facilmente a composição que está procurando, você pode pesquisar a lista e filtrar as composições por status ou datas do último processamento.
 
 Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no link **Configurar coluna** s e adicionar ou remover as colunas de saída desejadas.
 
 ![](assets/compositions-columns.png)
-
-Para duplicar ou excluir uma composição existente, clique no botão de reticências ao lado do nome e selecione a operação desejada.
 
 ## Status das composições {#status}
 
@@ -47,3 +45,5 @@ As composições podem ter vários status:
 * **[!UICONTROL Parado]**: a execução da composição foi interrompida.
 * **[!UICONTROL Pausado]**: a execução da composição foi pausada.
 * **[!UICONTROL Errado]**: a execução da composição encontrou um erro. Abra a composição e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
+
+Informações detalhadas sobre como iniciar e monitorar uma composição estão disponíveis em [nesta seção](../compositions/start-monitor-composition.md).
