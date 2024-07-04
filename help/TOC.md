@@ -2,9 +2,9 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 38%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 38%
       + [Desduplicação](compositions/activities/deduplication.md)
       + [Enriquecimento](compositions/activities/enrichment.md)
       + [Bifurcação](compositions/activities/fork.md)
-      + [Consulta incremental](compositions/activities/incremental-query.md)
       + [Reconciliação](compositions/activities/reconciliation.md)
       + [Salvar público-alvo](compositions/activities/save-audience.md)
+      + [Scheduler](compositions/activities/scheduler.md)
       + [Divisão](compositions/activities/split.md)
       + [Aguardar](compositions/activities/wait.md)
 + Consultar o banco de dados {#query-database}
