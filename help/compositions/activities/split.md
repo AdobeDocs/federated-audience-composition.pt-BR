@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade Split
 description: Saiba como usar a atividade de Split
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 74%
 
 ---
 
@@ -59,7 +59,7 @@ A atividade **Divisão** permite segmentar as populações recebidas em vários 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Habilitar sobreposição de populações de saída"
->abstract="Habilitar sobreposição de populações de saída"
+>abstract="A variável **[!UICONTROL Permitir sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não estiver marcada, a atividade dividida garante que um destinatário não esteja presente em várias transições de saída, mesmo que ele atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos."
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
@@ -75,9 +75,13 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
 1. Após a adição dos subconjuntos, a atividade mostrará tantas transições de saída quanto houver subconjuntos. É altamente recomendável alterar o rótulo de cada subconjunto para identificá-los facilmente na tela de composição.
 
+   ![](../assets/split.png)
+
 1. Configure como cada subconjunto deve filtrar a população recebida. Para fazer isso, siga estes passos:
 
-   1. Abra o subconjunto para exibir suas propriedades.
+   1. Expanda o subconjunto para exibir suas propriedades.
+
+      ![](../assets/split-subset.png)
 
    1. Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email exista no banco de dados. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Siga estas etapas para configurar a atividade de **Divisão**:
    >[!NOTE]
    >
    >A variável **[!UICONTROL Gerar todos os subconjuntos na mesma tabela]** permite agrupar todos os subconjuntos em uma única transição de output.
+
+1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
+
+   * Quando a caixa não estiver marcada, a atividade dividida garante que um destinatário não esteja presente em várias transições de saída, mesmo que ele atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes.
+   * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos.
 
 A atividade agora está configurada. Na execução, a população será segmentada em diferentes subconjuntos, na ordem em que foram adicionados à atividade.
 
