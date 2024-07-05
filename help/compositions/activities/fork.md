@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade Fork
 description: Saiba como usar a atividade Bifurcação
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 81%
@@ -16,7 +16,6 @@ ht-degree: 81%
 >id="dc_orchestration_fork"
 >title="Atividade Bifurcação"
 >abstract="A atividade **Bifurcação** permite criar transições de saída para iniciar várias atividades ao mesmo tempo."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ Siga estas etapas para configurar a atividade de **Bifurcação**:
 1. Clique em **Adicionar transição** para adicionar uma nova transição de saída. Por padrão, são definidas duas transições.
 1. Adicione um rótulo a cada transição.
 
-
+   ![](../assets/fork.png)
