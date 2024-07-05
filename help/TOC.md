@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 38%
+source-wordcount: '121'
+ht-degree: 37%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 38%
 + Etapas de configuração {#config}
    + [Conectar a AEP com a Composição de público federado](connections/destinations.md)
    + [Configurar seus bancos de dados federados](connections/federated-db.md)
+   + [Criar e gerenciar conexões](connections/connections.md)
    + Modelos e esquemas de dados{#datamodel}
       + [Configurar seus modelos de dados](data-management/gs-models.md)
       + [Criar e configurar esquemas](customer/schemas.md)
