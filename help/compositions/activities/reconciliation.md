@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de reconciliação
 description: Saiba como usar a atividade de Reconciliação
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 41%
+source-wordcount: '515'
+ht-degree: 29%
 
 ---
 
@@ -36,19 +36,14 @@ A variável **Reconciliação** A atividade permite definir o link entre os dado
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Práticas recomendadas {#reconciliation-best-practices}
-
-Embora a **Enriquecimento** atividade de permite definir dados adicionais para processar em sua composição (você pode usar uma **Enriquecimento** para combinar dados provenientes de vários conjuntos ou para criar links para um recurso temporário), a variável **Reconciliação** A atividade permite vincular dados não identificados aos recursos existentes.
-
->[!NOTE]
->A operação de reconciliação implica que os dados das dimensões vinculadas já estão no banco de dados.  Por exemplo, se você importar um arquivo de compras que mostre qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
+A variável **Reconciliação** A atividade permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados que você está unindo já estão no banco de dados. Por exemplo, se você quiser reconciliar as informações de compras mostrando qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
 
 ## Configurar a atividade de reconciliação {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Dimensão de direcionamento"
->abstract="Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. Por padrão, a dimensão de direcionamento atual é selecionada."
+>title="Esquema"
+>abstract="Selecione o novo schema a ser aplicado aos dados. Um schema, também conhecido como &quot;targeting dimension&quot;, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc. Por padrão, a targeting dimension atual de composição é selecionada."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ Embora a **Enriquecimento** atividade de permite definir dados adicionais para p
 
 Siga estas etapas para configurar o **Reconciliação** atividade:
 
-1. Adicionar um **Reconciliação** atividade na sua composição. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Adicionar um **Reconciliação** atividade na sua composição.
 
-1. Selecione a nova dimensão de direcionamento. Uma dimensão permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes, etc. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Selecione o **Novo esquema**. Um schema, também conhecido como &quot;targeting dimension&quot;, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc.
 
 1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
 
-   1. Para usar atributos para reconciliar dados, selecione o **Atributos simples** opção. A variável **Source** field lista os campos disponíveis na transição de entrada, que devem ser reconciliados. A variável **Destino** field corresponde aos campos da targeting dimension selecionada. Os dados são reconciliados quando a origem e o destino são iguais. Por exemplo, selecione a variável **E-mail** para desduplicar perfis com base em seus endereços de email.
+   1. Para usar atributos para reconciliar dados, selecione o **Atributos simples** e clique no botão **Adicionar regra** botão.
+   1. Selecione o **Source** e **Destino** campos para a reconciliação. A variável **Source** campo. A variável **Destino** field corresponde aos campos do schema selecionado.
+
+      Os dados são reconciliados quando a origem e o destino são iguais. Por exemplo, selecione a variável **E-mail** para desduplicar perfis com base em seus endereços de email.
 
       Para adicionar outro critério de reconciliação, clique no link **Adicionar regra** botão. Se várias condições de associação forem especificadas, TODAS elas deverão ser verificadas para que os dados possam ser vinculados.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. Para usar outros atributos para reconciliar dados, selecione o **Condições de reconciliação avançadas** opção. Em seguida, você pode criar sua própria condição de reconciliação usando o modelador de consultas. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. Para usar outros atributos para reconciliar dados, selecione o **Condições de reconciliação avançadas** e clique no botão **Criar condições** botão. Em seguida, você pode criar sua própria condição de reconciliação usando o modelador de consultas.
 
-1. É possível filtrar dados para reconciliar usando o **Criar filtro** botão. Isso permite criar uma condição personalizada usando o modelador de consultas. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. É possível filtrar dados para reconciliar usando o **Criar filtro** botão. Isso permite criar uma condição personalizada usando o modelador de consultas.
 
 Por padrão, os dados não reconciliados são mantidos na transição de saída e disponibilizados na tabela de trabalho para uso futuro. Para remover dados não reconciliados, desative a opção **Manter dados não reconciliados**.
 
