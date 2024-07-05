@@ -2,9 +2,9 @@
 audience: end-user
 title: Usar a atividade Combinar
 description: Saiba como usar a atividade Combinar
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '758'
 ht-degree: 61%
 
 ---
@@ -41,12 +41,13 @@ A variável **Combinar** A atividade pode ser colocada após qualquer outra ativ
 Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 
 1. Adicione várias atividades para formar pelo menos duas ramificações de execução diferentes.
+
 1. Adicione uma atividade **Combinar** a qualquer uma das ramificações anteriores.
-1. Selecione o tipo de segmentação: [União](#union), [Interseção](#intersection) ou [Exclusão](#exclusion).
+
+1. Selecione o tipo de segmentação: [União](#union), [Interseção](#intersection) ou [Exclusão](#exclusion)e clique em **Continuar**.
 
    ![](../assets/combine.png)
 
-1. Clique em **Continuar**.
 1. No **Conjuntos para ingressar** marque todas as atividades anteriores que deseja participar.
 
 ## União {#combine-union}
@@ -61,21 +62,25 @@ Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 >title="Opções de reconciliação"
 >abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas."
 
-No **Combinar** atividade, você pode configurar um **União**. Para isso, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
+No **Combinar** atividade, você pode configurar um **União**.
+
+![](../assets/combine-union.png)
+
+Para isso, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
 * **Somente chaves**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
 * **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
 
-![](../assets/combine-union.png)
-
 ## Interseção {#combine-intersection}
 
-No **Combinar** atividade, você pode configurar um **Interseção**. Para isso, siga as etapas adicionais abaixo:
+No **Combinar** atividade, você pode configurar um **Interseção**.
+
+![](../assets/combine-intersection.png)
+
+Para isso, siga as etapas adicionais abaixo:
 
 1. Selecione o **Tipo de reconciliação** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
 1. Você pode verificar o **Gerar complemento** opção se desejar processar o público restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
-
-![](../assets/combine-intersection.png)
 
 ## Exclusão {#combine-exclusion}
 
@@ -99,13 +104,16 @@ No **Combinar** atividade, você pode configurar um **Interseção**. Para isso,
 >title="Combinar e gerar complemento"
 >abstract="Ative a **Gerar complemento** opção para processar a população restante em uma transição adicional."
 
-No **Combinar** atividade, você pode configurar um **Exclusão**. Para isso, você precisa seguir as etapas adicionais abaixo:
-
-1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
-1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
-1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
+No **Combinar** atividade, você pode configurar um **Exclusão**.
 
 ![](../assets/combine-exclusion.png)
+
+Para isso, você precisa seguir as etapas adicionais abaixo:
+
+1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
+
+1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
+1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
 
 <!--
 ## Examples{#combine-examples}
