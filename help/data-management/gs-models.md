@@ -2,7 +2,7 @@
 audience: end-user
 title: Introdução aos modelos de dados
 description: Saiba como começar a usar modelos de dados
-source-git-commit: 315dd7b40f9a0a6bb7e66f584a4727dc86b97616
+source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%
@@ -38,9 +38,9 @@ ht-degree: 1%
 
 Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles.
 
-Saiba mais sobre [schemas](customer/schemas.md).
+Saiba mais sobre [schemas](../customer/schemas.md).
 
-Saiba mais sobre [públicos](customer/audiences.md).
+Saiba mais sobre [públicos](../customer/audiences.md).
 
 ## Como criar um modelo de dados? {#data-model-create}
 
