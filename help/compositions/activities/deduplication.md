@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de desduplicação
 description: Saiba como usar a atividade de desduplicação
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 67%
+source-wordcount: '563'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +40,11 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 
 1. Adicionar um **Desduplicação** atividade para sua composição.
 
+1. Se a atividade tiver várias transições de entrada, selecione a transição a ser usada para executar a desduplicação no **[!UICONTROL Conjunto principal]** lista suspensa
+
 1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
+
+   ![](../assets/deduplication.png)
 
 1. No **Configurações de desduplicação** selecione o número de eventos **Duplicatas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 
@@ -53,8 +57,9 @@ Siga estas etapas para configurar o **Desduplicação** atividade:
 1. Selecione o **Método de desduplicação** para usar:
 
    * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usar uma expressão**: permite manter os registros nos quais o valor da expressão inserida é o menor ou o maior.
-   * **Following a list of values**: permite definir uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no botão Add localizado acima da lista de valores.
+   * **Usar uma expressão**: mantenha os registros nos quais o valor da expressão inserida é o menor ou o maior.
+   * **Valores não vazios**: mantenha os registros para os quais a expressão não está vazia.
+   * **Seguindo uma lista de valores**: Defina uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique na guia **Botão Adicionar** localizado acima da lista de valores.
 
 1. Marque a opção **Gerar complemento** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
