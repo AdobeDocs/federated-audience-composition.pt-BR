@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade Combinar
 description: Saiba como usar a atividade Combinar
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 61%
+source-wordcount: '765'
+ht-degree: 46%
 
 ---
 
@@ -87,7 +87,7 @@ Para isso, siga as etapas adicionais abaixo:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na E **regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** na E **regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ Para isso, siga as etapas adicionais abaixo:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ Para isso, você precisa seguir as etapas adicionais abaixo:
 
 1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
 
-1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outra dimensão, esse público-alvo deve ser devolvido ao mesmo targeting dimension como o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração da dimensão. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
+1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, esse target deve ser retornado para o mesmo schema como o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
 1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
 
 <!--

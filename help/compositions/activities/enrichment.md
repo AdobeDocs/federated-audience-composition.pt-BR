@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de enriquecimento
 description: Saiba como usar a atividade de enriquecimento
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 26%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento da dimensão do público-alvo ou um link de coleção, que é um link com uma cardinalidade 1-N entre tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do schema, também conhecido como targeting dimension, ou um link de coleção, que é um link com uma cardinalidade 1-N entre as tabelas."
 
 A variável **Enriquecimento** A atividade permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, é usado em composições após atividades de segmentação.
 
@@ -84,7 +84,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 Nesse caso, estamos apenas adicionando um atributo único de enriquecimento, por exemplo, a data de nascimento. Siga estas etapas:
 
 1. Clique no campo **Atributo**.
-1. Selecione um campo simples da dimensão de direcionamento (data de nascimento, em nosso exemplo).
+1. Selecione um campo simples do esquema, também conhecido como targeting dimension, a data de nascimento em nosso exemplo.
 1. Clique em **Confirmar**.
 
 <!--### Collection link {#collection-link}

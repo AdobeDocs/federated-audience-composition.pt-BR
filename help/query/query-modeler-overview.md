@@ -2,9 +2,9 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '380'
 ht-degree: 8%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Modelador de consulta"
->abstract="Defina os critérios de filtragem para recipients ou qualquer outra targeting dimension do banco de dados."
+>abstract="Defina critérios de filtragem para recipients ou qualquer outro schema do banco de dados, também conhecido como targeting dimension."
 
 O modelador de consultas simplifica o processo de filtragem do banco de dados com base em vários critérios. Além disso, o modelador de consultas pode gerenciar consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas. Além disso, ele oferece suporte a filtros predefinidos em condições, permitindo que você refine suas consultas com facilidade enquanto usa expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de público.
 

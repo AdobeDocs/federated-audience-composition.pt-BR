@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade de reconciliação
 description: Saiba como usar a atividade de Reconciliação
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 29%
+source-wordcount: '518'
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ A variável **Reconciliação** A atividade permite vincular dados não identifi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Esquema"
->abstract="Selecione o novo schema a ser aplicado aos dados. Um schema, também conhecido como &quot;targeting dimension&quot;, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc. Por padrão, a targeting dimension atual de composição é selecionada."
+>abstract="Selecione o novo schema a ser aplicado aos dados. Um esquema, também conhecido como targeting dimension, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc. Por padrão, o schema atual de composição é selecionado."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ A variável **Reconciliação** A atividade permite vincular dados não identifi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Selecione a dimensão de direcionamento"
->abstract="Selecione a dimensão de direcionamento com a qual seus dados de entrada devem se reconciliar."
+>abstract="Selecione o schema, também conhecido como targeting dimension, para que seus dados de entrada reconciliem com."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Siga estas etapas para configurar o **Reconciliação** atividade:
 
 1. Adicionar um **Reconciliação** atividade na sua composição.
 
-1. Selecione o **Novo esquema**. Um schema, também conhecido como &quot;targeting dimension&quot;, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc.
+1. Selecione o **Novo esquema**. Um esquema, também conhecido como targeting dimension, permite definir a população direcionada: recipients, assinantes de aplicativos, operadores, assinantes etc.
 
 1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
 
