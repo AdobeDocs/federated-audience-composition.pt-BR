@@ -2,9 +2,9 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no modelador de consultas.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2100'
 ht-degree: 74%
 
 ---
@@ -28,7 +28,7 @@ O editor de expressão está disponível no modelador de consultas **[!UICONTROL
 O editor de expressão fornece:
 
 * Um **campo de entrada (1)** na qual a expressão é definida.
-* A lista de opções disponíveis **campos (2)** que pode ser usada na expressão e corresponde ao targeting dimension do query.
+* A lista de opções disponíveis **campos (2)** que pode ser usada na expressão e correspondente ao schema, também conhecido como targeting dimension, da query.
 * **Funções auxiliares (3)**, classificado por categoria.
 
 Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.

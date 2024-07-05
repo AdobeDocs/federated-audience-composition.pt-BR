@@ -2,9 +2,9 @@
 audience: end-user
 title: Trabalhar com atividades
 description: Saiba como trabalhar com atividades
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,7 @@ Na Composição de público-alvo federado, você pode criar composições usando
 ## Atividades de direcionamento
 
 * [Criar atividade de público](build-audience.md): defina a população do target. Você pode selecionar um público existente ou usar o modelador de consultas para definir sua própria consulta.
-* [Alterar dimensão](change-dimension.md): altere o targeting dimension enquanto constrói sua composição.
+* [Alterar dimensão](change-dimension.md): altere o esquema, também conhecido como targeting dimension, conforme você está criando sua composição.
 * [Combinar](combine.md): execute a segmentação na população de entrada. Você pode usar uma união, uma interseção ou uma exclusão.
 * [Desduplicação](deduplication.md): exclua duplicatas no(s) resultado(s) das atividades de entrada.
 * [Enriquecimento](enrichment.md): Defina dados adicionais para processar na sua composição. Com essa atividade, você pode aproveitar a transição de entrada e configurar a atividade para concluir a transição de saída com dados adicionais.
