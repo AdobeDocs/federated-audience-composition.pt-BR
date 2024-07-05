@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 12%
@@ -60,7 +60,7 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
    * **Campo de identidade principal**: selecione o campo que será usado para identificar os perfis. Por exemplo, seu endereço de email ou número de telefone.
    * **Namespace de identidade**: selecione o namespace que será usado para identificar os perfis, ou seja, o tipo de dados a ser usado como chave de identificação. Por exemplo, se o endereço de email tiver sido selecionado como o campo de identidade principal, o namespace de identidade **E-mail** deve ser selecionado. Se o identificador exclusivo for o número de telefone, o namespace de identidade **Telefone** deve ser selecionado.
 
-Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform e acessível no **Públicos-alvo** menu.
+Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform <!-- to check-->e acessíveis no **Públicos-alvo** menu.
 
 <!--
 
