@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,5 @@ ht-degree: 37%
    + [Trabalhar com o modelador de consultas](query/query-modeler-overview.md)
    + [Criar a primeira consulta](query/build-query.md)
    + [Editar expressões](query/expression-editor.md)
-   + [Listas de filtros](query/filter.md)
 + Trilha de auditoria {#audit-trail}
    + [Monitorar seus bancos de dados](admin/audit-trail.md)

@@ -2,9 +2,9 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no modelador de consultas
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2066'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ Para começar a criar uma consulta, acesse o modelador de consultas do local de 
 
 Você pode adicionar dois tipos de elementos:
 
-* **Filtrar componentes** (Condição personalizada, Selecionar público, Filtro predefinido) permitem criar suas próprias regras, selecionar um público ou um filtro predefinido para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
+* **Filtrar componentes** (Condição personalizada, Selecionar público-alvo) permitem criar suas próprias regras ou selecionar um público-alvo para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
   Exemplo: *Recipients que assinaram o boletim informativo &quot;Esportes&quot;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
@@ -33,7 +33,6 @@ Os componentes de filtragem permitem refinar a consulta usando:
 
 * **[Condições personalizadas](#custom-condition)**: filtre sua consulta criando sua própria condição com atributos do banco de dados e expressões avançadas.
 * **[Públicos-alvo](#audiences)**: filtre sua consulta usando um público-alvo existente.
-* **[Filtro predefinido](#predefined-filters)**: filtre sua query usando os filtros predefinidos existentes.
 
 ### Configurar uma ação personalizada {#custom-condition}
 
@@ -52,7 +51,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
    >[!NOTE]
    >
-   >A variável **Editar expressão** O botão permite aproveitar o editor de expressão da Web para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
+   >A variável **Editar expressão** O botão permite que você aproveite o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
 1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
@@ -79,15 +78,11 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 +++
 
-1. No **Valor** defina o valor esperado. Você também pode aproveitar o editor de expressão da Web para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no link **Editar expressão** botão. [Saiba como editar expressões](expression-editor.md)
+1. No **Valor** defina o valor esperado. Você também pode aproveitar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no link **Editar expressão** botão. [Saiba como editar expressões](expression-editor.md)
 
    *Exemplo de consulta que retorna todos os perfis com 21 anos ou mais:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Para atributos do tipo data, os valores predefinidos estão disponíveis usando o **[!UICONTROL Predefinições]** opção.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Condições personalizadas em tabelas vinculadas (links 1-1 e 1-N){#links}
 
@@ -243,12 +238,12 @@ No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos p
 >title="Propriedades da regra"
 >abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **Propriedades da regra** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **Selecionar ou salvar filtro** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
 
-Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito. As operações disponíveis são:
+Depois de criar o query na tela, você pode verificá-lo usando o **Propriedades da regra** painel localizado no lado direito. Este painel é exibido ao criar uma consulta para criar um público-alvo. As operações disponíveis são:
 
 * **Exibir resultados:** Exibe os dados resultantes da sua consulta.
 * **Visualização de código**: exibe uma versão baseada em código da consulta no SQL.
 * **Calcular**: atualiza e exibe o número de registros direcionados por sua consulta.
-* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para futura reutilização. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para futura reutilização.
 
   >[!IMPORTANT]
   >

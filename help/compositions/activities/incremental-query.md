@@ -4,10 +4,10 @@ title: Usar a atividade Query incremental
 description: Saiba como usar a atividade de Query incremental
 hide: true
 hidefromtoc: true
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 24%
+source-wordcount: '598'
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Siga estas etapas para configurar o **Query incremental** atividade:
 
    O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, o target é selecionado dos recipients. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Use o modelador de consultas para definir seu query, da mesma forma que você cria um público-alvo ao criar um novo email. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)
 
 1. No **[!UICONTROL Dados processados]** selecione o modo incremental a ser usado:
 
