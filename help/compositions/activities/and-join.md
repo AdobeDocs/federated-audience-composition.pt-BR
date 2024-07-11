@@ -5,7 +5,7 @@ description: Saiba como usar a atividade AND-join
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A variável **Associação AND** A atividade permite sincronizar várias ramificações de execução de uma composição. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar a composição."
+>abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma composição. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite que você se certifique de que determinadas atividades foram concluídas antes de continuar a execução da composição."
 
 A variável **AND-join** A atividade permite sincronizar várias ramificações de execução de uma composição.
 

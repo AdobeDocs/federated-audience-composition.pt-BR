@@ -5,7 +5,7 @@ description: Saiba como usar a atividade de Split
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ A atividade **Divisão** permite segmentar as populações recebidas em vários 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmentos para atividade de divisão"
->abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar a composição, verifique se você ordenou os subconjuntos na ordem que atende às suas necessidades usando os botões de seta."
+>abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar a sua composição, certifique-se de ter ordenado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

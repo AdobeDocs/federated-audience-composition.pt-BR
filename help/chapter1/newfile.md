@@ -5,7 +5,7 @@ keywords: novo arquivo, adicionar arquivo, arquivo
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="Atividade não editável"
->abstract="Quando um **Query** ou um **Enriquecimento** for configurada com dados adicionais no console, os dados de enriquecimento serão considerados e passados para a transição de saída, mas não poderão ser editados."
+>abstract="Quando uma atividade de **Consulta** ou **Enriquecimento** é configurada com dados adicionais no console, os dados de enriquecimento são levados em consideração e transmitidos para a transição de saída, mas não podem ser editados."
 
 <!-- Create a link -->
 

@@ -5,7 +5,7 @@ description: Saiba como começar com esquemas
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_schema_name"
 >title="Nome do esquema"
->abstract="Insira o nome do schema."
+>abstract="Insira o nome do esquema."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Descrição do esquema"
->abstract="A descrição do esquema lista colunas, tipos e rótulos. Você também pode verificar a chave de reconciliação do esquema. Para atualizar a definição do schema, clique no ícone de lápis."
+>abstract="A descrição do esquema lista colunas, tipos e rótulos. Você também pode verificar a chave de reconciliação do esquema. Para atualizar a definição do esquema, clique no ícone de lápis."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Selecione o banco de dados de origem a ser filtrado"
->abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários Bancos de Dados Federados para exibir seus esquemas."
+>abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários Bancos de dados federados para exibir seus esquemas."
 
 

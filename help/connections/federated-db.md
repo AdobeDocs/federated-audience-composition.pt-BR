@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Introdução aos Bancos de Dados Federados
+title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 18%
+ht-degree: 26%
 
 ---
 
-# Introdução aos Bancos de Dados Federados {#federated-db}
+# Introdução aos Bancos de dados federados {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bancos de dados federados"
->abstract="As conexões existentes com Bancos de Dados Federados estão listadas nesta tela. Para criar uma nova conexão, clique no link **Adicionar banco de dados federado** botão."
+>abstract="As conexões existentes com Bancos de dados federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **Adicionar banco de dados federados**."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propriedades do Federated Database"
->abstract="Insira o nome do novo Banco de Dados Federado e selecione seu tipo."
+>title="Propriedades do Banco de dados federado"
+>abstract="Insira o nome do novo banco de dados federado e selecione um tipo."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Detalhes do Banco de Dados Federado"
->abstract="Insira as configurações para se conectar ao novo Banco de Dados Federado. Use o **Testar conexão** botão para validar a configuração."
+>title="Detalhes do Banco de dados federado"
+>abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **Testar conexão** para validar a configuração."
 
 Criar, Configurar, Testar e Salvar a conexão com um banco de dados externo.
 

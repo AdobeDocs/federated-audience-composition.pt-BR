@@ -5,7 +5,7 @@ description: Saiba como usar a atividade de enriquecimento
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 26%
+ht-degree: 44%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Atividade Enriquecimento"
->abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente é usada em uma composição após atividades de segmentação."
+>abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em uma composição após atividades de segmentação."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Atividade Enriquecimento"
->abstract="Depois que os dados de enriquecimento forem adicionados à composição, eles poderão ser usados nas atividades adicionadas após a **Enriquecimento** atividade para segmentar perfis em grupos distintos com base em seus comportamentos, preferências e opções."
+>abstract="Após a sua adição na composição, os dados de enriquecimento podem ser usados nas atividades adicionadas posteriormente à atividade **Enriquecimento** para segmentar perfis em grupos distintos com base em seus comportamentos, preferências e escolhas."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
@@ -35,7 +35,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do schema, também conhecido como targeting dimension, ou um link de coleção, que é um link com uma cardinalidade 1-N entre as tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer a sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do schema, também conhecido como targeting dimension, ou um link de coleção, que é um link com uma cardinalidade 1-N entre as tabelas."
 
 A variável **Enriquecimento** A atividade permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, é usado em composições após atividades de segmentação.
 

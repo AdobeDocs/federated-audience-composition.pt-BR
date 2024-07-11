@@ -5,7 +5,7 @@ description: Saiba como usar a atividade Combinar
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 46%
+ht-degree: 56%
 
 ---
 
@@ -26,12 +26,12 @@ A variável **Combinar** A atividade pode ser colocada após qualquer outra ativ
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Opções de mesclagem de interseção"
->abstract="A variável **interseção** O permite manter somente os elementos comuns aos diferentes preenchimentos de entrada na atividade. No **Conjuntos para ingressar** marque todas as atividades anteriores nas quais deseja participar."
+>abstract="A **interseção** permite manter somente os elementos comuns às diferentes populações de entrada na atividade. Na seção **Conjuntos para unir**, marque todas as atividades anteriores que deseja unir."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Opções de mesclagem de exclusão"
->abstract="A variável **exclusão** O permite excluir elementos de uma população de acordo com determinados critérios. No **Conjuntos para ingressar** marque todas as atividades anteriores nas quais deseja participar."
+>abstract="A **Exclusão** permite excluir elementos de uma população de acordo com determinados critérios. Na seção **Conjuntos para unir**, marque todas as atividades anteriores que deseja unir."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
@@ -87,7 +87,7 @@ Para isso, siga as etapas adicionais abaixo:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** na E **regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** na E **regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,12 +97,12 @@ Para isso, siga as etapas adicionais abaixo:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Combinar e gerar complemento"
->abstract="Ative a **Gerar complemento** opção para processar a população restante em uma transição adicional."
+>abstract="Ative a opção **Gerar complemento** para processar a população restante em uma transição adicional."
 
 No **Combinar** atividade, você pode configurar um **Exclusão**.
 

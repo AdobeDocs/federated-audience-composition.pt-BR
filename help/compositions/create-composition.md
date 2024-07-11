@@ -5,7 +5,7 @@ description: Saiba como criar composições
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 2%
+ht-degree: 21%
 
 ---
 
@@ -33,18 +33,18 @@ A primeira etapa para criar uma composição é definir seu rótulo e definir co
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="Propriedades de composição"
->abstract="Esta seção fornece propriedades de composição genéricas que também são acessíveis ao criar a composição."
+>title="Propriedades da composição"
+>abstract="Esta seção fornece propriedades de composição genéricas que também podem ser acessadas ao criar a composição."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
->title="Segmentação de composição"
->abstract="Por padrão, somente as tabelas de trabalho da última execução da composição são mantidas. Você pode ativar essa opção para manter as tabelas de trabalho para fins de teste. Deve ser usado **somente** em ambientes de desenvolvimento ou de preparo. Nunca deve ser verificado em um ambiente de produção."
+>title="Segmentação da composição"
+>abstract="Por padrão, somente as tabelas de trabalho da última execução da composição são mantidas. Você pode habilitar essa opção para manter as tabelas de trabalho para fins de teste. Deve ser usada **somente** em ambientes de desenvolvimento ou de preparo. Essa opção nunca deve ser marcada em um ambiente de produção."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Configurações de gerenciamento de erros"
->abstract="Nesta seção, você pode definir como gerenciar erros durante a execução. Você pode optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução da composição."
+>abstract="Nesta seção, é possível definir como gerenciar erros durante a execução. É possível optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução da composição."
 
 Ao acessar uma composição, você pode acessar configurações avançadas que permitem, por exemplo, definir como a composição deve se comportar em caso de erro.
 

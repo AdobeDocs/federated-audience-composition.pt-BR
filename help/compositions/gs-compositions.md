@@ -5,7 +5,7 @@ description: Saiba como começar com composições
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ A Composição de dados de Adobe permite criar composições, onde você pode ap
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="Composições"
->abstract="Nesta tela, você pode acessar a lista completa de composições, verificar o status atual, as datas de última/próxima execução e criar uma nova composição."
+>abstract="Nesta tela, é possível acessar a lista completa de composições, verificar o status atual, as datas da última/próxima execução e criar uma nova composição."
 
 As composições podem ser acessadas no Adobe Experience Platform **[!UICONTROL Públicos-alvo]** no menu, no **Composições federadas** guia.
 

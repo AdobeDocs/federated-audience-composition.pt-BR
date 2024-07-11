@@ -5,7 +5,7 @@ description: Saiba como usar a atividade Criar público
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 24%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
->title="Atividade criar público-alvo"
->abstract="A variável **Criar público-alvo** A atividade permite definir o público-alvo que entrará na composição."
+>title="Atividade Criar público-alvo"
+>abstract="A atividade **Criar público-alvo** permite definir o público-alvo que entrará na composição."
 
-A variável **Criar público-alvo** A atividade permite definir o público-alvo que entrará na composição.
+A atividade **Criar público-alvo** permite definir o público-alvo que entrará na composição.
 
 Para definir o público-alvo, você pode:
 
@@ -32,7 +32,7 @@ A variável **Criar público-alvo** A atividade pode ser colocada no início da 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="Público-alvo"
->abstract="Selecione seu público."
+>abstract="Selecione o público-alvo."
 
 Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
@@ -58,7 +58,7 @@ Para selecionar um público-alvo existente, siga estas etapas:
 
 1. Selecione **Ler público-alvo**.
 1. Clique em **Continuar**.
-1. Selecione seu público.
+1. Selecione o público-alvo.
 
 >[!ENDTABS]
 

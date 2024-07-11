@@ -5,7 +5,7 @@ description: Saiba como usar a atividade Salvar público
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Salvar um público-alvo"
->abstract="Use esta atividade para atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream na composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo e disponibilizados no menu **Públicos-alvo**."
+>abstract="Use esta atividade para atualizar um público-alvo existente ou criar um novo a partir da população calculada upstream na composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo e disponibilizados no menu **Públicos-alvo**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -26,13 +26,13 @@ ht-degree: 12%
 >id="dc_orchestration_save_audience_primary_identity"
 >title="Campo de identidade principal"
 >abstract="Selecione a identidade principal a ser usada para perfis."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Saiba mais na documentação do Experience Platform"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Saiba mais na documentação da Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Namespace de identidade"
 >abstract="Selecione o namespace a ser usado para perfis."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação do Experience Platform"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação da Experience Platform"
 
 A variável **Salvar público-alvo** A atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
 

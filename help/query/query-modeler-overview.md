@@ -13,7 +13,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
->title="Modelador de consulta"
+>title="Modelador de consultas"
 >abstract="Defina critérios de filtragem para recipients ou qualquer outro schema do banco de dados, também conhecido como targeting dimension."
 
 O modelador de consultas simplifica o processo de filtragem do banco de dados com base em vários critérios. Além disso, o modelador de consultas pode gerenciar consultas muito complexas e longas com eficiência, oferecendo flexibilidade e precisão aprimoradas. Além disso, ele oferece suporte a filtros predefinidos em condições, permitindo que você refine suas consultas com facilidade enquanto usa expressões e operadores avançados para estratégias abrangentes de direcionamento e segmentação de público.

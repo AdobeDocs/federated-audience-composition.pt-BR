@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Introdução aos modelos de dados
+title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
-# Introdução aos modelos de dados {#data-model}
+# Introdução a modelos de dados {#data-model}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Trabalhar com modelos"
->abstract="Esquemas e modelos de dados são listados nesta tela. Você pode criar esquemas e modelos de dados na **Criar** botão."
+>abstract="Esquemas e modelos de dados são listas nesta tela. Você pode criar esquemas e modelos de dados a partir do botão **Criar**."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
@@ -26,7 +26,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
 >title="Selecionar um público-alvo"
->abstract="Selecione o público para o modelo de dados."
+>abstract="Selecione o público-alvo para o modelo de dados."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"

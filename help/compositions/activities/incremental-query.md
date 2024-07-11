@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="Consulta incremental"
->abstract="A variável **Query incremental** A atividade permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
+>abstract="A atividade **Consulta incremental** permite consultar o banco de dados usando o Modelador de consulta. Todas as vezes que essa atividade é executada, os resultados das execuções anteriores são excluídos. Ela permite direcionar somente elementos novos."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"
