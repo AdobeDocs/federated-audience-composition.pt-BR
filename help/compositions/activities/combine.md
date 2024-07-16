@@ -5,7 +5,7 @@ description: Saiba como usar a atividade Combinar
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 56%
+ht-degree: 71%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 56%
 
 A atividade **Combinar** permite executar a segmentação na população de entrada. Dessa forma, é possível combinar várias populações, excluir parte delas ou manter apenas dados comuns a vários targets.
 
-A variável **Combinar** A atividade pode ser colocada após qualquer outra atividade, mas não no início da composição. Qualquer atividade pode ser colocada após a variável **Combinar**.
+A atividade **Combinar** pode ser colocada após qualquer outra atividade, mas não no início da composição. Qualquer atividade pode ser colocada após **Combinar**.
 
 ## Configurar a atividade Combinar {#combine-configuration}
 
@@ -44,11 +44,11 @@ Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 
 1. Adicione uma atividade **Combinar** a qualquer uma das ramificações anteriores.
 
-1. Selecione o tipo de segmentação: [União](#union), [Interseção](#intersection) ou [Exclusão](#exclusion)e clique em **Continuar**.
+1. Selecione o tipo de segmentação: [União](#union), [Interseção](#intersection) ou [Exclusão](#exclusion) e clique em **Continuar**.
 
    ![](../assets/combine.png)
 
-1. No **Conjuntos para ingressar** marque todas as atividades anteriores que deseja participar.
+1. Na seção **Conjuntos para ingressar**, marque todas as atividades anteriores nas quais deseja ingressar.
 
 ## União {#combine-union}
 
@@ -62,32 +62,32 @@ Siga estas etapas comuns para começar a configurar a atividade **Combinar**:
 >title="Opções de reconciliação"
 >abstract="Selecione o **Tipo de reconciliação** para definir como lidar com duplicatas."
 
-No **Combinar** atividade, você pode configurar um **União**.
+Na atividade **Combinar**, você pode configurar uma **União**.
 
 ![](../assets/combine-union.png)
 
-Para isso, é necessário selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
+Para isso, você precisa selecionar o **Tipo de reconciliação** para definir como as duplicatas são tratadas:
 
 * **Somente chaves**: este é o modo padrão. A atividade só mantém um elemento quando elementos de transições de entrada diferentes têm a mesma chave. Essa opção só poderá ser usada se as populações de entrada forem homogêneas.
 * **Uma seleção de colunas**: selecione esta opção para definir a lista de colunas em que a reconciliação de dados é aplicada. Primeiro, selecione o conjunto principal (que contém os dados de origem) e, em seguida, as colunas a serem usadas para a união.
 
 ## Interseção {#combine-intersection}
 
-No **Combinar** atividade, você pode configurar um **Interseção**.
+Na atividade **Combinar**, você pode configurar uma **Interseção**.
 
 ![](../assets/combine-intersection.png)
 
 Para isso, siga as etapas adicionais abaixo:
 
 1. Selecione o **Tipo de reconciliação** para definir como as duplicatas são tratadas. Consulte a seção [União](#union).
-1. Você pode verificar o **Gerar complemento** opção se desejar processar o público restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
+1. Você pode marcar a opção **Generate complement** se desejar processar o público restante. O complemento conterá a união dos resultados de todas as atividades de entrada menos a intersecção. Será adicionada uma transição de saída adicional à atividade.
 
 ## Exclusão {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** na E **regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outro esquema, também conhecido como dimensão de direcionamento, esse público-alvo deve ser retornado ao mesmo esquema que o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração do esquema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,14 +97,14 @@ Para isso, siga as etapas adicionais abaixo:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, também conhecido como targeting dimension, esse target deve ser retornado para o mesmo schema que o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outro esquema, também conhecido como dimensão de direcionamento, esse público-alvo deve ser retornado ao mesmo esquema que o público-alvo principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração do esquema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Combinar e gerar complemento"
 >abstract="Ative a opção **Gerar complemento** para processar a população restante em uma transição adicional."
 
-No **Combinar** atividade, você pode configurar um **Exclusão**.
+Na atividade **Combinar**, é possível configurar uma **Exclusão**.
 
 ![](../assets/combine-exclusion.png)
 
@@ -112,7 +112,7 @@ Para isso, você precisa seguir as etapas adicionais abaixo:
 
 1. Na seção **Conjuntos para unir**, selecione o **Conjunto principal** das transições de entrada. Esse é o conjunto a partir do qual os elementos são excluídos. Os outros conjuntos correspondem a elementos antes de serem excluídos do conjunto principal.
 
-1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, esse target deve ser retornado para o mesmo schema como o target principal. Para fazer isso, clique em **Adicionar uma regra** no **Regras de exclusão** e especifique as condições de alteração do schema. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
+1. Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um target de outro schema, esse target deve ser retornado para o mesmo schema como o target principal. Para fazer isso, clique em **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração do esquema. A reconciliação de dados é realizada por meio de um atributo ou uma junção. <!-- pas compris-->
 1. Marque a opção **Gerar complemento** se desejar processar a população restante. Consulte a seção [Interseção](#intersection).
 
 <!--

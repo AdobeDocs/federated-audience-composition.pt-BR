@@ -5,17 +5,17 @@ description: Saiba como criar composições
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 41%
+ht-degree: 59%
 
 ---
 
 
-# Princípios fundamentais da criação de composição {#gs-composition-creation}
+# Princípios básicos da criação de composição {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Propriedades da composição"
->abstract="Nesta tela, escolha o modelo a ser usado para criar a composição e especificar um rótulo. Expanda a seção OPTIONS ADICIONAIS para definir mais configurações, como o nome interno da composição, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo de supervisores, para que, se ocorrer um erro, os operadores sejam alertados."
+>abstract="Nesta tela, escolha o modelo a ser usado para criar a composição e especifique um rótulo. Expanda a seção OPÇÕES ADICIONAIS para definir mais configurações, como o nome interno da composição, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os operadores sejam alertados."
 
 ## O que há dentro de uma composição? {#gs-composition-inside}
 

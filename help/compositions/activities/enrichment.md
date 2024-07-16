@@ -5,7 +5,7 @@ description: Saiba como usar a atividade de enriquecimento
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 44%
+ht-degree: 52%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dados de enriquecimento"
->abstract="Selecione os dados a serem usados para enriquecer a sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do schema, também conhecido como targeting dimension, ou um link de coleção, que é um link com uma cardinalidade 1-N entre as tabelas."
+>abstract="Selecione os dados a serem usados para enriquecer a sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do esquema, também conhecido como dimensão de direcionamento, ou um link de coleção, que é um link com cardinalidade 1-N entre tabelas."
 
-A variável **Enriquecimento** A atividade permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, é usado em composições após atividades de segmentação.
+A atividade **Enrichment** permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, é usado em composições após atividades de segmentação.
 
 Os dados de Enriquecimento podem vir:
 
-* **Da mesma tabela de trabalho** como o direcionado para sua composição:
+* **Da mesma tabela de trabalho** que a direcionada para a sua composição:
 
   *Direcione um grupo de clientes e adicione o campo &quot;Data de nascimento&quot; à tabela de trabalho atual*.
 
@@ -49,7 +49,7 @@ Os dados de Enriquecimento podem vir:
 
   *Direcione um grupo de clientes e adicione os campos &quot;Quantidade&quot; e &quot;Tipo de produto&quot; da tabela &quot;Compra&quot;*.
 
-Após os dados de enriquecimento terem sido adicionados à composição, eles poderão ser usados nas atividades adicionadas após a **Enriquecimento** atividade para segmentar clientes em grupos distintos com base em seus comportamentos, preferências e opções.
+Após adicionar os dados de enriquecimento à composição, eles poderão ser usados nas atividades adicionadas após a atividade **Enriquecimento** para segmentar os clientes em grupos distintos com base em seus comportamentos, preferências e opções.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,7 +62,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
    ![](../assets/enrichment.png)
 
-1. Se várias transições tiverem sido configuradas na sua composição, você poderá usar o **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
+1. Se várias transições tiverem sido configuradas na sua composição, você poderá usar o campo **[!UICONTROL Conjunto principal]** para definir qual transição deve ser usada como conjunto principal para enriquecer com dados.
 
 1. Clique em **Adicionar dados de enriquecimento** e selecione o atributo a ser usado para enriquecer os dados.
 
@@ -70,7 +70,7 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
 
    >[!NOTE]
    >
-   >A variável **Botão Editar expressão** na tela seleção de atributo, você pode criar expressões avançadas para selecionar o atributo.
+   >O **botão Editar expressão** na tela de seleção de atributo permite criar expressões avançadas para selecionar o atributo.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

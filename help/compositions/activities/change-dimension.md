@@ -5,7 +5,7 @@ description: Saiba como usar a atividade Change dimension
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 18%
+ht-degree: 42%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Atividade Mudar dimensão"
->abstract="Essa atividade permite alterar o esquema, também conhecido como targeting dimension, conforme você cria um público-alvo. Ele desloca o eixo dependendo do template de dados e do schema de entrada. Por exemplo, você pode alternar do schema &quot;contratos&quot; para o schema &quot;clientes&quot;."
+>abstract="Esta atividade permite alterar o esquema, também conhecido como dimensão de direcionamento, à medida que você constrói um público-alvo. Ela desloca o eixo dependendo do modelo de dados e do esquema de entrada. Por exemplo, você pode mudar do esquema “contratos” para o esquema “clientes”."
 
-A variável **Alterar dimensão** A atividade permite alterar o esquema, também conhecido como targeting dimension, à medida que você constrói seu público-alvo. Ele desloca o eixo dependendo do template de dados e do schema de entrada.
+A atividade **Alterar dimensão** permite alterar o esquema, também conhecido como targeting dimension, à medida que você constrói seu público-alvo. Ele desloca o eixo dependendo do template de dados e do schema de entrada.
 
 ## Configurar a atividade Change dimension {#configure}
 
-Siga estas etapas para configurar o **Alterar dimensão** atividade:
+Siga estas etapas para configurar a atividade **Alterar dimensão**:
 
-1. Adicionar um **Alterar dimensão** atividade para sua composição.
+1. Adicione uma atividade **Change dimension** à sua composição.
 
    ![](../assets/change-dimension.png)
 
 1. Defina o **Novo esquema**. Durante a alteração do schema, todos os registros são mantidos.
 
-1. Execute a composição para visualizar o resultado. Comparar os dados nas tabelas antes e depois da variável **Alterar dimensão** atividade e comparar a estrutura das tabelas de composição.
+1. Execute a composição para visualizar o resultado. Compare os dados nas tabelas antes e depois da atividade **Change dimension** e compare a estrutura das tabelas de composição.
 
 <!--
 ## Example {#example}
