@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 36%
 # Documentação de composição do Federated Audience {#using}
 
 + [Documentação de composição do Federated Audience](home.md)
-+ [Introdução](chapter1/newfile.md)
++ [Introdução](start/get-started.md)
 + Etapas de configuração {#config}
    + [Conectar a AEP com a Composição de público federado](connections/destinations.md)
    + [Configurar seus bancos de dados federados](connections/federated-db.md)
@@ -24,8 +24,8 @@ ht-degree: 36%
    + [Trabalhar com públicos-alvo](customer/audiences.md)
 + Composições {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
-   + Criar e executar sua primeira composição {#create-composition}
-      + [Princípios fundamentais da criação de composição](compositions/gs-composition-creation.md)
+   + Crie e execute sua primeira composição {#create-composition}
+      + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
       + [Criar e configurar a composição](compositions/create-composition.md)
       + [Orquestrar atividades](compositions/orchestrate-activities.md)
       + [Iniciar e monitorar sua composição](compositions/start-monitor-composition.md)
