@@ -1,10 +1,11 @@
 ---
 title: Adobe Experience Platform - Página inicial da documentação do Federated Audience Composition
 description: Esta é a visão geral do artigo.
-source-git-commit: bf492edeeebbb765c2518f4ee3d004a9c3435d5d
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '230'
+ht-degree: 5%
 
 ---
 
@@ -13,34 +14,65 @@ ht-degree: 3%
 
 Bem-vindo à Documentação de composição do Adobe Experience Platform Federated Audience.
 
-A Federated Audience Composition permite que públicos sejam criados, refinados e enriquecidos por meio de composições federadas, usando dados brutos de data warehouses externos.
+A Federated Audience Composition oferece flexibilidade e eficiência no gerenciamento de dados aos usuários da Adobe Real-Time CDP e da Adobe Journey Optimizer. Com a Composição de público-alvo federado, você pode acessar o data warehouse corporativo usando uma interface amigável para profissionais de marketing para criar públicos-alvo e aproveitar conjuntos de dados em fluxos de trabalho do Adobe Experience Platform sem persistir nos dados corporativos subjacentes. Isso ajuda a reduzir a movimentação de dados ao acessar data warehouses para casos de uso de experiência.
 
 >[!BEGINTABS]
 
->[!TAB Boas-vindas]
+>[!TAB Novidades]
 
 A Federated Audience Composition permite que públicos sejam criados, refinados e enriquecidos por meio de composições federadas, usando dados brutos de data warehouses externos.
 
-[![imagem](assets/learn-more-button.svg)](start/get-started.md)
+[![imagem](assets/learn-more-button.svg)](start/release-notes.md)
 
->[!TAB Criar uma composição]
+>[!TAB Conectar dados]
 
-A Composição de dados de Adobe permite criar composições, onde você pode aproveitar várias atividades (dividir, excluir...) em uma tela visual para criar públicos.
-
-[![imagem](assets/learn-more-button.svg)](compositions/gs-compositions.md)
-
-
->[!TAB Conectar-se ao data warehouse]
-
-Crie, configure, teste e salve a conexão com um banco de dados externo.
+Crie, configure, teste e salve a conexão com o banco de dados externo.
 
 [![imagem](assets/learn-more-button.svg)](connections/federated-db.md)
 
+>[!TAB Compor uma audiência]
+
+Adicione e configure atividades (Split, Enrichment, Query etc.) para criar composições e criar seu público-alvo.
+
+[![imagem](assets/learn-more-button.svg)](compositions/gs-compositions.md)
+
 >[!ENDTABS]
+
+## Comece com as noções básicas
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
+    <div><strong>Introdução</strong><br/>Saiba como criar e atualizar públicos do Adobe Experience Platform diretamente do banco de dados, sem nenhum processo de assimilação.
+    </div>
+    </td>
+    <td>
+    <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <div><strong>Dados de público-alvo</strong><br/>Prepare e mapeie seus dados em um modelo de dados personalizado e extensível.
+    </div>
+    </td>
+    <td>
+    <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
+    <div><strong>Compor um público-alvo</strong><br/>Adicionar e configurar atividades (Split, Enrichment, Query etc.) para criar composições e criar seu primeiro público-alvo federado.
+    </div>
+    </td>
+    <td>
+    <a href="start/get-started.md#faq"><img src="assets/do-not-localize/start-faq.png"></a>
+    <div><strong>Perguntas frequentes</strong><br/>sobre a Composição de Públicos Federados.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#faq"><img src="assets/learn-more-button.svg"></a></td>
+    </tr>
+</table>
 
 
 ## Recursos adicionais  {#additional-resources}
 
-[Documentação do Real-time Customer Data Platform Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [documentação do Portal de Público-Alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Documentação do Real-time Customer Data Platform Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [documentação do Portal de Público-Alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
 
 
