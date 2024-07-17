@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Trabalhar com o modelador de consultas
-description: Saiba como trabalhar com o modelador de consultas.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Saiba como trabalhar com o modelador de consultas
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 13%
+source-wordcount: '348'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ O modelador de consultas está disponível em todo contexto onde é preciso defi
 | Uso | Exemplo |
 |  ---  |  ---  |
 | **Definir públicos-alvo**: especifique a população que deseja direcionar em suas composições e crie facilmente novos públicos-alvo adaptados às suas necessidades. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personalizar atividades do fluxo de trabalho**: aplique regras em atividades de composição, como **Divisão** e **Reconciliação**, para alinhar-se aos seus requisitos específicos. [Saiba mais sobre atividades de composição](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizar atividades**: aplique regras em atividades de composição, como **Divisão** e **Reconciliação**, para alinhar-se aos seus requisitos específicos. [Saiba mais sobre atividades de composição](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Interface do modelador de consultas {#interface}
 
@@ -39,11 +40,11 @@ A tela central do modelador de consultas é onde você adiciona e combina os dif
 
 A barra de ferramentas localizada no canto superior direito da tela fornece opções para manipular facilmente os componentes da consulta e navegar na tela:
 
-* **Modo de seleção múltipla**: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
-* **Girar**: Alternar a tela verticalmente.
-* **Ajustar à tela**: adapte o nível de zoom da tela à sua tela.
-* **Menos zoom** / **Menos zoom**: Menos zoom ou mais zoom na tela.
-* **Exibir mapa**: abre um instantâneo da tela mostrando que você está localizado.
+* **[!UICONTROL Modo de seleção múltipla]**: selecione vários componentes de filtragem para copiá-los e colá-los no local de sua escolha.
+* **[!UICONTROL Girar]**: Alternar a tela verticalmente.
+* **[!UICONTROL Ajustar à tela]**: adapte o nível de zoom da tela à sua tela.
+* **[!UICONTROL Menos zoom]** / **[!UICONTROL Menos zoom]**: Menos zoom ou mais zoom na tela.
+* **[!UICONTROL Exibir mapa]**: abre um instantâneo da tela mostrando que você está localizado.
 
 ### O painel de propriedades Regra {#rule-properties}
 

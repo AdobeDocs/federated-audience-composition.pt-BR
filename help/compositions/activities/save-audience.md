@@ -2,9 +2,10 @@
 audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
-source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '360'
 ht-degree: 26%
 
 ---

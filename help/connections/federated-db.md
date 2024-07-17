@@ -2,9 +2,10 @@
 audience: end-user
 title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 26%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bancos de dados federados"
->abstract="As conexões existentes com Bancos de dados federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **Adicionar banco de dados federados**."
+>abstract="As conexões existentes com Bancos de dados federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **[!UICONTROL Adicionar banco de dados federados]**."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Detalhes do Banco de dados federado"
->abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **Testar conexão** para validar a configuração."
+>abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
 Criar, Configurar, Testar e Salvar a conexão com um banco de dados externo.
 

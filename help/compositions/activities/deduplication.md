@@ -2,10 +2,11 @@
 audience: end-user
 title: Usar a atividade de desduplicação
 description: Saiba como usar a atividade de desduplicação
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 60%
+source-wordcount: '565'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campos para identificar duplicatas"
->abstract="Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro."
+>abstract="Na seção **[!UICONTROL Campos para identificar duplicatas]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Gerar um complemento"
->abstract="É possível gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **Gerar complemento**"
+>abstract="É possível gerar uma transição de saída adicional com a população restante, que foi excluída como uma duplicata. Para fazer isso, ative a opção **[!UICONTROL Gerar complemento]**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 
 1. Se a atividade tiver várias transições de entrada, selecione a transição a ser usada para executar a desduplicação na lista suspensa **[!UICONTROL Conjunto principal]**
 
-1. Na seção **Campos para identificar duplicatas**, clique no botão **Adicionar atributo** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
+1. Na seção **[!UICONTROL Campos para identificar duplicatas]**, clique no botão **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicatas, como: endereço de email, nome, sobrenome, etc. A ordem dos campos permite especificar os que devem ser processados primeiro.
 
    ![](../assets/deduplication.png)
 
-1. Na seção **Configurações de desduplicação**, selecione o número de **Duplicatas exclusivas a serem mantidas**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
+1. Na seção **[!UICONTROL Configurações de desduplicação]**, selecione o número de **[!UICONTROL Duplicatas exclusivas a serem mantidas]**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
 
    Por exemplo, se os registros A e B forem considerados duplicatas do registro Y, e um registro C for considerado uma duplicata do registro Z:
 
@@ -54,14 +55,14 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
    * Se o valor do campo for 0: todos os registros são mantidos.
    * Se o valor do campo for 2: os registros C e Z são mantidos. Os dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
 
-1. Selecione o **Método de desduplicação** a ser usado:
+1. Selecione o **[!UICONTROL Método de desduplicação]** a ser usado:
 
-   * **Seleção aleatória**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
-   * **Usando uma expressão**: mantenha os registros nos quais o valor da expressão inserida é o menor ou o maior.
-   * **Valores não vazios**: mantém os registros para os quais a expressão não está vazia.
-   * **Seguindo uma lista de valores**: defina uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **Atributo** para selecionar um campo ou criar uma expressão e, em seguida, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no **botão Adicionar** localizado acima da lista de valores.
+   * **[!UICONTROL Seleção aleatória]**: seleciona aleatoriamente o registro a ser mantido fora das duplicatas.
+   * **[!UICONTROL Usando uma expressão]**: mantenha os registros nos quais o valor da expressão inserida é o menor ou o maior.
+   * **[!UICONTROL Valores não vazios]**: mantém os registros para os quais a expressão não está vazia.
+   * **[!UICONTROL Seguindo uma lista de valores]**: defina uma prioridade de valor para um ou mais campos. Para definir os valores, clique em **[!UICONTROL Atributo]** para selecionar um campo ou criar uma expressão e, em seguida, adicione o(s) valor(es) à tabela apropriada. Para definir um novo campo, clique no **[!UICONTROL botão Adicionar]** localizado acima da lista de valores.
 
-1. Marque a opção **Gerar complemento** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
+1. Marque a opção **[!UICONTROL Gerar complemento]** se desejar explorar a população restante. O complemento consiste de todas as duplicatas. Uma transição adicional será adicionada à atividade.
 
 <!--
 ## Example{#deduplication-example}

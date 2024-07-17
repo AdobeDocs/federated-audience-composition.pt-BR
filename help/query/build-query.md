@@ -2,9 +2,10 @@
 audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no modelador de consultas
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2068'
 ht-degree: 11%
 
 ---
@@ -45,13 +46,13 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 1. Clique no botão **+** no nó desejado e selecione **[!UICONTROL Condição personalizada]**. O painel de propriedades de condição personalizada é aberto no lado direito.
 
-1. No campo **Atributo**, selecione o atributo do banco de dados que você deseja usar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados, incluindo atributos de tabelas vinculadas.
+1. No campo **[!UICONTROL Atributo]**, selecione o atributo do banco de dados que você deseja usar para criar sua condição. A lista de atributos inclui todos os atributos do banco de dados, incluindo atributos de tabelas vinculadas.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >O botão **Editar expressão** permite que você aproveite o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
+   >O botão **[!UICONTROL Editar expressão]** permite que você aproveite o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. [Saiba como editar expressões](expression-editor.md)
 
 1. Selecione o operador a ser aplicado na lista suspensa. Vários operadores estão disponíveis para uso. Observe que os operadores disponíveis na lista suspensa dependem do tipo de dados do atributo.
 
@@ -78,7 +79,7 @@ Para filtrar sua consulta usando uma condição personalizada, siga estas etapas
 
 +++
 
-1. No campo **Value**, defina o valor esperado. Você também pode aproveitar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no botão **Editar expressão**. [Saiba como editar expressões](expression-editor.md)
+1. No campo **[!UICONTROL Value]**, defina o valor esperado. Você também pode aproveitar o editor de expressão para definir manualmente uma expressão usando campos do banco de dados e funções auxiliares. Para fazer isso, clique no botão **[!UICONTROL Editar expressão]**. [Saiba como editar expressões](expression-editor.md)
 
    *Exemplo de consulta retornando todos os perfis com 21 anos ou mais:*
 
@@ -90,13 +91,13 @@ As condições personalizadas permitem consultar tabelas vinculadas à tabela us
 
 Para um link **1-1**, navegue até a tabela vinculada, selecione o atributo desejado e defina o valor esperado.
 
-Você também pode selecionar diretamente um link de tabela no seletor de **Valor** e confirmar. Nesse caso, os valores disponíveis para a tabela selecionada precisam ser selecionados usando um seletor dedicado, como mostrado no exemplo abaixo.
+Você também pode selecionar diretamente um link de tabela no seletor de **[!UICONTROL Valor]** e confirmar. Nesse caso, os valores disponíveis para a tabela selecionada precisam ser selecionados usando um seletor dedicado, como mostrado no exemplo abaixo.
 
 +++Exemplo de consulta
 
 Aqui, a consulta está direcionando marcas cujo rótulo é &quot;running&quot;.
 
-1. Navegue dentro da tabela **Marca** e selecione o atributo **Etiqueta**.
+1. Navegue dentro da tabela **[!UICONTROL Marca]** e selecione o atributo **[!UICONTROL Etiqueta]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ Para um link **1-N**, você pode definir subcondições para refinar sua consult
 
 Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao produto BrewMaster, para um valor total de pelo menos 100$.
 
-1. Selecione a tabela **Compras** e confirme.
+1. Selecione a tabela **[!UICONTROL Compras]** e confirme.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Selecione o atributo **Preço** e direcione compras de US$ 1000 ou mais
+1. Selecione o atributo **[!UICONTROL Preço]** e direcione compras de US$ 1000 ou mais
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. No painel de propriedades, alterne a opção **Aggregate data** e selecione a função de agregação desejada.
+1. No painel de propriedades, alterne a opção **[!UICONTROL Aggregate data]** e selecione a função de agregação desejada.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ As condições personalizadas permitem executar operações agregadas. Para faze
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Selecionar público-alvo"
->abstract="A opção **Selecionar público-alvo** permite escolher o público-alvo pelo qual deseja filtrar a sua consulta."
+>abstract="A opção **[!UICONTROL Selecionar público-alvo]** permite escolher o público-alvo pelo qual deseja filtrar a sua consulta."
 
 Para filtrar sua query usando um público existente, siga estas etapas:
 
 1. Clique no botão **+** no nó desejado e escolha **[!UICONTROL Selecionar público-alvo]**.
 
-1. O painel de propriedades **Selecionar público-alvo** é aberto no lado direito. Escolha o público-alvo que deseja usar para filtrar o query.
+1. O painel de propriedades **[!UICONTROL Selecionar público-alvo]** é aberto no lado direito. Escolha o público-alvo que deseja usar para filtrar o query.
 
    *Exemplo de consulta retornando todos os perfis que pertencem ao público-alvo do &quot;Festival Goers&quot;:*
 
@@ -168,13 +169,13 @@ Para filtrar sua query usando um público existente, siga estas etapas:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Filtro predefinido"
->abstract="A opção **Filtro predefinido** permite selecionar um filtro predefinido na lista de filtros personalizados ou nos favoritos."
+>abstract="A opção **[!UICONTROL Filtro predefinido]** permite selecionar um filtro predefinido na lista de filtros personalizados ou nos favoritos."
 
 Para filtrar sua query usando um filtro predefinido, siga estas etapas:
 
 1. Clique no botão **+** no nó desejado e selecione **[!UICONTROL Filtro predefinido]**.
 
-1. O painel de propriedades **Filtro predefinido** é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
+1. O painel de propriedades **[!UICONTROL Filtro predefinido]** é aberto no lado direito. Selecione um filtro predefinido na lista de filtros personalizados ou nos favoritos.
 
    *Exemplo de consulta retornando todos os perfis correspondentes ao filtro predefinido &quot;Clientes inativos&quot;:*
 
@@ -198,7 +199,7 @@ Para copiar e colar componentes de filtragem, siga estas etapas:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Para colar o(s) componente(s), clique no botão + no final da transição desejada e selecione **Colar n itens**.
+1. Para colar o(s) componente(s), clique no botão + no final da transição desejada e selecione **[!UICONTROL Colar n itens]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ Neste exemplo, adicionamos novos componentes de filtragem do tipo público-alvo 
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado no painel **Grupo** que será aberto no lado direito.
+Para alterar o operador usado para vincular as condições do filtro, clique nele e selecione o operador desejado no painel **[!UICONTROL Grupo]** que será aberto no lado direito.
 
 Os operadores disponíveis são:
 
@@ -236,14 +237,14 @@ No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos p
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Propriedades da regra"
->abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **Propriedades da regra** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **Selecionar ou salvar filtro** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
+>abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **[!UICONTROL Propriedades da regra]** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **[!UICONTROL Selecionar ou salvar filtro]** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
 
-Depois de criar a consulta na tela, você pode verificá-la usando o painel **Propriedades da regra**, localizado no lado direito. Este painel é exibido ao criar uma consulta para criar um público-alvo. As operações disponíveis são:
+Depois de criar a consulta na tela, você pode verificá-la usando o painel **[!UICONTROL Propriedades da regra]**, localizado no lado direito. Este painel é exibido ao criar uma consulta para criar um público-alvo. As operações disponíveis são:
 
-* **Exibir resultados:** Exibe os dados resultantes da sua consulta.
-* **Visualização de código**: exibe uma versão baseada em código da consulta no SQL.
-* **Calcular**: atualiza e exibe o número de registros direcionados por sua consulta.
-* **Selecionar ou salvar filtro**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura.
+* **[!UICONTROL Exibir resultados]:** Exibe os dados resultantes da sua consulta.
+* **[!UICONTROL Visualização de código]**: exibe uma versão baseada em código da consulta no SQL.
+* **[!UICONTROL Calcular]**: atualiza e exibe o número de registros direcionados por sua consulta.
+* **[!UICONTROL Selecionar ou salvar filtro]**: escolha um filtro predefinido existente para usar na tela ou salve sua consulta como um filtro predefinido para reutilização futura.
 
   >[!IMPORTANT]
   >

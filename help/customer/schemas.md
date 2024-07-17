@@ -2,9 +2,10 @@
 audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
-source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '98'
 ht-degree: 93%
 
 ---

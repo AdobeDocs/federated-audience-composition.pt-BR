@@ -2,10 +2,10 @@
 audience: end-user
 title: Usar a atividade Scheduler
 description: Saiba como usar a atividade Scheduler
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 33%
+source-wordcount: '418'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="A atividade **Scheduler** permite programar quando o fluxo de trabalho será iniciado. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade do fluxo de trabalho."
+>abstract="A atividade **Scheduler** permite agendar quando a composição de públicos-alvo será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade de uma composição."
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da composição.
 
@@ -33,7 +33,7 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite
 
 Siga estas etapas para configurar a atividade **Scheduler**:
 
-1. Adicione uma atividade **Scheduler** ao seu fluxo de trabalho.
+1. Adicione uma atividade **Scheduler** à sua composição.
 
 1. Configure a **Frequência de execução**:
 

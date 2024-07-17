@@ -2,9 +2,10 @@
 audience: end-user
 title: Criar composições
 description: Saiba como criar composições
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -70,12 +71,12 @@ A barra de ação no canto superior direito fornece comandos que permitem gerenc
 
 As ações disponíveis são:
 
-* **Início**: inicia a execução da composição, que assume o status **Em andamento**. A composição é iniciada e as atividades iniciais são ativadas.
+* **[!UICONTROL Início]**: inicia a execução da composição, que assume o status **[!UICONTROL Em andamento]**. A composição é iniciada e as atividades iniciais são ativadas.
 
-* **[!UICONTROL Retomar]**: retoma a execução da composição que foi pausada. A composição recebe o status **Em andamento**.
+* **[!UICONTROL Retomar]**: retoma a execução da composição que foi pausada. A composição recebe o status **[!UICONTROL Em andamento]**.
 
-* **[!UICONTROL Pausar]** a execução da composição, que assume o status **Pausado**. Nenhuma nova atividade será ativada até que seja retomada, mas as operações em andamento não são suspensas.
+* **[!UICONTROL Pausar]** a execução da composição, que assume o status **[!UICONTROL Pausado]**. Nenhuma nova atividade será ativada até que seja retomada, mas as operações em andamento não são suspensas.
 
-* **[!UICONTROL Parar]** uma composição que está sendo executada, que assumirá o status **Concluído**. Se possível, as operações em andamento são interrompidas. Não é possível retomar da composição no mesmo local em que ela foi interrompida.
+* **[!UICONTROL Parar]** uma composição que está sendo executada, que assumirá o status **[!UICONTROL Concluído]**. Se possível, as operações em andamento são interrompidas. Não é possível retomar da composição no mesmo local em que ela foi interrompida.
 
-* **Reiniciar**: para e reinicia uma composição. Na maioria dos casos, isso permite que você reinicie mais rápido, pois a interrupção leva um certo tempo, e o botão **Iniciar** só estará disponível quando a interrupção for efetiva.
+* **[!UICONTROL Reiniciar]**: para e reinicia uma composição. Na maioria dos casos, isso permite que você reinicie mais rápido, pois a interrupção leva um certo tempo, e o botão **[!UICONTROL Iniciar]** só estará disponível quando a interrupção for efetiva.

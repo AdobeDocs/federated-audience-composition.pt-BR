@@ -2,10 +2,11 @@
 audience: end-user
 title: Trabalhar com atividades
 description: Saiba como trabalhar com atividades
-source-git-commit: 9f84502684c7cd0e174b1fcad4b9c811f50965f1
+badge: label="Disponibilidade limitada" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 
