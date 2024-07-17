@@ -16,7 +16,7 @@ Depois de criar sua composição e projetar as tarefas a serem executadas na tel
 
 ## Iniciar a composição {#start}
 
-Para iniciar uma composição, clique no link **[!UICONTROL Início]** no canto superior direito da tela. Quando a composição está em execução, cada atividade na tela é executada em ordem sequencial, até que o final da composição seja atingido.
+Para iniciar uma composição, clique no botão **[!UICONTROL Iniciar]** no canto superior direito da tela. Quando a composição está em execução, cada atividade na tela é executada em ordem sequencial, até que o final da composição seja atingido.
 
 Você pode acompanhar o progresso de perfis direcionados em tempo real usando um fluxo visual. Isso permite identificar rapidamente o status de cada atividade e o número de perfis em transição entre elas.
 
@@ -26,7 +26,7 @@ Você pode acompanhar o progresso de perfis direcionados em tempo real usando um
 
 Em composições, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
 
-* Clique em **[!UICONTROL Visualizar esquema]** para exibir o schema da tabela de trabalho.
+* Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
 * Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
 
 ![](assets/transition-preview.png)
@@ -44,19 +44,19 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 
 ## Monitorar logs e tarefas {#logs-tasks}
 
-O monitoramento de logs e tarefas de composição é uma etapa essencial para analisar suas composições e garantir que elas estejam sendo executadas corretamente. Elas podem ser acessados pelo **[!UICONTROL Logs]** botão que está disponível na barra de ferramentas da ação e no painel de propriedades de cada atividade.
+O monitoramento de logs e tarefas de composição é uma etapa essencial para analisar suas composições e garantir que elas estejam sendo executadas corretamente. Eles podem ser acessados pelo botão **[!UICONTROL Logs]**, que está disponível na barra de ferramentas de ações e no painel de propriedades de cada atividade.
 
 ![](assets/logs-button.png)
 
-A variável **[!UICONTROL Logs e tarefas de composição]** A tela fornece um histórico da execução da composição, registrando todas as ações do usuário e encontrando erros.
+A tela **[!UICONTROL Tarefas e logs de composição]** fornece um histórico da execução da composição, registrando todas as ações do usuário e encontrando erros.
 
 <!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
 O histórico é organizado em várias guias, detalhadas abaixo:
 
-* A variável **[!UICONTROL Log]** contém o histórico de execução de todas as atividades de composição. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
-* A variável **[!UICONTROL Tarefas]** A guia detalha a sequência de execução das atividades. O botão localizado no final de cada tarefa permite listar as variáveis de evento transmitidas pela atividade.
-* A variável **[!UICONTROL Variáveis]** A guia lista todas as variáveis transmitidas na composição. Ela está disponível ao acessar os logs e as tarefas somente a partir da tela de composição. Agora está disponível ao acessar os logs por meio do painel de propriedades de uma atividade.  <!-- à confirmer-->
+* A guia **[!UICONTROL Log]** contém o histórico de execução de todas as atividades de composição. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
+* A guia **[!UICONTROL Tasks]** detalha a sequência de execução das atividades. O botão localizado no final de cada tarefa permite listar as variáveis de evento transmitidas pela atividade.
+* A guia **[!UICONTROL Variáveis]** lista todas as variáveis passadas na composição. Ela está disponível ao acessar os logs e as tarefas somente a partir da tela de composição. Agora está disponível ao acessar os logs por meio do painel de propriedades de uma atividade.  <!-- à confirmer-->
 
 ![](assets/logs-tasks.png)
 
@@ -70,12 +70,12 @@ A barra de ação no canto superior direito fornece comandos que permitem gerenc
 
 As ações disponíveis são:
 
-* **Início**: inicia a execução da composição, que então assume o **Em andamento** status. A composição é iniciada e as atividades iniciais são ativadas.
+* **Início**: inicia a execução da composição, que assume o status **Em andamento**. A composição é iniciada e as atividades iniciais são ativadas.
 
-* **[!UICONTROL Retomar]**: retoma a execução da composição que foi pausada. A composição assume a forma **Em andamento** status.
+* **[!UICONTROL Retomar]**: retoma a execução da composição que foi pausada. A composição recebe o status **Em andamento**.
 
-* **[!UICONTROL Pausar]** a execução da composição, que passa então a ser a **Pausado** status. Nenhuma nova atividade será ativada até que seja retomada, mas as operações em andamento não são suspensas.
+* **[!UICONTROL Pausar]** a execução da composição, que assume o status **Pausado**. Nenhuma nova atividade será ativada até que seja retomada, mas as operações em andamento não são suspensas.
 
-* **[!UICONTROL Parar]** uma composição que está sendo executada, que assumirá a função **Concluído** status. Se possível, as operações em andamento são interrompidas. Não é possível retomar da composição no mesmo local em que ela foi interrompida.
+* **[!UICONTROL Parar]** uma composição que está sendo executada, que assumirá o status **Concluído**. Se possível, as operações em andamento são interrompidas. Não é possível retomar da composição no mesmo local em que ela foi interrompida.
 
-* **Restart**: interrompe e reinicia uma composição. Na maioria dos casos, isso permite reiniciar mais rápido, pois a interrupção leva um determinado tempo e a variável **Início** O botão só estará disponível quando a interrupção for efetiva.
+* **Reiniciar**: para e reinicia uma composição. Na maioria dos casos, isso permite que você reinicie mais rápido, pois a interrupção leva um certo tempo, e o botão **Iniciar** só estará disponível quando a interrupção for efetiva.

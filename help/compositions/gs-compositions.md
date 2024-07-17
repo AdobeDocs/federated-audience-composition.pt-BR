@@ -5,7 +5,7 @@ description: Saiba como começar com composições
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ A Composição de dados de Adobe permite criar composições, onde você pode ap
 >title="Composições"
 >abstract="Nesta tela, é possível acessar a lista completa de composições, verificar o status atual, as datas da última/próxima execução e criar uma nova composição."
 
-As composições podem ser acessadas no Adobe Experience Platform **[!UICONTROL Públicos-alvo]** no menu, no **Composições federadas** guia.
+As composições podem ser acessadas no menu **[!UICONTROL Públicos-alvo]** da Adobe Experience Platform, na guia **Composições federadas**.
 
 Nessa tela, é possível criar novas composições e acessar as existentes. Também é possível duplicar ou excluir uma composição existente clicando no botão de reticências ao lado do nome.
 
@@ -32,7 +32,7 @@ Nessa tela, é possível criar novas composições e acessar as existentes. Tamb
 
 Para refinar a lista e encontrar facilmente a composição que está procurando, você pode pesquisar a lista e filtrar as composições por status ou datas do último processamento.
 
-Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no link **Configurar coluna** s e adicionar ou remover as colunas de saída desejadas.
+Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **Configurar coluna** s e adicione ou remova as colunas de saída desejadas.
 
 ![](assets/compositions-columns.png)
 
@@ -41,9 +41,9 @@ Você também pode personalizar a lista adicionando ou removendo colunas. Para f
 As composições podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: A composição foi criada e salva.
-* **[!UICONTROL Em andamento]**: A composição foi executada e está em execução no momento.
+* **[!UICONTROL Em andamento]**: a composição foi executada e está em execução no momento.
 * **[!UICONTROL Parado]**: a execução da composição foi interrompida.
 * **[!UICONTROL Pausado]**: a execução da composição foi pausada.
-* **[!UICONTROL Errado]**: a execução da composição encontrou um erro. Abra a composição e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
+* **[!UICONTROL Erro]**: a execução da composição encontrou um erro. Abra a composição e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
 
-Informações detalhadas sobre como iniciar e monitorar uma composição estão disponíveis em [nesta seção](../compositions/start-monitor-composition.md).
+Informações detalhadas sobre como iniciar e monitorar uma composição estão disponíveis em [esta seção](../compositions/start-monitor-composition.md).

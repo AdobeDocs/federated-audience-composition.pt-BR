@@ -31,11 +31,11 @@ A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite
 >title="Opções do Scheduler"
 >abstract="Defina a frequência do scheduler. Pode ser executado em um momento específico, uma ou várias vezes por dia, semana ou mês."
 
-Siga estas etapas para configurar o **Scheduler** atividade:
+Siga estas etapas para configurar a atividade **Scheduler**:
 
-1. Adicionar um **Scheduler** atividade ao seu fluxo de trabalho.
+1. Adicione uma atividade **Scheduler** ao seu fluxo de trabalho.
 
-1. Configure o **Frequência de execução**:
+1. Configure a **Frequência de execução**:
 
    * **Uma vez**: a composição é executada uma única vez.
 
@@ -47,23 +47,23 @@ Siga estas etapas para configurar o **Scheduler** atividade:
      >
      >Não agende uma composição para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
 
-   * **Semanalmente**: a composição é executada em um horário especificado, uma ou várias vezes por semana.
+   * **Semanalmente**: a composição é executada em um momento especificado, uma ou várias vezes por semana.
 
-   * **Mensal**: a composição é executada em um horário especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que a composição seja executada. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
+   * **Monthly**: a composição é executada em um momento especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que a composição seja executada. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
 
 1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes podem variar dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
 
-1. Clique em **Visualizar tempos de inicialização** para verificar o cronograma das próximas dez execuções de sua composição.
+1. Clique em **Visualizar horários de inicialização** para verificar o agendamento das próximas dez execuções da sua composição.
 
 1. Defina o período de validade do scheduler:
 
-   * **Permanente (nunca expira)**: a composição é executada de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
+   * **Permanente (nunca expira)**: a composição é executada, de acordo com a frequência especificada, sem limites para o intervalo de tempo ou o número de iterações.
 
    * **Período de validade**: a composição é executada de acordo com a frequência especificada, até uma data específica. É necessário especificar datas de início e término.
 
 >[!NOTE]
 >
->Se quiser iniciar a composição imediatamente, clique no link **Executar tarefa pendente** na barra de ação superior do scheduler. Esse botão só estará disponível quando você tiver iniciado a composição.
+>Se quiser iniciar a composição imediatamente, clique em **Executar tarefa pendente** na barra de ação superior do agendador. Esse botão só estará disponível quando você tiver iniciado a composição.
 
 <!--## Example{#scheduler-example}
 

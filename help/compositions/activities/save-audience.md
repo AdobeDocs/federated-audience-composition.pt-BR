@@ -34,21 +34,21 @@ ht-degree: 26%
 >abstract="Selecione o namespace a ser usado para perfis."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação da Experience Platform"
 
-A variável **Salvar público-alvo** A atividade permite atualizar um público-alvo ou criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados por meio do **Públicos-alvo** menu.
+A atividade **Salvar público-alvo** permite atualizar um público-alvo existente ou criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo do aplicativo e disponibilizados pelo menu **Públicos-alvo**.
 
-Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma composição, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma **Criar público-alvo** ou um **Combinar** atividade.
+Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma composição, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
 
 ## Configurar a atividade Save audience {#save-audience-configuration}
 
-Siga estas etapas para configurar o **Salvar público-alvo** atividade:
+Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
-1. Adicionar um **Salvar público-alvo** atividade para sua composição.
+1. Adicione uma atividade **Salvar público-alvo** à sua composição.
 
    ![](../assets/save-audience.png)
 
 1. Especifique o rótulo do público-alvo a ser criado.
 
-1. Clique em **Adicionar mapeamento de público-alvo** em seguida, escolha os campos de público-alvo de origem e destino:
+1. Clique em **Adicionar mapeamento de público-alvo** e escolha os campos de público-alvo de origem e de destino:
 
    * **Campo de público-alvo do Source**:
    * **Campo de público-alvo**:
@@ -57,10 +57,10 @@ Siga estas etapas para configurar o **Salvar público-alvo** atividade:
 
 1. Selecione a identidade e o namespace principais a serem usados para identificar os perfis direcionados no banco de dados:
 
-   * **Campo de identidade principal**: selecione o campo que será usado para identificar os perfis. Por exemplo, seu endereço de email ou número de telefone.
-   * **Namespace de identidade**: selecione o namespace que será usado para identificar os perfis, ou seja, o tipo de dados a ser usado como chave de identificação. Por exemplo, se o endereço de email tiver sido selecionado como o campo de identidade principal, o namespace de identidade **E-mail** deve ser selecionado. Se o identificador exclusivo for o número de telefone, o namespace de identidade **Telefone** deve ser selecionado.
+   * **Campo de identidade principal**: selecione o campo a ser usado para identificar os perfis. Por exemplo, seu endereço de email ou número de telefone.
+   * **Namespace de identidade**: selecione o namespace a ser usado para identificar os perfis, ou seja, o tipo de dados a ser usado como chave de identificação. Por exemplo, se o endereço de email tiver sido selecionado como campo de identidade principal, o namespace de identidade **Email** deverá ser selecionado. Se o identificador exclusivo for o número de telefone, o namespace de identidade **Telefone** deverá ser selecionado.
 
-Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform <!-- to check-->e acessíveis no **Públicos-alvo** menu.
+Após executar a composição, o público resultante é salvo no Adobe Experience Platform <!-- to check--> e tornado acessível no menu **Públicos-alvo**.
 
 <!--
 

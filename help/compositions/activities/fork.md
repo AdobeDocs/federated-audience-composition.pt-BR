@@ -28,7 +28,7 @@ A atividade **Bifurcação** permite criar transições de saída para iniciar v
 
 Siga estas etapas para configurar a atividade de **Bifurcação**:
 
-1. Adicionar um **Bifurcar** atividade para sua composição.
+1. Adicione uma atividade **Fork** à sua composição.
 1. Clique em **Adicionar transição** para adicionar uma nova transição de saída. Por padrão, são definidas duas transições.
 1. Adicione um rótulo a cada transição.
 

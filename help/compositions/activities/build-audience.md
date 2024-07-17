@@ -25,7 +25,7 @@ Para definir o público-alvo, você pode:
 * Selecionar um público-alvo da Adobe Experience Platform.
 * Crie um novo público-alvo com o construtor do modelador de consultas definindo e combinando critérios de filtragem.
 
-A variável **Criar público-alvo** A atividade pode ser colocada no início da composição ou após qualquer outra atividade. Qualquer atividade pode ser colocada após a variável **Criar público-alvo**.
+A atividade **Criar público-alvo** pode ser colocada no início da composição ou após qualquer outra atividade. Qualquer atividade pode ser colocada após a **Criar público-alvo**.
 
 ## Configurar a atividade Criar público-alvo {#build-audience-configuration}
 
@@ -43,11 +43,11 @@ Siga estas etapas para configurar a atividade **Criar público-alvo**:
 
 >[!BEGINTABS]
 
->[!TAB Criar público]
+>[!TAB Criar público-alvo]
 
 Para criar seu próprio público-alvo, siga estas etapas:
 
-1. Selecionar **Criar público**.
+1. Selecione **Criar audiência**.
 1. Escolha o **Esquema**, também conhecido como targeting dimension. O schema permite definir o público alvo da operação: recipients, beneficiários de contrato, operadores, assinantes, etc. Por padrão, o schema é selecionado dos recipients.
 1. Clique em **Continuar**.
 1. Use o modelador de consultas para definir sua consulta. [Saiba como trabalhar com o modelador de consultas](../../query/query-modeler-overview.md)

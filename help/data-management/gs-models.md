@@ -38,17 +38,17 @@ ht-degree: 37%
 
 Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles.
 
-Saiba mais sobre [schemas](../customer/schemas.md).
+Saiba mais sobre [esquemas](../customer/schemas.md).
 
-Saiba mais sobre [públicos](../customer/audiences.md).
+Saiba mais sobre [públicos-alvo](../customer/audiences.md).
 
 ## Como criar um modelo de dados? {#data-model-create}
 
-Entrada **[!UICONTROL DADOS FEDERADOS]** , acesse a seção **[!UICONTROL Modelos]** link. Você encontrará lá o **[!UICONTROL Modelo de dados]** guia.
+Na seção **[!UICONTROL DADOS FEDERADOS]**, acesse o link **[!UICONTROL Modelos]**. Você encontrará lá a guia **[!UICONTROL Modelo de dados]**.
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-Ao clicar no link **[!UICONTROL Criar modelo de dados]** poderá nomear seu modelo de dados e clicar no link **[!UICONTROL Criar]** botão.
+Ao clicar no botão **[!UICONTROL Criar modelo de dados]**, é possível nomear seu modelo de dados e clicar no botão **[!UICONTROL Criar]**.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

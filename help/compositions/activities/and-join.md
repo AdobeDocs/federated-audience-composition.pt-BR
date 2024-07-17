@@ -16,7 +16,7 @@ ht-degree: 70%
 >title="Atividade AND-join"
 >abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma composição. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite que você se certifique de que determinadas atividades foram concluídas antes de continuar a execução da composição."
 
-A variável **AND-join** A atividade permite sincronizar várias ramificações de execução de uma composição.
+A atividade **AND-join** permite sincronizar várias ramificações de execução de uma composição.
 
 Essa atividade só acionará a transição de saída depois que todas as transições de entrada estiverem ativadas, ou seja, depois que todas as atividades anteriores estiverem concluídas. Isso permite verificar se determinadas atividades foram concluídas antes de continuar a executar a composição.
 
@@ -34,5 +34,5 @@ Siga estas etapas para configurar a atividade **AND-join**:
 
    ![](../assets/and-join.png)
 
-1. No **Opções de mesclagem** marque todas as atividades anteriores que deseja sincronizar.
+1. Na seção **Opções de mesclagem**, marque todas as atividades anteriores que deseja sincronizar.
 1. No menu suspenso **Conjunto principal**, escolha a população de transição de entrada que deseja manter. A transição de saída só pode conter uma das populações de transição de entrada. Se a atividade não estiver configurada, a transição de saída selecionará aleatoriamente uma das populações de entrada.

@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Criar conexões {#connections-fdb}
 
-Para criar uma nova conexão com um banco de dados Federated, vá para **[!UICONTROL DADOS FEDERADOS]** e na seção **[!UICONTROL Bancos de Dados Federados]** clique em **[!UICONTROL Adicionar banco de dados federado]** botão.
+Para criar uma nova conexão com um banco de dados Federado, vá para a seção **[!UICONTROL FEDERATED DATA]** e, no link **[!UICONTROL Federated Databases]**, clique no botão **[!UICONTROL Adicionar banco de dados federado]**.
 
 ![](assets/connections_list.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Selecionar o tipo dará acesso a outras propriedades para preenchimento. [Saiba 
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-Depois de preencher os detalhes, clique em **[!UICONTROL Testar conexão]** e no **[!UICONTROL Implantar funções]** botão.
-Conclua a criação da sua conexão clicando no link **[!UICONTROL Salvar]** botão.
+Depois de preencher os detalhes, clique no botão **[!UICONTROL Testar conexão]** e no botão **[!UICONTROL Implantar funções]**.
+Conclua a criação da sua conexão clicando no botão **[!UICONTROL Salvar]**.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

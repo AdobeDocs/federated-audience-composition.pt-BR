@@ -43,17 +43,18 @@ Bancos de dados externos suportados:
 
 * **[!UICONTROL Servidor]**:
 
-* **[!UICONTROL Usuário]**: Nome do usuário.
+* **[!UICONTROL Usuário]**: nome do usuário.
 
-* **[!UICONTROL Senha]**: Senha da conta do usuário.
+* **[!UICONTROL Senha]**: senha da conta de usuário.
 
 * **[!UICONTROL Banco de dados]**:
 
 * **[!UICONTROL Esquema de trabalho]**:
 
-* **[!UICONTROL Chave privada]**: somente arquivos .pem são aceitos
+* **[!UICONTROL Chave privada]**:
+Somente arquivos .pem são aceitos
 
-* **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
+* **[!UICONTROL Opções]**: o conector dá suporte às opções detalhadas na tabela abaixo.
 
 | Opção | Descrição |
 |---|---|
@@ -63,20 +64,20 @@ Bancos de dados externos suportados:
 | WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.com/br/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desativar os resultados em cache de Snowflake. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Número de threads a serem usados para o carregador em massa Snowflake; mais threads significam melhor desempenho para cargas em massa maiores. Por padrão, defina como 1. O número pode ser ajustado, dependendo da contagem de threads do computador. |
-| tamanhoParte | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho melhor, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte [Documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| tamanhoParte | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho melhor, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação sobre o Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | NomeEstágio | Nome do estágio interno pré-provisionado. Ele será usado no carregamento em massa em vez de criar um novo estágio temporário. |
 
 ## Google Big Query {#google-big-query}
 
-* **[!UICONTROL Conta de serviço]**: Email do **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte [Documentação da Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+* **[!UICONTROL Conta de serviço]**: email de sua **[!UICONTROL conta de serviço]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
-* **[!UICONTROL Projeto]**: Nome do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte [Documentação da Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+* **[!UICONTROL Projeto]**: nome do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
-* **[!UICONTROL Conjunto de dados]**: Nome do seu **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte [Documentação da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+* **[!UICONTROL Conjunto de Dados]**: Nome do seu **[!UICONTROL Conjunto de Dados]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 
-* **[!UICONTROL Caminho do arquivo de chave]**: carregue o arquivo de chave no servidor. Somente arquivos .json são aceitos.
+* **[!UICONTROL Caminho do arquivo de chave]**: carregue seu arquivo de chave no servidor. Somente arquivos .json são aceitos.
 
-* **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
+* **[!UICONTROL Opções]**: o conector dá suporte às opções detalhadas na tabela abaixo.
 
 | Opção | Descrição |
 |:-:|:-:|
@@ -85,36 +86,36 @@ Bancos de dados externos suportados:
 | PortaProxy | Número da porta em que o proxy está sendo executado, por exemplo, 8080 |
 | ProxyUid | Nome de usuário usado para o proxy autenticado |
 | ProxyPwd | Senha do ProxyUid |
-| bqpath | Observe que isso é aplicável somente para a ferramenta de carregamento em massa (SDK da nuvem). </br> Para evitar o uso da variável PATH ou se o diretório google-cloud-sdk tiver que ser movido para outro local, é possível especificar com essa opção o caminho exato para o diretório bin do sdk da nuvem no servidor. |
+| bqpath | Observe que isso é aplicável somente para a ferramenta de carregamento em massa (SDK da nuvem). </br> Para evitar o uso da variável PATH ou se o diretório google-cloud-sdk tiver que ser movido para outro local, você poderá especificar com essa opção o caminho exato para o diretório bin do sdk da nuvem no servidor. |
 | GCloudConfigName | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> O SDK da Google Cloud usa configurações para carregar dados em tabelas do BigQuery. A configuração chamada `accfda` armazena os parâmetros para carregar os dados. No entanto, essa opção permite que os usuários especifiquem um nome diferente para a configuração. |
-| GCloudDefaultConfigName | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> A configuração ativa do SDK da Google Cloud não pode ser excluída sem antes transferir a tag ativa para uma nova configuração. Essa configuração temporária é necessária para recriar a configuração principal para carregar dados. O nome padrão para a configuração temporária é `default`, isso poderá ser alterado, se necessário. |
-| GCloudRecreateConfig | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> Quando definido como `false`, o mecanismo de carregamento em massa evita tentar recriar, excluir ou modificar as configurações do SDK da Google Cloud. Em vez disso, ele continua com o carregamento de dados usando a configuração existente na máquina. Esse recurso é importante quando outras operações dependem das configurações do SDK da Google Cloud. </br> Se o usuário ativar essa opção de mecanismo sem uma configuração adequada, o mecanismo de carregamento em massa emitirá uma mensagem de aviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Para evitar mais erros, ele será revertido para o usando o mecanismo de carregamento em massa de Inserção de matriz ODBC padrão. |
+| GCloudDefaultConfigName | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> A configuração ativa do SDK da Google Cloud não pode ser excluída sem antes transferir a marca ativa para uma nova configuração. Essa configuração temporária é necessária para recriar a configuração principal para carregar dados. O nome padrão para a configuração temporária é `default`, que pode ser alterado se necessário. |
+| GCloudRecreateConfig | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> Quando definido como `false`, o mecanismo de carregamento em massa não tenta recriar, excluir ou modificar as configurações do SDK da Google Cloud. Em vez disso, ele continua com o carregamento de dados usando a configuração existente na máquina. Esse recurso é importante quando outras operações dependem das configurações do SDK da Google Cloud. </br> Se o usuário habilitar esta opção de mecanismo sem uma configuração adequada, o mecanismo de carregamento em massa emitirá uma mensagem de aviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Para evitar mais erros, ele será revertido para o usando o mecanismo de carregamento em massa de Inserção de matriz ODBC padrão. |
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-* **[!UICONTROL Servidor]**: o URL do servidor do Azure synapse
+* **[!UICONTROL Servidor]**: URL do servidor do Azure synapse
 
-* **[!UICONTROL Conta]**: Nome do usuário
+* **[!UICONTROL Conta]**: nome do usuário
 
-* **[!UICONTROL Senha]**: Senha da conta do usuário
+* **[!UICONTROL Senha]**: senha da conta de usuário
 
-* **[!UICONTROL Banco de dados]**: Nome do banco de dados
+* **[!UICONTROL Banco de dados]**: nome do banco de dados
 
 * **[!UICONTROL Options]**
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Servidor]**: O URL do [!DNL Vertica Analytics] server
+* **[!UICONTROL Servidor]**: URL do servidor [!DNL Vertica Analytics]
 
-* **[!UICONTROL Conta]**: Nome do usuário
+* **[!UICONTROL Conta]**: nome do usuário
 
-* **[!UICONTROL Senha]**: Senha da conta do usuário
+* **[!UICONTROL Senha]**: senha da conta de usuário
 
-* **[!UICONTROL Banco de dados]**: Nome do banco de dados
+* **[!UICONTROL Banco de dados]**: nome do banco de dados
 
-* **[!UICONTROL Esquema de trabalho]**: Nome do esquema de trabalho.
+* **[!UICONTROL Esquema de trabalho]**: nome do seu esquema de trabalho.
 
-* **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
+* **[!UICONTROL Opções]**: o conector dá suporte às opções detalhadas na tabela abaixo.
 
 O conector é compatível com as seguintes opções:
 
@@ -125,13 +126,13 @@ O conector é compatível com as seguintes opções:
 
 ## Amazon Redshift {#amazon-redshift}
 
-* **[!UICONTROL Servidor]**: Nome do DNS
+* **[!UICONTROL Servidor]**: nome do DNS
 
-* **[!UICONTROL Conta]**: Nome do usuário
+* **[!UICONTROL Conta]**: nome do usuário
 
-* **[!UICONTROL Senha]**: Senha da conta do usuário
+* **[!UICONTROL Senha]**: senha da conta de usuário
 
 * **[!UICONTROL Banco de dados]**: nome do banco de dados, se não estiver especificado no DSN. Pode ficar em branco, se estiver especificado no DSN
 
-* **[!UICONTROL Esquema de trabalho]**: Nome do esquema de trabalho. [Saiba mais](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+* **[!UICONTROL Esquema de trabalho]**: nome do seu esquema de trabalho. [Saiba mais](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
 

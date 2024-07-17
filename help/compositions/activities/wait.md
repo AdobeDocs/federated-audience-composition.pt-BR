@@ -16,16 +16,16 @@ ht-degree: 60%
 >title="Atividade Aguardar"
 >abstract="A atividade **Aguardar** é usada para atrasar a transição de uma atividade para outra."
 
-A variável **Aguardar** atividade permitem que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
+A atividade **Wait** permite que um determinado período transcorra entre duas atividades que estão sendo executadas. Por exemplo, a espera de vários dias após uma atividade de entrega de email para depois analisar as aberturas e os cliques gerados durante esse período antes de executar qualquer operação de acompanhamento (email de lembrete, criação de público-alvo, etc.).
 
 ## Configuração{#wait-configuration}
 
 Siga estas etapas para configurar a atividade **Aguardar**:
 
-1. Adicionar um **Aguardar** atividade na sua composição.
+1. Adicione uma atividade **Wait** na sua composição.
 
 1. Especifique a **Duração** da espera entre as transições de entrada e saída.
 
-1. Selecione a unidade de tempo na variável **Períodos** campo: segundos, minutos, horas, dias.
+1. Selecione a unidade de tempo no campo **Períodos**: segundos, minutos, horas, dias.
 
 
