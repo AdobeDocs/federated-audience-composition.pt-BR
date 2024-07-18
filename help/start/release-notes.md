@@ -2,17 +2,17 @@
 title: Novidades na Composição do Audience Federated
 description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
 
 # Notas de versão {#rn-new}
 
-## Composição de público-alvo federado (LA) {#rn-la}
+## Composição de público-alvo federado (LA) {#fac-la}
 
 A Federated Audience Composition é um complemento que oferece acesso flexível e alcance expandido para data warehouses empresariais para potencializar casos de uso de personalização.
 
@@ -20,6 +20,7 @@ A Federated Audience Composition permite que as empresas componham dados para um
 
 Em vez de assimilar conjuntos de dados e/ou públicos-alvo na Adobe Experience Platform, agora você pode usar a Composição de público-alvo federado para reduzir o volume de dados copiados do data warehouse para a Adobe Experience Platform, extraindo públicos-alvo e atributos específicos do warehouse que são necessários para determinados casos de uso de segmentação ou ativação e garantindo que os dados confidenciais não sejam mantidos fora do warehouse.
 
+Saiba mais sobre os recursos do Federated Audience Composition em [esta página](get-started.md) e nas [Perguntas Frequentes](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -27,8 +28,16 @@ Em vez de assimilar conjuntos de dados e/ou públicos-alvo na Adobe Experience P
 >
 >Por enquanto, o recurso não está disponível para clientes que compraram a oferta complementar do Adobe **Healthcare Shield**.
 
+## Acesso à composição do Federated Audience {#fac-access}
 
-## Pré-requisitos e medidas de proteção {#rn-guardrails}
+Não há permissões específicas para a Composição de público-alvo federado. O único pré-requisito para acessar esse recurso é ter adquirido o complemento Federated Audience Composition.
+
+>[!AVAILABILITY]
+>
+>Depois que você recebeu a notificação por email de boas-vindas do Adobe, pode levar mais algumas horas para que a interface seja atualizada e os recursos fiquem disponíveis.
+>
+
+## Pré-requisitos e medidas de proteção {#fac-guardrails}
 
 * Seus endereços IP devem ser adicionados à lista de permissões para habilitar o acesso ao data warehouse e usar a Federated Audience Composition. Para adicionar seus endereços IP à lista de permissões, entre em contato com o representante da Adobe.
 
