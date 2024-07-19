@@ -2,9 +2,9 @@
 title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 6%
 
 ---
@@ -67,10 +67,11 @@ Não há permissões específicas para a Composição de público-alvo federado.
 
 Para esta versão, o Federated Audience Composition é compatível com:
 
-* Snowflake
-* Google Big Query
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 
