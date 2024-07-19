@@ -2,9 +2,9 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 40%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 40%
       + [Configurar seus modelos de dados](data-management/gs-models.md)
       + [Criar e configurar esquemas](customer/schemas.md)
    + [Trabalhar com públicos-alvo](customer/audiences.md)
-   + [Importar seus públicos para a AEP](connections/destinations.md)
+   + [Enviar públicos-alvo para a composição de público-alvo federado do Adobe](connections/destinations.md)
 + Composições {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
    + Crie e execute sua primeira composição {#create-composition}
