@@ -2,19 +2,19 @@
 title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 7%
+source-wordcount: '1320'
+ht-degree: 6%
 
 ---
 
 
 # Introdução à composição de público-alvo federado {#gs-fac}
 
-O Adobe Experience Platform Federated Audience Composition oferece uma solução fácil e eficiente para conectar seu data warehouse corporativo diretamente na Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas de seu data warehouse.
+A Federated Audience Composition é um complemento do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer que permite ao Cliente criar e enriquecer públicos-alvo de data warehouses de terceiros e importar os públicos-alvo para a Adobe Experience Platform.
 
-A Composição de público-alvo federado do Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados em seus data warehouses e plataformas de armazenamento na nuvem (como Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação.
+O Adobe Experience Platform Federated Audience Composition oferece uma solução fácil e eficiente para conectar seu data warehouse corporativo diretamente na Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas de seu data warehouse. A Composição de público-alvo federado do Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados em seus data warehouses e plataformas de armazenamento na nuvem (como Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação.
 
 
 ## Casos de uso {#rn-uc}

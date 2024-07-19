@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -28,6 +28,8 @@ ht-degree: 17%
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
 Criar, Configurar, Testar e Salvar a conexão com um banco de dados externo.
+
+
 
 Bancos de dados externos suportados:
 
