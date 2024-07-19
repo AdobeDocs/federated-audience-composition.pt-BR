@@ -3,9 +3,9 @@ audience: end-user
 title: Enviar públicos-alvo para a composição de público-alvo federado do Adobe
 description: Saiba como enviar públicos-alvo do Adobe Experience Platform para a Composição de público-alvo federado
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
 
    ![](assets/destination-configure.png)
 
-   A seção **[!UICONTROL Alertas]** permite habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino. Para obter mais informações sobre alertas, consulte o manual sobre [assinatura de alertas de destinos usando a interface](../../ui/alerts.md).
+   A seção **[!UICONTROL Alertas]** permite habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino. Para obter mais informações sobre alertas, consulte o manual sobre [assinatura de alertas de destinos usando a interface](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
 
 1. Na etapa **[!UICONTROL Política de governança e ações de aplicação]**, você pode definir suas políticas de governança de dados e garantir que os dados usados estejam em conformidade quando os públicos-alvo forem enviados e estiverem ativos.
 
