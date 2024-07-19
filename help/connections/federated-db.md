@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 3d4d8cee37dd95928ab25952baadf51f1caf9d34
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -31,11 +31,11 @@ Criar, Configurar, Testar e Salvar a conexão com um banco de dados externo.
 
 Bancos de dados externos suportados:
 
-* Snowflake
-* Google Big Query
-* Azure synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
