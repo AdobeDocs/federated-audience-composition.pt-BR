@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 93%
+source-wordcount: '289'
+ht-degree: 31%
 
 ---
 
@@ -40,3 +40,47 @@ ht-degree: 93%
 >abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários Bancos de dados federados para exibir seus esquemas."
 
 
+## O que é um esquema? {#schema-start}
+
+Um esquema é um objeto no aplicativo que define como os dados são vinculados às tabelas do banco de dados.
+Um esquema faz referência a uma tabela.
+
+## Como criar um esquema? {#schema-create}
+
+Na seção **[!UICONTROL DADOS FEDERADOS]**, acesse o link **[!UICONTROL Modelos]**. Você encontrará a guia **[!UICONTROL Esquema]**.
+Clique no botão **[!UICONTROL Criar esquema]**.
+
+![](assets/schema_create.png){zoomable="yes"}
+
+Selecione o banco de dados de origem na lista suspensa e clique na guia **[!UICONTROL Adicionar tabelas]**
+
+![](assets/schema_tables.png){zoomable="yes"}
+
+Você terá acesso a todas as tabelas no banco de dados e para as quais poderá criar um schema.
+
+Ao adicionar as tabelas, você terá acesso aos campos delas e poderá gerenciar para manter o que realmente precisa.
+
+![](assets/schema_fields.png){zoomable="yes"}
+
+## Como editar um esquema? {#schema-edit}
+
+Para editar um esquema, clique no nome do seu esquema na pasta schemas. Você terá acesso à página abaixo.
+Clique no botão **[!UICONTROL Editar]**.
+
+![](assets/schema_edit.png){zoomable="yes"}
+
+## Como visualizar dados em um esquema? {#schema-preview}
+
+Para visualizar os dados na tabela representada pelo esquema, vá para a guia **[!UICONTROL Dados]**, conforme abaixo.
+
+![](assets/schema_data.png){zoomable="yes"}
+
+Você pode alterar a Visão geral dos dados clicando no botão **[!UICONTROL Configurar colunas]**.
+
+![](assets/schema_columns.png){zoomable="yes"}
+
+## Como excluir um esquema? {#schema-delete}
+
+Para excluir um esquema, clique no botão **[!UICONTROL Mais]** e depois **[!UICONTROL Excluir]**.
+
+![](assets/schema_delete.png){zoomable="yes"}

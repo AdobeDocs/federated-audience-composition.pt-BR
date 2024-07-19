@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 38%
 
 ---
@@ -58,4 +58,6 @@ Você acessará a janela, onde pode adicionar os esquemas, os públicos-alvo e o
 ![](assets/datamodel_created.png){zoomable="yes"}
 
 ![](assets/datamodel_schemas.png){zoomable="yes"}
+
+### Criar links {#data-model-links}
 
