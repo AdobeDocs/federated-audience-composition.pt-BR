@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 17%
+source-wordcount: '1458'
+ht-degree: 16%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 17%
 >title="Detalhes do Banco de dados federado"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
-Criar, Configurar, Testar e Salvar a conexão com um banco de dados externo.
+A Composição de público-alvo federado permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform.
 
+Saiba como criar, configurar, testar e salvar a conexão com o banco de dados externo nesta página.
 
+## Bancos de dados compatíveis {#supported-db}
 
-Bancos de dados externos suportados:
+Com a Federated Audience Composition, você pode se conectar aos seguintes bancos de dados:
 
 * Amazon Redshift
 * Azure synapse

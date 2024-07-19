@@ -2,9 +2,9 @@
 title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1326'
 ht-degree: 6%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 6%
 
 A Federated Audience Composition é um complemento do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer que permite ao Cliente criar e enriquecer públicos-alvo de data warehouses de terceiros e importar os públicos-alvo para a Adobe Experience Platform.
 
-O Adobe Experience Platform Federated Audience Composition oferece uma solução fácil e eficiente para conectar seu data warehouse corporativo diretamente na Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas de seu data warehouse. A Composição de público-alvo federado do Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados em seus data warehouses e plataformas de armazenamento na nuvem (como Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação.
+O Adobe Experience Platform Federated Audience Composition oferece uma solução fácil e eficiente para conectar seu data warehouse corporativo diretamente na Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas de seu data warehouse.
+
+A Composição de público-alvo federado do Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados em seus data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure synapse Analytics e muito mais. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas com suporte estão listadas em [esta página](../connections/federated-db.md#supported-db).
 
 
 ## Casos de uso {#rn-uc}
