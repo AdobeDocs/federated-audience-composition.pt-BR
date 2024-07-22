@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Enviar públicos-alvo para a composição de público-alvo federado do Adobe
-description: Saiba como enviar públicos-alvo do Adobe Experience Platform para a Composição de público-alvo federado
+title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
+description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# Enviar Adobe Experience Platform para a composição de público-alvo federado do Adobe {#connect-aep-fac}
+# Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Criar um destino"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Conectar ao destino]** para validar a configuração."
 
-O Adobe Experience Platform permite enviar públicos-alvo do portal de público-alvo para a Adobe Composição de público-alvo federado. Ao fazer isso, você pode aproveitar os públicos existentes em composições e combiná-los com dados de seus bancos de dados externos para criar novos públicos ou atualizar os existentes.
+O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o destino Adobe Federated Audience Composition. Ao fazer isso, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos ou atualizar os existentes.
 
-Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares e escolher quais campos enviar com o público-alvo, como IDs, para reconciliar os dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
+Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares, selecionar atributos específicos a serem incluídos, como IDs para reconciliação de dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
+
+Por exemplo, se você armazenar pontuações de crédito do cliente no data warehouse e tiver um público-alvo da Adobe Experience Platform direcionado a clientes interessados em um produto específico nos últimos dois meses, será possível refinar esse público-alvo com base nas pontuações de crédito usando o destino Federated Audience Composition. Esse processo permite filtrar o público-alvo para incluir apenas perfis com pontuações de crédito altas sem transferir dados de pontuação de crédito confidenciais do data warehouse.
 
 As principais etapas para enviar públicos-alvo da Adobe Experience Platform para a Composição de público-alvo federado do Adobe são as seguintes:
 
