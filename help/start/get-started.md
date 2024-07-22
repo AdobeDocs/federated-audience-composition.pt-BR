@@ -2,10 +2,10 @@
 title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ A composição do público-alvo federado do Adobe permite criar e atualizar púb
 
 Principais etapas:
 
-* **Configuração**
+1. **Integração de dados**: reúna dados de várias fontes e mescle-os em um conjunto de dados unificado. Saiba como conectar aplicativos Adobe Experience Platform e seu data warehouse corporativo, bancos de dados com suporte e como configurá-los estão detalhados em [esta seção](../connections/federated-db.md).
 
-   1. Conecte o Adobe Experience Platform e o data warehouse da sua empresa.
-Os seguintes bancos de dados são suportados: Snowflake, Google Big Query, Azure synapse, Redshift.
-Saiba mais [nesta página](../connections/federated-db.md)
-   1. Crie esquemas para selecionar quais dados devem estar acessíveis na interface do usuário.
-Saiba mais [nesta página](../customer/schemas.md)
-   1. Crie links para seu modelo de dados.
-Saiba mais [nesta página](../data-management/gs-models.md)
+2. **Modelagem de Dados**: projete e crie modelos de dados e esquemas que definam a estrutura, as relações e as restrições dos dados. Saiba mais sobre esquemas em [esta página](../customer/schemas.md). Saiba como criar links para seu modelo de dados no [nesta página](../data-management/gs-models.md).
 
-* **Compor públicos-alvo**
+3. **Transformação de Dados**: aplique técnicas de manipulação de dados para modificar o formato, a estrutura ou os valores de elementos de dados para torná-los compatíveis ou adequados para análise ou aplicativos específicos.
 
-   1. Projete e execute composições para criar públicos.
-Saiba mais [nesta página](../compositions/gs-compositions.md)
-   1. Atualize ou reutilize públicos-alvo existentes por meio do portal de público-alvo e de Destinos da Adobe Experience Platform.
-Saiba mais [nesta página](../connections/destinations.md)
+4. **Uso de dados**: crie, organize e compile públicos-alvo. Saiba como compor públicos-alvo em [esta página](../compositions/gs-compositions.md). Você também pode atualizar ou reutilizar públicos-alvo existentes por meio do portal de público-alvo e de Destinos da Adobe Experience Platform. Saiba mais [nesta página](../connections/destinations.md)
+
 
 ## Perguntas frequentes {#faq}
 
