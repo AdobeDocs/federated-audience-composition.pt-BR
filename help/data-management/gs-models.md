@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles.
 
-Saiba mais sobre [esquemas](../customer/schemas.md).
+Saiba mais sobre [esquemas](../customer/schemas.md#schema-start).
 
 Saiba mais sobre [públicos-alvo](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Você acessará a janela, onde pode adicionar os esquemas, os públicos-alvo e o
 
 ### Criar links {#data-model-links}
 
+A criação de links entre tabelas do seu modelo de dados pode ser feita de duas maneiras:
+- Clique diretamente no menu **[!UICONTROL Criar link]** de uma das tabelas
+- Clique no botão **[!UICONTROL Criar links]** e escolha as 2 tabelas
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Preencha o formulário fornecido para definir o link:
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Todos os links definidos para seu modelo de dados serão listados conforme abaixo:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
