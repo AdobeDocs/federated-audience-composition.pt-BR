@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 26%
+source-wordcount: '380'
+ht-degree: 25%
 
 ---
 
@@ -48,6 +48,10 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
    ![](../assets/save-audience.png)
 
 1. Especifique o rótulo do público-alvo a ser criado.
+
+   >[!IMPORTANT]
+   >
+   >O rótulo do público-alvo deve ser exclusivo na sandbox atual. Ele não pode ser o mesmo rótulo de nenhum público existente.
 
 1. Clique em **Adicionar mapeamento de público-alvo** e escolha os campos de público-alvo de origem e de destino:
 
