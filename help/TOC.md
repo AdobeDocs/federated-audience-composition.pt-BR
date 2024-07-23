@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '135'
+ht-degree: 40%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 39%
 + Introdução à Composição de Público Federado {#start}
    + [Introdução](start/get-started.md)
    + [Notas de versão](start/release-notes.md)
-   + [Trabalhar com públicos-alvo](start/audiences.md)
 + Etapas de configuração {#config}
-   + [Configurar seus bancos de dados federados](connections/federated-db.md)
    + [Criar e gerenciar conexões](connections/connections.md)
+   + [Configurar seus bancos de dados federados](connections/federated-db.md)
    + Modelos e esquemas de dados{#datamodel}
-      + [Configurar seus modelos de dados](data-management/gs-models.md)
       + [Criar e configurar esquemas](customer/schemas.md)
-   + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
+      + [Configurar seus modelos de dados](data-management/gs-models.md)
+   + [Trabalhar com públicos-alvo](customer/audiences.md)
+   + [Enviar públicos-alvo para a composição de público-alvo federado do Adobe](connections/destinations.md)
 + Composições {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
    + Crie e execute sua primeira composição {#create-composition}
