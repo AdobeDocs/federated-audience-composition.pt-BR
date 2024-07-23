@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 41%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 40%
 + Introdução à Composição de Público Federado {#start}
    + [O que é a composição de público-alvo federado](start/get-started.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
+   + [Perguntas frequentes](start/faq.md)
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
    + [Configurar seus bancos de dados federados](connections/federated-db.md)
