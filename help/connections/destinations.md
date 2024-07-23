@@ -3,9 +3,9 @@ audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '553'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 >title="Criar um destino"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Conectar ao destino]** para validar a configuração."
 
-O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o destino Adobe Federated Audience Composition. Ao fazer isso, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos ou atualizar os existentes.
+O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o destino **Adobe Federated Audience Composition**. Ao fazer isso, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos.
 
 Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares, selecionar atributos específicos a serem incluídos, como IDs para reconciliação de dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
 
