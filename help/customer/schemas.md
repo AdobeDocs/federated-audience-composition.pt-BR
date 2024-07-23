@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 Um schema é uma representação de uma tabela do banco de dados. É um objeto dentro do aplicativo que define como os dados são vinculados às tabelas do banco de dados.
 
-Ao criar um schema, você terá a possibilidade de manipular sua tabela no FAC :
+Ao criar um schema, você terá a possibilidade de manipular uma representação da tabela no FAC :
+
 - Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
 - Decidir a visibilidade de cada campo, de acordo com seu uso real
 - Selecione sua chave primária para vincular esquemas entre elas, conforme necessário no [modelo de dados](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ Ao adicionar as tabelas para as quais deseja criar o esquema, você terá acesso
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Para cada tabela, você pode:
+
 - renomear o rótulo do esquema fornecido
 - adicionar uma descrição
 - renomear todos os campos e decidir sua visibilidade.
@@ -91,6 +93,7 @@ Clique no botão **[!UICONTROL Editar]**.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Você terá acesso à mesma possibilidade de ao criar o schema:
+
 - renomear o rótulo do esquema fornecido
 - adicionar uma descrição
 - renomear todos os campos e decidir sua visibilidade.
