@@ -3,7 +3,7 @@ audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ Você acessará a janela, onde pode adicionar os esquemas, os públicos-alvo e o
 ### Criar links {#data-model-links}
 
 A criação de links entre tabelas do seu modelo de dados pode ser feita de duas maneiras:
+
 - Clique diretamente no menu **[!UICONTROL Criar link]** de uma das tabelas
 - Clique no botão **[!UICONTROL Criar links]** e escolha as 2 tabelas
 
