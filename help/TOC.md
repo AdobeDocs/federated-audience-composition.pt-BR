@@ -2,10 +2,10 @@
 user-guide-title: Composição federada de público-alvo
 title: Documentação da composição do público-alvo federado do Adobe
 breadcrumb-title: Composição federada de público-alvo
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '133'
+ht-degree: 40%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 39%
 # Documentação de composição do Federated Audience {#using}
 
 + [Documentação de composição do Federated Audience](home.md)
++ [Notas de versão](start/release-notes.md)
 + Introdução à Composição de Público Federado {#start}
-   + [Introdução](start/get-started.md)
-   + [Notas de versão](start/release-notes.md)
+   + [O que é a composição de público-alvo federado](start/get-started.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 39%
       + [Criar e configurar esquemas](customer/schemas.md)
       + [Configurar seus modelos de dados](data-management/gs-models.md)
    + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
-+ Composições {#compositions}
++ Compor públicos-alvo {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
    + Crie e execute sua primeira composição {#create-composition}
       + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 39%
    + [Editar expressões](query/expression-editor.md)
 + Trilha de auditoria {#audit-trail}
    + [Monitorar seus bancos de dados](admin/audit-trail.md)
-+ [&lt; Voltar à documentação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)

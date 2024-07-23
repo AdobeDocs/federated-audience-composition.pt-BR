@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução à Trilha de auditoria
 description: Saiba como monitorar seus bancos de dados com a trilha de auditoria
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram realizados em seu ambiente em tempo real
 
-O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log detalhado de ações e eventos que ocorrem na instância da Composição de dados Adobe em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
+O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log detalhado de ações e eventos que ocorrem na instância do Adobe Federated Composition em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
 
 +++ Saiba mais sobre entidades disponíveis da Trilha de auditoria
 
-* **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas na instância de composição de dados Adobe.
+* **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas na instância do Adobe Federated Audience Composition.
 
   Para obter informações detalhadas sobre esquemas, consulte esta [página](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
   Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../compositions/gs-compositions.md).
 
-* **Conta Externa** permite verificar as modificações feitas em contas externas na instância da Composição de Dados do Adobe.
+* **Conta externa** permite verificar as modificações feitas em contas externas na instância da Composição de público-alvo do Adobe.
 
   Para obter mais informações sobre a conta externa, consulte esta [página](../connections/federated-db.md).
 

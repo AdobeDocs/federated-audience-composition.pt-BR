@@ -3,18 +3,18 @@ audience: end-user
 title: Introdução a composições
 description: Saiba como começar com composições
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
 
 # Introdução a composições {#compositions}
 
-## O que é uma composição? {#what}
+## O que é uma composição {#what}
 
-A Composição de dados de Adobe permite criar composições, onde você pode aproveitar várias atividades (dividir, excluir...) em uma tela visual para criar públicos. Depois de concluído, os públicos-alvo resultantes são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados em destinos como o Journey Optimizer para direcionar clientes.
+A Composição de público-alvo do Adobe permite criar composições, onde você pode aproveitar várias atividades (dividir, excluir...) em uma tela visual para criar públicos-alvo. Depois de concluído, os públicos-alvo resultantes são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados em destinos como o Journey Optimizer para direcionar clientes. [Saiba como trabalhar com públicos-alvo](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ As composições podem ter vários status:
 
 * **[!UICONTROL Rascunho]**: A composição foi criada e salva.
 * **[!UICONTROL Em andamento]**: a composição foi executada e está em execução no momento.
-* **[!UICONTROL Parado]**: a execução da composição foi interrompida.
+* **[!UICONTROL Parado]**: a execução da composição foi concluída e interrompida.
 * **[!UICONTROL Pausado]**: a execução da composição foi pausada.
 * **[!UICONTROL Erro]**: a execução da composição encontrou um erro. Abra a composição e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
 
