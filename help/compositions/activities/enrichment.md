@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de enriquecimento
 description: Saiba como usar a atividade de enriquecimento
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 48%
 
 ---
-
 
 # Enriquecimento {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 52%
 >title="Dados de enriquecimento"
 >abstract="Selecione os dados a serem usados para enriquecer a sua composição. Você pode selecionar dois tipos de dados de enriquecimento: um único atributo de enriquecimento do esquema, também conhecido como dimensão de direcionamento, ou um link de coleção, que é um link com cardinalidade 1-N entre tabelas."
 
-A atividade **Enrichment** permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, é usado em composições após atividades de segmentação.
+A atividade **Enrichment** permite aprimorar os dados direcionados com informações adicionais do banco de dados federado. Normalmente, ela é usada em uma composição após atividades de segmentação.
+
+Se você tiver configurado uma conexão com o destino Federated Data Composition, poderá usar a atividade de Enriquecimento para enriquecer dados que vêm do Adobe Experience Platform com atributos do banco de dados externo. [Saiba como enriquecer públicos do Adobe Experience Platform com dados externos](../../connections/destinations.md)
 
 Os dados de Enriquecimento podem vir:
 
@@ -78,16 +80,17 @@ Siga estas etapas para configurar a atividade **Enriquecimento**:
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## Exemplos {#example}
+<!--
+## Examples {#example}
 
-### Atributo único de enriquecimento {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-Nesse caso, estamos apenas adicionando um atributo único de enriquecimento, por exemplo, a data de nascimento. Siga estas etapas:
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. Clique no campo **Atributo**.
-1. Selecione um campo simples do esquema, também conhecido como targeting dimension, a data de nascimento em nosso exemplo.
-1. Clique em **Confirmar**.
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
