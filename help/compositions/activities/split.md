@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade Split
 description: Saiba como usar a atividade de Split
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 79%
 
 ---
-
 
 # Divisão {#split}
 
@@ -96,9 +96,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 
 1. Após configurar todos os subconjuntos, é possível selecionar a população restante que não correspondeu a nenhum dos subconjuntos e incluí-la em uma transição de saída adicional. Para isso, ative a opção **[!UICONTROL Gerar complemento.]**
 
-   >[!NOTE]
-   >
-   >A opção **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos os subconjuntos em uma única transição de saída.
+1. A opção **[!UICONTROL Generate all subsets in the same table]** permite agrupar todos os subconjuntos em uma única transição de saída.
 
 1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
 

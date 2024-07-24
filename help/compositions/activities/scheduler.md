@@ -2,13 +2,13 @@
 audience: end-user
 title: Usar a atividade Scheduler
 description: Saiba como usar a atividade Scheduler
-source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 27%
+source-wordcount: '456'
+ht-degree: 25%
 
 ---
-
 
 # Scheduler {#scheduler}
 
@@ -18,6 +18,10 @@ ht-degree: 27%
 >abstract="A atividade **Scheduler** permite agendar quando a composição de públicos-alvo será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade de uma composição."
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da composição.
+
+Se você tiver configurado uma conexão com o destino da Composição de dados federados, poderá usar essa atividade para enviar públicos-alvo da Adobe Experience Platform em frequências regulares. [Saiba como enriquecer públicos do Adobe Experience Platform com dados externos](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
 
 ## Configuração de atividade do scheduler {#scheduler-configuration}
 
@@ -38,9 +42,7 @@ Siga estas etapas para configurar a atividade **Scheduler**:
 1. Configure a **Frequência de execução**:
 
    * **Uma vez**: a composição é executada uma única vez.
-
    * **Diariamente**: a composição é executada em um horário específico, uma vez por dia.
-
    * **Várias vezes ao dia:** a composição é executada regularmente várias vezes ao dia. Você pode configurar as execuções em horários específicos ou periodicamente.
 
      >[!NOTE]
@@ -48,7 +50,6 @@ Siga estas etapas para configurar a atividade **Scheduler**:
      >Não agende uma composição para execução por mais de 15 minutos, pois pode atrapalhar o desempenho geral do sistema e criar bloqueios no banco de dados.
 
    * **Semanalmente**: a composição é executada em um momento especificado, uma ou várias vezes por semana.
-
    * **Monthly**: a composição é executada em um momento especificado, uma ou várias vezes por mês. Você pode selecionar meses quando precisar que a composição seja executada. Você também pode configurar as execuções em dias da semana especificados do mês, como a segunda terça-feira do mês.
 
 1. Defina os detalhes da execução de acordo com a frequência selecionada. Os campos de detalhes podem variar dependendo da frequência usada (tempo, frequência de repetição, dias especificados etc.).
@@ -68,4 +69,3 @@ Siga estas etapas para configurar a atividade **Scheduler**:
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-
