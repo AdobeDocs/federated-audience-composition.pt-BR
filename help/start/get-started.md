@@ -3,9 +3,9 @@ title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
+source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '510'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ A Composição de público-alvo federado do Adobe ajuda os usuários de aplicati
 
 Por meio de uma interface amigável de marketing, crie regras de segmento que consultem seu data warehouse para obter uma lista de usuários que se qualificam para um segmento específico necessário para campanhas de marketing, acesse públicos existentes no warehouse para ativação ou enriqueça os públicos-alvo da Adobe Experience Platform com pontos de dados adicionais que existem no warehouse.
 
-Nesta versão, dois casos de uso estão disponíveis: Criação de público-alvo e Enriquecimento de público-alvo. O enriquecimento do perfil estará disponível em uma versão futura.
+Nesta versão, dois casos de uso estão disponíveis: Criação de público-alvo e Enriquecimento de público-alvo.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}
 
