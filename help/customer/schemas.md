@@ -3,10 +3,11 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 Um schema é uma representação de uma tabela do banco de dados. É um objeto dentro do aplicativo que define como os dados são vinculados às tabelas do banco de dados.
 
-Ao criar um schema, você terá a possibilidade de manipular uma representação da tabela no FAC :
+Ao criar um esquema, você pode definir uma representação da tabela no Experience Platform Federated Audience Composition:
 
-- Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
-- Decidir a visibilidade de cada campo, de acordo com seu uso real
-- Selecione sua chave primária para vincular esquemas entre elas, conforme necessário no [modelo de dados](../data-management/gs-models.md#data-model-start)
+* Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
+* Decidir a visibilidade de cada campo, de acordo com seu uso real
+* Selecione sua chave primária para vincular esquemas entre elas, conforme necessário no [modelo de dados](../data-management/gs-models.md#data-model-start)
 
 ## Criar um esquema {#schema-create}
 
-Para criar schemas no FAC, siga as etapas abaixo:
-Na seção **[!UICONTROL DADOS FEDERADOS]**, acesse o link **[!UICONTROL Modelos]**. Você encontrará a guia **[!UICONTROL Esquema]**.
-Clique no botão **[!UICONTROL Criar esquema]**.
+Para criar esquemas na Composição de público federado, siga as etapas abaixo:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. Na seção **[!UICONTROL DADOS FEDERADOS]**, acesse o link **[!UICONTROL Modelos]**. Navegue até a guia **[!UICONTROL Esquema]** e clique no botão **[!UICONTROL Criar esquema]**.
 
-Você terá acesso a uma nova interface com uma lista suspensa na qual encontrará
-todos os bancos de dados conectados ao seu aplicativo. Saiba mais sobre [conexão de banco de dados](../connections/connections.md#connections-fdb).
-Selecione o banco de dados de origem na lista e clique na guia **[!UICONTROL Adicionar tabelas]**
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   Essa etapa permite acessar uma nova tela com uma lista suspensa onde você pode encontrar os bancos de dados conectados ao seu ambiente. Saiba mais sobre conexão de banco de dados em [esta seção](../connections/connections.md#connections-fdb).
 
-Você terá acesso à lista de todas as tabelas no banco de dados.
+1. Selecione o banco de dados de origem na lista e clique na guia **[!UICONTROL Adicionar tabelas]**.
 
-Ao adicionar as tabelas para as quais deseja criar o esquema, você terá acesso aos campos conforme abaixo.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   Você poderá ver a lista de todas as tabelas no banco de dados.
 
-Para cada tabela, você pode:
+1. Ao adicionar as tabelas para as quais deseja criar o esquema, você tem acesso aos campos como abaixo:
 
-- renomear o rótulo do esquema fornecido
-- adicionar uma descrição
-- renomear todos os campos e decidir sua visibilidade.
-- selecionar a chave primária do esquema
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-Por exemplo, esta é uma tabela importada, logo após a adição :
+   Para cada tabela, é possível:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * alterar o rótulo do schema
+   * adicionar uma descrição
+   * renomear todos os campos e definir sua visibilidade
+   * selecionar a chave primária do esquema
 
-O esquema pode ser definido assim:
+   Por exemplo, para a seguinte tabela importada:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   O schema pode ser definido assim:
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Editar um esquema {#schema-edit}
 
-Para editar um esquema, clique no nome do seu esquema na pasta schemas. Você terá acesso à página abaixo.
-Clique no botão **[!UICONTROL Editar]**.
+Para editar um esquema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Clique no nome do schema na pasta schemas.
 
-Você terá acesso à mesma possibilidade de ao criar o schema:
+1. Clique no botão **[!UICONTROL Editar]**.
 
-- renomear o rótulo do esquema fornecido
-- adicionar uma descrição
-- renomear todos os campos e decidir sua visibilidade.
-- selecionar a chave primária do esquema
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   Você pode acessar as mesmas opções de quando [cria um esquema](#schema-create).
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Visualizar dados em um esquema {#schema-preview}
 
-Para visualizar os dados na tabela representada pelo esquema, vá para a guia **[!UICONTROL Dados]**, conforme abaixo.
-Você pode ter o número total de gravações clicando no link **[!UICONTROL Calcular]**.
+Para visualizar os dados na tabela representada pelo seu esquema, navegue até a guia **[!UICONTROL Dados]**, conforme abaixo.
+
+Clique no link **[!UICONTROL Calcular]** para visualizar o número total de gravações.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Você pode alterar a Visão geral dos dados clicando no botão **[!UICONTROL Configurar colunas]**.
+Clique no botão **[!UICONTROL Configurar colunas]** para alterar a exibição de dados.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Excluir um esquema {#schema-delete}
 
-Para excluir um esquema, clique no botão **[!UICONTROL Mais]** e depois **[!UICONTROL Excluir]**.
+Para excluir um esquema, clique no botão **[!UICONTROL Mais]** e escolha **[!UICONTROL Excluir]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}
