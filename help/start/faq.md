@@ -3,9 +3,9 @@ title: Perguntas frequentes
 description: Perguntas frequentes
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Veja a seguir uma lista das perguntas frequentes sobre a Composição de públic
 
 +++Quais são as permissões necessárias para acessar o Federated Audience Composition?
 
-Não há permissões específicas para a Composição de público-alvo federado. O único pré-requisito para acessar esse recurso é ter adquirido o complemento Federated Audience Composition.
+A Federated Audience Composition exige pacotes do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate. Não há permissões específicas para a Composição de público-alvo federado. O único pré-requisito para acessar esse recurso é ter adquirido o complemento Federated Audience Composition.
 
 +++
 
@@ -61,7 +61,7 @@ Sim, depois de conectado, a Federated Audience Composition pode ser usada para d
 
 +++Há algum armazenamento temporário na Federated Audience Composition?
 
-Não, a Federated Audience Composition armazena apenas metadados (descrições de esquema). Nenhum dado do cliente está em trânsito. O fluxo de exportação de público é feito diretamente do Portal de público-alvo da Adobe Experience Platform (via [Destino](../connections/destinations.md)) para o banco de dados do cliente. O fluxo de criação e atualização é feito diretamente do banco de dados do data warehouse para o Adobe Experience Platform Audience Portal.
+Não, a Federated Audience Composition armazena apenas metadados (descrições de esquema). Nenhum dado do cliente está em trânsito. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Observe que a expiração dos dados atuais para públicos-alvo gerados extername
 
 * No caso de um Enriquecimento de público-alvo, o ponto de partida é um público-alvo existente do Adobe Experience Platform. Você pode ver dois cenários aqui:
    1. Trazer atributos adicionais de carga de público-alvo do federated data warehouse: nesse caso, os atributos adicionais que são adicionados aparecerão como parte dessa definição de público-alvo. A expiração dos dados para públicos-alvo gerados externamente é a mesma descrita acima, 30 dias.
-   1. Refine o público-alvo existente do Adobe Experience Platform com base nos atributos adicionais existentes no data warehouse. Por exemplo, você tem um público-alvo de clientes que demonstraram interesse em um produto específico no site nos últimos dois meses. Agora, você deseja segmentar esse público e segmentá-lo ainda mais usando a Composição de público federado para incluir apenas clientes que têm uma pontuação de crédito alta. A pontuação de crédito é considerada confidencial e os pontos de dados individuais da pontuação de crédito não são copiados do data warehouse.
+   1. Refine o público-alvo existente do Adobe Experience Platform com base nos atributos adicionais existentes no data warehouse. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Se os dados para padrões de casos de uso de Criação de público-alvo e Enriquecimento de público não estiverem sendo mantidos, como eles estão sendo armazenados temporariamente?
