@@ -1,12 +1,12 @@
 ---
-title: Novidades na Composição do Audience Federated
+title: Novidades na Composição de público federado do Experience Platform
 description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -16,15 +16,12 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->* No momento, o Federated Audience Composition está disponível apenas para algumas organizações (disponibilidade limitada). Para obter acesso, entre em contato com o(a) representante da Adobe.
+>No momento, o Adobe Experience Platform Federated Audience Composition está disponível apenas para algumas organizações (disponibilidade limitada).
 >
->* Por enquanto, o recurso não está disponível para clientes que compraram a oferta complementar do **Healthcare Shield**. [Saiba mais](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
+A Federated Audience Composition é um recurso complementar que fornece às empresas acesso flexível e expandido a data warehouses empresariais para compor públicos usando conjuntos de dados empresariais críticos e potencializar experiências iniciadas pela marca e no momento. Com essa nova abordagem, como usuário do [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} e/ou do [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home?lang=pt-BR){target="_blank"}, você pode federar dados de público-alvo diretamente do data warehouse existente para enriquecer públicos-alvo da Adobe Experience Platform em um sistema.
 
-A Federated Audience Composition permite que as empresas componham dados para uma melhor utilização em vários casos de uso. Com essa nova abordagem, como usuário do [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} e/ou do [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home?lang=pt-BR){target="_blank"}, você pode federar conjuntos de dados diretamente do data warehouse existente para enriquecer públicos-alvo e atributos da Adobe Experience Platform em um único sistema.
-
-A Federated Audience Composition é um complemento que oferece acesso flexível e alcance expandido para data warehouses empresariais para potencializar casos de uso de personalização.
-Em vez de assimilar conjuntos de dados e/ou públicos-alvo na Adobe Experience Platform, agora você pode usar a Composição de público-alvo federado para reduzir o volume de dados copiados do data warehouse para a Adobe Experience Platform, extraindo públicos-alvo e atributos específicos do warehouse que são necessários para determinados casos de uso de segmentação ou ativação e garantindo que os dados confidenciais não sejam mantidos fora do warehouse.
+A Federated Audience Composition atende às crescentes demandas do mercado para empresas que precisam de flexibilidade para compor públicos com conjuntos de dados de warehouse. Isso permite que as empresas reduzam a movimentação de dados e, ao mesmo tempo, disponibilizem dados críticos do público-alvo para que as equipes de marketing atendam aos requisitos de casos de uso e potencializem experiências personalizadas. 
 
 Saiba mais sobre os recursos do Federated Audience Composition em [esta página](get-started.md) e nas [Perguntas Frequentes](get-started.md#faq).
 
@@ -41,6 +38,8 @@ Não há permissões específicas para a Composição de público-alvo federado.
 
 ## Pré-requisitos e medidas de proteção {#fac-guardrails}
 
+* A Federated Audience Composition é compatível com o Privacy &amp; Security Shield e pode ser usada em todos os mercados verticais, exceto no setor de saúde. Atualmente, a Federated Audience Composition não pode ser licenciada para clientes que procuram assimilar dados de integridade. [Saiba mais](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 * Seus endereços IP devem ser adicionados à lista de permissões para habilitar o acesso ao data warehouse e usar a Federated Audience Composition. Para adicionar seus endereços IP à lista de permissões, entre em contato com o representante da Adobe.
 
-* Direitos, limitações de produto e medidas de proteção de desempenho estão listados na [documentação do Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}.
+* Qualificações, limitações de produto e medidas de proteção de desempenho listadas na [documentação do Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} se aplicam a este complemento.

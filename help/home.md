@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Página inicial da documentação do Federated Audience Composition
+title: Página inicial da documentação do Adobe Experience Platform Federated Audience Composition
 description: Esta é a visão geral do artigo.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # Documentação da composição do Federated Audience  {#fac-home}
 
 Bem-vindo à Documentação de composição do Adobe Experience Platform Federated Audience.
 
-A Federated Audience Composition oferece flexibilidade e eficiência no gerenciamento de dados aos usuários da Adobe Real-Time CDP e da Adobe Journey Optimizer. Com a Composição de público-alvo federado, você pode acessar o data warehouse corporativo usando uma interface amigável para profissionais de marketing para criar públicos-alvo e aproveitar conjuntos de dados em fluxos de trabalho do Adobe Experience Platform sem persistir nos dados corporativos subjacentes. Isso ajuda a reduzir a movimentação de dados ao acessar data warehouses para casos de uso de experiência.
+A Composição de público-alvo federado do Experience Platform oferece flexibilidade e eficiência no gerenciamento de dados aos usuários do Adobe Real-Time CDP e do Adobe Journey Optimizer. Com a Composição de público-alvo federado, você pode acessar o data warehouse corporativo usando uma interface amigável para profissionais de marketing para criar públicos-alvo e aproveitar conjuntos de dados em fluxos de trabalho do Adobe Experience Platform sem persistir nos dados corporativos subjacentes. Isso ajuda a reduzir a movimentação de dados ao acessar data warehouses para casos de uso de experiência.
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ Adicione e configure atividades (Split, Enrichment, Query etc.) para criar compo
 ## Recursos adicionais  {#additional-resources}
 
 [Documentação do Real-time Customer Data Platform Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [documentação do Portal de Público-Alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

@@ -3,9 +3,10 @@ audience: end-user
 title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 16%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 16%
 >title="Detalhes do Banco de dados federado"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
-A Composição de público-alvo federado permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform.
+A Composição de público-alvo federado do Experience Platform permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform.
 
 Saiba como criar, configurar, testar e salvar a conexão com o banco de dados externo nesta página.
 
@@ -254,4 +255,3 @@ O conector é compatível com as seguintes opções:
 | Opção | Descrição |
 |---|---|
 | TimeZoneName | É vazio por padrão, o que significa que o fuso horário do sistema do servidor de aplicativos Campaign Classic é usado. A opção pode ser usada para forçar o parâmetro da sessão TIMEZONE. |
-

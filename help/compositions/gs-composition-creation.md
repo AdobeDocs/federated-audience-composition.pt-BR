@@ -3,13 +3,13 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # Princípios básicos da criação de composição {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## O que há dentro de uma composição? {#gs-composition-inside}
 
-A Composição de público-alvo federado fornece uma tela visual que permite criar públicos-alvo aproveitando várias atividades (dividir, enriquecer etc.).
+A Composição de público-alvo federado do Experience Platform fornece uma tela visual que permite criar públicos-alvo aproveitando várias atividades (dividir, enriquecer etc.).
 
 O diagrama da composição é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
