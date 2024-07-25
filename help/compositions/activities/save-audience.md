@@ -4,10 +4,10 @@ title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,13 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
    * **Campo de identidade principal**: selecione o campo a ser usado para identificar os perfis. Por exemplo, seu endereço de email ou número de telefone.
    * **Namespace de identidade**: selecione o namespace a ser usado para identificar os perfis, ou seja, o tipo de dados a ser usado como chave de identificação. Por exemplo, se o endereço de email tiver sido selecionado como campo de identidade principal, o namespace de identidade **Email** deverá ser selecionado. Se o identificador exclusivo for o número de telefone, o namespace de identidade **Telefone** deverá ser selecionado.
 
-Depois de executar a composição, o público resultante é salvo no Adobe Experience Platform e tornado acessível no menu **Públicos-alvo**. O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode ativar o público-alvo para qualquer destino compatível com o Adobe Experience Platform.
+## Acessar seu público-alvo no Adobe Experience Platform {#access-audience}
+
+Depois de executar a composição, o público resultante é salvo na Adobe Experience Platform como um público externo e disponível no Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele se tornou acessível no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode ativar o público-alvo para qualquer destino compatível com o Adobe Experience Platform.
+
+[Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
