@@ -2,13 +2,13 @@
 title: Novidades na Composição do Audience Federated
 description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
-
 
 # Notas de versão {#rn-new}
 
@@ -29,6 +29,8 @@ Em vez de assimilar conjuntos de dados e/ou públicos-alvo na Adobe Experience P
 Saiba mais sobre os recursos do Federated Audience Composition em [esta página](get-started.md) e nas [Perguntas Frequentes](get-started.md#faq).
 
 ## Acesso à composição do Federated Audience {#fac-access}
+
+A Federated Audience Composition exige pacotes do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate.
 
 Não há permissões específicas para a Composição de público-alvo federado. O único pré-requisito para acessar esse recurso é ter adquirido o complemento Federated Audience Composition.
 
