@@ -2,13 +2,13 @@
 title: Introdução à composição de público-alvo federado
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # Introdução à composição de público-alvo federado {#gs-fac}
 
@@ -20,7 +20,7 @@ A Composição de público-alvo federado do Adobe ajuda os usuários de aplicati
 
 Por meio de uma interface amigável de marketing, crie regras de segmento que consultem seu data warehouse para obter uma lista de usuários que se qualificam para um segmento específico necessário para campanhas de marketing, acesse públicos existentes no warehouse para ativação ou enriqueça os públicos-alvo da Adobe Experience Platform com pontos de dados adicionais que existem no warehouse.
 
-Nesta versão, dois casos de uso estão disponíveis: segmentação de público-alvo e enriquecimento de público-alvo. O enriquecimento do perfil estará disponível em uma versão futura.
+Nesta versão, dois casos de uso estão disponíveis: Criação de público-alvo e Enriquecimento de público-alvo. O enriquecimento do perfil estará disponível em uma versão futura.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}
 
@@ -39,6 +39,12 @@ Principais etapas:
 3. **Transformação de Dados**: aplique técnicas de manipulação de dados para modificar o formato, a estrutura ou os valores de elementos de dados para torná-los compatíveis ou adequados para análise ou aplicativos específicos.
 
 4. **Uso de dados**: crie, organize e compile públicos-alvo. Saiba como compor públicos-alvo em [esta página](../compositions/gs-compositions.md). Você também pode atualizar ou reutilizar públicos-alvo existentes por meio do portal de público-alvo e de Destinos da Adobe Experience Platform. Saiba mais [nesta página](../connections/destinations.md)
+
+
+>[!NOTE]
+>
+>Depois de executar a composição, o público resultante é salvo na Adobe Experience Platform como um público externo e disponível no Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele se tornou acessível no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
