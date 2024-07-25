@@ -3,20 +3,17 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no modelador de consultas.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 74%
+source-wordcount: '2068'
+ht-degree: 75%
 
 ---
 
 # Editar expressões {#expression}
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, cadeias de caracteres, campos numéricos, classificação etc.
-
->[!IMPORTANT]
->
->A seção abaixo fornece informações sobre como trabalhar com o editor de expressão para criar regras. Lembre-se de que a sintaxe usada para criar regras é diferente da usada para adicionar personalização.
 
 ## Trabalhar com o editor de expressão {#edit}
 
