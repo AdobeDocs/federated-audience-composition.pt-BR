@@ -2,17 +2,17 @@
 user-guide-title: Composição de público federado do Experience Platform
 title: Documentação da composição do público-alvo federado do Experience Platform
 breadcrumb-title: Composição de público federado do Experience Platform
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: bfb13da161d966ec82d147c2d4c293b80fcf071d
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 36%
+source-wordcount: '145'
+ht-degree: 35%
 
 ---
 
 
-# Documentação de composição do Federated Audience {#using}
+# Documentação de composição do Experience Platform Federated Audience {#using}
 
-+ [Documentação de composição do Federated Audience](home.md)
++ [Documentação de composição do Experience Platform Federated Audience](home.md)
 + [Notas de versão](start/release-notes.md)
 + Introdução à Composição de Público Federado {#start}
    + [O que é a composição de público-alvo federado](start/get-started.md)
