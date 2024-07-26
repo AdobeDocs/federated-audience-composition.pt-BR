@@ -3,13 +3,13 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Iniciar e monitorar sua composição {#start-monitor}
 
@@ -28,7 +28,7 @@ Você pode acompanhar o progresso de perfis direcionados em tempo real usando um
 Em composições, os dados transportados de uma atividade para outra por meio de transições são armazenados em uma tabela de trabalho temporária. Esses dados podem ser exibidos para cada transição. Para fazer isso, selecione uma transição para abrir as propriedades no lado direito da tela.
 
 * Clique em **[!UICONTROL Visualizar esquema]** para exibir o esquema da tabela de trabalho.
-* Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada.
+* Clique em **[!UICONTROL Visualizar resultados]** para visualizar os dados transportados na transição selecionada. Esta opção estará disponível somente se a opção **[!UICONTROL Keep the result of interim populations between two executions]** estiver habilitada. [Saiba mais](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 
