@@ -3,7 +3,7 @@ audience: end-user
 title: Usar a atividade Scheduler
 description: Saiba como usar a atividade Scheduler
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 25%
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da composição.
 
-Se você tiver configurado uma conexão com o destino da Composição de dados federados, poderá usar essa atividade para enviar públicos-alvo da Adobe Experience Platform em frequências regulares. [Saiba como enriquecer públicos do Adobe Experience Platform com dados externos](../../connections/destinations.md)
+Se você tiver configurado uma conexão com o destino Federated Audience Composition, poderá usar essa atividade para enviar públicos-alvo da Adobe Experience Platform em frequências regulares. [Saiba como enriquecer públicos do Adobe Experience Platform com dados externos](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 
