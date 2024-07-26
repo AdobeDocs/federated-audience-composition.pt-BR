@@ -4,9 +4,9 @@ title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados exter
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ O Adobe Experience Platform permite a integração perfeita de públicos do Port
 
 Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares, selecionar atributos específicos a serem incluídos, como IDs para reconciliação de dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
 
-Por exemplo, se você armazenar pontuações de crédito do cliente no data warehouse e tiver um público-alvo da Adobe Experience Platform direcionado a clientes interessados em um produto específico nos últimos dois meses, será possível refinar esse público-alvo com base nas pontuações de crédito usando o destino Federated Audience Composition. Esse processo permite filtrar o público-alvo para incluir apenas perfis com pontuações de crédito altas sem transferir dados de pontuação de crédito confidenciais do data warehouse.
+Por exemplo, digamos que você esteja armazenando informações de compra em seu data warehouse e tenha um público do Adobe Experience Platform direcionado a clientes interessados em um produto específico nos últimos dois meses. Ao usar o destino da Composição de público-alvo federado, você pode:
+
+* Refine o público com base nas informações de compra. Por exemplo, você pode filtrar o público-alvo para clientes do público-alvo que fizeram uma compra somente de mais de 150$.
+* Enriqueça o público-alvo com campos relacionados às compras, como o nome do produto e a quantidade comprada.
 
 As principais etapas para enviar públicos-alvo da Adobe Experience Platform para a Composição de público-alvo federado do Adobe são as seguintes:
 
