@@ -4,10 +4,10 @@ title: Introdução aos Bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 16%
+source-wordcount: '1566'
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,11 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
    * **[!UICONTROL Banco de dados]**: nome do banco de dados, se não estiver especificado no DSN. Pode ficar em branco, se estiver especificado no DSN
 
-   * **[!UICONTROL Esquema de trabalho]**: nome do seu esquema de trabalho. [Saiba mais](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. [Saiba mais](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
 
 1. Selecione a opção **[!UICONTROL Testar a conexão]** para verificar sua configuração.
 
@@ -188,7 +192,11 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
    * **[!UICONTROL Banco de dados]** (opcional): insira o nome do seu banco de dados se não estiver especificado no DSN.
 
-   * **[!UICONTROL Esquema de trabalho]** (opcional): insira o nome do esquema de trabalho.
+   * **[!UICONTROL Esquema de trabalho]** (opcional): insira o nome do esquema de banco de dados a ser usado para tabelas de trabalho.
+
+     >[!NOTE]
+     >
+     >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
 
    * **[!UICONTROL Chave privada]**: clique no campo **[!UICONTROL Chave privada]** para selecionar seus arquivos .pem na pasta de localidade.
 
@@ -240,7 +248,11 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
    * **[!UICONTROL Banco de dados]** (opcional): insira o nome do seu banco de dados se não estiver especificado no DSN.
 
-   * **[!UICONTROL Esquema de trabalho]** (opcional): insira o nome do esquema de trabalho.
+   * **[!UICONTROL Esquema de trabalho]** (opcional): insira o nome do esquema de banco de dados a ser usado para tabelas de trabalho.
+
+     >[!NOTE]
+     >
+     >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
 
    * **[!UICONTROL Opções]**: o conector dá suporte às opções detalhadas na tabela abaixo.
 
