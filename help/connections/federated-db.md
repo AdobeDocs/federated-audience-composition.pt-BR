@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Introdução aos Bancos de dados federados
+title: Introdução aos bancos de dados federados
 description: Saiba como criar e gerenciar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 15%
+source-wordcount: '1560'
+ht-degree: 11%
 
 ---
 
-# Introdução aos Bancos de dados federados {#federated-db}
+# Introdução aos bancos de dados federados {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bancos de dados federados"
->abstract="As conexões existentes com Bancos de dados federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **[!UICONTROL Adicionar banco de dados federados]**."
+>abstract="As conexões existentes com bancos de dados Federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **[!UICONTROL Adicionar banco de dados federados]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Com a Federated Audience Composition, você pode se conectar aos seguintes banco
 
 ## Amazon Redshift {#amazon-redshift}
 
-Use Federated Databases para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
+Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
 
 1. No menu **[!UICONTROL Federated data]**, selecione **[!UICONTROL Federated databases]**.
 
@@ -82,7 +82,7 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Use Federated Databases para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure synapse Redshift.
+Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure synapse Redshift.
 
 1. No menu **[!UICONTROL Federated data]**, selecione **[!UICONTROL Federated databases]**.
 
@@ -121,7 +121,7 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
 ## Google Big Query {#google-big-query}
 
-Use Federated Databases para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google Big Query.
+Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google Big Query.
 
 1. No menu **[!UICONTROL Federated data]**, selecione **[!UICONTROL Federated databases]**.
 
@@ -168,7 +168,7 @@ Use Federated Databases para processar informações armazenadas em um banco de 
 
 ## Snowflake {#snowflake}
 
-Use Federated Databases para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
+Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
 
 1. No menu **[!UICONTROL Federated data]**, selecione **[!UICONTROL Federated databases]**.
 
@@ -214,7 +214,7 @@ O conector é compatível com as seguintes opções:
 |---|---|
 | schema de trabalho | schema de banco de dados que deve ser usado para tabelas de trabalho |
 | depósito | Nome do depósito padrão que deve ser usado. Ele substituirá o padrão do usuário. |
-| TimeZoneName | É vazio por padrão, o que significa que o fuso horário do sistema do servidor de aplicativos Campaign Classic é usado. A opção pode ser usada para forçar o parâmetro da sessão TIMEZONE. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Por padrão, vazio, o que significa que o servidor de aplicativos do fuso horário do sistema é usado. A opção pode ser usada para forçar o parâmetro da sessão TIMEZONE. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.com/br/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desativar os resultados em cache de Snowflake. <br>[Para obter mais informações, consulte esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Número de threads a serem usados para o carregador em massa Snowflake; mais threads significam melhor desempenho para cargas em massa maiores. Por padrão, defina como 1. O número pode ser ajustado, dependendo da contagem de threads do computador. |
@@ -224,7 +224,7 @@ O conector é compatível com as seguintes opções:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Use Federated Databases para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Vertica Analytics.
+Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Vertica Analytics.
 
 1. No menu **[!UICONTROL Federated data]**, selecione **[!UICONTROL Federated databases]**.
 
@@ -266,4 +266,4 @@ O conector é compatível com as seguintes opções:
 
 | Opção | Descrição |
 |---|---|
-| TimeZoneName | É vazio por padrão, o que significa que o fuso horário do sistema do servidor de aplicativos Campaign Classic é usado. A opção pode ser usada para forçar o parâmetro da sessão TIMEZONE. |
+| TimeZoneName | Por padrão, vazio, o que significa que o fuso horário do sistema do servidor de aplicativos é usado. A opção pode ser usada para forçar o parâmetro da sessão TIMEZONE. |
