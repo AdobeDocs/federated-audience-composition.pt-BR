@@ -4,10 +4,10 @@ title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Para criar links entre tabelas do seu modelo de dados, siga estas etapas:
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Todos os links definidos para seu modelo de dados estão listados abaixo:
+   **Cardinalidade**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: uma ocorrência da tabela de origem pode ter várias ocorrências correspondentes da tabela de destino, mas uma ocorrência da tabela de destino pode ter no máximo uma ocorrência correspondente da tabela de origem.
+
+   * N-1: uma ocorrência da tabela de destino pode ter várias ocorrências correspondentes da tabela de origem, mas uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
+
+   * 1-1: uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
+
+Todos os links definidos para seu modelo de dados estão listados abaixo:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Como fazer vídeo {#data-model-video}
 
