@@ -3,7 +3,7 @@ title: Introdução à composição de público-alvo federado do Experience Plat
 description: Saiba o que é a composição de público-alvo federado do Adobe e como usá-la no Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Principais etapas:
 
 4. **Uso de dados**: crie, organize e compile públicos-alvo. Saiba como compor públicos-alvo em [esta página](../compositions/gs-compositions.md). Você também pode atualizar ou reutilizar públicos-alvo existentes por meio do portal de público-alvo e de Destinos da Adobe Experience Platform. Saiba mais [nesta página](../connections/destinations.md)
 
-
 >[!NOTE]
 >
 >Depois de executar a composição, o público resultante é salvo na Adobe Experience Platform como um público externo e disponível no Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele se tornou acessível no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## Saiba mais {#learn}
 
@@ -74,9 +70,6 @@ Consulte as Perguntas Frequentes em [esta página](faq.md).
 >id="dc_workflow_settings_execution"
 >title="Configurações de execução"
 >abstract="Nesta seção, você pode definir configurações relacionadas à execução do fluxo de trabalho, como o número de dias em que o histórico de composição é mantido."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

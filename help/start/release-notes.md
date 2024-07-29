@@ -3,9 +3,9 @@ title: Novidades na Composição de público federado do Experience Platform
 description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -23,23 +23,7 @@ A Federated Audience Composition é um recurso complementar que fornece às empr
 
 A Federated Audience Composition atende às crescentes demandas do mercado para empresas que precisam de flexibilidade para compor públicos com conjuntos de dados de warehouse. Isso permite que as empresas reduzam a movimentação de dados e, ao mesmo tempo, disponibilizem dados críticos do público-alvo para que as equipes de marketing atendam aos requisitos de casos de uso e potencializem experiências personalizadas. 
 
-Saiba mais sobre os recursos do Federated Audience Composition em [esta página](get-started.md) e nas [Perguntas Frequentes](get-started.md#faq).
+Saiba mais sobre os recursos de Composição de Público Federado em [esta página](get-started.md) e nas [Perguntas Frequentes](get-started.md#faq).
 
-## Acesso à composição do Federated Audience {#fac-access}
+Informações detalhadas sobre os pré-requisitos para acessar as Federated Audience Compositions e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).
 
-A Federated Audience Composition exige pacotes do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate.
-
-Não há permissões específicas para a Composição de público-alvo federado. O único pré-requisito para acessar esse recurso é ter adquirido o complemento Federated Audience Composition.
-
->[!AVAILABILITY]
->
->Depois que você recebeu a notificação por email de boas-vindas do Adobe, pode levar mais algumas horas para que a interface seja atualizada e os recursos fiquem disponíveis.
->
-
-## Pré-requisitos e medidas de proteção {#fac-guardrails}
-
-* A Federated Audience Composition é compatível com o Privacy &amp; Security Shield e pode ser usada em todos os mercados verticais, exceto no setor de saúde. Atualmente, a Federated Audience Composition não pode ser licenciada para clientes que procuram assimilar dados de integridade. [Saiba mais](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Seus endereços IP devem ser adicionados à lista de permissões para habilitar o acesso ao data warehouse e usar a Federated Audience Composition. Para adicionar seus endereços IP à lista de permissões, entre em contato com o representante da Adobe.
-
-* Qualificações, limitações de produto e medidas de proteção de desempenho listadas na [documentação do Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} se aplicam a este complemento.
