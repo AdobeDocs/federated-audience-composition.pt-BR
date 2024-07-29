@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Introdução à Trilha de auditoria
-description: Saiba como monitorar seus bancos de dados com a trilha de auditoria
+title: Trilha de auditoria
+description: Saiba como ações e eventos são registrados e acessíveis na trilha de auditoria
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
-# Introdução à Trilha de auditoria {#audit-trail}
+# Trilha de auditoria {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Trilha de auditoria"
->abstract="O recurso Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que ocorreram no ambiente em tempo real."
+>abstract="O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos no ambiente do Adobe Experience Platform Federated Audience Composition em tempo real."
 
 O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram realizados em seu ambiente em tempo real
 
