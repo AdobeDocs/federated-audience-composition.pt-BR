@@ -4,9 +4,9 @@ title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 A Composição de público-alvo federado do Experience Platform permite [criar composições](../compositions/gs-compositions.md), onde você pode aproveitar várias atividades em uma tela visual para criar públicos-alvo e armazená-los no Adobe Experience Platform Audience Portal.
 
-Em seguida, você pode ativar esses públicos-alvo para qualquer destino compatível com o Adobe Experience Platform.
+Em seguida, você pode direcionar esses públicos-alvo no Journey Optimizer ou ativá-los para qualquer destino compatível com o Adobe Experience Platform.
 
 ## Criação de público usando composições {#creation}
 

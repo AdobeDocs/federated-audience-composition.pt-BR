@@ -4,9 +4,9 @@ title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '457'
 ht-degree: 17%
 
 ---
@@ -66,7 +66,7 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
 Depois de executar a composição, o público resultante é salvo na Adobe Experience Platform como um público externo e disponível no Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele se tornou acessível no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode ativar o público-alvo para qualquer destino compatível com o Adobe Experience Platform.
+O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode direcionar esse público-alvo no Journey Optimizer ou ativá-lo para qualquer destino compatível com o Adobe Experience Platform.
 
 [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
