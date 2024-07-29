@@ -4,10 +4,10 @@ title: Usar a atividade Split
 description: Saiba como usar a atividade de Split
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 79%
+source-wordcount: '925'
+ht-degree: 76%
 
 ---
 
@@ -60,7 +60,7 @@ A atividade **Divisão** permite segmentar as populações recebidas em vários 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Habilitar sobreposição de populações de saída"
->abstract="A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos."
+>abstract="A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa estiver marcada, os recipients poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. "
 
 Siga estas etapas para configurar a atividade de **Divisão**:
 
@@ -101,7 +101,7 @@ Siga estas etapas para configurar a atividade de **Divisão**:
 1. A opção **[!UICONTROL Enable overlapping of output populations]** permite gerenciar populações pertencentes a vários subconjuntos:
 
    * Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no target da primeira guia com critérios correspondentes.
-   * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. O Adobe Campaign recomenda usar critérios exclusivos.
+   * Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. A prática recomendada é usar um critério exclusivo.
 
 A atividade agora está configurada. Na execução, a população será segmentada em diferentes subconjuntos, na ordem em que foram adicionados à atividade.
 

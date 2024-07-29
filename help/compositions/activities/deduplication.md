@@ -3,13 +3,13 @@ audience: end-user
 title: Usar a atividade de desduplicação
 description: Saiba como usar a atividade de desduplicação
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 61%
+ht-degree: 46%
 
 ---
-
 
 # Desduplicação {#deduplication}
 
@@ -47,13 +47,13 @@ Siga estas etapas para configurar a atividade **Desduplicação**:
 
    ![](../assets/deduplication.png)
 
-1. Na seção **[!UICONTROL Configurações de desduplicação]**, selecione o número de **[!UICONTROL Duplicatas exclusivas a serem mantidas]**. O valor padrão para esse campo é 1. O valor 0 permite manter todas as duplicatas.
+1. Na seção **[!UICONTROL Configurações de desduplicação]**, selecione o número de **[!UICONTROL Duplicatas exclusivas a serem mantidas]**. O valor padrão para este campo é **1**. O valor **0** permite manter todas as duplicatas.
 
    Por exemplo, se os registros A e B forem considerados duplicatas do registro Y, e um registro C for considerado uma duplicata do registro Z:
 
-   * Se o valor do campo for 1: somente os registros Y e Z são mantidos.
-   * Se o valor do campo for 0: todos os registros são mantidos.
-   * Se o valor do campo for 2: os registros C e Z são mantidos. Os dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
+   * Se o valor do campo for **1**: somente os registros Y e Z serão mantidos.
+   * Se o valor do campo for **0**: todos os registros são mantidos.
+   * Se o valor do campo for **2**: os registros C e Z são mantidos e dois registros de A, B e Y são mantidos por acaso ou dependendo do método de desduplicação selecionado posteriormente.
 
 1. Selecione o **[!UICONTROL Método de desduplicação]** a ser usado:
 

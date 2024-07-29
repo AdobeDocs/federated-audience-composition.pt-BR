@@ -4,7 +4,7 @@ title: Criar composições
 description: Saiba como criar composições
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="Propriedades da composição"
 >abstract="Nesta tela, escolha o modelo a ser usado para criar a composição e especifique um rótulo. Expanda a seção OPÇÕES ADICIONAIS para definir mais configurações, como o nome interno da composição, sua pasta, fuso horário e grupo supervisor. É altamente recomendável selecionar um grupo supervisor, para que, se ocorrer um erro, os operadores sejam alertados."
 
-## O que há dentro de uma composição? {#gs-composition-inside}
+## O que há dentro de uma composição {#gs-composition-inside}
 
 A Composição de público-alvo federado do Experience Platform fornece uma tela visual que permite criar públicos-alvo aproveitando várias atividades (dividir, enriquecer etc.).
 

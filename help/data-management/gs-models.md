@@ -4,7 +4,7 @@ title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="Insira o rótulo do modelo de dados."
 
 
-## O que é um modelo de dados? {#data-model-start}
+## O que é um modelo de dados {#data-model-start}
 
 Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles. É usado para federar públicos-alvo com dados de bancos de dados.
 

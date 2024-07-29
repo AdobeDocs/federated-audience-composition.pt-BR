@@ -1,19 +1,17 @@
 ---
-title: Acessar composição de público-alvo federado
-description: Saiba como acessar a Composição de público-alvo federado.
+title: Pré-requisitos e medidas de proteção para a Composição de Público-Alvo Federado
+description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
 
-# Acessar composição de público-alvo federado {#fac-access}
+# Pré-requisitos e medidas de proteção {#fac-access}
 
-## Pacotes e complementos {#package}
-
-A Federated Audience Composition exige pacotes do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate. Para acessar esse recurso, é necessário ter adquirido o complemento Federated Audience Composition.
+A Federated Audience Composition requer os pacotes **Prime** ou **Ultimate** do Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer. Para acessar esse recurso, é necessário ter adquirido o complemento Federated Audience Composition.
 
 >[!AVAILABILITY]
 >

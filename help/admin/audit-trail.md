@@ -3,10 +3,11 @@ audience: end-user
 title: Introdução à Trilha de auditoria
 description: Saiba como monitorar seus bancos de dados com a trilha de auditoria
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ Para acessar a **[!UICONTROL Trilha de auditoria]** da sua instância:
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Trilha de auditoria]**.
 
-1. A janela **[!UICONTROL Trilha de auditoria]** é aberta com a lista de suas entidades. A Interface do usuário da Web do Adobe Campaign audita a criação, edição e exclusão de ações para workflows, opções, deliveries e esquemas.
+1. A janela **[!UICONTROL Trilha de auditoria]** é aberta com a lista de suas entidades. A Composição de público-alvo federado audita as ações de criação, edição e exclusão de workflows, opções, deliveries e esquemas.
 
    ![](assets/audit_trail.png)
 

@@ -4,9 +4,9 @@ title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ O público-alvo criado usando o Adobe Federated Data Composition inclui todos os
 
 Depois de executar a composição, o público resultante é salvo na Adobe Experience Platform como um público externo e disponível no Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer.
 
-Você pode ativar esses públicos-alvo para qualquer destino compatível com o Adobe Experience Platform. [Saiba como trabalhar com destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+Você pode ativar esses públicos-alvo para qualquer destino compatível com o Adobe Experience Platform. Saiba como trabalhar com destinos no [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ A guia **[!UICONTROL Procurar]** lista todos os públicos existentes armazenados
 
 ![](assets/audiences-list.png)
 
-Para obter mais informações sobre como trabalhar com públicos no Adobe Experience Platform, consulte a [documentação do Portal de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+Para obter mais informações sobre como trabalhar com públicos no Adobe Experience Platform, consulte a [documentação do Portal de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->
