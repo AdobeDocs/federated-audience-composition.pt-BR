@@ -4,10 +4,10 @@ title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## O que é um modelo de dados? {#data-model-start}
 
-Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles.
+Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles. É usado para federar públicos-alvo com dados de bancos de dados.
 
 Saiba mais sobre [esquemas](../customer/schemas.md#schema-start).
 
 Saiba mais sobre [públicos-alvo](../start/audiences.md).
+
+Por exemplo, você pode ver abaixo uma representação de um modelo de dados : as tabelas com seu nome e os links entre elas.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+Na Composição de público federado, é possível criar muitos modelos de dados.
+
+A criação será baseada no caso de uso: você escolhe as tabelas necessárias e as vincula de acordo com suas necessidades.
 
 ## Criar um modelo de dados {#data-model-create}
 
