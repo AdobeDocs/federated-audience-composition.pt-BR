@@ -2,9 +2,9 @@
 title: Acessar composição de público-alvo federado
 description: Saiba como acessar a Composição de público-alvo federado.
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ Por exemplo, se uma nova sandbox chamada &quot;fac-test&quot; for ativada, um pe
 
 ## Lista de permissões de IP {#ip}
 
-Seus endereços IP devem ser adicionados à lista de permissões para habilitar o acesso ao data warehouse e usar a Federated Audience Composition. Para adicionar seus endereços IP à lista de permissões, entre em contato com o representante da Adobe.
+Para habilitar com segurança o Federated Audience Composition para acessar seus bancos de dados, entre em contato com o representante da Adobe para obter os endereços IP dos servidores do Federated Audience Composition que irão acessá-los.
+
+Adicione esses endereços IP à sua lista de permissões para conceder acesso à Federated Audience Composition.&quot;
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 
