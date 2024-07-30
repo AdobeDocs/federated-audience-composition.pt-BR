@@ -6,7 +6,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="A atividade **Scheduler** permite agendar quando a composição de públicos-alvo será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade de uma composição."
+>abstract="A atividade **Scheduler** permite programar quando a composição de público-alvo será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade de uma composição."
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da composição.
 
