@@ -4,15 +4,14 @@ title: Introdução a esquemas
 description: Saiba como começar com esquemas
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # Introdução a esquemas {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="Selecione o banco de dados de origem a ser filtrado"
 >abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários Bancos de dados federados para exibir seus esquemas."
 
-
 ## O que é um esquema {#schema-start}
 
 Um schema é uma representação de uma tabela do banco de dados. É um objeto dentro do aplicativo que define como os dados são vinculados às tabelas do banco de dados.
@@ -50,6 +48,10 @@ Ao criar um esquema, você pode definir uma representação da tabela no Experie
 * Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
 * Decidir a visibilidade de cada campo, de acordo com seu uso real
 * Selecione sua chave primária para vincular esquemas entre elas, conforme necessário no [modelo de dados](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>É recomendável usar esquemas de banco de dados federado distintos para cada sandbox.
 
 ## Criar um esquema {#schema-create}
 
