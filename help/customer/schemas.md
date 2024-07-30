@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '451'
+ht-degree: 22%
 
 ---
 
@@ -48,6 +48,11 @@ Ao criar um esquema, você pode definir uma representação da tabela no Experie
 * Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
 * Decidir a visibilidade de cada campo, de acordo com seu uso real
 * Selecione sua chave primária para vincular esquemas entre elas, conforme necessário no [modelo de dados](../data-management/gs-models.md#data-model-start)
+
+>[!CAUTION]
+>
+>Ao conectar várias sandboxes com o mesmo banco de dados, você deve usar esquemas de trabalho distintos.
+>
 
 ## Criar um esquema {#schema-create}
 
