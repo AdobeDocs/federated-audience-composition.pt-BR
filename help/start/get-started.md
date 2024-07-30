@@ -3,9 +3,9 @@ title: Introdução à composição de público-alvo federado do Experience Plat
 description: Saiba o que é a Composição federada de público-alvo da Adobe e como usá-la na Adobe Experience Platform
 badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 57%
 
 ---
@@ -44,7 +44,7 @@ Nesta versão, dois casos de uso estão disponíveis:
 
 A Composição federada de público-alvo da Adobe permite criar e atualizar públicos-alvo da Adobe Experience Platform diretamente do seu banco de dados, sem nenhum processo de ingestão.
 
-![diagrama](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
+<!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
 Etapas principais:
 
