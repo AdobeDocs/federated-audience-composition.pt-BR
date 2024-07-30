@@ -5,7 +5,7 @@ breadcrumb-title: Composição de público federado do Experience Platform
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 36%
+ht-degree: 80%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 36%
 
 + [Documentação de composição do Experience Platform Federated Audience](home.md)
 + [Notas de versão](start/release-notes.md)
-+ Introdução à Composição de Público Federado {#start}
-   + [O que é a composição de público-alvo federado](start/get-started.md)
++ Introdução à Composição federada de público-alvo {#start}
+   + [O que é a Composição federada de público alvo](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Perguntas frequentes](start/faq.md)
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
-   + [Configurar seus bancos de dados federados](connections/federated-db.md)
-   + Modelos e esquemas de dados{#datamodel}
+   + [Configurar bancos de dados federados](connections/federated-db.md)
+   + Modelos de dados e esquemas{#datamodel}
       + [Criar e configurar esquemas](customer/schemas.md)
-      + [Configurar seus modelos de dados](data-management/gs-models.md)
+      + [Configurar modelos de dados](data-management/gs-models.md)
    + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
 + Compor públicos-alvo {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
-   + Crie e execute sua primeira composição {#create-composition}
+   + Criar e executar a sua primeira composição {#create-composition}
       + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
       + [Criar e configurar a composição](compositions/create-composition.md)
       + [Orquestrar atividades](compositions/orchestrate-activities.md)
