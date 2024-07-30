@@ -4,10 +4,10 @@ title: Configurar os bancos de dados federados
 description: Saiba como configurar seus bancos de dados Federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 10%
+source-wordcount: '1621'
+ht-degree: 9%
 
 ---
 
@@ -73,6 +73,8 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
      >[!NOTE]
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
+     >
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
 
 1. Selecione a opção **[!UICONTROL Testar a conexão]** para verificar sua configuração.
 
@@ -197,6 +199,8 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
      >[!NOTE]
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
+     >
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
 
    * **[!UICONTROL Chave privada]**: clique no campo **[!UICONTROL Chave privada]** para selecionar seus arquivos .pem na pasta de localidade.
 
@@ -253,6 +257,8 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
      >[!NOTE]
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
+     >
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
 
    * **[!UICONTROL Opções]**: o conector dá suporte às opções detalhadas na tabela abaixo.
 
