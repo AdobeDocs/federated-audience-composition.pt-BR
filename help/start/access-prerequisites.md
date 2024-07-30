@@ -2,7 +2,7 @@
 title: Pré-requisitos e medidas de proteção para a Composição de Público-Alvo Federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Por exemplo, se uma nova sandbox chamada &quot;fac-test&quot; for ativada, um pe
 
 Para habilitar com segurança o Federated Audience Composition para acessar seus bancos de dados, entre em contato com o representante da Adobe para obter os endereços IP dos servidores do Federated Audience Composition que irão acessá-los.
 
-Adicione esses endereços IP à sua lista de permissões para conceder acesso à Federated Audience Composition.&quot;
+Adicione esses endereços IP à lista de permissões para conceder acesso à Federated Audience Composition.
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 
