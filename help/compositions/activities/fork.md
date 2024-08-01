@@ -2,14 +2,14 @@
 audience: end-user
 title: Usar a atividade Fork
 description: Saiba como usar a atividade Bifurcação
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+badge: label="Disponibilidade Limitada" type="Informative"
+exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 81%
 
 ---
-
 
 # Bifurcação {#fork}
 

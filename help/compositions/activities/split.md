@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade Split
 description: Saiba como usar a atividade de Split
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt

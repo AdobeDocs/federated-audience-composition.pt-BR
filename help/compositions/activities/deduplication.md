@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade de desduplicação
 description: Saiba como usar a atividade de desduplicação
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt

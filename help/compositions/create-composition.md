@@ -2,14 +2,14 @@
 audience: end-user
 title: Criar composições
 description: Saiba como criar composições
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+badge: label="Disponibilidade Limitada" type="Informative"
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
-
 
 # Criar e configurar a composição {#create}
 

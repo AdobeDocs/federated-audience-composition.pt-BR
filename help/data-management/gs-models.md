@@ -2,7 +2,7 @@
 audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt

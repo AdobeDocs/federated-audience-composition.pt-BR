@@ -2,8 +2,9 @@
 audience: end-user
 title: Trabalhar com o modelador de consultas
 description: Saiba como trabalhar com o modelador de consultas
-badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+badge: label="Disponibilidade Limitada" type="Informative"
+exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 14%

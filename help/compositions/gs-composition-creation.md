@@ -2,7 +2,7 @@
 audience: end-user
 title: Criar composições
 description: Saiba como criar composições
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt

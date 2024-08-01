@@ -2,12 +2,12 @@
 audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
-badge: label="Disponibilidade limitada" type="Informative"
+badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
