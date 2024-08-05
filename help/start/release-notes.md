@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Notas de versão {#rn-new}
 
-## Composição federada de público-alvo (disponibilidade limitada) {#fac-la}
+## Composição de público-alvo federado (disponibilidade limitada) {#fac-la}
 
 >[!AVAILABILITY]
 >

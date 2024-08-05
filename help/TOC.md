@@ -14,8 +14,8 @@ ht-degree: 80%
 
 + [Documentação de composição do Experience Platform Federated Audience](home.md)
 + [Notas de versão](start/release-notes.md)
-+ Introdução à Composição federada de público-alvo {#start}
-   + [O que é a Composição federada de público alvo](start/get-started.md)
++ Introdução à Composição de público-alvo federado {#start}
+   + [O que é a Composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Perguntas frequentes](start/faq.md)

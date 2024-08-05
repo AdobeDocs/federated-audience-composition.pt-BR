@@ -15,7 +15,7 @@ ht-degree: 78%
 Veja a seguir uma lista das perguntas frequentes sobre a Adobe Experience Platform Federated Audience Composition. As perguntas frequentes globais também estão disponíveis para o Serviço de Segmentação da Adobe Experience Platform [nesta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
-+++Quais são as permissões necessárias para acessar a Composição federada de público-alvo?
++++Quais são as permissões necessárias para acessar a Composição de público-alvo federado?
 
 A Federated Audience Composition exige pacotes do Adobe Real-time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate. Você também precisa ter adquirido o complemento Federated Audience Composition.
 
@@ -25,7 +25,7 @@ Para usar a Composição de público-alvo federado, cada usuário deve ser adici
 
 +++Quais warehouses na nuvem são compatíveis?
 
-Para esta versão, a Composição federada de público-alvo é compatível com:
+Para esta versão, a Composição de público-alvo federado é compatível com:
 
 * Amazon Redshift
 * Azure Synapse
@@ -42,16 +42,16 @@ Sim, vários warehouses podem ser consultados na mesma composição e podem comb
 
 +++
 
-+++ Posso acessar todo o meu banco de dados usando a Composição federada de público-alvo?
++++ Posso acessar todo o meu banco de dados usando a Composição de público-alvo federado?
 
-Não, é necessário configurar o acesso a um banco de dados/esquema dedicado ou compartilhado. Recomendamos a criação de um esquema dedicado para a Composição federada de público-alvo e a cópia/compartilhamento somente dos conjuntos de dados de Business Case.
+Não, é necessário configurar o acesso a um banco de dados/esquema dedicado ou compartilhado. Recomendamos a criação de um esquema dedicado para a Composição de público-alvo federado e a cópia/compartilhamento somente dos conjuntos de dados de Business Case.
 +++
 
 
 
 +++Tenho acesso a todas as tabelas no esquema dedicado?
 
-Sim, depois de conectado, a Composição federada de público-alvo pode ser usada para descobrir todas as tabelas com base nos direitos iniciais definidos. Em seguida, é possível usar o editor visual de esquema para:
+Sim, depois de conectado, a Composição de público-alvo federado pode ser usada para descobrir todas as tabelas com base nos direitos iniciais definidos. Em seguida, é possível usar o editor visual de esquema para:
 
 * Descobrir colunas e chaves primárias a partir das tabelas
 * Criar rótulos amigáveis para essas tabelas
@@ -61,15 +61,15 @@ Sim, depois de conectado, a Composição federada de público-alvo pode ser usad
 +++
 
 
-+++Há algum armazenamento temporário na Composição federada de público-alvo?
++++Há algum armazenamento temporário na Composição de público-alvo federado?
 
-Não, a Composição federada de público-alvo armazena apenas metadados (descrições de esquema). Nenhum dado do cliente está em trânsito. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
+Não, a Composição de público-alvo federado armazena apenas metadados (descrições de esquema). Nenhum dado do cliente está em trânsito. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
-+++A Composição federada de público-alvo armazena uma cópia física dessa lista de pessoas para enviar a sistemas downstream?
++++A Composição de público-alvo federado armazena uma cópia física dessa lista de pessoas para enviar a sistemas downstream?
 
-A Composição federada de público-alvo não mantém uma cópia física dos dados. A frequência é configurada na composição para definir com que frequência esses dados serão atualizados. Os dados de público-alvo resultantes não são armazenados pela Adobe Experience Platform por mais tempo do que o exigido pelos casos de uso do cliente ou ação.
+A Composição de público-alvo federado não mantém uma cópia física dos dados. A frequência é configurada na composição para definir com que frequência esses dados serão atualizados. Os dados de público-alvo resultantes não são armazenados pela Adobe Experience Platform por mais tempo do que o exigido pelos casos de uso do cliente ou ação.
 
 Por exemplo:
 
@@ -83,7 +83,7 @@ Observe que a expiração dos dados atuais para públicos-alvo gerados extername
 
 +++Se os dados para padrões de casos de uso de Criação de público-alvo e Enriquecimento de público não estiverem sendo mantidos, como eles estão sendo armazenados temporariamente?
 
-Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Experience Platform ou na Composição federada de público-alvo. Eles não serão retidos por mais tempo do que o exigido por seu caso de uso. Os atributos de público-alvo trazidos como parte do conteúdo do público-alvo persistirão apenas como parte da definição do público-alvo. A duração da persistência é baseada no TTL para qualquer público-alvo. O padrão é 30 dias.
+Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Experience Platform ou na Composição de público-alvo federado. Eles não serão retidos por mais tempo do que o exigido por seu caso de uso. Os atributos de público-alvo trazidos como parte do conteúdo do público-alvo persistirão apenas como parte da definição do público-alvo. A duração da persistência é baseada no TTL para qualquer público-alvo. O padrão é 30 dias.
 
 +++
 
@@ -95,7 +95,7 @@ Não, na versão atual, não é possível excluir públicos carregados personali
 
 +++Se eu combinar dados de várias fontes, como estamos unindo os dados? Estamos usando o serviço de identidade?
 
-Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário, etc. Você deve selecionar a identidade usada como o identificador no público-alvo para a seleção no data warehouse. Em um público-alvo resultante da Composição federada de público-alvo, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
+Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário, etc. Você deve selecionar a identidade usada como o identificador no público-alvo para a seleção no data warehouse. Em um público-alvo resultante da Composição de público-alvo federado, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
 
 +++
 

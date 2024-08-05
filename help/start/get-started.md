@@ -1,6 +1,6 @@
 ---
 title: Introdução à composição de público-alvo federado do Experience Platform
-description: Saiba o que é a Composição federada de público-alvo da Adobe e como usá-la na Adobe Experience Platform
+description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
@@ -10,11 +10,11 @@ ht-degree: 57%
 
 ---
 
-# Introdução à Composição federada de público-alvo {#gs-fac}
+# Introdução à Composição de público-alvo federado {#gs-fac}
 
-A Federated Audience Composition é um recurso complementar do [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} que permite compilar e enriquecer públicos de data warehouses de terceiros e importar os públicos para a Adobe Experience Platform. A Composição federada de público-alvo oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
+A Federated Audience Composition é um recurso complementar do [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} que permite compilar e enriquecer públicos de data warehouses de terceiros e importar os públicos para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
 
-A Composição federada de público-alvo da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis são listadas [nesta página](../connections/federated-db.md#supported-db).
+A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis são listadas [nesta página](../connections/federated-db.md#supported-db).
 
 ## Capacidades {#rn-capabilities}
 
@@ -42,7 +42,7 @@ Nesta versão, dois casos de uso estão disponíveis:
 
 ## Principais etapas {#gs-steps}
 
-A Composição federada de público-alvo da Adobe permite criar e atualizar públicos-alvo da Adobe Experience Platform diretamente do seu banco de dados, sem nenhum processo de ingestão.
+A Composição de público-alvo federado da Adobe permite criar e atualizar públicos-alvo da Adobe Experience Platform diretamente do seu banco de dados, sem nenhum processo de ingestão.
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 

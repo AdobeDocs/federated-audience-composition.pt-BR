@@ -34,7 +34,7 @@ Saiba como criar, configurar, testar e salvar a conexão com o banco de dados ex
 
 ## Bancos de dados compatíveis {#supported-db}
 
-Com a Composição federada de público-alvo, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
+Com a Composição de público-alvo federado, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse](#azure-synapse-redshift)
