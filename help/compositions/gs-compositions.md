@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução a composições
 description: Saiba como começar a usar as composições
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## O que é uma composição {#what}
 
-A Composição de público-alvo da Adobe permite criar composições onde você pode aproveitar várias atividades (divisão, exclusão...) em uma tela visual para criar públicos-alvo. Depois de concluído, os públicos-alvo resultantes são salvos na Adobe Experience Platform junto com os públicos-alvo existentes e podem ser aproveitados nos destinos da Adobe Experience Platform e no Adobe Journey Optimizer para direcionar os clientes. [Saiba como trabalhar com públicos-alvo](../start/audiences.md)
+A Composição de público-alvo da Adobe permite criar composições onde você pode aproveitar várias atividades (divisão, exclusão...) em uma tela visual para criar públicos-alvo. Após a conclusão, os públicos-alvo resultantes são salvos na Adobe Experience Platform junto aos existentes e podem ser aproveitados nos destinos da Adobe Experience Platform e no Adobe Journey Optimizer para direcionamento de clientes. [Saiba como trabalhar com públicos-alvo](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

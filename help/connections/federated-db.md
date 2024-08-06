@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Configurar os bancos de dados federados
-description: Saiba como configurar seus bancos de dados Federados
-badge: label="Disponibilidade Limitada" type="Informative"
+title: Configurar bancos de dados federados
+description: Saiba como configurar bancos de dados federados
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Configurar os bancos de dados federados {#federated-db}
+# Configurar bancos de dados federados {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Bancos de dados federados"
->abstract="As conexões existentes com bancos de dados Federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **[!UICONTROL Adicionar banco de dados federados]**."
+>abstract="As conexões existentes com bancos de dados federados estão listadas nesta tela. Para criar uma nova conexão, clique no botão **[!UICONTROL Adicionar banco de dados federados]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -28,23 +28,23 @@ ht-degree: 74%
 >title="Detalhes do Banco de dados federado"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
-A Composição de público-alvo federado do Experience Platform permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform.
+A Composição de público-alvo federado da Experience Platform permite que o cliente crie e enriqueça públicos-alvo vindos de data warehouses de terceiros e os importe para a Adobe Experience Platform.
 
-Saiba como criar, configurar, testar e salvar a conexão com o banco de dados externo em [esta página](connections.md). Você pode encontrar abaixo a lista de bancos de dados compatíveis e as configurações detalhadas a serem definidas para cada um deles.
+Saiba como criar, configurar, testar e salvar a conexão com seu banco de dados externo [nesta página](connections.md). Você pode encontrar abaixo a lista de bancos de dados compatíveis e as configurações detalhadas a serem definidas para cada um deles.
 
 ## Bancos de dados compatíveis {#supported-db}
 
-Com a Composição de público-alvo federado, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
+Com a Composição federada de público-alvo, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse](#azure-synapse-redshift)
-* [Google BigQuery](#google-big-query)
+* [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 
 ## Amazon Redshift {#amazon-redshift}
 
-Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
 
@@ -68,13 +68,13 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
 
    * **[!UICONTROL Banco de dados]**: nome do banco de dados, se não estiver especificado no DSN. Pode ficar em branco, se estiver especificado no DSN
 
-   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. Saiba mais em [documentação do Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. Saiba mais na [Documentação da Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
      >
-     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes ao mesmo banco de dados.
 
 1. Selecione a opção **[!UICONTROL Testar a conexão]** para verificar sua configuração.
 
@@ -84,7 +84,7 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure Synapse Redshift.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure Synapse Redshift.
 
 1. No menu **[!UICONTROL dados federados]**, selecione **[!UICONTROL banco de dados federados]**.
 
@@ -118,12 +118,12 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
 
 | Opção | Descrição |
 |---|---|
-| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemplo de cadeias de conexão n°8) |
+| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemplo de strings de conexão n°8) |
 
 
-## Google BigQuery {#google-big-query}
+## Google Big Query {#google-big-query}
 
-Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google BigQuery.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google BigQuery.
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Banco de dados federado]**.
 
@@ -139,11 +139,11 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
 
 1. Defina as configurações de autenticação do Google BigQuery:
 
-   * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projeto]**: insira o nome do **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projeto]**: insira o nome do **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Caminho do arquivo chave]**: faça o upload do arquivo chave para o servidor. Somente arquivos .json são permitidos.
 
@@ -170,7 +170,7 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
 
 ## Snowflake {#snowflake}
 
-Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
 
@@ -200,7 +200,7 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
      >
-     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes ao mesmo banco de dados.
 
    * **[!UICONTROL Chave privada]**: clique no campo **[!UICONTROL Chave privada]** para selecionar seus arquivos .pem na pasta de localidade.
 
@@ -218,17 +218,17 @@ O conector é compatível com as seguintes opções:
 |---|---|
 | schema de trabalho | schema de banco de dados que deve ser usado para tabelas de trabalho |
 | depósito | Nome do depósito padrão que deve ser usado. Ele substituirá o padrão do usuário. |
-| TimeZoneName | Por padrão, vazio, o que significa que o servidor de aplicativos do fuso horário do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desabilitar os resultados em cache do Snowflake. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desabilitar os resultados em cache do Snowflake. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Número de threads a serem usados para o carregador em massa do Snowflake, mais threads significam melhor desempenho para carregamentos em massa maiores. Por padrão, defina como 1. O número pode ser ajustado, dependendo da contagem de threads do computador. |
-| chunkSize | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho mais otimizado, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho mais otimizado, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome do estágio interno pré-provisionado. Será usado no carregamento em massa em vez de criar um novo estágio temporário. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Use Bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Vertica Analytics.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Vertica Analytics.
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
 
@@ -258,7 +258,7 @@ Use Bancos de dados federados para processar informações armazenadas em um ban
      >
      >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
      >
-     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes com o mesmo banco de dados.
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes ao mesmo banco de dados.
 
    * **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
 
@@ -272,4 +272,4 @@ O conector é compatível com as seguintes opções:
 
 | Opção | Descrição |
 |---|---|
-| TimeZoneName | Por padrão, vazio, o que significa que o fuso horário do sistema do servidor de aplicativos é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. |
+| TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. |
