@@ -5,7 +5,7 @@ description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Saiba como criar, configurar, testar e salvar a conexão com seu banco de dados 
 
 ## Bancos de dados compatíveis {#supported-db}
 
-Com a Composição federada de público-alvo, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
+Com a Composição de público-alvo federado, você pode se conectar aos seguintes bancos de dados. A configuração de cada banco de dados é detalhada abaixo.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse](#azure-synapse-redshift)
