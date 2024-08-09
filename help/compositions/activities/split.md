@@ -29,17 +29,17 @@ A atividade **Divisão** permite segmentar as populações recebidas em vários 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
->title="Dividir filtro de atividade"
+>title="Filtro da atividade de divisão"
 >abstract="Para aplicar uma condição de filtragem ao subconjunto, clique em **[!UICONTROL Criar filtro]** e configure a regra de filtragem desejada usando o modelador de consultas. Por exemplo, inclua perfis da população recebida cujo endereço de email já exista no banco de dados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
->title="Dividir limite de atividade"
+>title="Limite da atividade de divisão"
 >abstract="Para limitar o número de perfis selecionados pelo subconjunto, ative a opção **[!UICONTROL Habilitar limite]**, e especifique o número ou as porcentagens da população a serem incluídas."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
->title="Dividir classificação de atividade"
+>title="Classificação da atividade de divisão"
 >abstract="Ao definir um limite de população para um subconjunto, é possível classificar os perfis selecionados com base em um atributo de perfil específico, em ordem crescente ou decrescente. Para fazer isso, ative a opção **Habilitar classificação**. Por exemplo, é possível restringir um subconjunto para incluir apenas os 50 perfis com o valor de compra mais alto."
 
 >[!CONTEXTUALHELP]
@@ -55,7 +55,7 @@ A atividade **Divisão** permite segmentar as populações recebidas em vários 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_emptytransition"
 >title="Ignorar transição vazia"
->abstract="Ative a opção **[!UICONTROL Ignorar transição vazia]** para desativar a transição de saída para este subconjunto se a população de entrada estiver vazia."
+>abstract="Ative a opção **[!UICONTROL Ignorar transição vazia]** para desabilitar a transição de saída para este subconjunto se a população de entrada estiver vazia."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"

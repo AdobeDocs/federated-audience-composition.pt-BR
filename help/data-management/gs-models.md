@@ -2,7 +2,7 @@
 audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Trabalhar com modelos"
->abstract="Esquemas e modelos de dados são listas nesta tela. Você pode criar esquemas e modelos de dados a partir do botão **Criar**."
+>abstract="Esquemas e modelos de dados estão listados nesta tela. Você pode criar esquemas e modelos de dados com o botão **Criar**."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
