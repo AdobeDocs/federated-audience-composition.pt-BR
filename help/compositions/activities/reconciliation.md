@@ -2,12 +2,12 @@
 audience: end-user
 title: Usar a atividade de reconciliação
 description: Saiba como usar a atividade de Reconciliação
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 43%
+ht-degree: 41%
 
 ---
 
@@ -37,7 +37,7 @@ A atividade **Reconciliation** permite definir o vínculo entre os dados no banc
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Ela permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados que você está unindo já estão no banco de dados. Por exemplo, se você quiser reconciliar as informações de compras mostrando qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já deverão existir no banco de dados.
+Ela permite vincular dados não identificados aos recursos existentes. A operação de reconciliação implica que os dados que você está unindo já estão no banco de dados. Por exemplo, se você deseja reconciliar as informações de compras mostrando qual produto foi comprado, em que momento, por qual cliente, etc., o produto e o cliente já devem existir no banco de dados.
 
 ## Configurar a atividade de reconciliação {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ Ela permite vincular dados não identificados aos recursos existentes. A operaç
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Atributo de reconciliação"
->abstract="Selecione o atributo a ser usado para reconciliar dados e clique em Confirmar."
+>abstract="Selecione o atributo a ser usado para reconciliar dados e confirme."
 
 Siga estas etapas para configurar a atividade **Reconciliação**:
 
