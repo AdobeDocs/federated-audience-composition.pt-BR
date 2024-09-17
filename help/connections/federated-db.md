@@ -4,10 +4,10 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
    * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projeto]**: insira o nome do **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projeto]**: insira a identificação do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
