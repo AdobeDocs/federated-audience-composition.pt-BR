@@ -2,7 +2,7 @@
 audience: end-user
 title: Usar a atividade AND-join
 description: Saiba como usar a atividade AND-join
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
 source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
@@ -26,7 +26,7 @@ Essa atividade só acionará a transição de saída depois que todas as transi�
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
->title="Configure a atividade AND-join"
+>title="Configurar a atividade AND-join"
 >abstract="Selecione de quais atividades deseja juntar. No menu suspenso **[!UICONTROL Conjunto principal]**, escolha a população de transição de entrada que deseja manter."
 
 Siga estas etapas para configurar a atividade **AND-join**:
