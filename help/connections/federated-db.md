@@ -5,9 +5,9 @@ description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure synapse Analytics.
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Azure Synapse Analytics.
 
 1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
 
@@ -94,11 +94,11 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
 
-1. No menu suspenso **[!UICONTROL Type]**, selecione Azure synapse Analytics.
+1. No menu suspenso **[!UICONTROL Tipo]**, selecione Azure Synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Defina as configurações de autenticação do Azure synapse Analytics:
+1. Defina as configurações de autenticação do Azure Synapse Analytics:
 
    * **[!UICONTROL Servidor]**: insira o URL do servidor Azure Synapse.
 
@@ -141,7 +141,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
    * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projeto]**: insira a identificação do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projeto]**: insira a ID do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
