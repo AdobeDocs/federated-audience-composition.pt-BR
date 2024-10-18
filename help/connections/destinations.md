@@ -2,12 +2,12 @@
 audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Criar um destino"
->abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Conectar ao destino]** para validar a configuração."
+>abstract="Insira as configurações para se conectar ao novo banco de dados Federado. Use o botão **[!UICONTROL Conectar ao destino]** para validar a configuração."
 
 O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o **Adobe Federated Audience Composition destination**. Com essa integração, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos.
 

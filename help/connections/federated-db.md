@@ -4,10 +4,10 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propriedades do Banco de dados federado"
->abstract="Insira o nome do novo banco de dados federado e selecione um tipo."
+>title="Propriedades do banco de dados federado"
+>abstract="Insira o nome do novo Federated database e selecione seu tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Detalhes do Banco de dados federado"
->abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
+>title="Detalhes do banco de dados federado"
+>abstract="Insira as configurações para se conectar ao novo banco de dados Federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
 A Composição de público-alvo federado da Experience Platform permite que o cliente crie e enriqueça públicos-alvo vindos de data warehouses de terceiros e os importe para a Adobe Experience Platform.
 

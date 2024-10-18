@@ -2,12 +2,12 @@
 audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
-badge: label="Disponibilidade Limitada" type="Informative"
+badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Selecione o banco de dados de origem a ser filtrado"
->abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários Bancos de dados federados para exibir seus esquemas."
+>abstract="Você pode filtrar os esquemas com base em sua origem. Selecione um ou vários bancos de dados Federados para exibir seus esquemas."
 
 ## O que é um esquema {#schema-start}
 
