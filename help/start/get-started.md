@@ -3,10 +3,10 @@ title: Introdução à Composição de público-alvo federado da Experience Plat
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Selecione a dimensão de direcionamento"
 >abstract="O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Salvar perfil"
+>abstract="Salvar perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Salvar perfil Selecionar esquema da AEP"
+>abstract="Salvar perfil Selecionar esquema da AEP"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Salvar lista de esquemas da AEP do perfil"
+>abstract="Salvar lista de esquemas da AEP do perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Salvar atributo de esquema da AEP do perfil"
+>abstract="Salvar atributo de esquema da AEP do perfil"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Salvar perfil Selecionar campo de identificação principal"
+>abstract="Salvar perfil Selecionar campo de identificação principal"
