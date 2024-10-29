@@ -4,10 +4,10 @@ title: Criar composições
 description: Saiba como criar composições
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
+source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 23%
+source-wordcount: '501'
+ht-degree: 22%
 
 ---
 
@@ -23,9 +23,11 @@ A primeira etapa para criar uma composição é definir seu rótulo e definir co
 
    ![](assets/composition-create.png)
 
-1. Na seção **[!UICONTROL Propriedades]**, especifique um rótulo para a composição e clique em **[!UICONTROL Criar]**.
+1. Na seção **[!UICONTROL Propriedades]**, especifique um rótulo para a composição e selecione um modelo de dados. Somente os esquemas associados a esse modelo de dados estarão disponíveis nas atividades de sua composição.
 
-1. A tela de composição é exibida. Agora você pode configurar sua composição adicionando quantas atividades forem necessárias para atender às suas necessidades antes de executá-la:
+   ![](assets/composition-select-schema.png)
+
+1. Clique em **[!UICONTROL Criar]**. A tela de composição é exibida. Agora você pode configurar sua composição adicionando quantas atividades forem necessárias para atender às suas necessidades antes de executá-la:
 
    * [Saiba como organizar atividades](#action-activities)
    * [Saiba como iniciar e monitorar uma composição](#save)

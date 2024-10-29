@@ -4,10 +4,10 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 98%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Propriedades do banco de dados federado"
->abstract="Insira o nome do novo Federated database e selecione seu tipo."
+>title="Propriedades do Banco de dados federado"
+>abstract="Insira o nome do novo Banco de dados federado e selecione um tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Detalhes do banco de dados federado"
->abstract="Insira as configurações para se conectar ao novo banco de dados Federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
+>title="Detalhes do Banco de dados federado"
+>abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Testar conexão]** para validar a configuração."
 
 A Composição de público-alvo federado da Experience Platform permite que o cliente crie e enriqueça públicos-alvo vindos de data warehouses de terceiros e os importe para a Adobe Experience Platform.
 
@@ -41,6 +41,7 @@ Com a Composição de público-alvo federado, você pode se conectar aos seguint
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 |---|---|
 | Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemplo de strings de conexão n°8) |
 
-
 ## Google Big Query {#google-big-query}
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google BigQuery.
@@ -167,8 +167,12 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 | GCloudDefaultConfigName | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> A configuração ativa do SDK da Google Cloud não pode ser excluída sem antes transferir a tag ativa para uma nova configuração. Essa configuração temporária é necessária para recriar a configuração principal para carregamento de dados. O nome padrão para a configuração temporária é `default`, que pode ser alterado se necessário. |
 | GCloudRecreateConfig | Observe que isso é aplicável a partir da versão 7.3.4 e somente para a ferramenta de carregamento em massa (SDK da nuvem).</br> Quando definido como `false`, o mecanismo de carregamento em massa não tenta recriar, excluir ou modificar as configurações do SDK da Google Cloud. Em vez disso, ele continua com o carregamento de dados usando a configuração existente na máquina. Esse recurso é importante quando outras operações dependem das configurações do SDK da Google Cloud. </br> Se o usuário habilitar esta opção de mecanismo sem uma configuração adequada, o mecanismo de carregamento em massa emitirá uma mensagem de aviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Para evitar mais erros, ele reverterá para o mecanismo de carregamento em massa de Inserção de matriz ODBC padrão. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>O acesso seguro ao data warehouse de Snowflake externo por meio de link privado é suportado. Observe que sua conta Snowflake deve estar hospedada no Amazon Web Services (AWS) e localizada na mesma região do ambiente Federated Audience Composition. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à sua conta Snowflake.
+>
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
 
@@ -225,7 +229,6 @@ O conector é compatível com as seguintes opções:
 | chunkSize | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho mais otimizado, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome do estágio interno pré-provisionado. Será usado no carregamento em massa em vez de criar um novo estágio temporário. |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Vertica Analytics.
@@ -268,8 +271,99 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Quando a configuração estiver concluída, clique em **[!UICONTROL Adicionar]** para criar o banco de dados federado.
 
+O conector é compatível com a seguinte opção:
+
+| Opção | Descrição |
+|---|---|
+| TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. |
+
+## Databricks {#databricks}
+
+Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Databricks.
+
+1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
+
+1. Clique em **[!UICONTROL Adicionar banco de dados federado]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
+
+1. No menu suspenso **[!UICONTROL Type]**, selecione Databricks.
+
+   ![](assets/databricks-config.png)
+
+1. Defina as configurações de autenticação dos Databricks:
+
+   * **[!UICONTROL Servidor]**: adicione o nome do seu servidor de Databricks.
+
+   * **[!UICONTROL Caminho HTTP]**: adicione o caminho ao Cluster ou Warehouse. [Saiba mais](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL Senha]**: adicione o token de acesso da conta. [Saiba mais](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL Catálogo]**: adicione o campo para o Catálogo de blocos de dados.
+
+   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho.
+
+     >[!NOTE]
+     >
+     >Você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha a permissão necessária para se conectar a esse esquema.
+     >
+     >**Esquemas de trabalho distintos** devem ser usados ao conectar várias sandboxes ao mesmo banco de dados.
+
+   * **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
+
+1. Selecione a opção **[!UICONTROL Testar a conexão]** para verificar a configuração.
+
+1. Clique no botão **[!UICONTROL Implantar funções]** para criar as funções.
+
+1. Quando a configuração estiver concluída, clique em **[!UICONTROL Adicionar]** para criar o banco de dados federado.
+
 O conector é compatível com as seguintes opções:
 
 | Opção | Descrição |
 |---|---|
 | TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->
