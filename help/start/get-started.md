@@ -4,9 +4,9 @@ description: Saiba o que é a Composição de público-alvo federado da Adobe e 
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -107,13 +107,13 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
->title="Modo de consulta incremental"
->abstract="O query incremental permite executar o mesmo query várias vezes, excluindo os resultados de execuções anteriores para cada nova execução."
+>title="Modo query incremental"
+>abstract="O query incremental permite realizar a mesma consulta várias vezes, excluindo os resultados das anteriores a cada nova execução."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
->title="Modo de consulta incremental"
->abstract="O query incremental permite executar o mesmo query várias vezes, considerando apenas os resultados, em que o campo de data é posterior ou igual à data da última execução da atividade de query incremental."
+>title="Modo query incremental"
+>abstract="O query incremental permite realizar a mesma consulta várias vezes, considerando apenas os resultados em que o campo de data é posterior ou igual à data da última execução da atividade de query incremental."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -135,13 +135,13 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Salvar lista de esquemas da AEP do perfil"
->abstract="Salvar lista de esquemas da AEP do perfil"
+>title="Salvar perfil Lista de esquemas da AEP"
+>abstract="Salvar perfil Lista de esquemas da AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="Salvar atributo de esquema da AEP do perfil"
->abstract="Salvar atributo de esquema da AEP do perfil"
+>title="Salvar perfil Atributo de Esquema da AEP"
+>abstract="Salvar perfil Atributo de Esquema da AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
