@@ -4,9 +4,9 @@ description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ### Compatibilidade {#fac-24-10-compat}
 
-Com esta nova versão, o Federated Audience Composition agora é compatível com os sistemas listados abaixo.
+Com esta nova versão, a Composição de público-alvo federado agora é compatível com os sistemas listados abaixo.
 
-* **Suporte a Databricks**
+* **Compatibilidade com o Databricks**
 
-  Agora é possível estabelecer conexões com bancos de dados do Databricks por meio da Federated Audience Composition. [Saiba mais](../connections/federated-db.md#databricks)
+  Agora é possível estabelecer conexões com bancos de dados do Databricks por meio da Composição de público-alvo federado. [Saiba mais](../connections/federated-db.md#databricks)
 
 * **Suporte para acesso seguro ao Snowflake pelo AWS PrivateLink**
 
-  O acesso seguro ao data warehouse de Snowflake externo por meio de link privado agora é compatível. Observe que sua conta Snowflake deve estar hospedada no Amazon Web Services (AWS) e localizada na mesma região do ambiente Federated Audience Composition. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à sua conta Snowflake. [Saiba mais](../connections/federated-db.md#snowflake)
+  Agora é possível ter acesso seguro ao seu data warehouse externo do Snowflake por meio de um link privado. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake. [Saiba mais](../connections/federated-db.md#snowflake)
 
-* **Suporte ao Amazon Redshift Server**
+* **Suporte ao Amazon Redshift Serverless**
 
-  Com esta nova versão, a Federated Audience Composition oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Com esta nova versão, a Composição de público-alvo federado oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
 
 ### Melhorias {#fac-24-10-improvements}
 
@@ -38,13 +38,13 @@ Esta versão vem com as melhorias listadas abaixo.
 
 * **Atualizar esquemas existentes**
 
-  Quando uma coluna é criada, modificada ou excluída em um banco de dados federado, agora é possível detectar e aplicar as alterações clicando no botão **[!UICONTROL Atualizar esquema]** no esquema correspondente. [Saiba mais](../customer/schemas.md#schema-refresh)
+  Ao criar, modificar ou excluir uma coluna em um banco de dados federado, agora é possível detectar e aplicar as alterações clicando no botão **[!UICONTROL Atualizar esquema]** no esquema correspondente. [Saiba mais](../customer/schemas.md#schema-refresh)
 
 * **Associar um modelo de dados a uma nova composição**
 
   Ao criar uma composição, agora é possível selecionar o modelo de dados para associar a ela. Com essa nova opção, a configuração das atividades é mais fácil, pois somente as tabelas do modelo de dados associado estão disponíveis. [Saiba mais](../compositions/create-composition.md)
 
-## Versão de 24 de julho - Federated Audience Composition (LA) {#fac-la}
+## Versão de julho de 2024: Composição de público-alvo federado (Disponibilidade limitada) {#fac-la}
 
 >[!AVAILABILITY]
 >

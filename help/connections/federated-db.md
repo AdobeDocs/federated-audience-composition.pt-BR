@@ -5,9 +5,9 @@ description: Saiba como configurar bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 >[!NOTE]
 >
->O acesso seguro ao data warehouse de Snowflake externo por meio de link privado é suportado. Observe que sua conta Snowflake deve estar hospedada no Amazon Web Services (AWS) e localizada na mesma região do ambiente Federated Audience Composition. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à sua conta Snowflake.
+>Há suporte para o acesso seguro ao data warehouse externo do Snowflake por meio de link privado. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
 >
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
@@ -289,21 +289,21 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
 
-1. No menu suspenso **[!UICONTROL Type]**, selecione Databricks.
+1. No menu suspenso **[!UICONTROL Tipo]**, selecione Databricks.
 
    ![](assets/databricks-config.png)
 
-1. Defina as configurações de autenticação dos Databricks:
+1. Defina as configurações de autenticação do Databricks:
 
-   * **[!UICONTROL Servidor]**: adicione o nome do seu servidor de Databricks.
+   * **[!UICONTROL Servidor]**: adicione o nome do servidor do Databricks.
 
-   * **[!UICONTROL Caminho HTTP]**: adicione o caminho ao Cluster ou Warehouse. [Saiba mais](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL Caminho HTTP]**: adicione o caminho para o cluster ou warehouse. [Saiba mais](https://docs.databricks.com/pt/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL Senha]**: adicione o token de acesso da conta. [Saiba mais](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL Senha]**: adicione o token de acesso da conta. [Saiba mais](https://docs.databricks.com/pt/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL Catálogo]**: adicione o campo para o Catálogo de blocos de dados.
+   * **[!UICONTROL Catálogo]**: adicione o campo para o Catálogo do Databricks.
 
-   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho.
+   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. 
 
      >[!NOTE]
      >
