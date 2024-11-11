@@ -4,7 +4,7 @@ title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 5%
@@ -37,10 +37,10 @@ Para configurar uma conexão com seu banco de dados, siga estas etapas:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [Databricks](federated-db.md#databricks)
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Databricks](federated-db.md#databricks)
 
 1. Depois de preencher os detalhes, clique no botão **[!UICONTROL Testar conexão]** e no botão **[!UICONTROL Implantar funções]**.
 
