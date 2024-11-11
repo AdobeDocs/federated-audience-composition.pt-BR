@@ -3,8 +3,8 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -13,6 +13,13 @@ ht-degree: 100%
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+
+>[!AVAILABILITY]
+>
+>No momento, a Composição de público-alvo federado da Experience Platform está disponível apenas para um conjunto de organizações (disponibilidade limitada). 
+>
+
 
 ## Versão de outubro de 2024 {#fac-24-10}
 
@@ -46,10 +53,6 @@ Esta versão vem com as melhorias listadas abaixo.
 
 ## Versão de julho de 2024: Composição de público-alvo federado (Disponibilidade limitada) {#fac-la}
 
->[!AVAILABILITY]
->
->No momento, a Composição de público-alvo federado da Experience Platform está disponível apenas para um conjunto de organizações (disponibilidade limitada). 
->
 
 A Composição de público-alvo federado é um recurso complementar que fornece às empresas acesso flexível e expandido a data warehouses empresariais. Isso possibilita a composição de públicos-alvo usando conjuntos de dados empresariais críticos e a potencialização de experiências iniciadas pela marca e no momento. Com essa nova abordagem, por usar a [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou o [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
 

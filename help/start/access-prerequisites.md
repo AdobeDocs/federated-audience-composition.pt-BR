@@ -2,10 +2,11 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 badge: label="Disponibilidade limitada" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ A Composição de público-alvo federado exige os pacotes **Prime** ou **Ultimat
 >[!AVAILABILITY]
 >
 >Após receber a notificação de boas-vindas da Adobe por email, pode levar mais algumas horas para que a interface seja atualizada e os recursos fiquem disponíveis.
+
+## Sistemas compatíveis {#supported-systems}
+
+A Federated Audience Composition é compatível com os seguintes depósitos na nuvem:
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+Saiba como criar uma conexão com esses sistemas [nesta página](../connections/connections.md).
 
 ## Permissões {#permissions}
 
