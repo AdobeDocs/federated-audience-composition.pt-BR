@@ -2,11 +2,10 @@
 audience: end-user
 title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos-alvo
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '311'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -29,13 +28,13 @@ Você pode ativar esses públicos-alvo para qualquer destino compatível com a A
 
 >[!NOTE]
 >
->Os públicos-alvo criados usando a Composição federada de público-alvo da Adobe não podem ser editados. Para fazer modificações em um desses públicos-alvo, é necessário criar um novo público-alvo usando uma composição.
+>Os públicos-alvo criados usando a Composição de público-alvo federado da Adobe não podem ser editados. Para fazer modificações em um desses públicos-alvo, é necessário criar um novo público-alvo usando uma composição.
 
 ## Acessar seu público-alvo na Adobe Experience Platform {#access-audience}
 
 Os públicos-alvo criados usando a Composição de público-alvo federado ficam acessíveis no Portal de público-alvo, encontrado no menu **Públicos-alvo**.
 
-A guia **[!UICONTROL Procurar]** lista todos os públicos-alvo armazenados na Adobe Experience Platform. Você pode identificar os públicos-alvo da Composição federada de público-alvo na lista usando a coluna **[!UICONTROL Origem]** ou os filtros disponíveis no painel esquerdo.
+A guia **[!UICONTROL Procurar]** lista todos os públicos-alvo armazenados na Adobe Experience Platform. Você pode identificar os públicos-alvo da Composição de público-alvo federado na lista usando a coluna **[!UICONTROL Origem]** ou os filtros disponíveis no painel esquerdo.
 
 ![](assets/audiences-list.png)
 

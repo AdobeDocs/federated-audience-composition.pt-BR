@@ -1,12 +1,11 @@
 ---
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 92%
 
 ---
 
@@ -14,14 +13,12 @@ ht-degree: 100%
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
+## Versão de outubro de 2024 {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->No momento, a Composição de público-alvo federado da Experience Platform está disponível apenas para um conjunto de organizações (disponibilidade limitada). 
+>Anteriormente disponível para um conjunto de organizações (DL), a Composição de público-alvo federado do Adobe Experience Platform agora está disponível para todos os usuários (DG). Este complemento é ativado com base na sua oferta e só é visível com as permissões associadas. [Saiba mais](access-prerequisites.md)
 >
-
-
-## Versão de outubro de 2024 {#fac-24-10}
 
 ### Compatibilidade {#fac-24-10-compat}
 
@@ -52,7 +49,6 @@ Esta versão vem com as melhorias listadas abaixo.
   Ao criar uma composição, agora é possível selecionar o modelo de dados para associar a ela. Com essa nova opção, a configuração das atividades é mais fácil, pois somente as tabelas do modelo de dados associado estão disponíveis. [Saiba mais](../compositions/create-composition.md)
 
 ## Versão de julho de 2024: Composição de público-alvo federado (Disponibilidade limitada) {#fac-la}
-
 
 A Composição de público-alvo federado é um recurso complementar que fornece às empresas acesso flexível e expandido a data warehouses empresariais. Isso possibilita a composição de públicos-alvo usando conjuntos de dados empresariais críticos e a potencialização de experiências iniciadas pela marca e no momento. Com essa nova abordagem, por usar a [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou o [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
 

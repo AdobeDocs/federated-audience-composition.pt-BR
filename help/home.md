@@ -1,12 +1,11 @@
 ---
 title: Página inicial da documentação da Composição de público-alvo federado da Adobe Experience Platform
 description: Documentação do complemento Composição de público-alvo federado
-badge: label="Disponibilidade limitada" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 84%
 
 ---
 
@@ -14,13 +13,13 @@ ht-degree: 100%
 
 Documentação de boas-vindas da Composição de público-alvo federado da Adobe Experience Platform.
 
-A Composição de público-alvo federado da Experience Platform oferece flexibilidade e eficiência no gerenciamento de dados aos usuários da Adobe Real-Time CDP e do Adobe Journey Optimizer. Com a Composição federada de público-alvo, você pode acessar o data warehouse da sua empresa usando uma interface amigável a profissionais de marketing para criar públicos-alvo e aproveitar conjuntos de dados em fluxos de trabalho da Adobe Experience Platform sem os dados corporativos subjacentes serem mantidos. Isso ajuda a reduzir a movimentação de dados ao acessar data warehouses para casos de uso de experiência.
+A Composição de público-alvo federado da Experience Platform oferece flexibilidade e eficiência no gerenciamento de dados aos usuários da Adobe Real-Time CDP e do Adobe Journey Optimizer. Com a Composição de público-alvo federado, você pode acessar o data warehouse da sua empresa usando uma interface amigável a profissionais de marketing para criar públicos-alvo e aproveitar conjuntos de dados em fluxos de trabalho da Adobe Experience Platform sem os dados corporativos subjacentes serem mantidos. Isso ajuda a reduzir a movimentação de dados ao acessar data warehouses para casos de uso de experiência.
 
 >[!BEGINTABS]
 
 >[!TAB Novidades]
 
-A Composição federada de público-alvo permite a criação, refinamento e enriquecimento de públicos-alvo por meio de composições federadas usando dados brutos de data warehouses externos.
+A Composição de público-alvo federado permite a criação, refinamento e enriquecimento de públicos-alvo por meio de composições federadas usando dados brutos de data warehouses externos.
 
 [![imagem](assets/learn-more-button.svg)](start/release-notes.md)
 
@@ -32,7 +31,7 @@ Crie, configure, teste e salve a conexão para seu banco de dados externo.
 
 >[!TAB Compor um público-alvo]
 
-Adicione e configure atividades (Divisão, Enriquecimento, Consulta, etc.) para criar composições e seu público-alvo.
+Adicione e configure atividades (Split, Enrichment, Query etc.) para criar composições e criar seu público-alvo.
 
 [![imagem](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -54,12 +53,12 @@ Adicione e configure atividades (Divisão, Enriquecimento, Consulta, etc.) para 
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Compor um público-alvo</strong><br/>Adicione e configure atividades (Divisão, Enriquecimento, Consulta, etc.) para criar composições e o seu primeiro público-alvo federado.
+    <div><strong>Compor um público-alvo</strong><br/>Adicione e configure atividades (Split, Enrichment, Query, etc.) para criar composições e criar seu primeiro público-alvo federado.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>Perguntas frequentes</strong><br/>Perguntas frequentes sobre a Composição federada de público-alvo.</div>
+    <div><strong>Perguntas frequentes</strong><br/>Perguntas frequentes sobre a Composição de público-alvo federado.</div>
     </td>
   </tr>
   <tr style="border: 0;">

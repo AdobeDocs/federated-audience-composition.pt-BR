@@ -2,11 +2,10 @@
 audience: end-user
 title: Usar a atividade de enriquecimento
 description: Saiba como usar a atividade de enriquecimento
-badge: label="Disponibilidade Limitada" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 48%
 
 ---
