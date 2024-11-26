@@ -3,9 +3,9 @@ title: Página inicial da documentação da Composição de público-alvo federa
 description: Documentação do complemento Composição de público-alvo federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Crie, configure, teste e salve a conexão para seu banco de dados externo.
 
 >[!TAB Compor um público-alvo]
 
-Adicione e configure atividades (Split, Enrichment, Query etc.) para criar composições e criar seu público-alvo.
+Adicione e configure atividades (Divisão, Enriquecimento, Consulta etc.) para construir composições e criar seu público-alvo.
 
 [![imagem](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Adicione e configure atividades (Split, Enrichment, Query etc.) para criar compo
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Compor um público-alvo</strong><br/>Adicione e configure atividades (Split, Enrichment, Query, etc.) para criar composições e criar seu primeiro público-alvo federado.
+    <div><strong>Compor um público-alvo</strong><br/>Adicione e configure atividades (Divisão, Enriquecimento, Consulta, etc.) para construir composições e criar seu primeiro público-alvo federado.
     </div>
     </td>
     <td>

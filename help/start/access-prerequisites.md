@@ -3,9 +3,9 @@ title: Pré-requisitos e medidas de proteção para a Composição de público-a
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ A Composição de público-alvo federado exige os pacotes **Prime** ou **Ultimat
 
 ## Sistemas compatíveis {#supported-systems}
 
-A Federated Audience Composition é compatível com os seguintes depósitos na nuvem:
+A Composição de público-alvo federado é compatível com os seguintes warehouses na nuvem:
 
 * Amazon Redshift
 * Azure Synapse

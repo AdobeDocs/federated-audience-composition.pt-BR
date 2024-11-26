@@ -3,9 +3,9 @@ title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Para usar a Composição de público-alvo federado, cada usuário deve ser adici
 
 +++Quais warehouses na nuvem são compatíveis?
 
-A lista de sistemas compatíveis com a Federated Audience Composition está disponível em [esta página](../start/access-prerequisites.md#supported-systems).
+A lista de sistemas compatíveis com a Composição de público-alvo federado está disponível [nesta página](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++É possível consultar vários data warehouses na mesma composição?
 
-Sim, vários warehouses podem ser consultados na mesma composição e podem combinar dados de várias fontes.  Normalmente, cada [atividade de composição](../compositions/orchestrate-activities.md) (Query, Enrichment, Split, etc.) executa uma ou várias instruções SQL, dependendo da configuração da atividade, dos bancos de dados de destino (pode haver vários casos de acesso a dados federados) e das saídas de uma ou mais tabelas de trabalho com o resultado da execução. Essas tabelas de trabalho são usadas como entrada para atividades consecutivas.
+Sim, vários warehouses podem ser consultados na mesma composição e podem combinar dados de várias fontes.  Geralmente, cada [atividade de composição](../compositions/orchestrate-activities.md) (Consulta, Enriquecimento, Divisão, etc.) executa uma ou várias instruções SQL, dependendo da configuração da atividade, dos bancos de dados de destino (pode haver vários casos de Federated Data Access) e das saídas de uma ou mais tabelas de trabalho com o resultado da execução. Essas tabelas de trabalho são usadas como entrada para atividades consecutivas.
 
 +++
 
@@ -79,7 +79,7 @@ Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Ex
 
 +++É possível excluir um público-alvo personalizado enviado?
 
-Não, na versão atual, não é possível excluir públicos carregados personalizados.-->
+Não, na versão atual, não é possível excluir públicos-alvo personalizados enviados. -->
 
 +++
 
