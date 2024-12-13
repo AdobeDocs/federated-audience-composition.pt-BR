@@ -3,7 +3,7 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -47,9 +47,9 @@ Para configurar uma conexão com seu banco de dados, siga estas etapas:
 
    Clique em um IP na lista para copiá-lo no sistema e autorizar a conexão desse IP ao banco de dados.
 
->[!NOTE]
->
->Para usar a Federated Audience Composition para um determinado banco de dados, você deve lista de permissões todos os endereços IP associados a esse banco de dados.
+   >[!NOTE]
+   >
+   >Para usar a Federated Audience Composition para um determinado banco de dados, você deve lista de permissões todos os endereços IP associados a esse banco de dados.
 
 1. Depois de preencher os detalhes, clique no botão **[!UICONTROL Testar conexão]** e no botão **[!UICONTROL Implantar funções]**.
 
