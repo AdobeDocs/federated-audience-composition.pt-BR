@@ -2,10 +2,10 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
@@ -79,12 +79,26 @@ Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Ex
 
 +++É possível excluir um público-alvo personalizado enviado?
 
-Não, na versão atual, não é possível excluir públicos-alvo personalizados enviados. -->
+Não, na versão atual, não é possível excluir públicos-alvo personalizados enviados. 
 
 +++
 
 +++Se eu combinar dados de várias fontes, como estamos unindo os dados? Estamos usando o serviço de identidade?
 
 Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário, etc. Você deve selecionar a identidade usada como o identificador no público-alvo para a seleção no data warehouse. Em um público-alvo resultante da Composição de público-alvo federado, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
+
++++
+
++++Como as preferências de consentimento do cliente são honradas para públicos gerados externamente que são importados para a Federated Audience Composition?
+
+Como os dados do cliente são capturados em vários canais, as políticas de compilação e mesclagem de identidades permitem que esses dados sejam consolidados em um único Perfil do cliente em tempo real. As informações sobre as preferências de consentimento dos clientes são armazenadas e avaliadas no nível do perfil.
+
+Os destinos downstream do Real-Time CDP e do Journey Optimizer verificam se cada perfil tem preferências de consentimento antes da ativação. As informações de consentimento de cada perfil são comparadas com os requisitos de consentimento de um determinado destino. Se o perfil não atender aos requisitos, ele não será enviado para um destino.
+
+Quando um público externo é assimilado na Composição do público-alvo federado, ele é reconciliado com perfis existentes usando uma ID primária, como email ou ECID. Como resultado, as políticas de consentimento existentes permanecerão em vigor durante a ativação.
+
+>[!NOTE]
+>
+>Como as variáveis de carga não são armazenadas no perfil, mas no data lake, você não deve incluir informações de consentimento em públicos gerados externamente. Em vez disso, use outros canais de assimilação do Adobe Experience Platform, nos quais os dados de perfil são importados.
 
 +++
