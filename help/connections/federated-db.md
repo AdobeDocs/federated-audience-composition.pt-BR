@@ -3,10 +3,10 @@ audience: end-user
 title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 100%
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,10 @@ Com a Composição de público-alvo federado, você pode se conectar aos seguint
 * [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
+
+>[!AVAILABILITY]
+>
+>Somente o Amazon Redshift e o Amazon Redshift Serverless são compatíveis.
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
 
