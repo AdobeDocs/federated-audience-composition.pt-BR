@@ -2,10 +2,10 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,10 @@ ht-degree: 100%
 
 + [Documentação da Composição de público-alvo federado da Experience Platform](home.md)
 + [Notas de versão](start/release-notes.md)
-+ Introdução à Composição federada de público-alvo {#start}
-   + [O que é a Composição federada de público alvo](start/get-started.md)
++ Introdução à Composição de público-alvo federado {#start}
+   + [O que é a Composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
+   + [Acessar composição de público-alvo federado](start/feature-access.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Perguntas frequentes](start/faq.md)
 + Etapas de configuração {#config}
