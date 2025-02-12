@@ -1,7 +1,8 @@
 ---
 title: Acessar composição de público-alvo federado
 description: Saiba mais sobre as permissões necessárias para a Composição de público federado
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ Por exemplo, se uma nova sandbox chamada “fac-test” for ativada, um perfil d
 
 >[!AVAILABILITY]
 >
->As permissões do estão disponíveis como parte da versão de fevereiro.
+>As permissões do estão disponíveis como parte da versão de março.
 
 Para acessar a **Federated Audience Composition**, primeiro verifique se a permissão **Gerenciar Dados Federados** está atribuída às funções apropriadas. Essas funções devem ser atribuídas aos usuários que precisam de acesso à **Federated Audience Composition**.
 
@@ -53,5 +54,3 @@ Para atribuir esta função a novos usuários:
 1. Insira o nome do usuário ou endereço de email, ou selecione na lista disponível. Depois de concluído, clique em **[!UICONTROL Salvar]**.
 
 O usuário receberá um email com instruções para acessar sua instância. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
