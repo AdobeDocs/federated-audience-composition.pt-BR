@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 Um schema é uma representação de uma tabela do banco de dados. É um objeto dentro do aplicativo que define como os dados são vinculados às tabelas do banco de dados.
 
-Ao criar um esquema, você pode definir uma representação da tabela no Experience Platform Federated Audience Composition:
+Ao criar um esquema, você pode definir uma representação da tabela na Composição do público-alvo federado do Experience Platform:
 
 * Dê a ele um nome e uma descrição amigáveis para simplificar a compreensão do usuário
 * Decidir a visibilidade de cada campo, de acordo com seu uso real
@@ -57,19 +57,21 @@ Ao criar um esquema, você pode definir uma representação da tabela no Experie
 
 Para criar esquemas na Composição de público federado, siga as etapas abaixo:
 
-1. Na seção **[!UICONTROL DADOS FEDERADOS]**, acesse o link **[!UICONTROL Modelos]**. Navegue até a guia **[!UICONTROL Esquema]** e clique no botão **[!UICONTROL Criar esquema]**.
+1. Na seção **[!UICONTROL Dados Federados]**, acesse o menu **[!UICONTROL Modelos]**. Navegue até a guia **[!UICONTROL Esquema]** e clique em **[!UICONTROL Criar esquema]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Essa etapa permite acessar uma nova tela com uma lista suspensa onde você pode encontrar os bancos de dados conectados ao seu ambiente. Saiba mais sobre conexão de banco de dados em [esta seção](../connections/connections.md#connections-fdb).
 
-1. Selecione o banco de dados de origem na lista e clique na guia **[!UICONTROL Adicionar tabelas]**.
+1. Selecione o banco de dados de origem na lista e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Você poderá ver a lista de todas as tabelas no banco de dados.
 
-1. Ao adicionar as tabelas para as quais deseja criar o esquema, você tem acesso aos campos como abaixo:
+1. Selecione as tabelas para as quais deseja criar o esquema.
+
+1. Cada tabela selecionada gera um esquema com as colunas escolhidas. Configure o esquema e suas colunas conforme necessário.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Para criar esquemas na Composição de público federado, siga as etapas abaixo:
 
    * alterar o rótulo do schema
    * adicionar uma descrição
-   * renomear todos os campos e definir sua visibilidade
+   * renomear todos os rótulos de campo e definir sua visibilidade
    * selecionar a chave primária do esquema
 
-   Por exemplo, para a seguinte tabela importada:
+   O schema pode ser definido da seguinte maneira:
 
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
+   ![](assets/schema_example.png)
 
-   O schema pode ser definido assim:
-
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. Após concluir sua configuração, clique em **[!UICONTROL Concluído]**.
 
 ## Editar um esquema {#schema-edit}
 
 Para editar um esquema, siga estas etapas:
 
-1. Clique no nome do schema na lista.
+1. Acesse o esquema criado anteriormente.
 
 1. Clique no botão **[!UICONTROL Editar]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Você pode acessar as mesmas opções de quando [cria um esquema](#schema-create).
+1. Na janela **[!UICONTROL Editar esquema]**, você pode acessar e configurar as mesmas opções de quando [criar um esquema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Visualizar dados em um esquema {#schema-preview}
 
@@ -114,7 +113,6 @@ Clique no link **[!UICONTROL Calcular]** para visualizar o número total de grav
 Clique no botão **[!UICONTROL Configurar colunas]** para alterar a exibição de dados.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Atualizar um esquema {#schema-refresh}
 

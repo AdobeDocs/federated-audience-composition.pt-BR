@@ -3,10 +3,10 @@ audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 6%
+source-wordcount: '586'
+ht-degree: 8%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 6%
 >title="Criar um destino"
 >abstract="Defina as configurações para se conectar ao novo banco de dados federado. Use o botão **[!UICONTROL Conectar ao destino]** para validar a configuração."
 
-O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o **Adobe Federated Audience Composition destination**. Com essa integração, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos.
+O Adobe Experience Platform permite a integração perfeita de públicos do Portal de público-alvo com seus bancos de dados externos usando o **destino do Adobe Federated Audience Composition**. Com essa integração, você pode aproveitar os públicos existentes em composições e enriquecê-los ou refiná-los usando dados de seus bancos de dados externos para criar novos públicos.
 
-Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares, selecionar atributos específicos a serem incluídos, como IDs para reconciliação de dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
+Para fazer isso, é necessário configurar uma nova conexão no Adobe Experience Platform para o destino do Adobe Federated Audience Composition. Você pode usar um scheduler para enviar um determinado público-alvo em frequências regulares, selecionar atributos específicos a serem incluídos, como IDs para reconciliação de dados. Se você tiver aplicado políticas de governança e privacidade ao público-alvo, elas serão mantidas e enviadas de volta ao portal de público-alvo depois que o público-alvo for atualizado.
 
 Por exemplo, digamos que você esteja armazenando informações de compra em seu data warehouse e tenha um público do Adobe Experience Platform direcionado a clientes interessados em um produto específico nos últimos dois meses. Ao usar o destino da Composição de público-alvo federado, você pode:
 
 * Refine o público com base nas informações de compra. Por exemplo, você pode filtrar o público-alvo para clientes do público-alvo que fizeram uma compra somente de mais de 150$.
 * Enriqueça o público-alvo com campos relacionados às compras, como o nome do produto e a quantidade comprada.
 
-As principais etapas para enviar públicos-alvo da Adobe Experience Platform para a Composição de público-alvo federado do Adobe são as seguintes:
+As principais etapas para enviar públicos-alvo da Adobe Experience Platform para a Composição de público-alvo federado da Adobe são as seguintes:
 
 1. Acesse o catálogo Destinos do Adobe Experience Platform e selecione o destino da Composição do Audience Federado.
 
@@ -34,11 +34,22 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
 
    ![](assets/destination-new.png)
 
-1. Forneça um nome para a nova conexão, escolha o **[!UICONTROL Tipo de conexão]** a ser usado e o **[!UICONTROL Banco de dados federado]** ao qual você deseja se conectar e clique em **[!UICONTROL Avançar]**.
+1. Insira um nome para a nova conexão e selecione o **[!UICONTROL Tipo de Conexão]** entre as seguintes conexões disponíveis:
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google Big Query
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. Selecione o **[!UICONTROL Banco de dados federado]** ao qual você deseja se conectar e clique em **[!UICONTROL Avançar]**.
 
    ![](assets/destination-configure.png)
 
-   A seção **[!UICONTROL Alertas]** permite habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino. Para obter mais informações sobre alertas, consulte a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. Na seção **[!UICONTROL Alertas]**, você pode habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino.
+
+   Para obter mais informações sobre alertas, consulte a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. Na etapa **[!UICONTROL Política de governança e ações de aplicação]**, você pode definir suas políticas de governança de dados e garantir que os dados usados estejam em conformidade quando os públicos-alvo forem enviados e estiverem ativos.
 

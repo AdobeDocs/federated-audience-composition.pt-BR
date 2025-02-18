@@ -3,16 +3,16 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
 
 # Criar conexões {#connections-fdb}
 
-A Composição de público-alvo federado do Experience Platform permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform. Os datawarehouses com suporte estão listados em [esta seção](../start/access-prerequisites.md#supported-systems).
+A Composição de público-alvo federado da Experience Platform permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform. Os datawarehouses com suporte estão listados em [esta seção](../start/access-prerequisites.md#supported-systems).
 
 Para trabalhar com o banco de dados federado e o Adobe Experience Platform, primeiro é necessário estabelecer uma conexão. Essa conexão é configurada em uma interface de usuário dedicada disponível na interface do usuário do Adobe Experience Platform, conforme detalhado nesta página.
 
@@ -40,6 +40,7 @@ Para configurar uma conexão com seu banco de dados, siga estas etapas:
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Malha do Microsoft](federated-db.md#microsoft-fabric)
 
 1. Para cada banco de dados suportado, selecione o botão **[!UICONTROL IP do Servidor]**. A lista de todos os IPs associados às instâncias de Composição de público federado é exibida.
 

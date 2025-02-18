@@ -2,16 +2,46 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
+source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 82%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de fevereiro de 25 {#fac-25-2}
+
+Esta versão vem com as alterações listadas abaixo.
+
+* **Suporte a Malhas do Microsoft**
+
+  Agora é possível estabelecer conexões com bancos de dados do Microsoft Fabric por meio da Federated Audience Composition. [Saiba mais](../connections/federated-db.md)
+
+* **Suporte ao Amazon Redshift Spectrum**
+
+  O Amazon Redshift Spectrum agora é compatível com as conexões do Amazon Redshift Database. [Saiba mais](../connections/federated-db.md#amazon-redshift)
+
+* **Experiência aprimorada de criação de esquema**
+
+  O processo de criação de esquemas foi aprimorado por meio de uma interface atualizada, projetada para ser mais intuitiva e fácil de navegar. Esses aprimoramentos oferecem aos profissionais de dados uma maneira mais suave e eficiente de desenvolver modelos de dados. [Saiba mais](../customer/schemas.md)
+
+* **Suporte para enriquecimento de público-alvo para databricks**
+
+  Agora você pode usar Databricks no fluxo Ler público, permitindo que a atividade de bancos de dados Databricks seja configurada como um novo destino. [Saiba mais](../connections/destinations.md)
+
+<!--
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+-->
 
 ## Versão de novembro de 2024 {#fac-24-11}
 
