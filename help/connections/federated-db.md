@@ -3,10 +3,10 @@ audience: end-user
 title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ O conector é compatível com as seguintes opções:
 
 ## Malha do Microsoft {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->No momento, o Microsoft Fabric só está disponível para um conjunto de organizações (disponibilidade limitada).
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Microsoft Fabric.
 
