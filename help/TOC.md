@@ -3,9 +3,9 @@ user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + Introdução à Composição de público-alvo federado {#start}
    + [O que é a Composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
-   + [Acessar composição de público-alvo federado](start/feature-access.md)
+   + [Acessar a composição de público-alvo federado](start/feature-access.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Perguntas frequentes](start/faq.md)
 + Etapas de configuração {#config}
@@ -25,7 +25,7 @@ ht-degree: 94%
    + [Configurar bancos de dados federados](connections/federated-db.md)
    + Modelos de dados e esquemas{#datamodel}
       + [Criar e configurar esquemas](customer/schemas.md)
-      + [Configurar seus modelos de dados (beta)](data-management/gs-models-beta.md)
+      + [Configurar modelos de dados (beta)](data-management/gs-models-beta.md)
       + [Configurar modelos de dados](data-management/gs-models.md)
    + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
 + Compor públicos-alvo {#compositions}

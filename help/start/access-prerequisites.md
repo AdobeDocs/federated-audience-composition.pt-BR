@@ -3,9 +3,9 @@ title: Pré-requisitos e medidas de proteção para a Composição de público-a
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Ao comprar o complemento de composição de público-alvo federado, você tem di
 
 ## Permissões {#permissions}
 
-Para acessar a Composição de Público Federado, os usuários devem ser adicionados ao perfil de produto específico da sandbox criado após a compra e atribuído a permissão **[!UICONTROL Gerenciar Dados Federados]**. [Saiba mais](feature-access.md)
+Para acessar a composição de público-alvo federado, os usuários devem ser adicionados ao perfil de produto específico da sandbox criado após a compra e atribuído à permissão **[!UICONTROL Gerenciar dados federados]**. [Saiba mais](feature-access.md)
 
 ## Lista de permissões de IP {#ip}
 

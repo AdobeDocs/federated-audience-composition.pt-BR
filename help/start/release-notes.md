@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,25 +13,25 @@ ht-degree: 82%
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Versão de fevereiro de 25 {#fac-25-2}
+## Versão de fevereiro de 2025 {#fac-25-2}
 
-Esta versão vem com as alterações listadas abaixo.
+Esta versão inclui as alterações listadas abaixo.
 
 * **Suporte ao Microsoft Fabric**
 
-  Agora é possível estabelecer conexões com bancos de dados do Microsoft Fabric por meio da Federated Audience Composition. [Saiba mais](../connections/federated-db.md)
+  Agora é possível estabelecer conexões com bancos de dados do Microsoft Fabric por meio da composição de público-alvo federado. [Saiba mais](../connections/federated-db.md)
 
 * **Suporte ao Amazon Redshift Spectrum**
 
-  O Amazon Redshift Spectrum agora é compatível com as conexões do Amazon Redshift Database. [Saiba mais](../connections/federated-db.md#amazon-redshift)
+  O Amazon Redshift Spectrum agora é compatível com as conexões do banco de dados do Amazon Redshift. [Saiba mais](../connections/federated-db.md#amazon-redshift)
 
-* **Experiência aprimorada de criação de esquema**
+* **Experiência aprimorada de criação de esquemas**
 
   O processo de criação de esquemas foi aprimorado por meio de uma interface atualizada, projetada para ser mais intuitiva e fácil de navegar. Esses aprimoramentos oferecem aos profissionais de dados uma maneira mais suave e eficiente de desenvolver modelos de dados. [Saiba mais](../customer/schemas.md)
 
-* **Suporte para enriquecimento de público-alvo para databricks**
+* **Suporte ao enriquecimento de público-alvo para Databricks**
 
-  Agora você pode usar Databricks no fluxo Ler público, permitindo que a atividade de bancos de dados Databricks seja configurada como um novo destino. [Saiba mais](../connections/destinations.md)
+  Agora você pode usar o Databricks no fluxo Ler público-alvo, habilitando a atividade para bancos de dados do Databricks e permitindo que seja definido como o novo destino. [Saiba mais](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

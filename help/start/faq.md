@@ -3,9 +3,9 @@ title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Ex
 
 +++É possível excluir um público-alvo?
 
-Não, na versão atual, não é possível excluir públicos-alvo de Composição de público-alvo federado.
+Não, na versão atual, não é possível excluir públicos da composição de público-alvo federado.
 
 +++
 

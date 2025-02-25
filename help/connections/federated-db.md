@@ -4,9 +4,9 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Com a Composição de público-alvo federado, você pode se conectar aos seguint
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
-* [Malha do Microsoft](#microsoft-fabric)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Somente o Amazon Redshift AWS, o Amazon Redshift Spectrum e o Amazon Redshift Serverless são suportados.
+>Somente o Amazon Redshift AWS, o Amazon Redshift Spectrum e o Amazon Redshift Serverless são compatíveis.
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
 
@@ -329,7 +329,7 @@ O conector é compatível com as seguintes opções:
 |---|---|
 | TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. |
 
-## Malha do Microsoft {#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Microsoft Fabric.
@@ -342,21 +342,21 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
 
-1. No menu suspenso **[!UICONTROL Type]**, selecione Microsoft Fabric.
+1. No menu suspenso **[!UICONTROL Tipo]**, selecione Microsoft Fabric.
 
    ![](assets/microsoft-config.png)
 
 1. Defina as configurações de autenticação do Microsoft Fabric:
 
-   * **[!UICONTROL Servidor]**: insira a URL do servidor do Microsoft Fabric.
+   * **[!UICONTROL Servidor]**: insira o URL do servidor do Microsoft Fabric.
 
-   * **[!UICONTROL ID do Aplicativo]**: Insira sua ID do Aplicativo do Microsoft Fabric.
+   * **[!UICONTROL ID do Aplicativo]**: insira a ID do aplicativo Microsoft Fabric.
 
-   * **[!UICONTROL Segredo do cliente]**: digite o segredo do cliente.
+   * **[!UICONTROL Segredo do cliente]**: insira o segredo do cliente.
 
    * **[!UICONTROL Opções]**: o conector é compatível com as opções detalhadas na tabela abaixo.
 
-1. Clique em **[!UICONTROL IPs do Servidor]** para selecionar os IPs do Servidor que deseja autorizar.
+1. Clique em **[!UICONTROL IPs do servidor]** para selecionar os IPs do servidor que deseja autorizar.
 
 1. Selecione a opção **[!UICONTROL Testar a conexão]** para verificar sua configuração.
 
