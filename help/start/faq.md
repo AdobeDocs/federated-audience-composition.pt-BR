@@ -2,10 +2,10 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Veja a seguir uma lista das perguntas frequentes sobre a Composição de públic
 
 +++Quais são as permissões necessárias para acessar a Composição de público-alvo federado?
 
-A Composição de público-alvo federado exige pacotes da Adobe Real-Time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate. Também é preciso ter adquirido o complemento Composição de público-alvo federado.
+A Composição de público-alvo federado exige pacotes da Adobe Real-Time Customer Data Platform e do Adobe Journey Optimizer Prime ou Ultimate. Você também precisa ter adquirido a Federated Audience Composition.
 
 Para usar a Composição de público-alvo federado, cada usuário deve ser adicionado a um perfil específico criado para cada sandbox. Para obter mais informações, acesse a página [Acessar Composição de público-alvo federado](access-prerequisites.md).
 

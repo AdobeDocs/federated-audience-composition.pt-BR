@@ -2,10 +2,10 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 >[!AVAILABILITY]
 >
->Anteriormente disponível para algumas organizações (disponibilidade limitada), a Composição de público-alvo federado da Adobe Experience Platform agora está disponível para todos os usuários (disponibilidade geral). Este complemento é ativado com base na sua oferta e só é visível com as permissões associadas. [Saiba mais](access-prerequisites.md)
+>Anteriormente disponível para algumas organizações (disponibilidade limitada), a Composição de público-alvo federado da Adobe Experience Platform agora está disponível para todos os usuários (disponibilidade geral). Esse recurso é ativado com base na sua oferta e só é visível com as permissões associadas. [Saiba mais](access-prerequisites.md)
 >
 
 ### Compatibilidade {#fac-24-10-compat}
@@ -90,7 +90,7 @@ Esta versão vem com as melhorias listadas abaixo.
 
 ## Versão de julho de 2024: Composição de público-alvo federado (Disponibilidade limitada) {#fac-la}
 
-A Composição de público-alvo federado é um recurso complementar que fornece às empresas acesso flexível e expandido a data warehouses empresariais. Isso possibilita a composição de públicos-alvo usando conjuntos de dados empresariais críticos e a potencialização de experiências iniciadas pela marca e no momento. Com essa nova abordagem, por usar a [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou o [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
+A Federated Audience Composition equipe as empresas com acesso flexível e expandido a data warehouses empresariais para compor públicos usando conjuntos de dados empresariais críticos e potencializar experiências iniciadas pela marca e no momento. Com essa nova abordagem, por usar a [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou o [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
 
 A Composição de público-alvo federado atende ao aumento das demandas do mercado para empresas que precisam de flexibilidade para compor públicos-alvo com conjuntos de dados de warehouse. Dessa forma, as empresas podem reduzir a movimentação de dados, além de disponibilizar dados críticos do público-alvo para que as equipes de marketing atendam aos requisitos de casos de uso e potencializem experiências personalizadas. 
 

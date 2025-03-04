@@ -2,10 +2,10 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Saiba como criar uma conexão com esses sistemas [nesta página](../connections/
 
 ## Sandboxes
 
-Ao comprar o complemento de composição de público-alvo federado, você tem direito a duas sandboxes. Para solicitações adicionais de provisionamento de sandbox, entre em contato com o seu representante da Adobe.
+Ao comprar a Federated Audience Composition, você tem direito a duas sandboxes. Para solicitações adicionais de provisionamento de sandbox, entre em contato com o seu representante da Adobe.
 
 ## Permissões {#permissions}
 
@@ -51,4 +51,4 @@ Adicione esses endereços IP à lista de permissões para conceder acesso à Com
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* Direitos, limitações de produto e medidas de proteção de desempenho listados na [documentação da Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} se aplicam a este complemento.
+* Os direitos, as limitações de produto e as medidas de proteção de desempenho listados na [documentação do Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} aplicam-se à Federated Audience Composition.
