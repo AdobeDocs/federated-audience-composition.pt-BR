@@ -3,10 +3,10 @@ audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,7 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. Selecione o **[!UICONTROL Banco de dados federado]** ao qual você deseja se conectar e clique em **[!UICONTROL Avançar]**.
 
