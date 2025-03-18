@@ -3,10 +3,10 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ## Versão de março de 2025 {#fac-25-3}
 
-Esta versão inclui as melhorias listadas abaixo.
+### Melhorias {#fac-25-3-improvements}
+
+Esta versão vem com as melhorias abaixo.
 
 * **Permissões de composição de público-alvo federado**
 
@@ -34,7 +36,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
   A Composição de público-alvo federado agora é compatível com a exportação de públicos-alvo grandes, lidando com arquivos de até 20 GB.
 
-### Compatibilidade {#fac-25.3-compat}
+### Compatibilidade {#fac-25-3-compat}
 
 * **Conexão de Databricks**
 
