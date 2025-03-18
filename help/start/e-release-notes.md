@@ -3,10 +3,10 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 65%
 
 ---
 
@@ -35,6 +35,10 @@ Esta versão vem com as melhorias abaixo.
 * **Exportação de público-alvo**
 
   A Composição de público-alvo federado agora é compatível com a exportação de públicos-alvo grandes, lidando com arquivos de até 20 GB.
+
+* **Assistente de IA**
+
+  O Assistente de IA é um recurso de interface do usuário projetado para ajudar você a navegar e entender os conceitos do Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo a Federated Audience Composition.
 
 ### Compatibilidade {#fac-25-3-compat}
 
