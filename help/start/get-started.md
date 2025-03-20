@@ -2,10 +2,10 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 >abstract="Salvar perfil"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Salvar perfil Selecionar esquema da AEP"
->abstract="Salvar perfil Selecionar esquema da AEP"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Salvar perfil Lista de esquemas da AEP"
 >abstract="Salvar perfil Lista de esquemas da AEP"
@@ -147,6 +142,16 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 >abstract="Salvar perfil Atributo de Esquema da AEP"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Salvar perfil Selecionar campo de identificação principal"
->abstract="Salvar perfil Selecionar campo de identificação principal"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Selecionar campo de identificação principal"
+>abstract="Campo de identificação principal a ser usado para perfis."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="Conjunto de dados do AEP"
+>abstract="Selecione o conjunto de dados do AEP a ser usado para perfis."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Salvar perfil Selecionar esquema da AEP"
+>abstract="Selecione o schema AEP a ser usado para perfis."
