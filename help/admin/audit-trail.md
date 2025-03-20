@@ -3,10 +3,10 @@ audience: end-user
 title: Trilha de auditoria
 description: Saiba como ações e eventos são registrados e acessíveis na trilha de auditoria
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -16,8 +16,6 @@ ht-degree: 11%
 >id="dc_audit_trail"
 >title="Trilha de auditoria"
 >abstract="O recurso Trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram realizados no seu ambiente de composição de público-alvo federado da Adobe Experience Platform em tempo real."
-
-O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram realizados em seu ambiente em tempo real
 
 O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log detalhado de ações e eventos que ocorrem na instância do Adobe Federated Composition em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
 
@@ -40,7 +38,7 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
   Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../compositions/gs-compositions.md).
 
-* **Conta externa** permite verificar as modificações feitas em contas externas na instância da Composição de público-alvo do Adobe.
+* **Conta externa** permite verificar as modificações feitas em contas externas na instância do Adobe Audience Composition.
 
   Para obter mais informações sobre a conta externa, consulte esta [página](../connections/federated-db.md).
 

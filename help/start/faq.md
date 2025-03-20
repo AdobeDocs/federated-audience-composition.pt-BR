@@ -2,10 +2,10 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ Não, na versão atual, não é possível excluir públicos da composição de p
 Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário, etc. Você deve selecionar a identidade usada como o identificador no público-alvo para a seleção no data warehouse. Em um público-alvo resultante da Composição de público-alvo federado, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
 
 +++
+
++++Como criar e gerenciar solicitações de privacidade com a Federated Audience Composition?
+
+Você pode enviar solicitações individuais para acessar e excluir dados do cliente da Composição de público-alvo federado da Adobe de duas maneiras:
+
+* Por meio da **interface do Privacy Service** do Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"}
+* Por meio da **API Privacy Service** do Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+Todas as etapas para criar e gerenciar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 

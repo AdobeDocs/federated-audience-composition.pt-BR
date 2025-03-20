@@ -2,10 +2,10 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Etapas principais:
 >[!NOTE]
 >
 >Depois de executar a composição, o público-alvo resultante é salvo como externo na Adobe Experience Platform e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele é disponibilizado no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## Governança, privacidade e segurança {#governance-privacy-security}
+
+### Solicitações de privacidade {#gov-privacy-requests}
+
+Depois de criar uma composição, os públicos-alvo resultantes são salvos na Adobe Experience Platform.
+
+Você pode fazer solicitações de privacidade para acessar e/ou excluir dados do perfil correspondentes a esses públicos por meio da **Privacy Service** da Adobe Experience Platform, que fornece uma [interface de usuário](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar você a gerenciar solicitações de dados do cliente.
+
+>[!NOTE]
+>
+>Para obter mais informações sobre o Privacy Service, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
+
+Você pode criar e gerenciar solicitações individuais para acessar e excluir dados do cliente da Composição de público-alvo federado da Adobe. As etapas para enviar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
+
+### Trilha de auditoria {#gov-audit-trail}
+
+O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos em seu ambiente em tempo real. [Saiba mais](../admin/audit-trail.md)
 
 ## Saiba mais {#learn}
 
