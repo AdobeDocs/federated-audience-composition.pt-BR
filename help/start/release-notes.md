@@ -2,16 +2,56 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 72%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de março de 2025 {#fac-25-3}
+
+### Melhorias {#fac-25-3-improvements}
+
+Esta versão vem com as melhorias abaixo.
+
+* **Permissões de composição de público-alvo federado**
+
+  A partir da versão de março, o [!DNL Federated Audience Composition] começará a impor o acesso das interfaces do **Federated data management** e **Federated Compositions** ao usuário ao qual foi concedida a permissão **Gerenciar Dados Federados**.
+
+  Recomendamos que os usuários contatem os administradores para que essa permissão seja adicionada à sua função para continuar acessando a interface de usuário do [!DNL Federated Audience Composition].
+
+  Para saber como atribuir esta permissão, consulte a [documentação detalhada](feature-access.md).
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
+-->
+
+
+### Compatibilidade {#fac-25-3-compat}
+
+* **Conexão de Databricks**
+
+  Com esta nova versão, o Federated Audience Composition agora oferece suporte à conectividade de link privado para conexões de banco de dados do Databricks.
+Isso inclui conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados do Databricks hospedados no Microsoft Azure via VPN. [Saiba mais](../connections/federated-db.md#databricks)
+
+* **Suporte para clientes B2B CDP**
+
+  A Federated Audience Composition agora está disponível para clientes B2B (Business-to-Business) da Plataforma de dados do cliente (CDP) para casos de uso de público com base em pessoas.
+
+* **conexão segura do Snowflake**
+
+  Com esta nova versão, o Federated Audience Composition oferece suporte a conexões seguras de links privados para bancos de dados do Snowflake hospedados no Microsoft Azure. [Saiba mais](../connections/federated-db.md#snowflake)
 
 ## Versão de fevereiro de 2025 {#fac-25-2}
 
@@ -32,16 +72,6 @@ Esta versão inclui as alterações listadas abaixo.
 * **Suporte ao enriquecimento de público-alvo para Databricks**
 
   Agora você pode usar o Databricks no fluxo Ler público-alvo, habilitando a atividade para bancos de dados do Databricks e permitindo que seja definido como o novo destino. [Saiba mais](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## Versão de novembro de 2024 {#fac-24-11}
 
@@ -92,9 +122,8 @@ Esta versão vem com as melhorias listadas abaixo.
 
 A Federated Audience Composition equipe as empresas com acesso flexível e expandido a data warehouses empresariais para compor públicos usando conjuntos de dados empresariais críticos e potencializar experiências iniciadas pela marca e no momento. Com essa nova abordagem, por usar a [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou o [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
 
-A Composição de público-alvo federado atende ao aumento das demandas do mercado para empresas que precisam de flexibilidade para compor públicos-alvo com conjuntos de dados de warehouse. Dessa forma, as empresas podem reduzir a movimentação de dados, além de disponibilizar dados críticos do público-alvo para que as equipes de marketing atendam aos requisitos de casos de uso e potencializem experiências personalizadas. 
+A Federated Audience Composition atende às crescentes demandas do mercado para empresas que precisam de flexibilidade para compor públicos com conjuntos de dados de warehouse. Dessa forma, as empresas podem reduzir a movimentação de dados, além de disponibilizar dados críticos do público-alvo para que as equipes de marketing atendam aos requisitos de casos de uso e potencializem experiências personalizadas.
 
 Saiba mais sobre os recursos da Composição de público-alvo federado [nesta página](get-started.md) e nas [Perguntas frequentes](faq.md).
 
 Para obter informações detalhadas dos pré-requisitos para acessar Composições de público-alvo federado e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).
-

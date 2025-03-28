@@ -2,10 +2,10 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 78%
 
 ---
 
@@ -30,6 +30,8 @@ A Composição de público-alvo federado amplia o valor da Real-Time CDP e do Jo
 * Minimizar a movimentação e a duplicação de dados: crie públicos-alvo de conjuntos de dados contidos em um data warehouse corporativo sem copiar dados subjacentes para gerenciar perfis e públicos-alvo de marketing acionáveis.
 
 * Utilize um único sistema para fluxos de trabalho orientados por experiência: prepare públicos-alvo assimilados e federados na Adobe Experience Platform e coordene experiências de saída em todos os canais.
+
+* Os clientes da CDP B2C e B2B agora podem aproveitar a Federated Audience Composition para criar públicos com base em pessoas, integrando dados de data warehouses corporativos compatíveis. Além disso, elas podem enriquecer os públicos-alvo com base em pessoas do AEP incorporando atributos relevantes disponíveis no data warehouse corporativo, aprimorando seus perfis de público-alvo para um envolvimento mais personalizado e direcionado.
 
 ## Casos de uso {#rn-uc}
 

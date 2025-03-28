@@ -2,11 +2,9 @@
 title: Acessar a composição de público-alvo federado
 description: Saiba mais sobre as permissões necessárias para a composição de público-alvo federado
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Ao comprar a Composição do Adobe Experience Platform Federated Audience, um pe
 Por exemplo, se uma nova sandbox chamada “fac-test” for ativada, um perfil de produto correspondente “ACP_FAC - fac-test - admin” será criado. Para acessar a Composição de público-alvo federado com esta sandbox, os usuários precisam ser adicionados a este perfil de produto.
 
 ## Gerenciar o acesso à composição de público-alvo federado
-
->[!AVAILABILITY]
->
->As permissões estão disponíveis como parte da versão de março.
 
 Para acessar a **Composição de público-alvo federado**, primeiro verifique se a permissão **Gerenciar dados federados** está atribuída às funções apropriadas. Essas funções devem ser atribuídas aos usuários que precisam de acesso à **Composição de público-alvo federado**.
 

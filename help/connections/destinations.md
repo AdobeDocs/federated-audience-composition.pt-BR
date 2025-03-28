@@ -3,10 +3,10 @@ audience: end-user
 title: Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos
 description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience Platform com dados de seus bancos de dados federados usando o destino de composição do público-alvo Federado.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
 
    ![](assets/destination-activate.png)
 
-1. Selecione os públicos desejados que você deseja enviar e clique em **[!UICONTROL Avançar]**.
+1. Selecione os públicos-alvo desejados que você deseja enviar.
 
-1. Configure o nome do arquivo e um agendamento de exportação para o(s) público(s) selecionado(s).
+1. Selecione o ícone ![](assets/do-not-localize/Smock_Edit_18_N.svg) para editar sua agenda de exportação.
 
    ![](assets/destination-schedule.png)
+
+1. Defina as opções do arquivo de exportação. Para ativar os públicos-alvo mais rapidamente, selecione a opção **[!UICONTROL Após a avaliação do segmento]** para acionar o trabalho de ativação imediatamente após a conclusão diária do trabalho de segmentação em lote do Platform.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >
