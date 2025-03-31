@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
 # Introdução à Composição de público-alvo federado {#gs-fac}
 
-A Federated Audience Composition está disponível para ambientes do [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}. Ele permite criar e enriquecer públicos-alvo de data warehouses de terceiros e importar os públicos-alvo para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
+A composição de público-alvo federado está disponível para ambientes da [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}. Ela permite que clientes criem e enriqueçam públicos-alvo de warehouses de dados externas e importem esses públicos-alvo para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
 
 A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis são listadas [nesta página](../connections/federated-db.md#supported-db).
 
@@ -71,17 +71,17 @@ Etapas principais:
 
 Depois de criar uma composição, os públicos-alvo resultantes são salvos na Adobe Experience Platform.
 
-Você pode fazer solicitações de privacidade para acessar e/ou excluir dados do perfil correspondentes a esses públicos por meio da **Privacy Service** da Adobe Experience Platform, que fornece uma [interface de usuário](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar você a gerenciar solicitações de dados do cliente.
+É possível fazer solicitações de privacidade para acessar e/ou excluir dados de perfil correspondentes a esses públicos-alvo por meio do **Privacy Service** da Adobe Experience Platform, que fornece uma [interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar a gerenciar solicitações de dados de clientes.
 
 >[!NOTE]
 >
->Para obter mais informações sobre o Privacy Service, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
+>Para mais informações sobre o Privacy Service, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
-Você pode criar e gerenciar solicitações individuais para acessar e excluir dados do cliente da Composição de público-alvo federado da Adobe. As etapas para enviar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
+É possível criar e gerenciar solicitações individuais para acessar e excluir dados de clientes da composição de público-alvo federado da Adobe. As etapas para enviar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação do perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Trilha de auditoria {#gov-audit-trail}
 
-O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que foram feitos em seu ambiente em tempo real. [Saiba mais](../admin/audit-trail.md)
+O recurso de trilha de auditoria fornece um registro detalhado e cronológico de todas as ações e eventos que ocorreram no ambiente em tempo real. [Saiba mais](../admin/audit-trail.md)
 
 ## Saiba mais {#learn}
 
@@ -163,15 +163,15 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Selecionar campo de identificação principal"
->abstract="Campo de identificação principal a ser usado para perfis."
+>title="Selecionar campo de identificação primário"
+>abstract="Campo de identificação primário a ser usado para os perfis."
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
->title="Conjunto de dados do AEP"
->abstract="Selecione o conjunto de dados do AEP a ser usado para perfis."
+>title="Conjunto de dados da AEP"
+>abstract="Selecione o conjunto de dados da AEP a ser usado para os perfis."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="Salvar perfil Selecionar esquema da AEP"
->abstract="Selecione o schema AEP a ser usado para perfis."
+>abstract="Selecione o esquema da AEP a ser usado para os perfis."
