@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

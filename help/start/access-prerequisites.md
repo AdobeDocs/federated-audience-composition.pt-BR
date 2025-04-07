@@ -3,9 +3,9 @@ title: Pré-requisitos e medidas de proteção para a Composição de público-a
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Saiba como criar uma conexão com esses sistemas [nesta página](../connections/
 
 Ao adquirir a composição de público-alvo federado, você tem direito a duas sandboxes. Para solicitações adicionais de provisionamento de sandbox, entre em contato com o seu representante da Adobe.
 
-Para exibir a lista de suas sandboxes ativas do Federated Audience Composition, siga as etapas abaixo:
+Para exibir a lista de sandboxes ativas da composição de público-alvo federado, siga as etapas abaixo:
 
-1. Na Federated Audience Composition, acesse o menu **[!UICONTROL Uso da licença]** em **[!UICONTROL Administração]**.
+1. Na Composição de público-alvo federado, acesse o menu **[!UICONTROL Uso da licença]** em **[!UICONTROL Administração]**.
 
 1. Clique no ícone ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) em **[!UICONTROL Volume total de saída de dados]** para acessar as propriedades da sandbox.
 
    ![](assets/sandbox_1.png)
 
-1. As informações sobre sua sandbox são mostradas no popover Propriedades.
+1. As informações sobre a sandbox são mostradas no popover Propriedades.
 
    ![](assets/sandbox_2.png)
 

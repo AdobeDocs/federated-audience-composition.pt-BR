@@ -4,9 +4,9 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 >[!NOTE]
 >
->Há suporte para o acesso seguro ao data warehouse externo do Snowflake por meio de link privado. Observe que sua conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do seu ambiente Federated Audience Composition. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
+>Há suporte para o acesso seguro ao data warehouse externo do Snowflake por meio de link privado. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
 >
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Snowflake.
@@ -285,7 +285,7 @@ O conector é compatível com a seguinte opção:
 
 >[!NOTE]
 >
->O acesso seguro ao data warehouse externo de Databricks por meio de um link privado é compatível. Isso inclui conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados do Databricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
+>Há suporte para o acesso seguro ao data warehouse externo do Databricks por meio de link privado. Isso inclui conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados do Databricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Databricks.
 
