@@ -3,10 +3,10 @@ audience: end-user
 title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 A Composição de público-alvo federado da Experience Platform permite que o cliente crie e enriqueça públicos-alvo vindos de data warehouses de terceiros e os importe para a Adobe Experience Platform.
 
-Saiba como criar, configurar, testar e salvar a conexão com seu banco de dados externo [nesta página](connections.md). Você pode encontrar abaixo a lista de bancos de dados compatíveis e as configurações detalhadas a serem definidas para cada um deles.
+Saiba como criar, configurar, testar e salvar a conexão com o banco de dados externo nesta [página](connections.md). Você pode encontrar abaixo a lista de bancos de dados compatíveis e as configurações detalhadas a serem definidas para cada um deles.
 
 ## Bancos de dados compatíveis {#supported-db}
 
@@ -73,7 +73,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
    * **[!UICONTROL Banco de dados]**: nome do banco de dados, se não estiver especificado no DSN. Pode ficar em branco, se estiver especificado no DSN
 
-   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. Saiba mais na [Documentação da Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Esquema de trabalho]**: nome do esquema de banco de dados a ser usado para tabelas de trabalho. Saiba mais em [documentação do Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 | Opção | Descrição |
 |---|---|
-| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemplo de strings de conexão n°8) |
+| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemplo de cadeias de conexão n°8) |
 
 ## Google Big Query {#google-big-query}
 
@@ -143,11 +143,11 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Defina as configurações de autenticação do Google BigQuery:
 
-   * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Conta de serviço]**: insira o email da sua **[!UICONTROL Conta de serviço]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projeto]**: insira a ID do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projeto]**: insira a ID do seu **[!UICONTROL Projeto]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação do Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Conjunto de dados]**: Insira o nome do **[!UICONTROL Conjunto de dados]**. Para obter mais informações, consulte a [documentação da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Caminho do arquivo chave]**: faça o upload do arquivo chave para o servidor. Somente arquivos .json são permitidos.
 
@@ -227,10 +227,10 @@ O conector é compatível com as seguintes opções:
 | schema de trabalho | schema de banco de dados que deve ser usado para tabelas de trabalho |
 | depósito | Nome do depósito padrão que deve ser usado. Ele substituirá o padrão do usuário. |
 | TimeZoneName | É vazio por padrão, o que significa que o fuso horário do servidor de aplicativos do sistema é usado. A opção pode ser usada para forçar o parâmetro de sessão FUSO HORÁRIO. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desabilitar os resultados em cache do Snowflake. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| WeekStart | Parâmetro de sessão WEEK_START. Por padrão, defina como 0. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Parâmetro de sessão USE_CACHED_RESULTS. Por padrão, defina como TRUE. Esta opção pode ser usada para desabilitar os resultados em cache do Snowflake. <br>Para obter mais informações, consulte [esta página](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Número de threads a serem usados para o carregador em massa do Snowflake, mais threads significam melhor desempenho para carregamentos em massa maiores. Por padrão, defina como 1. O número pode ser ajustado, dependendo da contagem de threads do computador. |
-| chunkSize | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho mais otimizado, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina o tamanho do arquivo do bloco do carregador em massa. Por padrão, defina como 128 MB. Pode ser modificado para obter um desempenho mais otimizado, quando usado com bulkThreads. Mais threads ativos simultâneos significam melhor desempenho. <br>Para obter mais informações, consulte a [documentação do Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome do estágio interno pré-provisionado. Será usado no carregamento em massa em vez de criar um novo estágio temporário. |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 | Opção | Descrição |
 |---|---|
-| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (exemplo de strings de conexão n°8) |
+| Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Exemplo de cadeias de conexão n°8) |
 

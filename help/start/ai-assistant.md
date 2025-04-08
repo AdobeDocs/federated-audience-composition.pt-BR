@@ -1,10 +1,10 @@
 ---
 title: Trabalhar com o Assistente de IA
 description: Saiba como usar o Assistente de IA
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistent
 
 >[!CAUTION]
 >
->Você deve concordar com as Diretrizes do usuário de IA generativa da Adobe Experience Cloud antes de usar o Assistente de IA. Saiba mais sobre o contrato [nesta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Você deve concordar com as Diretrizes do usuário de IA generativa da Adobe Experience Cloud antes de usar o Assistente de IA. Saiba mais sobre o contrato em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 Na Composição de público-alvo federado, você pode acessar perguntas de conhecimento do produto sobre conceitos da Adobe relacionados a vários aspectos do processo. Exemplos dessas questões incluem:
 
@@ -39,4 +39,4 @@ Para fazer uma pergunta:
 
 1. Use o polegar para cima ou para baixo para classificar a resposta.
 
-Para saber como usar o Assistente de IA, ver exemplos de objetivos que você pode realizar com o Assistente de IA e saber como ele funciona, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Para saber como usar o Assistente de IA, veja exemplos de objetivos que você pode realizar com o Assistente de IA e saiba como o Assistente de IA funciona, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.

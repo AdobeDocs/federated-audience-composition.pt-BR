@@ -2,16 +2,16 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Perguntas frequentes {#faq}
 
-Veja a seguir uma lista das perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform. As perguntas frequentes globais também estão disponíveis para o Serviço de Segmentação da Adobe Experience Platform [nesta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}.
+Veja a seguir uma lista das perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform. As perguntas frequentes globais também estão disponíveis para o Serviço de Segmentação da Adobe Experience Platform em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Quais são as permissões necessárias para acessar a Composição de público-alvo federado?
@@ -24,7 +24,7 @@ Para usar a Composição de público-alvo federado, cada usuário deve ser adici
 
 +++Quais warehouses na nuvem são compatíveis?
 
-A lista de sistemas compatíveis com a Composição de público-alvo federado está disponível [nesta página](../start/access-prerequisites.md#supported-systems).
+A lista de sistemas compatíveis com a Federated Audience Composition está disponível em [esta página](../start/access-prerequisites.md#supported-systems).
 
 +++
 
@@ -64,7 +64,7 @@ A Composição de público-alvo federado não mantém uma cópia física dos dad
 Por exemplo:
 
 * A criação de um público-alvo ocorre em seu warehouse, e você pode contar com a Composição de público-alvo federado para tarefas adicionais de composição e manipulação de dados. Em seguida, o público-alvo resultante e os atributos associados podem ser publicados por meio do Portal de público-alvo da Adobe Experience Platform. A definição do público-alvo e os atributos associados são fornecidos para a Adobe Experience Platform.
-Observe que a expiração dos dados atuais para públicos-alvo gerados externamente é de 30 dias. Essa expiração de dados reduz a quantidade de dados em excesso armazenados em uma organização. Depois que o período de expiração dos dados passar, o conjunto de dados associado ainda estará visível no inventário do conjunto de dados, mas não será possível ativar o público-alvo e a contagem de perfis será exibida como zero. Saiba mais na [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+Observe que a expiração dos dados atuais para públicos-alvo gerados externamente é de 30 dias. Essa expiração de dados reduz a quantidade de dados em excesso armazenados em uma organização. Depois que o período de expiração dos dados passar, o conjunto de dados associado ainda estará visível no inventário do conjunto de dados, mas não será possível ativar o público-alvo e a contagem de perfis será exibida como zero. Saiba mais em [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * No caso de um enriquecimento de público-alvo, o ponto de partida é um público-alvo da Adobe Experience Platform já existente. Você pode ver dois cenários aqui:
    1. Trazer atributos adicionais de conteúdo de público-alvo do data warehouse federado: nesse caso, os atributos adicionais incluídos aparecerão como parte dessa definição de público-alvo. A expiração de dados para públicos-alvo gerados externamente é a mesma descrita acima, 30 dias.
@@ -96,7 +96,7 @@ Não, o Serviço de identidade não está sendo usado durante uma composição. 
 * Por meio da **interface do Privacy Service** da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"}
 * Por meio da **API do Privacy Service** da Adobe Experience Platform. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-Todas as etapas para criar e gerenciar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação do perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
+Todas as etapas para criar e gerenciar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
 
 +++
 

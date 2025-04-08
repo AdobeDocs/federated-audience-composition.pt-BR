@@ -3,7 +3,7 @@ audience: end-user
 title: Trilha de auditoria
 description: Saiba como ações e eventos são registrados e acessíveis na trilha de auditoria
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log detalhado de ações e eventos que ocorrem na instância do Adobe Federated Composition em tempo real. Ele oferece um método conveniente para acessar um registro cronológico de dados, abordando queries como: o status dos workflows, os indivíduos mais recentes para modificá-los ou as atividades executadas pelos usuários na instância.
 
-+++ Saiba mais sobre entidades disponíveis da Trilha de auditoria
++++ Saiba mais sobre entidades disponíveis de Trilha de auditoria
 
 * **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas na instância do Adobe Federated Audience Composition.
 

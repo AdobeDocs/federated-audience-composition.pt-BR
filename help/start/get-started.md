@@ -2,18 +2,18 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Introdução à Composição de público-alvo federado {#gs-fac}
 
-A composição de público-alvo federado está disponível para ambientes da [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}. Ela permite que clientes criem e enriqueçam públicos-alvo de warehouses de dados externas e importem esses públicos-alvo para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
+A Federated Audience Composition está disponível para ambientes do [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}. Ela permite que clientes criem e enriqueçam públicos-alvo de warehouses de dados externas e importem esses públicos-alvo para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
 
-A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis são listadas [nesta página](../connections/federated-db.md#supported-db).
+A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas com suporte estão listadas em [esta página](../connections/federated-db.md#supported-db).
 
 >[!INFO]
 >
@@ -55,11 +55,11 @@ Etapas principais:
 
 1. **Integração de Dados**: reúna dados de várias fontes e mescle-os em um conjunto de dados unificado. Saiba como conectar aplicativos da Adobe Experience Platform a seu data warehouse corporativo, quais bancos de dados são compatíveis e como configurá-los [nesta seção](../connections/federated-db.md).
 
-1. **Modelagem de dados**: projete e crie modelos de dados e esquemas que definam a estrutura, as relações e as restrições dos dados. Saiba mais sobre esquemas [nesta página](../customer/schemas.md). Aprenda a criar links para o modelo de dados [nesta página](../data-management/gs-models.md).
+1. **Modelagem de dados**: projete e crie modelos de dados e esquemas que definam a estrutura, as relações e as restrições dos dados. Saiba mais sobre esquemas em [esta página](../customer/schemas.md). Saiba como criar links para seu modelo de dados em [esta página](../data-management/gs-models.md).
 
 1. **Transformação de dados**: aplique técnicas de manipulação de dados para modificar o formato, a estrutura ou os valores de elementos de dados para torná-los compatíveis ou adequados para análise ou aplicativos específicos.
 
-1. **Uso de dados**: crie, orquestre e construa públicos-alvo. Saiba como compor públicos-alvo [nesta página](../compositions/gs-compositions.md). Também é possível atualizar ou reutilizar públicos-alvo por meio do Portal de público-alvo da Adobe Experience Platform e destinos. Saiba mais [nesta página](../connections/destinations.md)
+1. **Uso de dados**: crie, orquestre e construa públicos-alvo. Saiba como compor públicos-alvo em [esta página](../compositions/gs-compositions.md). Também é possível atualizar ou reutilizar públicos-alvo por meio do Portal de público-alvo da Adobe Experience Platform e destinos. Saiba mais sobre [esta página](../connections/destinations.md)
 
 >[!NOTE]
 >
@@ -71,13 +71,13 @@ Etapas principais:
 
 Depois de criar uma composição, os públicos-alvo resultantes são salvos na Adobe Experience Platform.
 
-É possível fazer solicitações de privacidade para acessar e/ou excluir dados de perfil correspondentes a esses públicos-alvo por meio do **Privacy Service** da Adobe Experience Platform, que fornece uma [interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar a gerenciar solicitações de dados de clientes.
+Você pode fazer solicitações de privacidade para acessar e/ou excluir dados do perfil correspondentes a esses públicos-alvo por meio da **Privacy Service** da Adobe Experience Platform, que fornece uma [interface de usuário](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar você a gerenciar solicitações de dados do cliente.
 
 >[!NOTE]
 >
->Para mais informações sobre o Privacy Service, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
+>Para obter mais informações sobre o Privacy Service, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR){target="_blank"}.
 
-É possível criar e gerenciar solicitações individuais para acessar e excluir dados de clientes da composição de público-alvo federado da Adobe. As etapas para enviar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação do perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
+É possível criar e gerenciar solicitações individuais para acessar e excluir dados de clientes da composição de público-alvo federado da Adobe. As etapas para enviar **solicitações de acesso** e **solicitações de exclusão** estão detalhadas na [documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Trilha de auditoria {#gov-audit-trail}
 
@@ -88,9 +88,9 @@ O recurso de trilha de auditoria fornece um registro detalhado e cronológico de
 <!-- Workflow + Workflow activities-->
 
 
-Saiba como acessar a Composição de público-alvo federado, as medidas de proteção e as limitações [nesta página](access-prerequisites.md).
+Saiba como acessar a Federated Audience Composition, as medidas de proteção e as limitações nesta [página](access-prerequisites.md).
 
-Veja também as perguntas frequentes [nesta página](faq.md).
+Consulte também as perguntas frequentes sobre [esta página](faq.md).
 
 
 >[!CONTEXTUALHELP]

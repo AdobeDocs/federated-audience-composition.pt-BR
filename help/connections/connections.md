@@ -3,10 +3,10 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Para configurar uma conexão com seu banco de dados, siga estas etapas:
 
    ![](assets/connections_name.png){zoomable="yes"}
 
-   Selecionar o tipo dá acesso a outras propriedades para preencher. Saiba mais aqui sobre os bancos de dados compatíveis em [esta página](federated-db.md).
+   Selecionar o tipo dá acesso a outras propriedades para preencher. Saiba mais aqui sobre os bancos de dados com suporte em [esta página](federated-db.md).
 
    ![](assets/connections_details.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ Para configurar uma conexão com seu banco de dados, siga estas etapas:
    * [Google Big Query](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Malha do Microsoft](federated-db.md#microsoft-fabric)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. Para cada banco de dados suportado, selecione o botão **[!UICONTROL IP do Servidor]**. A lista de todos os IPs associados às instâncias de Composição de público federado é exibida.
 
