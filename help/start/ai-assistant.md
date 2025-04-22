@@ -1,16 +1,16 @@
 ---
-title: Trabalhar com o Assistente de IA
+title: Trabalhar com o assistente de IA
 description: Saiba como usar o Assistente de IA
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: 83d6074da966553caec36908729729445246ea2f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 85%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
-# Trabalhar com o Assistente de IA {#ai-assistant}
+# Trabalhar com o assistente de IA {#ai-assistant}
 
-O Assistente de IA é um recurso da interface do usuário que você pode usar para navegar e entender conceitos da Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, inclusive na Composição de público-alvo federado.
+O Assistente de IA é um recurso da interface do usuário projetado para ajudar você a navegar e entender os conceitos do Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, inclusive na Composição de público-alvo federado.
 
 Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistente de IA é exibido na seção direita da tela.
 
@@ -19,7 +19,7 @@ Para acessar o Assistente de IA, clique no ícone na barra superior. O Assistent
 
 >[!CAUTION]
 >
->Você deve concordar com as Diretrizes do usuário de IA generativa da Adobe Experience Cloud antes de usar o Assistente de IA. Saiba mais sobre o contrato em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Você deve concordar com as Diretrizes de usuário da IA gerativa da Adobe Experience Cloud antes de usar o Assistente de IA. Saiba mais sobre o contrato em [esta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 Na Composição de público-alvo federado, você pode acessar perguntas de conhecimento do produto sobre conceitos da Adobe relacionados a vários aspectos do processo. Exemplos dessas questões incluem:
 
@@ -39,4 +39,4 @@ Para fazer uma pergunta:
 
 1. Use o polegar para cima ou para baixo para classificar a resposta.
 
-Para saber como usar o Assistente de IA, veja exemplos de objetivos que você pode realizar com o Assistente de IA e saiba como o Assistente de IA funciona, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Para saber como usar o Assistente de IA, consulte exemplos de objetivos que você pode realizar com o Assistente de IA e saiba como o Assistente de IA funciona, consulte a [documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
