@@ -2,10 +2,10 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Documentação da Composição de público-alvo federado da Experience Platform](home.md)
 + [Notas de versão](start/release-notes.md)
 + [Notas de versão](start/e-release-notes.md)
-+ Introdução à Composição de público-alvo federado {#start}
++ Introdução à composição de público-alvo federado {#start}
    + [O que é a Composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
    + [Acessar a composição de público-alvo federado](start/feature-access.md)
@@ -24,14 +24,15 @@ ht-degree: 100%
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
    + [Configurar bancos de dados federados](connections/federated-db.md)
-   + Modelos de dados e esquemas{#datamodel}
+   + [Matriz de direitos FDA](connections/fda-rights.md)
+   + Modelos e esquemas de dados{#datamodel}
       + [Criar e configurar esquemas](customer/schemas.md)
       + [Configurar modelos de dados (beta)](data-management/gs-models-beta.md)
       + [Configurar modelos de dados](data-management/gs-models.md)
    + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
-+ Compor públicos-alvo {#compositions}
++ Compor públicos {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
-   + Criar e executar a sua primeira composição {#create-composition}
+   + Criar e executar sua primeira composição {#create-composition}
       + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
       + [Criar e configurar a composição](compositions/create-composition.md)
       + [Orquestrar atividades](compositions/orchestrate-activities.md)
