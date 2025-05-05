@@ -72,6 +72,6 @@ Ao adicionar atividades, os botões de ação ficam disponíveis no painel de pr
 
   A seção **[!UICONTROL Initialization script]** permite inicializar variáveis ou modificar propriedades de atividades. Clique no botão **[!UICONTROL Editar código]** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada.
 
-+++
+  +++
 
 * Acesse os **Logs e tarefas** da atividade.
