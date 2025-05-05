@@ -89,7 +89,7 @@ Esta versão inclui as melhorias listadas abaixo.
 * **Salvar atividade de público-alvo**
 
   Uma observação foi adicionada à atividade **Salvar público-alvo**, lembrando aos usuários a colaboração com um administrador de dados para aplicar rótulos de governança a novos esquemas e conjuntos de dados criados durante a criação e o enriquecimento do público-alvo.
-  [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilidade {#fac-25-4-compat}
 

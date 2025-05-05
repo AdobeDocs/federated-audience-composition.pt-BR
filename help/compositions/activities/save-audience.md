@@ -38,11 +38,11 @@ A atividade **Salvar público-alvo** permite criar um novo público-alvo a parti
 
 Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma composição, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
 
-A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e conjunto de dados. Depois que o público-alvo for criado, fale com o administrador para atribuir os rótulos de governança de dados apropriados. [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e conjunto de dados. Depois que o público-alvo for criado, fale com o administrador para atribuir os rótulos de governança de dados apropriados. [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->A atividade **Salvar público-alvo** requer um esquema e um conjunto de dados habilitados para perfil. [Saiba mais](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>A atividade **Salvar público-alvo** requer um esquema e um conjunto de dados habilitados para perfil. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configurar a atividade Save audience {#save-audience-configuration}
 
