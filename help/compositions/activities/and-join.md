@@ -15,7 +15,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Atividade AND-join"
->abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma composição. Ela é acionada quando todas as atividades anteriores são concluídas. Isso permite que você se certifique de que determinadas atividades foram concluídas antes de continuar a execução da composição."
+>abstract="A atividade **And-join** permite sincronizar várias ramificações de execução de uma composição. Ela é acionada quando todas as atividades anteriores forem concluídas. Isso permite que você se certifique de que determinadas atividades foram concluídas antes de continuar a execução da composição."
 
 A atividade **AND-join** permite sincronizar várias ramificações de execução de uma composição.
 

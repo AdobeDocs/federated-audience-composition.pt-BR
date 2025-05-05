@@ -14,12 +14,12 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
->title="Atividade Enriquecimento"
+>title="Atividade enriquecimento"
 >abstract="A atividade **Enriquecimento** permite aprimorar os dados direcionados com informações adicionais do banco de dados. Normalmente, ela é usada em uma composição após atividades de segmentação."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
->title="Atividade Enriquecimento"
+>title="Atividade enriquecimento"
 >abstract="Após a sua adição na composição, os dados de enriquecimento podem ser usados nas atividades adicionadas posteriormente à atividade **Enriquecimento** para segmentar perfis em grupos distintos com base em seus comportamentos, preferências e escolhas."
 
 >[!CONTEXTUALHELP]

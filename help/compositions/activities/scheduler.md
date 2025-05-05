@@ -15,9 +15,9 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Atividade Scheduler"
->abstract="A atividade **Scheduler** permite programar quando a composição de público-alvo será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade de uma composição."
+>abstract="A atividade **Scheduler** permite programar quando a composição de público-alvo será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade de uma composição."
 
-A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início programado. Ela só pode ser usada como a primeira atividade da composição.
+A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da composição.
 
 Se você tiver configurado uma conexão com o destino Federated Audience Composition, poderá usar essa atividade para enviar públicos-alvo da Adobe Experience Platform em frequências regulares. [Saiba como enriquecer públicos do Adobe Experience Platform com dados externos](../../connections/destinations.md)
 

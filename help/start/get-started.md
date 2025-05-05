@@ -3,7 +3,7 @@ title: Introdução à Composição de público-alvo federado da Experience Plat
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
