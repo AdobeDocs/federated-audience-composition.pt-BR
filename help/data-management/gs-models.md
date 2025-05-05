@@ -2,53 +2,32 @@
 audience: end-user
 title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
+badge: label="Beta" type="Informative"
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 15%
+source-wordcount: '661'
+ht-degree: 2%
 
 ---
 
-# Introdução a modelos de dados {#data-model}
+# Introdução a modelos de dados {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="Trabalhar com modelos"
->abstract="Esquemas e modelos de dados estão listados nesta tela. Você pode criar esquemas e modelos de dados com o botão **Criar**."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="Selecionar esquemas"
->abstract="Selecione os esquemas para o modelo de dados."
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="Selecionar um público-alvo"
->abstract="Selecione o público-alvo para o modelo de dados."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="Propriedades do modelo de dados"
->abstract="Insira o rótulo do modelo de dados."
-
+>[!AVAILABILITY]
+>
+>O modelo de dados com visualização de Tela está disponível no momento como uma versão beta somente para usuários selecionados.
 
 ## O que é um modelo de dados {#data-model-start}
 
 Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles. É usado para federar públicos-alvo com dados de bancos de dados.
 
-Saiba mais sobre [esquemas](../customer/schemas.md#schema-start).
+Na Composição de público-alvo federado, você pode criar e gerenciar modelos de dados diretamente na exibição da Tela. Isso inclui adicionar esquemas e públicos-alvo, bem como definir os links entre eles com base no caso de uso.
 
-Saiba mais sobre [públicos-alvo](../start/audiences.md).
+Saiba mais sobre [esquemas](../customer/schemas.md#schema-start) e [públicos](../start/audiences.md).
 
-Por exemplo, você pode ver abaixo uma representação de um modelo de dados : as tabelas com seu nome e os links entre elas.
+Por exemplo, você pode ver abaixo uma representação de um modelo de dados: as tabelas com seu nome e os links entre elas.
 
 ![](assets/datamodel.png){zoomable="yes"}
-
-Na Composição de público federado, é possível criar muitos modelos de dados.
-
-A criação será baseada no caso de uso: você escolhe as tabelas necessárias e as vincula de acordo com suas necessidades.
 
 ## Criar um modelo de dados {#data-model-create}
 
@@ -74,7 +53,11 @@ Para criar um modelo de dados, siga estas etapas:
 
 ## Criar links {#data-model-links}
 
-Para criar links entre tabelas do seu modelo de dados, siga estas etapas:
+>[!BEGINTABS]
+
+>[!TAB Modo de exibição de tabela]
+
+Para criar links entre tabelas do seu modelo de dados na guia Visualização de tabela, siga estas etapas:
 
 1. Clique no menu **[!UICONTROL Criar link]** de uma das tabelas ou clique no botão **[!UICONTROL Criar links]** e escolha as duas tabelas:
 
@@ -95,6 +78,45 @@ Para criar links entre tabelas do seu modelo de dados, siga estas etapas:
 Todos os links definidos para seu modelo de dados estão listados abaixo:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB Modo de exibição de tela]
+
+Para criar links entre tabelas do seu modelo de dados na guia Exibição da tela de desenho, siga estas etapas:
+
+1. Acesse a visualização Tela do seu modelo de dados e escolha as duas tabelas que deseja vincular
+
+1. Clique no botão ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) ao lado do Source Join e arraste e guie a seta em direção ao Target Join para estabelecer a conexão.
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. Preencha o formulário fornecido para definir o link e clique em **[!UICONTROL Aplicar]** depois de configurado.
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **Cardinalidade**
+
+   * **1-N**: uma ocorrência da tabela de origem pode ter várias ocorrências correspondentes da tabela de destino, mas uma ocorrência da tabela de destino pode ter no máximo uma ocorrência correspondente da tabela de origem.
+
+   * **N-1**: uma ocorrência da tabela de destino pode ter várias ocorrências correspondentes da tabela de origem, mas uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
+
+   * **1-1**: uma ocorrência da tabela de origem pode ter no máximo uma ocorrência correspondente da tabela de destino.
+
+1. Todos os links definidos no modelo de dados são representados como setas na exibição da tela. Clique em uma seta entre duas tabelas para exibir detalhes, fazer edições ou remover o link, conforme necessário.
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. Use a barra de ferramentas para personalizar e ajustar a tela.
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL Ampliar]**: aumente a tela para ver mais detalhes do seu modelo de dados com mais clareza.
+   * **[!UICONTROL Reduzir]**: reduza o tamanho da tela para obter uma exibição mais ampla do seu modelo de dados.
+   * **[!UICONTROL Ajustar exibição]**: ajuste o zoom para ajustar todos os esquemas e/ou públicos dentro da área visível.
+   * **[!UICONTROL Alternar interatividade]**: habilitar ou desabilitar a interação do usuário com a tela.
+   * **[!UICONTROL Filtro]**: escolha o esquema a ser exibido na tela.
+   * **[!UICONTROL Forçar layout automático]**: organize automaticamente esquemas e/ou públicos para uma melhor organização.
+
+>[!ENDTABS]
 
 ## Como fazer vídeo {#data-model-video}
 

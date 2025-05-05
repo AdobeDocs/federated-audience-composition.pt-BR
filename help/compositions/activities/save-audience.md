@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 31%
+source-wordcount: '508'
+ht-degree: 28%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 31%
 A atividade **Salvar público-alvo** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
 
 Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma composição, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
+
+A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e conjunto de dados. Depois que o público-alvo for criado, fale com o administrador para atribuir os rótulos de governança de dados apropriados. [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

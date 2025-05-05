@@ -4,16 +4,16 @@ description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 77%
+source-wordcount: '980'
+ht-degree: 87%
 
 ---
 
 # Notas de versão {#rn-new}
 
-O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
 ## Versão de abril de 2025 {#fac-25-4}
 
@@ -27,7 +27,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 * **Assistente de IA**
 
-  O Assistente de IA é um recurso da interface do usuário projetado para ajudar você a navegar e entender os conceitos do Adobe e obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo a Federated Audience Composition. [Saiba mais](../start/audiences.md)
+  O Assistente de IA é um recurso da interface projetado para ajudar você a navegar e entender conceitos da Adobe, além de obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo a Federated Audience Composition. [Saiba mais](../start/audiences.md)
 
 * **Nome do Modelo de Dados**
 
@@ -73,7 +73,7 @@ Esta versão inclui as melhorias listadas abaixo.
 * **Conexão do Databricks**
 
   Com esta nova versão, a composição de público-alvo federado agora é compatível com a conectividade por link privado para conexões de bancos de dados do Databricks.
-Ela também possibilita conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS). [Saiba mais](../connections/federated-db.md#databricks)
+Isso inclui conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados do Databricks hospedados no Microsoft Azure via VPN. [Saiba mais](../connections/federated-db.md#databricks)
 
 * **Suporte para clientes B2B da CDP**
 
@@ -134,7 +134,7 @@ Com esta nova versão, a Composição de público-alvo federado agora é compat�
 
 * **Suporte ao Amazon Redshift Serverless**
 
-  Com esta nova versão, a Federated Audience Composition oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
+  Com esta nova versão, a Composição de público-alvo federado oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
 
 ### Melhorias {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ Esta versão vem com as melhorias listadas abaixo.
 
 ## Versão de julho de 2024: Composição de público-alvo federado (Disponibilidade limitada) {#fac-la}
 
-A composição de público-alvo federado fornece às empresas acesso flexível e expandido a warehouses de dados empresariais, para compor públicos-alvo por meio de conjuntos de dados empresariais cruciais e potencializar experiências iniciadas pela marca e experiências em tempo real. Com essa nova abordagem, como usuário do [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}, você pode federar dados de público-alvo diretamente do data warehouse existente para enriquecer públicos-alvo da Adobe Experience Platform em um sistema.
+A composição de público-alvo federado fornece às empresas acesso flexível e expandido a warehouses de dados empresariais, para compor públicos-alvo por meio de conjuntos de dados empresariais cruciais e potencializar experiências iniciadas pela marca e experiências em tempo real. Com essa nova abordagem, como usuário da [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e/ou do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} é possível federar dados de públicos-alvo diretamente do seu data warehouse existente para enriquecer os públicos-alvo da Adobe Experience Platform em um sistema.
 
 A composição de público-alvo federado supre o aumento das demandas do mercado de empresas que precisam de flexibilidade para compor públicos-alvo com conjuntos de dados de uma warehouse. Dessa forma, as empresas podem reduzir a movimentação de dados, além de disponibilizar dados cruciais do público-alvo, para que as equipes de marketing satisfaçam os requisitos de casos de uso e potencializem experiências personalizadas.
 
-Saiba mais sobre os recursos de Composição de Público Federado [nesta página](get-started.md) e nas [Perguntas Frequentes](faq.md).
+Saiba mais sobre os recursos da composição de público-alvo federado [nesta página](get-started.md) e nas [Perguntas frequentes](faq.md).
 
 Para obter informações detalhadas dos pré-requisitos para acessar Composições de público-alvo federado e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).

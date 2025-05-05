@@ -2,10 +2,10 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 86%
+source-wordcount: '338'
+ht-degree: 79%
 
 ---
 
@@ -66,6 +66,6 @@ Adicione esses endereços IP à lista de permissões para conceder acesso à Com
 
 * Os direitos, as limitações de produto e as medidas de proteção de desempenho listados na [documentação do Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails){target="_blank"} aplicam-se à Federated Audience Composition.
 
-<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
--->
+* A Federated Audience Composition é compatível com a exportação de públicos-alvo grandes, com tamanhos de arquivo superiores a 1 GB. Para um desempenho ideal, o tamanho máximo recomendado de arquivo é de até 20 GB.
+
 

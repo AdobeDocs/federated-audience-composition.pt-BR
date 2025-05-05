@@ -3,7 +3,7 @@ audience: end-user
 title: Trilha de auditoria
 description: Saiba como ações e eventos são registrados e acessíveis na trilha de auditoria
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%
@@ -57,7 +57,7 @@ Para acessar a **[!UICONTROL Trilha de auditoria]** da sua instância:
 1. A janela **[!UICONTROL Entidade de auditoria]** fornece informações mais detalhadas sobre a entidade escolhida, como:
 
    * **[!UICONTROL Tipo]**: Fluxo de Trabalho, Opções, Entregas ou Esquemas.
-   * **[!UICONTROL Entidade]** : nome interno de suas atividades.
+   * **[!UICONTROL Entidade]**: nome interno de suas atividades.
    * **[!UICONTROL Modificado por]**: nome de usuário da última pessoa que modificou esta entidade pela última vez.
    * **[!UICONTROL Ação]**: última ação executada nesta entidade, Criada, Modificada ou Excluída.
    * **[!UICONTROL Data de modificação]**: data da última ação executada nesta entidade.

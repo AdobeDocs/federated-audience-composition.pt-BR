@@ -2,10 +2,10 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ Nesta versão, dois casos de uso estão disponíveis:
 1. Criação de público-alvo: crie novos públicos-alvo a partir de conjuntos de dados corporativos sem copiar dados subjacentes e ative-os com destinos pré-criados.
 
 1. Enriquecimento de público-alvo: enriqueça os públicos-alvo existentes na Adobe Experience Platform utilizando dados de públicos-alvo compostos que foram federados a partir do data warehouse corporativo. Esses dados não serão mantidos nos perfis de clientes da Adobe Experience Platform.
+
+1. Enriquecimento de perfil: enriqueça os perfis do Adobe Experience Platform federando dados de depósitos externos, permitindo que você aprimore os perfis do cliente com atributos e insights adicionais.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Veja também as perguntas frequentes [nesta página](faq.md).
 >title="Selecione a dimensão de direcionamento"
 >abstract="O targeting dimension permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Salvar perfil"
->abstract="Salvar perfil"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Salvar perfil Lista de esquemas da AEP"
->abstract="Salvar perfil Lista de esquemas da AEP"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Salvar perfil Atributo de Esquema da AEP"
->abstract="Salvar perfil Atributo de Esquema da AEP"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Selecionar campo de identificação primário"
->abstract="Campo de identificação primário a ser usado para os perfis."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="Conjunto de dados da AEP"
->abstract="Selecione o conjunto de dados da AEP a ser usado para os perfis."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Salvar perfil Selecionar esquema da AEP"
->abstract="Selecione o esquema da AEP a ser usado para os perfis."

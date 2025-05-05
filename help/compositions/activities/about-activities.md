@@ -3,7 +3,7 @@ audience: end-user
 title: Trabalhar com atividades
 description: Saiba como trabalhar com atividades
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 16%
@@ -31,7 +31,7 @@ Na Composição de público-alvo federado, você pode criar composições usando
 ## Atividades de controle de fluxo
 
 * [AND-join](and-join.md): sincroniza várias ramificações de execução de uma composição.
-* **Fim** : marca graficamente o fim de uma composição. Essa atividade não tem impacto funcional e, portanto, é opcional.
+* **Fim**: marca graficamente o fim de uma composição. Essa atividade não tem impacto funcional e, portanto, é opcional.
 * [Bifurcação](fork.md): crie transições de saída para iniciar várias atividades ao mesmo tempo.
 * [Agendador](scheduler.md): agenda quando a composição é iniciada.
 * [Aguardar](wait.md): pausar momentaneamente a execução de uma parte de uma composição.

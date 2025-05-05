@@ -2,16 +2,104 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 78%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de abril de 2025 {#fac-25-4}
+
+### Novos recursos {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Visualização da tela do modelo de dados - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A visualização Tela de desenho da seção Modelos de dados melhora a experiência ao permitir a visualização de modelos de dados e seus links em um layout de tela, junto com a visualização em tabela existente. </p>
+<p>O modelo de dados com visualização de Tela está disponível no momento como uma versão beta somente para usuários selecionados.</p>
+<p>Para obter mais informações, consulte a <a href="../data-management/gs-models.md">documentação detalhada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte do assistente de IA para conhecimento do produto</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Assistente de IA é um recurso da interface projetado para ajudar você a navegar e entender conceitos da Adobe, além de obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, inclusive na Composição de público-alvo federado.</p>
+<p>Para obter mais informações, consulte a <a href="../start/ai-assistant.md">documentação detalhada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atividade Salvar perfis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> A Federated Audience Composition agora é compatível com o caso de uso de enriquecimento de perfil, permitindo que os clientes aprimorem perfis existentes do Experience Platform com dados de seus data warehouses externos.
+</p>
+<p>Para obter mais informações, consulte a <a href="../compositions/activities/save-profiles.md">documentação detalhada</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#fac-25-4-improvements}
+
+Esta versão inclui as melhorias listadas abaixo.
+
+* **Nome do Modelo de Dados**
+
+  No menu Públicos-alvo, a guia **Composições federadas** agora exibe o nome do Modelo de Dados em vez da ID, melhorando a clareza e a usabilidade geral.
+
+* **Público-alvo**
+
+  O menu Público-alvo agora exibe o nome ou o rótulo do modelo de dados selecionado quando um usuário seleciona um modelo de dados sem públicos-alvo associados.
+
+* **Exportação de públicos-alvo grandes**
+
+  A Composição de público-alvo federado agora é compatível com a exportação de públicos-alvo grandes, com tamanhos de arquivo superiores a 1 GB.
+
+* **Salvar atividade de público-alvo**
+
+  Uma observação foi adicionada à atividade **Salvar público-alvo**, lembrando aos usuários a colaboração com um administrador de dados para aplicar rótulos de governança a novos esquemas e conjuntos de dados criados durante a criação e o enriquecimento do público-alvo.
+  [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Compatibilidade {#fac-25-4-compat}
+
+* **Conexão segura do Amazon Redshift**
+
+  Com esta nova versão, o Federated Audience Composition oferece suporte a conexões seguras de links privados para bancos de dados do Amazon Redshift. [Saiba mais](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  Com esta nova versão, o Federated Audience Composition oferece suporte a conexões VPN seguras para bancos de dados do Google Big Query. [Saiba mais](../connections/federated-db.md#google-big-query)
 
 ## Versão de março de 2025 {#fac-25-3}
 

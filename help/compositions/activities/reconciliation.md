@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade de reconciliação
 description: Saiba como usar a atividade de Reconciliação
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 42%
+source-wordcount: '521'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ Siga estas etapas para configurar a atividade **Reconciliação**:
 1. Selecione os campos a serem usados para a reconciliação. É possível usar um ou mais critérios de reconciliação.
 
    1. Para usar atributos para reconciliar dados, selecione a opção **Simple attributes** e clique no botão **Add rule**.
-   1. Selecione os campos **Source** e **Destination** para a reconciliação. O campo **Source**. O campo **Destination** corresponde aos campos do esquema selecionado.
+   1. Selecione os campos **Source** e **Destination** para a reconciliação. O campo **Destination** corresponde aos campos do esquema selecionado.
 
       Os dados são reconciliados quando a origem e o destino são iguais. Por exemplo, selecione os campos **Email** para desduplicar perfis com base em seus endereços de email.
 
