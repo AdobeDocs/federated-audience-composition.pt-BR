@@ -4,9 +4,9 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Com a Composição de público-alvo federado, você pode se conectar aos seguint
 >
 >* Somente o Amazon Redshift AWS, o Amazon Redshift Spectrum e o Amazon Redshift Serverless são compatíveis.
 >
->* O acesso seguro aos seus bancos de dados externos Amazon Redshift por meio de um link privado é suportado.
+>* O link privado fornece acesso seguro aos seus bancos de dados externos do Amazon Redshift.
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Amazon Redshift.
 

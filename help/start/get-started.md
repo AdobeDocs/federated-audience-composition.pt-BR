@@ -3,9 +3,9 @@ title: Introdução à Composição de público-alvo federado da Experience Plat
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Nesta versão, dois casos de uso estão disponíveis:
 
 1. Enriquecimento de público-alvo: enriqueça os públicos-alvo existentes na Adobe Experience Platform utilizando dados de públicos-alvo compostos que foram federados a partir do data warehouse corporativo. Esses dados não serão mantidos nos perfis de clientes da Adobe Experience Platform.
 
-1. Enriquecimento de perfil: enriqueça os perfis do Adobe Experience Platform federando dados de depósitos externos, permitindo que você aprimore os perfis do cliente com atributos e insights adicionais.
+1. Enriquecimento de perfil: enriqueça os perfis da Adobe Experience Platform reunindo dados de depósitos externos, o que permite aprimorar perfis de clientes com atributos e insights adicionais.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

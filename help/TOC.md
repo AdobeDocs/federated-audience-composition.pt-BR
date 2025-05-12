@@ -3,9 +3,9 @@ user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 83%
 + [Notas de versão](start/release-notes.md)
 + [Notas de versão](start/e-release-notes.md)
 + Introdução à composição de público-alvo federado {#start}
-   + [O que é a Composição de público-alvo federado](start/get-started.md)
+   + [O que é a composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
    + [Acessar a composição de público-alvo federado](start/feature-access.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
@@ -25,14 +25,14 @@ ht-degree: 83%
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
    + [Configurar bancos de dados federados](connections/federated-db.md)
-   + [Matriz de direitos FDA](connections/fda-rights.md)
-   + Modelos e esquemas de dados{#datamodel}
+   + [Matriz de direitos do FDA](connections/fda-rights.md)
+   + Modelos de dados e esquemas{#datamodel}
       + [Criar e configurar esquemas](customer/schemas.md)
       + [Configurar modelos de dados](data-management/gs-models.md)
    + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
-+ Compor públicos {#compositions}
++ Compor públicos-alvo {#compositions}
    + [Introdução a composições](compositions/gs-compositions.md)
-   + Criar e executar sua primeira composição {#create-composition}
+   + Criar e executar a sua primeira composição {#create-composition}
       + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
       + [Criar e configurar a composição](compositions/create-composition.md)
       + [Orquestrar atividades](compositions/orchestrate-activities.md)

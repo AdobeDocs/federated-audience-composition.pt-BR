@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,27 +21,27 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 Esta versão inclui as melhorias listadas abaixo.
 
-* **Exibição da Tela do modelo de dados**
+* **Visualização da tela do modelo de dados**
 
-  A visualização Tela de desenho da seção Modelos de dados melhora a experiência ao permitir a visualização de modelos de dados e seus links em um layout de tela, junto com a visualização em tabela existente. [Saiba mais](../data-management/gs-models.md)
+  A visualização de tela da seção Modelos de dados melhora a experiência por permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a exibição em tabelas existente. [Saiba mais](../data-management/gs-models.md)
 
 * **Assistente de IA**
 
-  O Assistente de IA é um recurso da interface projetado para ajudar você a navegar e entender conceitos da Adobe, além de obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos na Adobe Experience Cloud, incluindo a Federated Audience Composition. [Saiba mais](../start/audiences.md)
+  O Assistente de IA é um recurso da interface projetado para ajudar você a navegar e entender conceitos da Adobe, além de obter insights operacionais para seu ambiente específico. Ele está disponível em vários produtos da Adobe Experience Cloud, inclusive na composição de público-alvo federado. [Saiba mais](../start/audiences.md)
 
-* **Nome do Modelo de Dados**
+* **Nome do modelo de dados**
 
-  No menu Públicos-alvo, a guia **Composições federadas** agora exibe o nome do Modelo de Dados em vez da ID, melhorando a clareza e a usabilidade geral.
+  No menu Públicos-alvo, a guia **Composições federadas** agora exibe o nome do modelo de dados em vez da ID, melhorando a clareza e a usabilidade geral.
 
 * **Público-alvo**
 
-  O menu Público-alvo agora exibe o nome ou o rótulo do modelo de dados selecionado quando um usuário seleciona um modelo de dados sem públicos-alvo associados.
+  O menu Público-alvo agora exibe o nome ou rótulo do modelo de dados selecionado ao selecionar um modelo sem públicos-alvo associados.
 
 ### Compatibilidade {#fac-25-4-compat}
 
 * **Conexão segura do Snowflake**
 
-  Com esta nova versão, o Federated Audience Composition oferece suporte a conexões de link privado seguras para bancos de dados Amazon Redshift hospedados no Microsoft Azure. [Saiba mais](../connections/federated-db.md#amazon-redshift)
+  Com esta nova versão, a composição de público-alvo federado oferece suporte a conexões de link privado seguro com bancos de dados do Amazon Redshift hospedados no Microsoft Azure. [Saiba mais](../connections/federated-db.md#amazon-redshift)
 
 ## Versão de março de 2025 {#fac-25-3}
 
