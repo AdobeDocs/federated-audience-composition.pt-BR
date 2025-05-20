@@ -14,7 +14,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
->title="Atividade Scheduler"
+>title="Atividade scheduler"
 >abstract="A atividade **Scheduler** permite programar quando a composição de público-alvo será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade de uma composição."
 
 A atividade **Scheduler** é uma atividade de **Controle de fluxo**. Ele permite programar quando a composição será iniciada. Esta atividade deve ser considerada como um início agendado. Ela só pode ser usada como a primeira atividade da composição.

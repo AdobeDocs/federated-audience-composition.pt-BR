@@ -2,10 +2,11 @@
 audience: end-user
 title: Usar a atividade Salvar perfis
 description: Saiba como usar a atividade Salvar perfis
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Salvar perfis"
->abstract="A atividade Salvar perfis permite enriquecer perfis do Experience Platform federando dados de depósitos externos, permitindo aprimorar os perfis do cliente com atributos adicionais. "
+>abstract="A atividade Salvar perfis permite enriquecer perfis da Experience Platform federando dados de fontes externas, o que possibilita aprimorar os perfis do cliente com atributos adicionais. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Selecionar esquema do AEP"
->abstract="Escolha o schema Experience Platform para os perfis."
+>title="Selecionar esquema da AEP"
+>abstract="Escolha o esquema da Experience Platform para os perfis."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Selecione o campo Primary identify"
->abstract="Selecione a Primary identity a ser usada para identificar os perfis direcionados no banco de dados."
+>title="Selecione o campo de identificação principal"
+>abstract="Selecione a Identidade principal a ser usada para identificar os perfis direcionados no banco de dados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Selecionar esquema do AEP"
->abstract="Escolha o schema Experience Platform para os perfis."
+>title="Selecionar esquema da AEP"
+>abstract="Escolha o esquema da Experience Platform para os perfis."
 
 A atividade **Salvar perfis** permite enriquecer perfis do Adobe Experience Platform com dados federados de depósitos externos.
 

@@ -14,7 +14,7 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
->title="Atividade Aguardar"
+>title="Atividade aguardar"
 >abstract="A atividade **Aguardar** é usada para atrasar a transição de uma atividade para outra."
 
 A atividade **Wait** permite que um determinado período transcorra entre duas atividades que estão sendo executadas.
