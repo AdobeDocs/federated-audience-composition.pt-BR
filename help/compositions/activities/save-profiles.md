@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Salvar perfis"
->abstract="A atividade Salvar perfis permite enriquecer perfis da Experience Platform federando dados de fontes externas, o que possibilita aprimorar os perfis do cliente com atributos adicionais. "
+>abstract="A atividade Salvar perfis permite enriquecer perfis da Experience Platform federando dados de depósitos externos, permitindo aprimorar os perfis do cliente com atributos adicionais. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
