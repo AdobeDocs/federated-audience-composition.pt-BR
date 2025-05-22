@@ -2,10 +2,10 @@
 title: Acessar a composição de público-alvo federado
 description: Saiba mais sobre as permissões necessárias para a composição de público-alvo federado
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 40%
 
 ---
 
@@ -19,7 +19,7 @@ Por exemplo, se uma nova sandbox chamada “fac-test” for ativada, um perfil d
 
 ## Gerenciar o acesso à composição de público-alvo federado
 
-Para acessar a **Composição de público-alvo federado**, primeiro verifique se a permissão **Gerenciar dados federados** está atribuída às funções apropriadas. Essas funções devem ser atribuídas aos usuários que precisam de acesso à **Composição de público-alvo federado**.
+Para acessar a **Composição de Público-Alvo Federado**, primeiro certifique-se de atribuir as permissões necessárias para acessar diferentes aspectos da Composição de Público-Alvo Federado. Essas funções devem ser atribuídas aos usuários que precisam de acesso à **Federated Audience Composition**.
 
 Observe que somente administradores têm a capacidade de atribuir permissões.
 
@@ -29,24 +29,46 @@ Observe que somente administradores têm a capacidade de atribuir permissões.
 
    ![](assets/access_fda_1.png)
 
-1. Clique em **[!UICONTROL Editar]** para modificar as permissões da função.
+1. Selecione **[!UICONTROL Editar]** para modificar as permissões de sua função.
 
    ![](assets/access_fda_2.png)
 
-1. Adicione o recurso dos **Dados federados** e selecione **[!UICONTROL Gerenciar dados federados]** no menu suspenso.
+1. Adicione as permissões necessárias para o usuário. Você pode adicionar as seguintes permissões para acessar a Composição de público-alvo federado:
 
-   ![](assets/access_fda_3.png)
+   | Permissão | Descrição |
+   | ---------- | ----------- |
+   | Gerenciar Dados Federados | Use essa permissão para gerenciar todos os aspectos da Composição de público-alvo federado. Essa permissão engloba Gerenciar Banco de Dados Federado, Gerenciar Esquema Federado, Gerenciar Modelo de Dados Federado e Gerenciar Composições Federadas. |
+   | Gerenciar Banco de Dados Federado | Use esta permissão para adicionar, exibir, atualizar e excluir suas conexões com bancos de dados federados. |
+   | Exibir Banco de Dados Federado | Use esta permissão para exibir suas conexões com bancos de dados federados. |
+   | Gerenciar Esquema Federado | Use esta permissão para criar, exibir, atualizar, excluir e atualizar esquemas. |
+   | Exibir Dados do Esquema Federado | Use essa permissão para exibir a guia de dados na seção schema. |
+   | Exibir Esquema Federado | Use essa permissão para exibir as tabelas do esquema. |
+   | Gerenciar Modelo de Dados Federados | Use esta permissão para criar, exibir, atualizar e excluir modelos de dados. |
+   | Exibir Modelo de Dados Federados | Use essa permissão para exibir os modelos de dados. |
+   | Exibir trilha de auditoria da federação | Use essa permissão para exibir a trilha de auditoria da Composição de público-alvo federado. |
+   | Gerenciar composições federadas | Use esta permissão para criar, exibir, atualizar e excluir composições federadas. |
+   | Exibir Composições Federadas | Use essa permissão para exibir composições federadas. |
 
-1. Depois de fazer as alterações necessárias, clique em **[!UICONTROL Salvar]**.
+   ![](assets/permissions.png)
+
+1. Depois de fazer as alterações necessárias, selecione **[!UICONTROL Salvar]**.
 
 Todos os usuários já atribuídos a essa função terão suas permissões automaticamente atualizadas e acesso à composição de público-alvo federado.
 
 Para atribuir esta função a novos usuários:
 
-1. Navegue até a guia **[!UICONTROL Usuários]** no painel Função e clique em **[!UICONTROL Adicionar usuários]**.
+1. Navegue até a guia **[!UICONTROL Usuários]** no painel Função e selecione **[!UICONTROL Adicionar usuários]**.
 
    ![](assets/access_fda_4.png)
 
-1. Insira o nome ou endereço de email do usuário, ou selecione-o na lista disponível. Depois de concluído, clique em **[!UICONTROL Salvar]**.
+1. Insira o nome ou endereço de email do usuário, ou selecione-o na lista disponível. Depois de concluído, selecione **[!UICONTROL Salvar]**.
+
+Como alternativa, você pode atribuir uma das funções pré-existentes aos usuários, dependendo das permissões de que eles precisam. Para obter mais informações sobre como atribuir funções pré-existentes a um usuário, leia o [guia sobre como gerenciar usuários para um perfil de produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+
+| Nome da função | Permissões |
+| --------- | ----------- |
+| Gerentes de dados FAC | <ul><li>Gerenciar composições federadas</li><li>Exibir Bancos de Dados Federados</li><li>Exibir Esquemas Federados</li><li>Exibir Dados do Esquema Federado</li><li>Exibir Modelos de Dados Federados</li></ul> |
+| Gerentes de composição FAC | <ul><li>Gerenciar composições federadas</li></ul> |
+| Administradores FAC | <ul><li>Gerenciar Dados Federados</li></ul> |
 
 O usuário receberá um email com instruções para acessar a sua instância. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).

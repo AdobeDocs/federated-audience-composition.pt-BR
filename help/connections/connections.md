@@ -3,14 +3,23 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
 
 # Criar conexões {#connections-fdb}
+
+>[!AVAILABILITY]
+>
+>Para acessar conexões, você precisará de uma das seguintes permissões:
+>
+>-**Gerenciar Banco de Dados Federado**
+>-**Exibir Banco de Dados Federado**
+>
+>Para obter mais informações sobre as permissões necessárias, leia o [Guia de composição do Federated Audience](/help/start/feature-access.md).
 
 A Composição de público-alvo federado da Experience Platform permite que o Cliente crie e enriqueça públicos-alvo de data warehouses de terceiros e importe os públicos-alvo para a Adobe Experience Platform. Os datawarehouses com suporte estão listados em [esta seção](../start/access-prerequisites.md#supported-systems).
 

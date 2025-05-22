@@ -2,16 +2,48 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 93%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de maio de 2025 {#fac-25-5}
+
+### Novos recursos {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Visualização da tela do modelo de dados - Disponibilidade geral</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O modelo de dados com visualização de Tela agora está disponível para todos os clientes!</p>
+<p>A visualização de tela da seção Modelos de dados melhora a experiência por permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a exibição em tabelas existente. </p>
+<p>Para obter mais informações sobre a exibição da tela, leia a <a href="../data-management/gs-models.md">visão geral dos modelos de dados</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias {#fac-25-5-improvements}
+
+Esta versão vem com as seguintes melhorias.
+
+* **Controle de Acesso Baseado em Função**
+
+  A partir da versão de maio, o [!DNL Federated Audience Composition] oferece suporte a novas permissões granulares para controle de acesso. Os usuários podem atribuir essas permissões a funções de usuário para obter acesso mais preciso a [!DNL Federated Audience Composition].
+
+  Para saber mais sobre as novas permissões, leia o [Guia de acesso da Federated Audience Composition](feature-access.md).
 
 ## Versão de abril de 2025 {#fac-25-4}
 
