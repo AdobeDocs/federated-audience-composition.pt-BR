@@ -42,7 +42,7 @@ Nessa tela, é possível criar novas composições e acessar as já existentes. 
 
 Para refinar a lista e encontrar facilmente a composição que está procurando, você pode pesquisar na lista e filtrar as composições por status ou data do último processamento.
 
-Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar coluna]**s e adicione ou remova as colunas de saída desejadas.
+Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar coluna]**&#x200B;s e adicione ou remova as colunas de saída desejadas.
 
 ![](assets/compositions-columns.png)
 
