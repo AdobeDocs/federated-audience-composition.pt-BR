@@ -2,10 +2,10 @@
 title: Acessar a composição de público-alvo federado
 description: Saiba mais sobre as permissões necessárias para a composição de público-alvo federado
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ Para atribuir esta função a novos usuários:
 
 1. Insira o nome ou endereço de email do usuário, ou selecione-o na lista disponível. Depois de concluído, selecione **[!UICONTROL Salvar]**.
 
-Como alternativa, você pode atribuir uma das funções pré-existentes aos usuários, dependendo das permissões de que eles precisam. Para obter mais informações sobre como atribuir funções pré-existentes a um usuário, leia o [guia sobre como gerenciar usuários para um perfil de produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| Nome da função | Permissões |
+| Role name | Permissions |
 | --------- | ----------- |
-| Gerentes de dados FAC | <ul><li>Gerenciar composições federadas</li><li>Exibir Bancos de Dados Federados</li><li>Exibir Esquemas Federados</li><li>Exibir Dados do Esquema Federado</li><li>Exibir Modelos de Dados Federados</li></ul> |
-| Gerentes de composição FAC | <ul><li>Gerenciar composições federadas</li></ul> |
-| Administradores FAC | <ul><li>Gerenciar Dados Federados</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 O usuário receberá um email com instruções para acessar a sua instância. Se o usuário não tiver sido criado anteriormente, consulte [esta documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/permissions-ui/users).
