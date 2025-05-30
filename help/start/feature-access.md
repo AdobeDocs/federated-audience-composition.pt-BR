@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Por exemplo, se uma nova sandbox chamada “fac-test” for ativada, um perfil d
 
 ## Gerenciar o acesso à composição de público-alvo federado
 
-Para acessar a **Composição de Público-Alvo Federado**, primeiro certifique-se de atribuir as permissões necessárias para acessar diferentes aspectos da Composição de Público-Alvo Federado. Essas funções devem ser atribuídas aos usuários que precisam de acesso à **Federated Audience Composition**.
+Para acessar a **Composição de público-alvo federado**, certifique-se primeiro de atribuir as permissões necessárias para acessar diferentes aspectos da composição de público-alvo federado. Em seguida, essas funções precisam ser atribuídas aos usuários que precisam de acesso à **Composição de público-alvo federado**.
 
 Observe que somente administradores têm a capacidade de atribuir permissões.
 
@@ -29,41 +29,41 @@ Observe que somente administradores têm a capacidade de atribuir permissões.
 
    ![](assets/access_fda_1.png)
 
-1. Selecione **[!UICONTROL Editar]** para modificar as permissões de sua função.
+1. Clique em **[!UICONTROL Editar]** para modificar as permissões da sua função.
 
    ![](assets/access_fda_2.png)
 
-1. Adicione as permissões necessárias para o usuário. Você pode adicionar as seguintes permissões para acessar a Composição de público-alvo federado:
+1. Adicione as permissões necessárias para o usuário. Você pode adicionar as seguintes permissões para acessar a composição de público-alvo federado:
 
    | Permissão | Descrição |
    | ---------- | ----------- |
-   | Gerenciar Dados Federados | Use essa permissão para gerenciar todos os aspectos da Composição de público-alvo federado. Essa permissão engloba Gerenciar Banco de Dados Federado, Gerenciar Esquema Federado, Gerenciar Modelo de Dados Federado e Gerenciar Composições Federadas. |
-   | Gerenciar Banco de Dados Federado | Use esta permissão para adicionar, exibir, atualizar e excluir suas conexões com bancos de dados federados. |
-   | Exibir Banco de Dados Federado | Use esta permissão para exibir suas conexões com bancos de dados federados. |
-   | Gerenciar Esquema Federado | Use esta permissão para criar, exibir, atualizar, excluir e atualizar esquemas. |
-   | Exibir Dados do Esquema Federado | Use essa permissão para exibir a guia de dados na seção schema. |
-   | Exibir Esquema Federado | Use essa permissão para exibir as tabelas do esquema. |
-   | Gerenciar Modelo de Dados Federados | Use esta permissão para criar, exibir, atualizar e excluir modelos de dados. |
-   | Exibir Modelo de Dados Federados | Use essa permissão para exibir os modelos de dados. |
-   | Exibir trilha de auditoria da federação | Use essa permissão para exibir a trilha de auditoria da Composição de público-alvo federado. |
-   | Gerenciar composições federadas | Use esta permissão para criar, exibir, atualizar e excluir composições federadas. |
-   | Exibir Composições Federadas | Use essa permissão para exibir composições federadas. |
+   | Gerenciar dados federados | Use esta permissão para gerenciar todos os aspectos da composição de público-alvo federado. Esta permissão engloba as permissões de gerenciar banco de dados federado, gerenciar esquema federado, gerenciar modelo de dados federado e gerenciar composições federadas. |
+   | Gerenciar banco de dados federado | Use esta permissão para adicionar, visualizar, atualizar e excluir as suas conexões com bancos de dados federados. |
+   | Visualizar banco de dados federado | Use esta permissão para visualizar as suas conexões com bancos de dados federados. |
+   | Gerenciar esquema federado | Use esta permissão para criar, visualizar, atualizar, excluir e renovar esquemas. |
+   | Visualizar dados do esquema federado | Use esta permissão para visualizar a guia de dados na seção de esquemas. |
+   | Visualizar esquema federado | Use esta permissão para visualizar as tabelas do esquema. |
+   | Gerenciar modelo de dados federado | Use esta permissão para criar, visualizar, atualizar e excluir modelos de dados. |
+   | Visualizar modelo de dados federado | Use esta permissão para visualizar os modelos de dados. |
+   | Visualizar trilha de auditoria da federação | Use esta permissão para visualizar a trilha de auditoria da composição de público-alvo federado. |
+   | Gerenciar composições federadas | Use esta permissão para criar, visualizar, atualizar e excluir composições federadas. |
+   | Visualizar composições federadas | Use esta permissão para visualizar composições federadas. |
 
    ![](assets/permissions.png)
 
-1. Depois de fazer as alterações necessárias, selecione **[!UICONTROL Salvar]**.
+1. Depois de fazer as alterações necessárias, clique em **[!UICONTROL Salvar]**.
 
 Todos os usuários já atribuídos a essa função terão suas permissões automaticamente atualizadas e acesso à composição de público-alvo federado.
 
 Para atribuir esta função a novos usuários:
 
-1. Navegue até a guia **[!UICONTROL Usuários]** no painel Função e selecione **[!UICONTROL Adicionar usuários]**.
+1. Navegue até a guia **[!UICONTROL Usuários]** no painel “Função” e clique em **[!UICONTROL Adicionar usuários]**.
 
    ![](assets/access_fda_4.png)
 
-1. Insira o nome ou endereço de email do usuário, ou selecione-o na lista disponível. Depois de concluído, selecione **[!UICONTROL Salvar]**.
+1. Insira o nome ou endereço de email do usuário, ou selecione-o na lista disponível. Depois de concluído, clique em **[!UICONTROL Salvar]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
