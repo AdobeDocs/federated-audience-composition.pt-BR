@@ -4,9 +4,9 @@ title: Introdução a composições
 description: Saiba como começar a usar as composições
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 90%
 >
 >Para acessar composições, você precisará de uma das seguintes permissões:
 >
->-**Gerenciar Composições Federadas**
->-**Exibir Composições Federadas**
+>-**Gerenciar composições federadas**
+>>-**Visualizar composições federadas**
 >
->Para obter mais informações sobre as permissões necessárias, leia o [Guia de composição do Federated Audience](/help/start/feature-access.md).
+>Para mais informações sobre as permissões necessárias, leia o [guia de acesso à composição de público-alvo federado](/help/start/feature-access.md).
 
 ## O que é uma composição {#what}
 
@@ -42,7 +42,7 @@ Nessa tela, é possível criar novas composições e acessar as já existentes. 
 
 Para refinar a lista e encontrar facilmente a composição que está procurando, você pode pesquisar na lista e filtrar as composições por status ou data do último processamento.
 
-Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar coluna]**&#x200B;s e adicione ou remova as colunas de saída desejadas.
+Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar coluna]**s e adicione ou remova as colunas de saída desejadas.
 
 ![](assets/compositions-columns.png)
 

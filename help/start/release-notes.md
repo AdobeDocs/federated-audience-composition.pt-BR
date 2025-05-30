@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,30 +20,30 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <table>
 <thead>
 <tr>
-<th><strong>Visualização da tela do modelo de dados - Disponibilidade geral</strong><br/></th>
+<th><strong>Visualização da tela do modelo de dados: disponibilidade geral</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O modelo de dados com visualização de Tela agora está disponível para todos os clientes!</p>
-<p>A visualização de tela da seção Modelos de dados melhora a experiência por permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a exibição em tabelas existente. </p>
-<p>Para obter mais informações sobre a exibição da tela, leia a <a href="../data-management/gs-models.md">visão geral dos modelos de dados</a>.</p>
+<p>O modelo de dados com a visualização de tela já está disponível para todos os clientes.</p>
+<p>A visualização de tela da seção “Modelos de dados” aprimora a experiência ao permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a visualização em tabelas existente. </p>
+<p>Para mais informações sobre a visualização de tela, leia a <a href="../data-management/gs-models.md">visão geral dos modelos de dados</a>.</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Melhorias {#fac-25-5-improvements}
+### Aprimoramentos {#fac-25-5-improvements}
 
-Esta versão vem com as seguintes melhorias.
+Esta versão inclui os aprimoramentos a seguir.
 
-* **Controle de Acesso Baseado em Função**
+* **Controle de acesso baseado na função**
 
-  A partir da versão de maio, o [!DNL Federated Audience Composition] oferece suporte a novas permissões granulares para controle de acesso. Os usuários podem atribuir essas permissões a funções de usuário para obter acesso mais preciso a [!DNL Federated Audience Composition].
+  A partir da versão de maio, o [!DNL Federated Audience Composition] oferece novas permissões granulares para controle de acesso. Os usuários podem atribuir essas permissões a funções de usuários a fim de obter um acesso mais preciso ao [!DNL Federated Audience Composition].
 
-  Para saber mais sobre as novas permissões, leia o [Guia de acesso da Federated Audience Composition](feature-access.md).
+  Para saber mais sobre as novas permissões, leia o [guia de acesso à composição de público-alvo federado](feature-access.md).
 
 ## Versão de abril de 2025 {#fac-25-4}
 
@@ -58,7 +58,7 @@ Esta versão vem com as seguintes melhorias.
 <tbody>
 <tr>
 <td>
-<p>A visualização de tela da seção Modelos de dados melhora a experiência por permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a exibição em tabelas existente. </p>
+<p>A visualização de tela da seção “Modelos de dados” aprimora a experiência ao permitir a visualização de modelos de dados e seus links em um layout de tela, juntamente com a visualização em tabelas existente. </p>
 <p>O modelo de dados com visualização de tela está atualmente disponível na versão beta apenas para usuários selecionados.</p>
 <p>Para obter mais informações, consulte a <a href="../data-management/gs-models.md">documentação detalhada</a>.</p>
 </br>
@@ -102,7 +102,7 @@ Esta versão vem com as seguintes melhorias.
 </tbody>
 </table>
 
-### Melhorias {#fac-25-4-improvements}
+### Aprimoramentos {#fac-25-4-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -135,7 +135,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 ## Versão de março de 2025 {#fac-25-3}
 
-### Melhorias {#fac-25-3-improvements}
+### Aprimoramentos {#fac-25-3-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -195,7 +195,7 @@ Esta versão inclui as alterações listadas abaixo.
 
 ## Versão de novembro de 2024 {#fac-24-11}
 
-### Melhorias {#fac-24-11-improvements}
+### Aprimoramentos {#fac-24-11-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -226,7 +226,7 @@ Com esta nova versão, a Composição de público-alvo federado agora é compat�
 
   Com esta nova versão, a Composição de público-alvo federado oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
 
-### Melhorias {#fac-24-10-improvements}
+### Aprimoramentos {#fac-24-10-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
