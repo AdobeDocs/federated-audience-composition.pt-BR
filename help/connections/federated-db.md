@@ -3,10 +3,10 @@ audience: end-user
 title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Com a Composição de público-alvo federado, você pode se conectar aos seguint
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,11 +127,11 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 |---|---|
 | Autenticação | Tipo de autenticação compatível com o conector. Valor compatível atual: ActiveDirectoryMSI. Para obter mais informações, consulte a [documentação do Microsoft SQL](https://learn.microsoft.com/pt-br/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (strings de conexão de exemplo n° 8) |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
 Use bancos de dados federados para processar informações armazenadas em um banco de dados externo. Siga as etapas abaixo para configurar o acesso ao Google BigQuery.
 
-1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Banco de dados federado]**.
+1. No menu **[!UICONTROL Dados federados]**, selecione **[!UICONTROL Bancos de dados federados]**.
 
 1. Clique em **[!UICONTROL Adicionar banco de dados federado]**.
 
@@ -139,7 +139,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
 
-1. No menu suspenso **[!UICONTROL Tipo]**, selecione Google BigQuery.
+1. No menu suspenso **[!UICONTROL Type]**, selecione Google BigQuery.
 
    ![](assets/federated_database_3.png)
 
