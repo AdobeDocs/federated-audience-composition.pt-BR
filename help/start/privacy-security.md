@@ -21,23 +21,23 @@ Por exemplo, ao criar um público-alvo usando o bloco de atividade Salvar na tel
 
 Como alternativa, depois de criar um enriquecimento de perfil usando a atividade Salvar perfil na tela de composição, o enriquecimento resultante é armazenado no Experience Platform como um esquema habilitado para perfil e conjunto de dados habilitado para perfil. Estes dados de enriquecimento são marcados com um campo de identidade e um namespace de identidade. Como resultado, você pode usar o Privacy Service para acessar e limpar esses perfis.
 
-Para obter mais informações sobre o Privacy Service, leia a [visão geral do Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Para obter mais informações sobre o Privacy Service, leia a [visão geral do Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Solicitações de privacidade {#privacy-requests}
 
 No Privacy Service, você pode criar e gerenciar solicitações individuais de privacidade para acessar e excluir dados do cliente da Federated Audience Composition. A Privacy Service fornece uma [interface de usuário](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=pt-BR){target="_blank"} e uma [API RESTful](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/api/overview){target="_blank"} para ajudar você a gerenciar solicitações de dados do cliente.
 
-Para obter mais informações sobre como criar e gerenciar solicitações de privacidade, leia os [trabalhos de privacidade no guia da interface do Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
+Para obter mais informações sobre como criar e gerenciar solicitações de privacidade, leia os [trabalhos de privacidade no guia da interface do Privacy Service](https://experienceleague.adobe.com/pt-br/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
 ## Aplicação da política de consentimento {#consent}
 
 A Composição de público-alvo federado, por meio do Experience Platform, oferece ferramentas que permitem automatizar a aplicação de consentimento, garantindo a ativação de públicos-alvo com base no consentimento fornecido aos clientes.
 
-Por exemplo, ao criar um público-alvo usando o bloco de atividade Salvar na tela de composição, o público-alvo resultante é armazenado no data lake na Experience Platform como um público externo. O Experience Platform oferece suporte automático à validação de consentimento durante a ativação. Para obter mais informações, leia as [Perguntas frequentes sobre o Serviço de Segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
+Por exemplo, ao criar um público-alvo usando o bloco de atividade Salvar na tela de composição, o público-alvo resultante é armazenado no data lake na Experience Platform como um público externo. O Experience Platform oferece suporte automático à validação de consentimento durante a ativação. Para obter mais informações, leia as [Perguntas frequentes sobre o Serviço de Segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-Como alternativa, depois de criar um enriquecimento de perfil usando a atividade Salvar perfil na tela de composição, o enriquecimento resultante é armazenado no Experience Platform como um esquema habilitado para perfil e conjunto de dados habilitado para perfil. Para perfis existentes, os atributos de consentimento disponíveis são honrados automaticamente durante a ativação. Para novos perfis, os atributos de consentimento fornecidos durante a assimilação do perfil são automaticamente honrados durante a ativação. Para obter mais informações sobre como aplicar consentimentos a perfis, leia o [guia do grupo de campos de consentimentos e preferências](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+Como alternativa, depois de criar um enriquecimento de perfil usando a atividade Salvar perfil na tela de composição, o enriquecimento resultante é armazenado no Experience Platform como um esquema habilitado para perfil e conjunto de dados habilitado para perfil. Para perfis existentes, os atributos de consentimento disponíveis são honrados automaticamente durante a ativação. Para novos perfis, os atributos de consentimento fornecidos durante a assimilação do perfil são automaticamente honrados durante a ativação. Para obter mais informações sobre como aplicar consentimentos a perfis, leia o [guia do grupo de campos de consentimentos e preferências](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
-Para obter mais informações sobre como aplicar consentimentos, leia o [guia da interface do usuário para gerenciar políticas](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
+Para obter mais informações sobre como aplicar consentimentos, leia o [guia da interface do usuário para gerenciar políticas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
 ## Ciclo de vida dos dados {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Por exemplo, ao criar um público-alvo usando o bloco de atividade Salvar na tel
 
 Como alternativa, depois de criar um enriquecimento de perfil usando a atividade Salvar perfil na tela de composição, o enriquecimento resultante é armazenado no Experience Platform como um esquema habilitado para perfil e conjunto de dados habilitado para perfil. Como resultado, você pode usar o Ciclo de vida dos dados para acessar e limpar os perfis.
 
-Para obter mais informações sobre como usar o Ciclo de Vida dos Dados, leia a [visão geral do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+Para obter mais informações sobre como usar o Ciclo de Vida dos Dados, leia a [visão geral do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
 ## Rótulos de uso de dados {#data-usage-labels}
 
 Os rótulos de uso de dados permitem categorizar conjuntos de dados e campos com base nas políticas de governança que se aplicam a esses dados. Depois de criar um público-alvo usando composições, você pode aplicar os rótulos de dados apropriados ao esquema resultante para garantir que ele respeite as restrições de uso necessárias.
 
-Para obter mais informações sobre o uso de rótulos de dados, leia a [visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+Para obter mais informações sobre o uso de rótulos de dados, leia a [visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ## Criptografia {#encryption}
 
@@ -63,13 +63,13 @@ Os dados em repouso se referem aos dados do cliente usados na Composição do p�
 
 Os dados em trânsito se referem aos dados do cliente à medida que se movem de um componente para outro na Composição do público-alvo federado. Os dados são mantidos criptografados em todos os componentes da Composição de público federado usando TLS 1.3 em HTTPS.
 
-Para obter mais informações sobre como o Adobe trata a criptografia de dados, leia o manual sobre [criptografia de dados no Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+Para obter mais informações sobre como o Adobe trata a criptografia de dados, leia o manual sobre [criptografia de dados no Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Chaves gerenciadas pelo cliente {#customer-managed-keys}
 
 As chaves gerenciadas pelo cliente permitem que você tenha controle sobre seus dados, permitindo que você use suas próprias chaves de criptografia para criptografar seus dados. Como a Composição de Público Federado **não** armazena dados do cliente, você pode usar chaves gerenciadas pelo cliente diretamente nos públicos-alvo e enriquecimentos resultantes, pois elas serão armazenadas no data lake na Experience Platform.
 
-Para obter mais informações sobre chaves gerenciadas pelo cliente, leia o [guia de chaves gerenciadas pelo cliente](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+Para obter mais informações sobre chaves gerenciadas pelo cliente, leia o [guia de chaves gerenciadas pelo cliente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ## Log de auditoria {#audit-log}
 
