@@ -4,10 +4,10 @@ description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
@@ -15,9 +15,29 @@ ht-degree: 100%
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
+## Versão de junho de 2025 {#fac-25-6}
+
+Esta versão vem com as seguintes melhorias:
+
+* **Disponibilidade geral para clientes da área de saúde**
+
+  A Federated Audience Composition estará disponível para clientes de saúde para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
+
+* **Controle de acesso no nível do objeto**
+
+  A Composição de público-alvo federado agora é compatível com o controle de acesso no nível do objeto para aplicar rótulos de acesso às suas composições especificadas.
+
+* **Funções padrão**
+
+  Agora você pode usar uma das funções padrão para gerenciar permissões de usuário para acesso à Composição de público federado.
+
+* **Atualizações incrementais em casos de uso de enriquecimento de perfil**
+
+  A atividade Save profiles agora oferece suporte a atualizações incrementais. Com atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
+
 ## Versão de abril de 2025 {#fac-25-4}
 
-### Melhorias {#fac-25-4-improvements}
+### Aprimoramentos {#fac-25-4-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -45,7 +65,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 ## Versão de março de 2025 {#fac-25-3}
 
-### Melhorias {#fac-25-3-improvements}
+### Aprimoramentos {#fac-25-3-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -105,7 +125,7 @@ Esta versão inclui as alterações listadas abaixo.
 
 ## Versão de novembro de 2024 {#fac-24-11}
 
-### Melhorias {#fac-24-11-improvements}
+### Aprimoramentos {#fac-24-11-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -136,7 +156,7 @@ Com esta nova versão, a Composição de público-alvo federado agora é compat�
 
   Com esta nova versão, a Composição de público-alvo federado oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
 
-### Melhorias {#fac-24-10-improvements}
+### Aprimoramentos {#fac-24-10-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
