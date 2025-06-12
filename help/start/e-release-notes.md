@@ -4,9 +4,9 @@ description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 Esta versão vem com as seguintes melhorias:
 
-* **Disponibilidade geral para clientes da área de saúde**
+* **Disponibilidade geral para clientes do Adobe Healthcare Shield**
 
-  A Federated Audience Composition estará disponível para clientes de saúde para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
+  O Federated Audience Composition estará disponível para os clientes do Adobe Healthcare Shield para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
 
 * **Controle de acesso no nível do objeto**
 
