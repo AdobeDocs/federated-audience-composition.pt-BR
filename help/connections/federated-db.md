@@ -4,9 +4,9 @@ title: Configurar bancos de dados federados
 description: Saiba como configurar bancos de dados federados
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Use bancos de dados federados para processar informações armazenadas em um ban
 
 1. Insira um **[!UICONTROL Nome]** para o banco de dados federado.
 
-1. No menu suspenso **[!UICONTROL Type]**, selecione Google BigQuery.
+1. No menu suspenso **[!UICONTROL Tipo]**, selecione Google BigQuery.
 
    ![](assets/federated_database_3.png)
 

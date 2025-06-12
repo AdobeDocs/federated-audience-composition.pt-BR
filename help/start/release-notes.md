@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 * **Google BigQuery**
 
-  Com esta nova versão, o Federated Audience Composition oferece suporte a conexões VPN seguras para bancos de dados do Google BigQuery. [Saiba mais](../connections/federated-db.md#google-bigquery)
+  Nesta nova versão, a composição de público-alvo federado oferece suporte a conexões VPN seguras com bancos de dados do Google BigQuery. [Saiba mais](../connections/federated-db.md#google-bigquery)
 
 ## Versão de março de 2025 {#fac-25-3}
 
