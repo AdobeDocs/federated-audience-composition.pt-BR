@@ -73,7 +73,7 @@ O popover **[!UICONTROL Gerenciar acesso]** é exibido. Nessa página, você pod
 | Rótulos sigilosos | Rótulos de sensibilidade (rótulos &quot;S&quot;) são usados para categorizar você e/ou sua organização a considerar sensíveis. |
 | Rótulos de ecossistema de parceiros | Os rótulos do ecossistema do parceiro são usados para categorizar dados de fontes externas à organização. |
 
-Para obter mais informações sobre rótulos de acesso e governança de dados, leia o [glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Para obter mais informações sobre rótulos de acesso e governança de dados, leia o [glossário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/reference).
 
 ## Próximas etapas
 

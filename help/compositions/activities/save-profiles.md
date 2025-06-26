@@ -70,9 +70,9 @@ Normalmente, essa atividade é usada para aprimorar os perfis do cliente, trazen
 
 >[!IMPORTANT]
 >
->A atividade **Salvar Perfis** requer um esquema e um conjunto de dados habilitados para perfil. Para saber como habilitar seu conjunto de dados para ser habilitado para perfil, leia o [guia do usuário do conjunto de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>A atividade **Salvar Perfis** requer um esquema e um conjunto de dados habilitados para perfil. Para saber como habilitar seu conjunto de dados para ser habilitado para perfil, leia o [guia do usuário do conjunto de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Além disso, se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados dos perfis serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>Além disso, se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados dos perfis serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Salvar Perfis]**:
 
