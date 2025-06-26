@@ -17,7 +17,7 @@ ht-degree: 3%
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Banco de Dados Federado**
->>-**Exibir Banco de Dados Federado**
+>&#x200B;>-**Exibir Banco de Dados Federado**
 >
 >Para obter mais informações sobre as permissões necessárias, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
