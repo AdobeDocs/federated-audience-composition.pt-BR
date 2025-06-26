@@ -3,7 +3,7 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 58%
@@ -23,7 +23,7 @@ A Composição de público-alvo federado do Experience Platform fornece uma tela
 
 O diagrama da composição é uma representação do que deveria acontecer. Ele descreve as várias tarefas a serem executadas e como elas estão vinculadas.
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 Cada composição contém:
 

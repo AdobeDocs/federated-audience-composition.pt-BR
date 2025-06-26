@@ -2,16 +2,46 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 87%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de junho de 2025 {#fac-25-6}
+
+### Aprimoramentos {#fac-25-06-improvements}
+
+Esta versão vem com as seguintes melhorias:
+
+* **Disponibilidade geral para clientes do Adobe Healthcare Shield**
+
+  O Federated Audience Composition estará disponível para os clientes do Adobe Healthcare Shield para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
+
+  Mais informações sobre privacidade e segurança na Federated Audience Composition podem ser encontradas no [Guia de governança, privacidade e segurança de dados](/help/governance-privacy-security/home.md).
+
+* **Controle de acesso no nível do objeto**
+
+  A Composição de público-alvo federado agora é compatível com o controle de acesso no nível do objeto para aplicar rótulos de acesso às suas composições especificadas.
+
+  Mais informações sobre o uso de rótulos de acesso no nível do objeto podem ser encontradas no [guia de composições](/help/compositions/gs-compositions.md).
+
+* **Funções padrão**
+
+  Agora você pode usar uma das funções padrão para gerenciar permissões de usuário para acesso à Composição de público federado.
+
+  Mais informações sobre as funções padrão podem ser encontradas no [guia de composição do Federated Audience](/help/governance-privacy-security/access-control.md).
+
+* **Atualizações incrementais em casos de uso de enriquecimento de perfil**
+
+  A atividade Save profiles agora oferece suporte a atualizações incrementais. Com atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
+
+  Mais informações sobre como usar a atividade de salvar perfis podem ser encontradas no [guia de atividade de salvar perfis](/help/compositions/activities/save-profiles.md).
 
 ## Versão de maio de 2025 {#fac-25-5}
 
@@ -43,7 +73,7 @@ Esta versão inclui os aprimoramentos a seguir.
 
   A partir da versão de maio, o [!DNL Federated Audience Composition] oferece novas permissões granulares para controle de acesso. Os usuários podem atribuir essas permissões a funções de usuários a fim de obter um acesso mais preciso ao [!DNL Federated Audience Composition].
 
-  Para saber mais sobre as novas permissões, leia o [guia de acesso à composição de público-alvo federado](feature-access.md).
+  Para saber mais sobre as novas permissões, leia o [guia de acesso à composição de público-alvo federado](/help/governance-privacy-security/access-control.md).
 
 ## Versão de abril de 2025 {#fac-25-4}
 
@@ -145,7 +175,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
   Recomendamos que os usuários entrem em contato com os(as) admins, para que essa permissão seja adicionada à sua função a fim de manter o acesso à interface do [!DNL Federated Audience Composition].
 
-  Para saber como conceder essa permissão, consulte a [documentação detalhada](feature-access.md).
+  Para saber como conceder essa permissão, consulte a [documentação detalhada](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**

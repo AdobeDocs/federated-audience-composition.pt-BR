@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Salvar perfis
 description: Saiba como usar a atividade Salvar perfis
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 18%
+source-wordcount: '563'
+ht-degree: 12%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 18%
 >title="Critérios do campo de identidade principal"
 >abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
 
-A atividade **Salvar perfis** permite enriquecer perfis do Adobe Experience Platform com dados federados de depósitos externos.
+A atividade **[!UICONTROL Salvar Perfis]** permite enriquecer perfis do Adobe Experience Platform com dados federados de depósitos externos.
 
 Normalmente, essa atividade é usada para aprimorar os perfis do cliente, trazendo atributos e insights adicionais sem mover fisicamente ou duplicar os dados na plataforma.
 
-## Configurar a atividade Salvar perfis {#save-profile-configuration}
+## Configurar a atividade [!UICONTROL Salvar Perfis] {#save-profile-configuration}
 
-Siga estas etapas para configurar a atividade **Salvar perfis**:
+>[!IMPORTANT]
+>
+>A atividade **Salvar Perfis** requer um esquema e um conjunto de dados habilitados para perfil. Para saber como habilitar seu conjunto de dados para ser habilitado para perfil, leia o [guia do usuário do conjunto de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>Além disso, se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados dos perfis serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-1. Adicione uma atividade **Salvar perfis** à sua composição.
+Siga estas etapas para configurar a atividade **[!UICONTROL Salvar Perfis]**:
 
-   ![](../assets/save-profile.png)
+1. Adicione uma atividade **[!UICONTROL Salvar Perfis]** à sua composição.
+
+   ![O botão Salvar Perfis está realçado dentro das atividades.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Especifique o rótulo dos perfis que serão criados.
 
@@ -82,14 +88,31 @@ Siga estas etapas para configurar a atividade **Salvar perfis**:
 
 1. Selecione o esquema do Adobe Experience Platform que deseja usar.
 
-   ![](../assets/save-profile-2.png)
+   ![Os esquemas disponíveis são exibidos.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Escolha o campo de identidade principal que será usado para identificar perfis no banco de dados.
+1. Selecione o conjunto de dados no qual deseja salvar o enriquecimento.
 
-1. Para reconciliar atributos de dados adicionais, clique em **Adicionar atributos**.
+   ![A lista suspensa de conjunto de dados está realçada.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   Em seguida, especifique o campo **Source** (dados externos) e o campo **Destination** (campo de esquema) para cada atributo que deseja mapear.
+1. Após selecionar o conjunto de dados, você pode ver o campo de identidade principal que será usado para identificar perfis no banco de dados.
 
-   ![](../assets/save-profile-3.png)
+1. Selecione **[!UICONTROL Adicionar campos]** para adicionar os campos de identidade principal e obrigatório.
 
-1. Depois de configurado, clique em **Iniciar**.
+   ![O botão Adicionar Campos está realçado.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   Você pode especificar o campo **Source** (dados externos) e o campo **Destination** (campo de esquema) para cada atributo que deseja mapear.
+
+   ![Os campos Source e Destino são realçados, mostrando onde criar o mapeamento entre os campos](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. Você também pode especificar o modo de atualização para o enriquecimento.
+
+   ![Os tipos de modo de atualização são exibidos.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | Modo de atualização | Descrição |
+   | ----------- | ----------- |
+   | Atualizações completas | O conjunto completo de perfis é atualizado para enriquecimento. |
+   | Atualizações incrementais | Somente os perfis modificados desde a última execução do enriquecimento são atualizados para o enriquecimento. |
+
+   Se você selecionar [!UICONTROL Atualizações incrementais], também precisará escolher a data da última modificação para determinar quais dados serão enviados.
+
+1. Após a configuração, selecione **Iniciar**.

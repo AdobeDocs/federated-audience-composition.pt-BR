@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 28%
+source-wordcount: '532'
+ht-degree: 19%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 28%
 >abstract="Selecione o namespace a ser usado para perfis."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação da Experience Platform"
 
-A atividade **Salvar público-alvo** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
+A atividade **[!UICONTROL Salvar público-alvo]** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
 
 Essa atividade é usada essencialmente para manter os grupos de populações computados na mesma composição, convertendo-os em públicos-alvo reutilizáveis. Conecte-a a outras atividades de direcionamento, como uma atividade **Criar público** ou **Combinar**.
 
-A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e conjunto de dados. Depois que o público-alvo for criado, fale com o administrador para atribuir os rótulos de governança de dados apropriados. [Saiba mais sobre rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->A atividade **Salvar público-alvo** requer um esquema e um conjunto de dados habilitados para perfil. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e um conjunto de dados associado, que podem conter informações de identificação pessoal (PII) ou informações de saúde protegidas (PHI). Após a criação do público-alvo, trabalhe com o administrador para garantir que os rótulos de governança de dados apropriados sejam aplicados de acordo com as políticas de dados da sua organização. Para obter mais informações sobre como aplicar rótulos de uso de dados, leia o [guia do usuário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configurar a atividade Save audience {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
 ## Acessar seu público-alvo na Adobe Experience Platform {#access-audience}
 
-Depois de executar a composição, o público-alvo resultante é salvo como externo na Adobe Experience Platform e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele é disponibilizado no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform como um público-alvo externo e disponível no Adobe Real-Time CDP e/ou Adobe Journey Optimizer no Audience Portal. Para obter mais informações sobre o Audience Portal, leia a [Visão geral do Audience Portal](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode direcionar esse público-alvo no Journey Optimizer ou ativá-lo para qualquer destino compatível com o Adobe Experience Platform.
 

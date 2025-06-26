@@ -2,10 +2,10 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 100%
 + Introdução à composição de público-alvo federado {#start}
    + [O que é a composição de público-alvo federado](start/get-started.md)
    + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
-   + [Acessar a composição de público-alvo federado](start/feature-access.md)
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Trabalhar com o Assistente de IA](start/ai-assistant.md)
-   + [Privacidade e segurança](start/privacy-security.md)
    + [Perguntas frequentes](start/faq.md)
++ Governança, privacidade, segurança {#governance-privacy-security}
+   + [Visão geral](./governance-privacy-security/home.md)
+   + [Controle de acesso](governance-privacy-security/access-control.md)
 + Etapas de configuração {#config}
    + [Criar e gerenciar conexões](connections/connections.md)
    + [Configurar bancos de dados federados](connections/federated-db.md)

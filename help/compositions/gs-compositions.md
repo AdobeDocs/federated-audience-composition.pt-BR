@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a composições
 description: Saiba como começar a usar as composições
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 16%
 
 ---
 
@@ -19,13 +19,11 @@ ht-degree: 100%
 >-**Gerenciar composições federadas**
 >>-**Visualizar composições federadas**
 >
->Para mais informações sobre as permissões necessárias, leia o [guia de acesso à composição de público-alvo federado](/help/start/feature-access.md).
+>Para obter mais informações sobre as permissões necessárias, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
-## O que é uma composição {#what}
+A Composição de público-alvo federado permite criar composições, onde você pode aproveitar várias atividades em uma tela visual para criar públicos-alvo. Depois de criar sua composição, os públicos-alvo resultantes são salvos no Adobe Experience Platform e podem ser aproveitados nos destinos do Experience Platform e no Adobe Journey Optimizer para clientes-alvo.
 
-A Composição de público-alvo da Adobe permite criar composições onde você pode aproveitar várias atividades (divisão, exclusão...) em uma tela visual para criar públicos-alvo. Após a conclusão, os públicos-alvo resultantes são salvos na Adobe Experience Platform junto aos existentes e podem ser aproveitados nos destinos da Adobe Experience Platform e no Adobe Journey Optimizer para direcionamento de clientes. [Saiba como trabalhar com públicos-alvo](../start/audiences.md)
-
-![](assets/composition-example.png)
+![Um exemplo de fluxo de trabalho de composição é exibido na Composição de Público-Alvo Federado.](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Acessar e gerenciar composições {#access}
 
@@ -34,26 +32,49 @@ A Composição de público-alvo da Adobe permite criar composições onde você 
 >title="Composições"
 >abstract="Nesta tela, é possível acessar a lista completa de composições, verificar o status atual, as datas da última/próxima execução e criar uma nova composição."
 
-As composições podem ser acessadas no menu **[!UICONTROL Públicos-alvo]** da Adobe Experience Platform, na guia **[!UICONTROL Composições federadas]**.
+As composições podem ser acessadas no menu **[!UICONTROL Públicos-alvo]** do Adobe Experience Platform, na guia **[!UICONTROL Composições federadas]**, na seção **[!UICONTROL Clientes]**.
 
-Nessa tela, é possível criar novas composições e acessar as já existentes. Também é possível duplicar ou excluir uma composição clicando no botão de reticências ao lado do nome.
+Nessa tela, é possível criar novas composições e acessar as já existentes. Também é possível duplicar ou excluir uma composição existente selecionando o botão ![reticências](/help/assets/icons/more.png) ao lado do nome.
 
-![](assets/compositions-list.png)
+Você também pode exibir informações sobre as composições, incluindo o nome, o status, o criador e a última data de modificação.
 
-Para refinar a lista e encontrar facilmente a composição que está procurando, você pode pesquisar na lista e filtrar as composições por status ou data do último processamento.
+| Status | Descrição |
+| ------ | ----------- |
+| **[!UICONTROL Rascunho]** | A composição foi criada e salva. |
+| **[!UICONTROL Em andamento]** | A composição foi executada e está em execução no momento. |
+| **[!UICONTROL Parado]** | A execução da composição foi concluída e interrompida. |
+| **[!UICONTROL Em pausa]** | A execução da composição foi pausada. |
+| **[!UICONTROL Incorreto]** | A execução da composição encontrou um erro. Para exibir mais informações sobre o erro, abra a composição e acesse os logs. |
 
-Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar coluna]**s e adicione ou remova as colunas de saída desejadas.
+Você pode aprender a iniciar ou parar uma composição no [guia de início e monitoramento de composição](./start-monitor-composition.md).
 
-![](assets/compositions-columns.png)
+![Uma lista de composições disponíveis é exibida.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
 
-## Status das composições {#status}
+Para refinar a lista e encontrar a composição que está procurando, você pode pesquisar a lista e filtrar composições por status ou datas do último processamento.
 
-As composições podem ter vários status:
+Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, selecione o botão **[!UICONTROL Configurar colunas]** e adicione ou remova as colunas de saída desejadas.
 
-* **[!UICONTROL Rascunho]**: a composição foi criada e salva.
-* **[!UICONTROL Em andamento]**: a composição foi executada e está em execução no momento.
-* **[!UICONTROL Parado]**: a execução da composição foi concluída e interrompida.
-* **[!UICONTROL Pausado]**: a execução da composição foi pausada.
-* **[!UICONTROL Errôneo]**: a execução da composição encontrou um erro. Abra a composição e acesse os logs e as tarefas para identificar o erro e resolvê-lo.
+![Uma lista das colunas disponíveis que você pode adicionar à página de navegação das composições é exibida.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
 
-Informações detalhadas sobre como iniciar e monitorar uma composição estão disponíveis [nesta seção](../compositions/start-monitor-composition.md).
+### Aplicar rótulos de acesso {#access-labels}
+
+Para aplicar rótulos de acesso a uma composição específica, selecione a composição, seguida por **[!UICONTROL Gerenciar acesso]**.
+
+![O botão &quot;Gerenciar acesso&quot; está realçado na tela de composição.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+
+O popover **[!UICONTROL Gerenciar acesso]** é exibido. Nessa página, você pode aplicar os rótulos de acesso e governança de dados aplicáveis à sua composição.
+
+![O popover Gerenciar acesso é exibido. Isso mostra uma lista de todos os rótulos disponíveis que você pode aplicar à composição.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+
+| Tipo de rótulo | Descrição |
+| ---------- | ----------- |
+| Rótulos de contrato | Os rótulos de contrato (rótulos &quot;C&quot;) são usados para categorizar dados que contêm obrigações contratuais ou estão relacionados às políticas de governança de dados da sua organização. |
+| Rótulos de identidade | Rótulos de identidade (rótulos &quot;I&quot;) são usados para categorizar dados que podem identificar ou entrar em contato com uma pessoa específica. |
+| Rótulos sigilosos | Rótulos de sensibilidade (rótulos &quot;S&quot;) são usados para categorizar você e/ou sua organização a considerar sensíveis. |
+| Rótulos de ecossistema de parceiros | Os rótulos do ecossistema do parceiro são usados para categorizar dados de fontes externas à organização. |
+
+Para obter mais informações sobre rótulos de acesso e governança de dados, leia o [glossário de rótulos de uso de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+
+## Próximas etapas
+
+Depois de ler este guia, você aprendeu a acessar, gerenciar e criar rótulos de acesso para suas composições. Para obter mais informações sobre como trabalhar com públicos-alvo como um todo, leia o [guia de públicos-alvo](../start/audiences.md).
