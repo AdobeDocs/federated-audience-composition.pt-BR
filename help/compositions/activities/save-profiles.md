@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 12%
+ht-degree: 37%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Selecionar esquema do Experience Platform"
+>title="Selecionar esquema da Experience Platform"
 >abstract="Escolha o esquema da Experience Platform para os perfis."
 
 >[!CONTEXTUALHELP]
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Selecionar esquema do Experience Platform"
+>title="Selecionar esquema da Experience Platform"
 >abstract="Escolha o esquema da Experience Platform para os perfis."
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
 >title="Atualização completa"
->abstract="O modo de atualização completa atualiza o conjunto completo de perfis para enriquecimento."
+>abstract="O modo de atualização completa atualiza todo o conjunto de perfis para enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_incremental"
@@ -50,16 +50,16 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="Campo de identidade principal"
->abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para o enriquecimento."
+>abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
->title="Critérios de campos obrigatórios"
+>title="Critérios de campo obrigatório"
 >abstract="Um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro ao exportar dados. Se um campo obrigatório estiver ausente, a exportação não será concluída ou válida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="Critérios do campo de identidade principal"
+>title="Critérios de campo de identidade principal"
 >abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
 
 A atividade **[!UICONTROL Salvar Perfis]** permite enriquecer perfis do Adobe Experience Platform com dados federados de depósitos externos.
@@ -70,9 +70,9 @@ Normalmente, essa atividade é usada para aprimorar os perfis do cliente, trazen
 
 >[!IMPORTANT]
 >
->A atividade **Salvar Perfis** requer um esquema e um conjunto de dados habilitados para perfil. Para saber como habilitar seu conjunto de dados para ser habilitado para perfil, leia o [guia do usuário do conjunto de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>A atividade **Salvar Perfis** requer um esquema e um conjunto de dados habilitados para perfil. Para saber como habilitar seu conjunto de dados para ser habilitado para perfil, leia o [guia do usuário do conjunto de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Além disso, se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados dos perfis serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Além disso, se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados dos perfis serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Siga estas etapas para configurar a atividade **[!UICONTROL Salvar Perfis]**:
 
