@@ -7,7 +7,7 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,23 +17,23 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ## Versão de junho de 2025 {#fac-25-6}
 
-Esta versão vem com as seguintes melhorias:
+Esta versão inclui os seguintes aprimoramentos:
 
 * **Disponibilidade geral para clientes do Adobe Healthcare Shield**
 
-  O Federated Audience Composition estará disponível para os clientes do Adobe Healthcare Shield para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
+  A composição de público-alvo federado estará disponível para clientes do Adobe Healthcare Shield para casos de uso de criação de público-alvo, enriquecimento e enriquecimento de perfil até o fim de junho.
 
-* **Controle de acesso no nível do objeto**
+* **Controle de acesso no nível dos objetos**
 
-  A Composição de público-alvo federado agora é compatível com o controle de acesso no nível do objeto para aplicar rótulos de acesso às suas composições especificadas.
+  A composição de público-alvo federado agora é compatível com o controle de acesso no nível dos objetos para aplicar rótulos de acesso às suas composições especificadas.
 
 * **Funções padrão**
 
-  Agora você pode usar uma das funções padrão para gerenciar permissões de usuário para acesso à Composição de público federado.
+  Agora, você pode usar uma das funções padrão para gerenciar permissões de usuários para acessar a composição de público-alvo federado.
 
 * **Atualizações incrementais em casos de uso de enriquecimento de perfil**
 
-  A atividade Save profiles agora oferece suporte a atualizações incrementais. Com atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
+  A atividade “Salvar perfis” agora permite atualizações incrementais. Com as atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
 
 ## Versão de abril de 2025 {#fac-25-4}
 
