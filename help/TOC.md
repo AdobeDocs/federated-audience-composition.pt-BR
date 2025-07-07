@@ -3,9 +3,9 @@ user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
 source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Trabalhar com públicos-alvo](start/audiences.md)
    + [Trabalhar com o Assistente de IA](start/ai-assistant.md)
    + [Perguntas frequentes](start/faq.md)
-+ Governança, privacidade, segurança {#governance-privacy-security}
++ Governança, privacidade e segurança {#governance-privacy-security}
    + [Visão geral](./governance-privacy-security/home.md)
    + [Controle de acesso](governance-privacy-security/access-control.md)
 + Etapas de configuração {#config}

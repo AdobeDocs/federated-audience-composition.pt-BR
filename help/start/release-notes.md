@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,31 +17,31 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ### Aprimoramentos {#fac-25-06-improvements}
 
-Esta versão vem com as seguintes melhorias:
+Esta versão inclui os seguintes aprimoramentos:
 
 * **Disponibilidade geral para clientes do Adobe Healthcare Shield**
 
-  O Federated Audience Composition estará disponível para os clientes do Adobe Healthcare Shield para casos de uso de criação de público, enriquecimento e enriquecimento de perfil até o final de junho.
+  A composição de público-alvo federado estará disponível para clientes do Adobe Healthcare Shield para casos de uso de criação de público-alvo, enriquecimento e enriquecimento de perfil até o fim de junho.
 
-  Mais informações sobre privacidade e segurança na Federated Audience Composition podem ser encontradas no [Guia de governança, privacidade e segurança de dados](/help/governance-privacy-security/home.md).
+  Mais informações sobre privacidade e segurança na Composição de público-alvo federado podem ser encontradas no [Guia de governança, privacidade e segurança de dados](/help/governance-privacy-security/home.md).
 
-* **Controle de acesso no nível do objeto**
+* **Controle de acesso no nível dos objetos**
 
-  A Composição de público-alvo federado agora é compatível com o controle de acesso no nível do objeto para aplicar rótulos de acesso às suas composições especificadas.
+  A composição de público-alvo federado agora é compatível com o controle de acesso no nível dos objetos para aplicar rótulos de acesso às suas composições especificadas.
 
-  Mais informações sobre o uso de rótulos de acesso no nível do objeto podem ser encontradas no [guia de composições](/help/compositions/gs-compositions.md).
+  Mais informações sobre o uso de rótulos de acesso no nível de objetos podem ser encontradas no [guia de composições](/help/compositions/gs-compositions.md).
 
 * **Funções padrão**
 
-  Agora você pode usar uma das funções padrão para gerenciar permissões de usuário para acesso à Composição de público federado.
+  Agora, você pode usar uma das funções padrão para gerenciar permissões de usuários para acessar a composição de público-alvo federado.
 
-  Mais informações sobre as funções padrão podem ser encontradas no [guia de composição do Federated Audience](/help/governance-privacy-security/access-control.md).
+  Mais informações sobre as funções padrão podem ser encontradas no [guia de acesso à Composição de público-alvo federado](/help/governance-privacy-security/access-control.md).
 
 * **Atualizações incrementais em casos de uso de enriquecimento de perfil**
 
-  A atividade Save profiles agora oferece suporte a atualizações incrementais. Com atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
+  A atividade “Salvar perfis” agora permite atualizações incrementais. Com as atualizações incrementais, você pode consultar e atualizar dados incrementais enquanto enriquece perfis com dados de data warehouses externos.
 
-  Mais informações sobre como usar a atividade de salvar perfis podem ser encontradas no [guia de atividade de salvar perfis](/help/compositions/activities/save-profiles.md).
+  Mais informações sobre o uso da atividade salvar perfis podem ser encontradas no [guia da atividade salvar perfis](/help/compositions/activities/save-profiles.md).
 
 ## Versão de maio de 2025 {#fac-25-5}
 
