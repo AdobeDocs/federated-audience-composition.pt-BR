@@ -2,10 +2,10 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
@@ -56,6 +56,12 @@ Para acessar a composição de público-alvo federado, os usuários devem ser ad
 Para permitir que a composição de público-alvo federado acesse os seus bancos de dados com segurança, será necessário autorizar os endereços IP dos servidores da composição de público-alvo federado que os acessarão. Esses endereços IP são exibidos ao adicionar um banco de dados federado à interface do usuário da Adobe Experience Platform. [Saiba mais](../connections/connections.md)
 
 Adicione esses endereços IP à lista de permissões para conceder acesso à Composição de público-alvo federado.
+
+## Mesclar políticas {#merge-policies}
+
+Para usar a Composição de Público Federado para gerar públicos, você **deve** usar uma política de mesclagem de **carimbo de data/hora ordenado**. Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para continuar.
+
+Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 

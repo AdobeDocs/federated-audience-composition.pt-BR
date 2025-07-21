@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Save audience
 description: Saiba como usar a atividade Salvar público
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 19%
+source-wordcount: '578'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 19%
 >title="Namespace de identidade"
 >abstract="Selecione o namespace a ser usado para perfis."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces" text="Saiba mais na documentação da Experience Platform"
+
+>[!IMPORTANT]
+>
+>Para usar a atividade Save audience, seu público-alvo deve usar uma política de mesclagem de **carimbo de data e hora ordenado**. Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para continuar.
+>
+>Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 A atividade **[!UICONTROL Salvar público-alvo]** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
 
