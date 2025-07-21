@@ -61,7 +61,7 @@ Adicione esses endereços IP à lista de permissões para conceder acesso à Com
 
 Para usar a Composição de Público Federado para gerar públicos, você **deve** usar uma política de mesclagem de **carimbo de data/hora ordenado**. Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para continuar.
 
-Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 
