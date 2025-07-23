@@ -2,10 +2,10 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 86%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -59,9 +59,9 @@ Adicione esses endereços IP à lista de permissões para conceder acesso à Com
 
 ## Mesclar políticas {#merge-policies}
 
-Para usar a Composição de Público Federado para gerar públicos, você **deve** usar uma política de mesclagem de **carimbo de data/hora ordenado**. Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para continuar.
+Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
 
-Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
+Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Usar a atividade Save audience
+title: Usar a atividade Salvar público-alvo
 description: Saiba como usar a atividade Salvar público
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 23%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->Para usar a atividade Save audience, seu público-alvo deve usar uma política de mesclagem de **carimbo de data e hora ordenado**. Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para continuar.
+>Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
 >
->Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
+>Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 A atividade **[!UICONTROL Salvar público-alvo]** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
 
@@ -46,7 +46,7 @@ Essa atividade é usada essencialmente para manter os grupos de populações com
 
 A atividade **[!UICONTROL Salvar público-alvo]** gera um novo esquema de público-alvo e um conjunto de dados associado, que podem conter informações de identificação pessoal (PII) ou informações de saúde protegidas (PHI). Após a criação do público-alvo, trabalhe com o administrador para garantir que os rótulos de governança de dados apropriados sejam aplicados de acordo com as políticas de dados da sua organização. Para obter mais informações sobre como aplicar rótulos de uso de dados, leia o [guia do usuário de rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/user-guide).
 
-## Configurar a atividade Save audience {#save-audience-configuration}
+## Configurar a atividade Salvar público-alvo {#save-audience-configuration}
 
 Siga estas etapas para configurar a atividade **Salvar público-alvo**:
 
@@ -75,7 +75,7 @@ Depois de executar a composição, o público-alvo resultante é salvo no Adobe 
 
 O público-alvo criado inclui todos os campos selecionados na seção Mapeamentos de público-alvo. Você pode direcionar esse público-alvo no Journey Optimizer ou ativá-lo para qualquer destino compatível com o Adobe Experience Platform.
 
-[Saiba mais na documentação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Saiba mais na documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

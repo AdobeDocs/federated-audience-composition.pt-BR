@@ -4,16 +4,28 @@ description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 95%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de julho de 2025 {#fac-25-7}
+
+Esta versão vem com as seguintes alterações e melhorias:
+
+* **Disponibilidade do conector do Oracle**
+
+  O conector do Oracle agora está disponível para uso com a Federated Audience Composition.
+
+* **Alertas de status de composição**
+
+  Você pode assinar alertas para ser alertado sobre o sucesso e as falhas das execuções de composição.
 
 ## Versão de junho de 2025 {#fac-25-6}
 
