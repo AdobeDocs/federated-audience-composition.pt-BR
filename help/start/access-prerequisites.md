@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -55,13 +55,13 @@ Para acessar a composição de público-alvo federado, os usuários devem ser ad
 
 Para permitir que a composição de público-alvo federado acesse os seus bancos de dados com segurança, será necessário autorizar os endereços IP dos servidores da composição de público-alvo federado que os acessarão. Esses endereços IP são exibidos ao adicionar um banco de dados federado à interface do usuário da Adobe Experience Platform. [Saiba mais](../connections/connections.md)
 
-Adicione esses endereços IP à lista de permissões para conceder acesso à Composição de público-alvo federado.
+Adicione esses endereços IP à lista de permissões para conceder acesso à composição de público-alvo federado.
 
 ## Mesclar políticas {#merge-policies}
 
 Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
 
-Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
+Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
 
 ## Medidas de proteção e limitações {#fac-guardrails}
 
