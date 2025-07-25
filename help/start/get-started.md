@@ -3,9 +3,9 @@ title: Introdução à Composição de público-alvo federado da Experience Plat
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -35,20 +35,20 @@ A Composição de público-alvo federado amplia o valor da Real-Time CDP e do Jo
 
 ## Casos de uso {#use-cases}
 
-A Federated Audience Composition oferece suporte a **três** categorias de casos de uso: criação de público, enriquecimento de público e enriquecimento de perfil do cliente.
+A composição de público-alvo federado oferece suporte a **três** categorias de casos de uso: criação de público-alvo, enriquecimento de público-alvo e enriquecimento de perfil do cliente.
 
-* Criação de público-alvo: você pode criar públicos-alvo a partir de um data warehouse e federá-los no Experience Platform para uso no Real-Time CDP ou no Journey Optimizer por meio de uma interface de usuário de arrastar e soltar amigável para profissionais de marketing. Como resultado, você pode consultar seus data warehouses sem copiar dados subjacentes confidenciais ou duplicar dados existentes.
-   * **Exemplo:** crie um público-alvo de compradores anteriores de alto valor usando dados de transações de histórico no depósito, sem copiar essas transações para o Experience Platform.
+* Criação de público-alvo: você pode criar públicos-alvo a partir de um data warehouse e federá-los na Experience Platform para usar na Real-Time CDP ou no Journey Optimizer por meio de uma interface de usuário de arrastar e soltar intuitiva para profissionais de marketing. Como resultado, você pode consultar seus data warehouses sem copiar dados subjacentes confidenciais ou duplicar dados existentes.
+   * **Exemplo:** crie um público-alvo de compradores anteriores de alto valor usando dados de transações de histórico no warehouse, sem copiar essas transações para a Experience Platform.
 
-* Enriquecimento de público: você pode adicionar mais detalhes aos públicos existentes no Experience Platform usando conjuntos de dados adicionais dos data warehouses e sobrepondo seus públicos-alvo com essas informações, tudo sem copiar os dados subjacentes para o Experience Platform. Com o enriquecimento de público, você pode fornecer personalização aprimorada com o público enriquecido.
-   * **Exemplo:** enriqueça um público-alvo de abandonadores de carrinho do Experience Platform com o público-alvo de Composição de público-alvo de compradores anteriores de alto valor para fornecer uma oferta direcionada.
+* Enriquecimento de público-alvo: você pode adicionar mais detalhes aos públicos-alvo existentes na Experience Platform usando conjuntos de dados adicionais dos data warehouses e sobrepondo seus públicos-alvo com essas informações, tudo sem copiar os dados subjacentes para a Experience Platform. Com o enriquecimento de público-alvo, você pode fornecer uma personalização aprimorada com o público-alvo enriquecido.
+   * **Exemplo:** enriqueça um público-alvo da Experience Platform de pessoas que abandonaram o carrinho com o público-alvo de composição de público-alvo federado de compradores anteriores de alto valor para fornecer uma oferta direcionada.
 
-* Enriquecimento de perfil: você pode selecionar atributos de clientes individuais no data warehouse para aprimorar os perfis do Experience Platform. Com dados federados adicionados a esses perfis, você pode potencializar melhor as experiências instantâneas acionadas pelos sinais de entrada do cliente.
-   * **Exemplo:** enriqueça um perfil do Experience Platform com informações do público federado. Agora você pode vender para um visitante do site que pertence ao público federado de compradores anteriores de alto valor com uma oferta direcionada que é acionada por seu comportamento no site.
+* Enriquecimento de perfil: você pode selecionar atributos de clientes individuais no data warehouse para aprimorar os perfis da Experience Platform. Com dados federados adicionados a esses perfis, você pode potencializar melhor as experiências instantâneas acionadas pelos sinais de entrada do cliente.
+   * **Exemplo:** enriqueça um perfil da Experience Platform com informações do público-alvo federado. Agora você pode anunciar para um visitante do site que pertence ao público-alvo federado de compradores anteriores de alto valor com uma oferta direcionada que é acionada por seu comportamento no site.
 
 ![diagrama](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Para obter mais informações sobre casos de uso da Composição de Público Federado, leia o [whitepaper Composição de Público Federado](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
+Para obter mais informações sobre casos de uso da composição de público-alvo federado, leia o [whitepaper Composição de público-alvo federado](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Principais etapas {#gs-steps}
 
@@ -68,7 +68,7 @@ Etapas principais:
 
 >[!NOTE]
 >
->Depois de executar a composição, o público-alvo resultante é salvo no Adobe Experience Platform como um público-alvo externo e está disponível no Adobe Real-Time Customer Data Platform e/ou Adobe Journey Optimizer. Ele é disponibilizado no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Depois de executar a composição, o público-alvo resultante é salvo como externo na Adobe Experience Platform e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele é disponibilizado no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governança, privacidade e segurança {#governance-privacy-security}
 
