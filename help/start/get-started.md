@@ -2,8 +2,8 @@
 title: Introdução à Composição de público-alvo federado da Experience Platform
 description: Saiba o que é a Composição de público-alvo federado da Adobe e como usá-la na Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 A Composição de público-alvo federado está disponível para ambientes da [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home){target="_blank"} e do [Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}. Ela permite que clientes criem e enriqueçam públicos-alvo de warehouses de dados externas e importem esses públicos-alvo para a Adobe Experience Platform. A Composição de público-alvo federado oferece uma solução fácil e eficiente para conectar o seu data warehouse corporativo diretamente à Adobe Real-time Customer Data Platform e/ou Adobe Journey Optimizer e realizar consultas nas tabelas do seu data warehouse.
 
-A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis estão listadas [nesta página](../connections/federated-db.md#supported-db).
+A Composição de público-alvo federado da Adobe ajuda os usuários de aplicativos da Adobe Experience Platform a acessar os dados de clientes armazenados nos data warehouses e plataformas de armazenamento na nuvem, como o Amazon Redshift, o Azure Synapse Analytics entre outros. Os dados do cliente podem residir em vários data warehouses e agora podem ser acessados instantaneamente, sem replicação. As plataformas compatíveis estão listadas [nesta página](../connections/home.md#supported-db).
 
 >[!INFO]
 >
@@ -58,7 +58,7 @@ A Composição de público-alvo federado da Adobe permite criar e atualizar púb
 
 Etapas principais:
 
-1. **Integração de Dados**: reúna dados de várias fontes e mescle-os em um conjunto de dados unificado. Saiba como conectar aplicativos da Adobe Experience Platform a seu data warehouse corporativo, quais bancos de dados são compatíveis e como configurá-los [nesta seção](../connections/federated-db.md).
+1. **Integração de Dados**: reúna dados de várias fontes e mescle-os em um conjunto de dados unificado. Saiba como conectar aplicativos da Adobe Experience Platform a seu data warehouse corporativo, quais bancos de dados são compatíveis e como configurá-los [nesta seção](../connections/home.md).
 
 1. **Modelagem de dados**: projete e crie modelos de dados e esquemas que definam a estrutura, as relações e as restrições dos dados. Saiba mais sobre esquemas [nesta página](../customer/schemas.md). Saiba como criar links para o modelo de dados [nesta página](../data-management/gs-models.md).
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Usar a atividade Salvar público-alvo
 description: Saiba como usar a atividade Salvar público
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Se o público-alvo usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
+>Se sua sandbox usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
 >
->Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
+>Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
 
 A atividade **[!UICONTROL Salvar público-alvo]** permite criar um novo público-alvo a partir da população computada upstream em uma composição. Os públicos-alvo criados são adicionados à lista de públicos-alvo da Adobe Experience Platform e disponibilizados pelo menu **Públicos-alvo**. [Saiba como trabalhar com públicos-alvo](../../start/audiences.md)
 

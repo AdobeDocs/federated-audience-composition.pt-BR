@@ -2,8 +2,8 @@
 title: Página inicial da documentação da Composição de público-alvo federado da Adobe Experience Platform
 description: Documentação da Composição de público-alvo federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 87ad70eea32255060d6c23075901cbfc83107e7b
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ A Composição de público-alvo federado permite a criação, refinamento e enri
 
 Crie, configure, teste e salve a conexão para seu banco de dados externo.
 
-[![imagem](assets/learn-more-button.svg)](connections/federated-db.md)
+[![imagem](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB Compor um público-alvo]
 

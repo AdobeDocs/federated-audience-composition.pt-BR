@@ -3,8 +3,8 @@ audience: end-user
 title: Introdução a composições
 description: Saiba como começar a usar as composições
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ Você também pode exibir informações sobre as composições, incluindo o nome
 
 Você pode aprender como iniciar ou parar uma composição no [guia de início e monitoramento de composição](./start-monitor-composition.md).
 
-![Uma lista de composições disponíveis é exibida.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![Uma lista de composições disponíveis é exibida.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Para refinar a lista e encontrar a composição que está procurando, é possível pesquisar na lista e filtrar as composições por status ou data do último processamento.
 
 Você também pode personalizar a lista adicionando ou removendo colunas. Para fazer isso, clique no botão **[!UICONTROL Configurar colunas]** e adicione ou remova as colunas de saída desejadas.
 
-![É exibida uma lista das colunas disponíveis para adicionar à página de navegação das composições.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![É exibida uma lista das colunas disponíveis para adicionar à página de navegação das composições.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Aplicar rótulos de acesso {#access-labels}
 
 Para aplicar rótulos de acesso a uma composição específica, selecione a composição e depois escolha **[!UICONTROL Gerenciar acesso]**.
 
-![O botão &quot;Gerenciar acesso&quot; está realçado na tela de composição.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![O botão &quot;Gerenciar acesso&quot; está realçado na tela de composição.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 O popover **[!UICONTROL Gerenciar acesso]** é exibido. Nessa página, é possível aplicar os rótulos de acesso e governança de dados compatíveis com a composição.
 
-![O popover Gerenciar acesso é exibido. Isso mostra uma lista de todos os rótulos disponíveis aplicáveis à composição.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![O popover Gerenciar acesso é exibido. Isso mostra uma lista de todos os rótulos disponíveis aplicáveis à composição.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Tipo de rótulo | Descrição |
 | ---------- | ----------- |

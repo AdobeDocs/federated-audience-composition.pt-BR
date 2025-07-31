@@ -2,10 +2,10 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 100%
    + [Visão geral](./governance-privacy-security/home.md)
    + [Controle de acesso](governance-privacy-security/access-control.md)
 + Etapas de configuração {#config}
-   + [Criar e gerenciar conexões](connections/connections.md)
-   + [Configurar bancos de dados federados](connections/federated-db.md)
+   + [Visão geral das conexões](connections/home.md)
    + [Matriz de direitos do FDA](connections/fda-rights.md)
    + Modelos de dados e esquemas{#datamodel}
       + [Criar e configurar esquemas](customer/schemas.md)

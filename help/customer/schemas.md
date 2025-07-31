@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 18%
 >Para acessar esquemas, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Esquema Federado**
->&#x200B;>-**Exibir Esquema Federado**
+>>-**Exibir Esquema Federado**
 >
->Para obter mais informações sobre as permissões necessárias, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
+>Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -69,7 +69,7 @@ Para criar esquemas na Composição de público federado, siga as etapas abaixo:
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Essa etapa permite acessar uma nova tela com uma lista suspensa onde você pode encontrar os bancos de dados conectados ao seu ambiente. Saiba mais sobre conexão de banco de dados em [esta seção](../connections/connections.md#connections-fdb).
+   Essa etapa permite acessar uma nova tela com uma lista suspensa onde você pode encontrar os bancos de dados conectados ao seu ambiente. Saiba mais sobre conexão de banco de dados em [esta seção](../connections/home.md#connections-fdb).
 
 1. Selecione o banco de dados de origem na lista e clique em **[!UICONTROL Avançar]**.
 

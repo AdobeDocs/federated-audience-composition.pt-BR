@@ -3,10 +3,10 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 1%
+source-wordcount: '738'
+ht-degree: 8%
 
 ---
 
@@ -38,7 +38,7 @@ Os indicadores visuais no canto superior direito de cada caixa de atividade perm
 | Indicador visual | Descrição |
 |-----|------------|
 | ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | A atividade está sendo executada no momento. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer sua atenção. Isso pode envolver a confirmação do envio de um delivery ou a tomada de uma ação necessária. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | A atividade requer a sua atenção. Isso pode envolver confirmar o envio de uma entrega ou realizar uma ação necessária. |
 | ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | A atividade encontrou um erro. Para resolver o problema, abra os logs de composição para obter mais informações. |
 | ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | A atividade foi executada com sucesso. |
 
@@ -61,6 +61,22 @@ O histórico é organizado em várias guias, detalhadas abaixo:
 ![](assets/logs-tasks.png)
 
 Em todas as guias, você pode escolher as colunas exibidas e sua ordem, aplicar filtros e usar o campo de pesquisa para localizar rapidamente as informações desejadas.
+
+## Assinatura de alertas {#alerts}
+
+Além disso, você pode assinar alertas para receber notificações se as execuções de composição federada tiverem sido bem-sucedidas ou falharem.
+
+Para assinar alertas, selecione o ![ícone de notificação](/help/assets/icons/bell.png), seguido do ![ícone de configurações](/help/assets/icons/settings.png).
+
+![Os ícones de notificação e de configurações estão realçados.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+A página de configurações de notificações é exibida. Nesta página, selecione **[!UICONTROL Experience Platform]** e escolha os canais de alertas desejados. Para ver as notificações na interface, selecione **[!UICONTROL No aplicativo]**.
+
+![A caixa de seleção No aplicativo está marcada na seção Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Com **[!UICONTROL No aplicativo]** selecionado, você será notificado agora sobre êxitos e falhas na execução de composição.
+
+![Os alertas são exibidos, mostrando os sucessos e as falhas da composição.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Comandos de execução de composição {#execution-commands}
 
