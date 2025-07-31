@@ -17,7 +17,7 @@ ht-degree: 20%
 >Para acessar esquemas, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Esquema Federado**
->>-**Exibir Esquema Federado**
+>&#x200B;>-**Exibir Esquema Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
