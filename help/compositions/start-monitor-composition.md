@@ -3,7 +3,7 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 8%
@@ -95,3 +95,4 @@ As ações disponíveis são:
 * **[!UICONTROL Parar]** uma composição que está sendo executada, que assumirá o status **[!UICONTROL Concluído]**. Se possível, as operações em andamento são interrompidas. Não é possível retomar da composição no mesmo local em que ela foi interrompida.
 
 * **[!UICONTROL Reiniciar]**: para e reinicia uma composição. Na maioria dos casos, isso permite que você reinicie mais rápido, pois a interrupção leva um certo tempo, e o botão **[!UICONTROL Iniciar]** só estará disponível quando a interrupção for efetiva.
+
