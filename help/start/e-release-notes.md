@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ## Versão de julho de 2025 {#fac-25-7}
 
-Esta versão vem com as seguintes alterações e melhorias:
+Esta versão inclui as seguintes alterações e aprimoramentos:
 
 * **Disponibilidade do conector do Oracle**
 
-  O conector do Oracle agora está disponível para uso com a Federated Audience Composition.
+  O conector do Oracle agora está disponível para uso com a composição de público-alvo federado.
 
 * **Alertas de status de composição**
 
-  Você pode assinar alertas para ser alertado sobre o sucesso e as falhas das execuções de composição.
+  É possível assinar alertas para receber avisos sobre o sucesso e as falhas de execuções de composição.
 
 ## Versão de junho de 2025 {#fac-25-6}
 

@@ -3,9 +3,9 @@ title: Pré-requisitos e medidas de proteção para a Composição de público-a
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ A Composição de público-alvo federado exige os pacotes **Prime** ou **Ultimat
 
 >[!AVAILABILITY]
 >
->Após receber a notificação de boas-vindas da Adobe por email, pode levar mais algumas horas para que a interface seja atualizada e os recursos fiquem disponíveis.
+>Após receber a notificação do email de boas-vindas da Adobe, pode levar mais algumas horas para que a interface seja atualizada e os recursos fiquem disponíveis.
 
 ## Sistemas compatíveis {#supported-systems}
 
@@ -59,7 +59,7 @@ Adicione esses endereços IP à lista de permissões para conceder acesso à com
 
 ## Mesclar políticas {#merge-policies}
 
-Se sua sandbox usar uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o Atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à sua política de mesclagem.
+Se sua sandbox usa uma política de mesclagem de **precedência de conjunto de dados**, entre em contato com o atendimento ao cliente da Adobe para adicionar o conjunto de dados `Halos UPS` à política de mesclagem.
 
 Para obter mais informações sobre políticas de mesclagem, leia a [visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview).
 

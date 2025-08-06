@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Versão de julho de 25 {#fac-25-7}
+## Versão de julho de 2025 {#fac-25-7}
 
 ### Novos recursos {#fac-25-07-feature}
 
@@ -26,8 +26,8 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <tbody>
 <tr>
 <td>
-<p>O conector do Oracle agora está disponível para uso com a Federated Audience Composition.</p>
-<p>Você pode usar o conector do Oracle para casos de uso de criação e enriquecimento de público.</p>
+<p>O conector do Oracle agora está disponível para uso com a composição de público-alvo federado.</p>
+<p>É possível usar o conector do Oracle para casos de uso de criação e enriquecimento de público-alvo.</p>
 <p>Para obter mais informações sobre a conexão do Oracle, leia a <a href="../connections/home.md#create">visão geral das conexões</a>.</p>
 </br>
 </td>
@@ -44,8 +44,8 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <tbody>
 <tr>
 <td>
-<p>Agora você pode assinar alertas para saber mais sobre as execuções bem-sucedidas e com falha de sua composição</p>
-<p>Para obter mais informações sobre como assinar notificações para as execuções de sua composição, leia o <a href="../compositions/start-monitor-composition.md#alerts">guia de início e monitoramento</a>.</p>
+<p>Agora é possível assinar alertas para saber mais sobre as execuções bem-sucedidas e com falha da composição</p>
+<p>Para obter mais informações sobre como assinar notificações para as execuções da composição, leia o <a href="../compositions/start-monitor-composition.md#alerts">guia de início e monitoramento da composição</a>.</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 ### Aprimoramentos {#fac-25-07-improvements}
 
-Esta versão vem com a seguinte melhoria:
+Esta versão inclui os seguintes aprimoramentos:
 
-* **Comprimento de caractere de servidor aumentado**
+* **Aumento do limite de caracteres no servidor**
 
-  Ao configurar seus bancos de dados federados, agora é possível usar até 255 caracteres, em vez dos 80 caracteres anteriores.
+  Ao configurar os bancos de dados federados, agora é possível usar até 255 caracteres, em vez dos 80 caracteres anteriores.
 
 ## Versão de junho de 2025 {#fac-25-6}
 
