@@ -3,10 +3,10 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 >Para acessar esquemas, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Esquema Federado**
->&#x200B;>-**Exibir Esquema Federado**
+>>-**Exibir Esquema Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -59,80 +59,70 @@ Ao criar um esquema, você pode definir uma representação da tabela na Composi
 >[!CAUTION]
 >
 >Ao conectar várias sandboxes com o mesmo banco de dados, você deve usar esquemas de trabalho distintos.
->
 
 ## Criar um esquema {#schema-create}
 
-Para criar esquemas na Composição de público federado, siga as etapas abaixo:
+Para criar um esquema na Composição de Público Federado, selecione **[!UICONTROL Modelos]** na seção **[!UICONTROL Dados Federados]**. Na guia **[!UICONTROL Esquema]**, selecione **[!UICONTROL Criar esquema]**.
 
-1. Na seção **[!UICONTROL Dados Federados]**, acesse o menu **[!UICONTROL Modelos]**. Navegue até a guia **[!UICONTROL Esquema]** e clique em **[!UICONTROL Criar esquema]**.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+O popover **[!UICONTROL Selecionar banco de dados federado]** é exibido. Neste pop-over, você pode selecionar o [banco de dados de origem](/help/connections/home.md), seguido de **[!UICONTROL Próximo]**.
 
-   Essa etapa permite acessar uma nova tela com uma lista suspensa onde você pode encontrar os bancos de dados conectados ao seu ambiente. Saiba mais sobre conexão de banco de dados em [esta seção](../connections/home.md#connections-fdb).
 
-1. Selecione o banco de dados de origem na lista e clique em **[!UICONTROL Avançar]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+O popover **Selecionar tabela** é exibido. Nesse popover, é possível selecionar as tabelas que deseja usar para criar o schema.
 
-   Você poderá ver a lista de todas as tabelas no banco de dados.
+![O popover Selecionar tabela é exibido.](assets/select-table.png){zoomable="yes"}
 
-1. Selecione as tabelas para as quais deseja criar o esquema.
+Cada tabela selecionada gera um esquema com as colunas escolhidas. Para cada tabela, você pode alterar o rótulo do esquema, adicionar uma descrição, renomear o rótulo do campo, definir a visibilidade do rótulo do campo e selecionar a chave primária do esquema.
 
-1. Cada tabela selecionada gera um esquema com as colunas escolhidas. Configure o esquema e suas colunas conforme necessário.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>Se você habilitar **[!UICONTROL Usar Chave Composta]**, mas selecionar apenas uma chave a ser usada, ela será tratada como uma chave primária de esquema padrão.
 
-   Para cada tabela, é possível:
+Além disso, você pode criar uma chave composta de várias colunas de esquema. Ative **[!UICONTROL Usar chave composta]** e marque as chaves que deseja usar como sua chave composta.
 
-   * alterar o rótulo do schema
-   * adicionar uma descrição
-   * renomear todos os rótulos de campo e definir sua visibilidade
-   * selecionar a chave primária do esquema
+![](assets/composite-key.png)
 
-   O schema pode ser definido da seguinte maneira:
-
-   ![](assets/schema_example.png)
-
-1. Após concluir sua configuração, clique em **[!UICONTROL Concluído]**.
+Após concluir a configuração, selecione **[!UICONTROL Concluído]** para concluir a criação do esquema.
 
 ## Editar um esquema {#schema-edit}
 
-Para editar um esquema, siga estas etapas:
+Para editar um esquema, selecione o esquema criado anteriormente na página **Esquemas**.
 
-1. Acesse o esquema criado anteriormente.
+A página de detalhes do esquema é exibida. Selecione o ![ícone de lápis](/help/assets/icons/edit.png) para editar o esquema.
 
-1. Clique no botão **[!UICONTROL Editar]**.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+Na janela **[!UICONTROL Editar esquema]**, você pode acessar e configurar as mesmas opções de quando [criar um esquema](#schema-create).
 
-1. Na janela **[!UICONTROL Editar esquema]**, você pode acessar e configurar as mesmas opções de quando [criar um esquema](#schema-create).
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Visualizar dados em um esquema {#schema-preview}
 
 Para visualizar os dados na tabela representada pelo seu esquema, navegue até a guia **[!UICONTROL Dados]**, conforme abaixo.
 
-Clique no link **[!UICONTROL Calcular]** para visualizar o número total de gravações.
+Selecione o link **[!UICONTROL Calcular]** para visualizar o número total de gravações.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Clique no botão **[!UICONTROL Configurar colunas]** para alterar a exibição de dados.
+Selecione o botão **[!UICONTROL Configurar colunas]** para alterar a exibição de dados.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Atualizar um esquema {#schema-refresh}
 
-As tabelas em um banco de dados federado podem ser atualizadas, adicionadas ou removidas. Nesses casos, você deve atualizar o esquema no Adobe Experience Platform para alinhar-se às alterações mais recentes. Para fazer isso, clique nos três pontos ao lado do nome do esquema a ser atualizado e selecione **Atualizar esquema**.
+As tabelas em um banco de dados federado podem ser atualizadas, adicionadas ou removidas. Nesses casos, você deve atualizar o esquema no Adobe Experience Platform para alinhar-se às alterações mais recentes. Para fazer isso, selecione o ![ícone de três pontos](/help/assets/icons/more.png) ao lado do nome do esquema seguido por **[!UICONTROL Atualizar esquema]**.
 
 Também é possível atualizar a definição do schema ao editá-lo.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Excluir um esquema {#schema-delete}
 
-Para excluir um esquema, clique no botão **[!UICONTROL Mais]** e escolha **[!UICONTROL Excluir]**.
+Para excluir um esquema, selecione o ![ícone de três pontos](/help/assets/icons/more.png), seguido de **[!UICONTROL Excluir]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

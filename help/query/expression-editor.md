@@ -3,10 +3,10 @@ audience: end-user
 title: Criar a primeira consulta usando o modelador de consultas
 description: Saiba como criar sua primeira consulta no modelador de consultas.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 75%
+source-wordcount: '2075'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ A edição de uma expressão envolve a inserção manual de condições para for
 
 O editor de expressão está disponível pelo botão **[!UICONTROL Editar expressão]** do modelador de consulta, disponível para os campos **[!UICONTROL Atributo]** e **[!UICONTROL Valor]** ao configurar uma condição personalizada.
 
-| Acesso pelo campo **[!UICONTROL Atributo]** | Acesso do campo **[!UICONTROL Value]** |
+| Acesso a partir do campo **[!UICONTROL Atributo]** | Acesso a partir do campo **[!UICONTROL Valor]** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
@@ -26,9 +26,9 @@ O editor de expressão fornece:
 
 * Um campo de entrada **(1)** no qual a expressão é definida.
 * A lista de **campos (2)** disponíveis que podem ser usados na expressão e que correspondem ao esquema, também conhecido como targeting dimension, da consulta.
-* **Funções auxiliares (3)**, classificadas por categoria.
+* **Funções auxiliares (3)**, ordenadas por categoria.
 
-Edite a expressão inserindo uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e clique no botão +.
+Para editar a expressão, insira uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão à qual deseja adicionar o campo e clique no botão +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -38,9 +38,9 @@ O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Va
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
-## Funções auxiliares
+## Funções de ajuda
 
-A ferramenta de edição de query permite usar funções avançadas para fazer filtragens complexas dependendo dos resultados desejados e dos tipos de dados manipulados. Os recursos abaixo estão disponíveis.
+A ferramenta de edição de consultas permite usar funções avançadas para fazer filtragens complexas, dependendo dos resultados desejados e dos tipos de dados manipulados. Os recursos abaixo estão disponíveis.
 
 ### Agregado
 
@@ -56,12 +56,12 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
   <tr> 
    <td> <strong>Avg</strong><br /> </td> 
    <td> Retorna a média de uma coluna do tipo número<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
+   <td> Avg(&lt;valor&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Contagem</strong><br /> </td> 
    <td> Conta os valores não nulos de uma coluna<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
+   <td> Count(&lt;valor&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>CountAll</strong><br /> </td> 
@@ -71,32 +71,32 @@ As funções de agregação são usadas para realizar cálculos em um conjunto d
   <tr> 
    <td> <strong>Countdistinct</strong><br /> </td> 
    <td> Conta os valores não nulos distintos de uma coluna<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
+   <td> Countdistinct(&lt;valor&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Max</strong><br /> </td> 
    <td> Retorna o valor máximo de uma coluna, string ou coluna de tipo de data<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
+   <td> Max(&lt;valor&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Min</strong><br /> </td> 
    <td> Retorna o valor mínimo de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
+   <td> Min(&lt;valor&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Retorna o desvio padrão de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
+   <td> StdDev(&lt;valor&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>AgregaçãoDeCadeiaDeCaracteres</strong><br /> </td> 
    <td> Retorna a concatenação dos valores de uma coluna do tipo string, separados pelo caractere no segundo argumento <br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
+   <td> StringAgg(&lt;valor&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
    <td> Retorna a soma dos valores de uma coluna do tipo número, string ou dados<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
+   <td> Sum(&lt;valor&gt;)<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -390,7 +390,7 @@ As funções de geomarketing são usadas para manipular valores geográficos.
 
 ### Numérico
 
-As funções numéricas são usadas para converter texto em números.
+As funções numéricas são usadas para converter textos em números.
 
 <table> 
  <tbody> 
@@ -412,7 +412,7 @@ As funções numéricas são usadas para converter texto em números.
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Retorna o maior inteiro maior ou igual a um número<br /> </td> 
-   <td> Floor(&lt;number&gt;)<br /> </td>  
+   <td> Floor(&lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
@@ -427,7 +427,7 @@ As funções numéricas são usadas para converter texto em números.
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Retorna o restante da divisão inteira de n1 por n2<br /> </td> 
-   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td>  
+   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -441,7 +441,7 @@ As funções numéricas são usadas para converter texto em números.
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> Arredonda um número para decimais n<br /> </td> 
+   <td> Arredonda um número para n decimais<br /> </td> 
    <td> Round(&lt;número&gt;, &lt;número de decimais&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -466,7 +466,7 @@ As funções numéricas são usadas para converter texto em números.
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
-   <td> Corta o n1 para o decimal n2<br /> </td> 
+   <td> Corta o n1 para que tenha n2 casas decimais<br /> </td> 
    <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -474,7 +474,7 @@ As funções numéricas são usadas para converter texto em números.
 
 ### Outros
 
-Esta tabela contém as funções restantes disponíveis.
+Esta tabela contém as demais funções disponíveis.
 
 <table> 
  <tbody> 
@@ -484,14 +484,14 @@ Esta tabela contém as funções restantes disponíveis.
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>CriptografiaAEM</strong><br /> </td> 
-   <td> Cadeia de caracteres criptografada fornecida no argumento <br /> </td> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> String de criptografia fornecida no argumento<br /> </td> 
    <td> AESEncrypt(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retorna o valor 1 se a condição for verdadeira. Caso contrário, retornará o valor 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;condição&gt;, &lt;valor 1&gt;), Else(&lt;valor 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -506,7 +506,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Retorna o valor 3 se o valor 1 for igual ao valor 2. Caso contrário, retorna o valor 4.<br /> </td> 
-   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+   <td> Decode(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;, &lt;valor 4&gt;)<br /> </td>  
   </tr> 
   <!--<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
@@ -516,7 +516,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retorna o valor 1 (só pode ser usado como parâmetro da função case)<br /> </td> 
-   <td> Else(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> Else(&lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
@@ -531,7 +531,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Retorna o valor 1 se a expressão for verdadeira. Caso contrário, retorna o valor 2<br /> </td> 
-   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td>  
+   <td> Iif(&lt;condição&gt;, &lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
@@ -541,11 +541,11 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
    <td> Retorna o valor 2 se a string 1 estiver vazia, caso contrário, retorna o valor 3.<br /> </td> 
-   <td> IsEmptyString(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td>  
+   <td> IsEmptyString(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NovoUUID</strong><br /> </td> 
-   <td> Retorna uma ID exclusiva <br /> </td> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Retorna um identificador exclusivo<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
@@ -571,7 +571,7 @@ Esta tabela contém as funções restantes disponíveis.
   <tr> 
    <td> <strong>When</strong><br /> </td> 
    <td> Retorna o valor 1 se a expressão for verdadeira. Se não, ele retorna o valor 2 (só pode ser usado como parâmetro da função case)<br /> </td> 
-   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td>  
+   <td> When(&lt;condição&gt;, &lt;valor 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -605,7 +605,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Retorna o caractere correspondente ao código ASCII 'n'<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /></td>  
+   <td> Char(&lt;número&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -614,12 +614,12 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
-   <td> Retorna o tamanho em bytes da cadeia de caracteres <br /> </td> 
-   <td> dataLength(&lt;cadeia de caracteres&gt;)<br /></td> 
+   <td> Retorna o tamanho da string em bytes<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
-   <td> Retorna a linha enésima (de 1 a n) da string<br /> </td> 
+   <td> Retorna a enésima linha (de 1 a n) da string<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -629,23 +629,23 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
-   <td> Indica se o memorando passado como parâmetro é nulo<br /> </td> 
+   <td> Indica se o memo passado como parâmetro é nulo<br /> </td> 
    <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> Concatena a string transmitidas como parâmetros. Adiciona espaços entre a string, se necessário.<br /> </td> 
+   <td> Concatena as strings transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário.<br /> </td> 
    <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatena a string transmitidas como parâmetros. Adiciona espaços entre a string, se necessário<br /> </td> 
+   <td> Concatena as strings transmitidas como parâmetros. Adiciona espaços entre as strings, se necessário<br /> </td> 
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retorna os primeiros n caracteres da string<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
+   <td> Left(&lt;string&gt;, &lt;número&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -654,8 +654,8 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Linha</strong><br /> </td> 
-   <td> Extrair linha n da cadeia de caracteres<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> Extrair linha n da string<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;número&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -665,7 +665,7 @@ As funções de string são usadas para manipular um conjunto de strings.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Retorna a string concluída à esquerda<br /> </td> 
-   <td> LPad (&lt;Cadeia de caracteres&gt;, &lt;Número&gt;, &lt;Caractere&gt;)<br /></td> 
+   <td> LPad (&lt;string&gt;, &lt;número&gt;, &lt;caractere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -679,18 +679,18 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
-   <td> Especifica se o memorando contém a string aprovada como um parâmetro<br /> </td> 
-   <td> MemoContains(&lt;memorando&gt;, &lt;string&gt;)<br /></td> 
+   <td> Especifica se o memo contém a string aprovada como um parâmetro<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ValorDoNó</strong><br /> </td> 
-   <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo <br /> </td> 
-   <td> NodeValue (&lt;String&gt;, &lt;String&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Extrai o valor de um campo XML de seu XPath e dos dados do campo<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Substitui todas as ocorrências de um valor de cadeia de caracteres especificado por outro valor de cadeia de caracteres.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Substitui todas as ocorrências de um valor de cadeia de caracteres especificado (Cadeia de caracteres 2) por outro valor de cadeia de caracteres (Cadeia de caracteres 3) em uma cadeia de caracteres (Cadeia de caracteres 1).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -709,13 +709,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Representação hexadecimal da chave SHA256 de uma cadeia de caracteres.<br /> </td> 
-   <td> Sha256Digest (&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Representação hexadecimal da chave SHA256 de uma string.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Representação hexadecimal da chave SHA512 de uma cadeia de caracteres.<br /> </td> 
-   <td> Sha512Digest (&lt;Cadeia de caracteres&gt;)<br /> </td> 
+   <td> Representação hexadecimal da chave SHA512 de uma string.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -724,13 +724,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
-   <td> Extrai a substring iniciando no caractere n1 da cadeira de caracteres e de comprimento n2<br /> </td> 
-   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td>  
+   <td> Extrai a substring iniciando no caractere n1 da string e com n2 de comprimento <br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;deslocamento&gt;, &lt;comprimento&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> Converte o número em uma string<br /> </td> 
-   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+   <td> ToString(&lt;número&gt;, &lt;número&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -760,9 +760,9 @@ As funções de string são usadas para manipular um conjunto de strings.
    <td> <strong>Sintaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_Sobre__</strong><br /> </td> 
-   <td> Execute a chamada de função SQL inserida como o primeiro parâmetro, em Partição ou Ordenar pelos campos inseridos como o segundo parâmetro<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Execute a chamada da função SQL inserida como primeiro parâmetro, em “Partição” ou “Ordenar por” dos campos inseridos como segundo parâmetro<br /> </td> 
+   <td> _Over_ (&lt;valor&gt;, &lt;valor&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
@@ -776,13 +776,13 @@ As funções de string são usadas para manipular um conjunto de strings.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partições do resultado de um query em uma tabela<br /> </td> 
+   <td> Partições do resultado de um consulta em uma tabela<br /> </td> 
    <td> PartitionBy(&lt;valor 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
    <td> Gera um número de linha com base na partição da tabela e em uma sequência de classificação.<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;valor 1&gt;), OrderBy(&lt;valor 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

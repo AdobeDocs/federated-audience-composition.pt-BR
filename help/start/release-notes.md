@@ -2,16 +2,78 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1542'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '1706'
+ht-degree: 91%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de agosto de 2025 {#fac-25-8}
+
+### Novos recursos {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Suporte a chave composta na descoberta de esquema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível combinar colunas para criar uma chave composta para o esquema.</p>
+<p>Para obter mais informações sobre esquemas, leia a <a href="../customer/schemas.md#create">visão geral dos esquemas</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adição de várias associações em um link para modelos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível adicionar várias associações em um único link para seus modelos.</p>
+<p>Para obter mais informações sobre modelos, leia a <a href="../data-management/gs-models.md#create">visão geral dos modelos</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Aprimoramentos {#fac-25-8-improvements}
+
+Esta versão inclui os seguintes aprimoramentos:
+
+* **Adicionada a função `StringAgg`**
+
+  Agora você pode usar a função `StringAgg` para Bancos de dados Amazon Redshift Spectrum quando. usando o editor de expressão.
+
+* **`Replace`função**
+
+  A descrição e a sintaxe da função `Replace` foram esclarecidas na documentação.
+
+### Compatibilidade {#fac-25-8-compatibility}
+
+* **bancos de dados Azure Synapse**
+
+  Agora você pode se conectar com segurança aos bancos de dados do Azure Synapse com PrivateLink ou VPN. Entre em contato com o Atendimento ao cliente da Adobe para obter mais informações.
+
+* **Banco de dados do Oracle**
+
+  Agora você pode se conectar com segurança aos bancos de dados do Oracle. Entre em contato com o Atendimento ao cliente da Adobe para obter mais informações.
+
+Para obter mais informações sobre os bancos de dados compatíveis na Federated Audience Composition, leia a [visão geral das conexões](../connections/home.md).
 
 ## Versão de julho de 2025 {#fac-25-7}
 
@@ -311,4 +373,4 @@ A composição de público-alvo federado supre o aumento das demandas do mercado
 
 Saiba mais sobre os recursos da composição de público-alvo federado [nesta página](get-started.md) e nas [Perguntas frequentes](faq.md).
 
-Para obter informações detalhadas dos pré-requisitos para acessar Composições de público-alvo federado e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).
+Para obter informações detalhadas dos pré-requisitos para acessar Composição de público-alvo federado e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).

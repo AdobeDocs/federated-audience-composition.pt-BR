@@ -3,10 +3,10 @@ audience: end-user
 title: Criar composições
 description: Saiba como criar composições
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 22%
+source-wordcount: '515'
+ht-degree: 21%
 
 ---
 
@@ -16,20 +16,22 @@ A primeira etapa para criar uma composição é definir seu rótulo e definir co
 
 ## Criar a composição {#create-the-composition}
 
-1. Acesse o menu **[!UICONTROL Públicos-alvo]** e selecione a guia **[!UICONTROL Composições federadas]**.
+Para criar uma composição, selecione **[!UICONTROL Públicos-alvo]** na seção **[!UICONTROL Cliente]**, seguido da guia **[!UICONTROL Composições federadas]**.
 
-1. Clique no botão **[!UICONTROL Criar composição]**.
+IMAGEM
 
-   ![](assets/composition-create.png)
+A página de navegação das composições federadas é exibida. Selecione **[!UICONTROL Criar composição]** para continuar com o processo de criação de composição.
 
-1. Na seção **[!UICONTROL Propriedades]**, especifique um rótulo para a composição e selecione um modelo de dados. Somente os esquemas associados a esse modelo de dados estarão disponíveis nas atividades de sua composição.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+Na seção **[!UICONTROL Propriedades]**, especifique um rótulo para a composição e selecione um modelo de dados. Somente os esquemas associados a esse modelo de dados estarão disponíveis nas atividades de sua composição.
 
-1. Clique em **[!UICONTROL Criar]**. A tela de composição é exibida. Agora você pode configurar sua composição adicionando quantas atividades forem necessárias para atender às suas necessidades antes de executá-la:
+![](assets/composition-select-schema.png)
 
-   * [Saiba como organizar atividades](orchestrate-activities.md)
-   * [Saiba como iniciar e monitorar uma composição](start-monitor-composition.md)
+Selecione **[!UICONTROL Criar]**. A tela de composição é exibida. Agora você pode configurar sua composição adicionando quantas atividades forem necessárias para atender às suas necessidades antes de executá-la:
+
+* [Saiba como organizar atividades](orchestrate-activities.md)
+* [Saiba como iniciar e monitorar uma composição](start-monitor-composition.md)
 
 ## Definir as configurações da composição {#settings}
 
@@ -48,7 +50,9 @@ A primeira etapa para criar uma composição é definir seu rótulo e definir co
 >title="Configurações de gerenciamento de erros"
 >abstract="Nesta seção, é possível definir como gerenciar erros durante a execução. É possível optar por pausar o processo, ignorar um determinado número de erros ou interromper a execução da composição."
 
-Ao acessar uma composição, você pode acessar configurações avançadas que permitem, por exemplo, definir como a composição deve se comportar em caso de erro. Para acessar essas opções adicionais, clique no botão **[!UICONTROL Configurações]** localizado na seção superior da tela de criação da composição.
+Ao acessar uma composição, você pode acessar configurações avançadas que permitem, por exemplo, definir como a composição deve se comportar em caso de erro.
+
+Para acessar essas opções adicionais, selecione **[!UICONTROL Configurações]** na seção superior da tela de criação da composição.
 
 ![](assets/composition-create-settings.png)
 
