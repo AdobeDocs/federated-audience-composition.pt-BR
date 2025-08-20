@@ -3,9 +3,9 @@ audience: end-user
 title: Introdução a esquemas
 description: Saiba como começar com esquemas
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >Para acessar esquemas, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Esquema Federado**
->&#x200B;>-**Exibir Esquema Federado**
+>>-**Exibir Esquema Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Ao criar um esquema, você pode definir uma representação da tabela na Composi
 
 Para criar um esquema na Composição de Público Federado, selecione **[!UICONTROL Modelos]** na seção **[!UICONTROL Dados Federados]**. Na guia **[!UICONTROL Esquema]**, selecione **[!UICONTROL Criar esquema]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![O botão Criar esquema está realçado na seção de esquema Composição de Público-Alvo Federado.](assets/schema_create.png){zoomable="yes"}
 
 O popover **[!UICONTROL Selecionar banco de dados federado]** é exibido. Neste pop-over, você pode selecionar o [banco de dados de origem](/help/connections/home.md), seguido de **[!UICONTROL Próximo]**.
 
@@ -77,7 +77,7 @@ O popover **Selecionar tabela** é exibido. Nesse popover, é possível selecion
 
 Cada tabela selecionada gera um esquema com as colunas escolhidas. Para cada tabela, você pode alterar o rótulo do esquema, adicionar uma descrição, renomear o rótulo do campo, definir a visibilidade do rótulo do campo e selecionar a chave primária do esquema.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Cada tabela selecionada gera um esquema com as colunas escolhidas. Para cada tab
 
 Além disso, você pode criar uma chave composta de várias colunas de esquema. Ative **[!UICONTROL Usar chave composta]** e marque as chaves que deseja usar como sua chave composta.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Após concluir a configuração, selecione **[!UICONTROL Concluído]** para concluir a criação do esquema.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Banco de Dados Federado**
->&#x200B;>-**Exibir Banco de Dados Federado**
+>>-**Exibir Banco de Dados Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -71,6 +71,10 @@ Depois de selecionar Amazon Redshift, você pode adicionar os seguintes detalhes
 | Esquema de trabalho | O nome do esquema do banco de dados a ser usado para tabelas de trabalho. Mais informações sobre este recurso podem ser encontradas na [documentação sobre esquemas do Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Observação:** você pode usar qualquer esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Se você quiser criar uma conexão segura usando o Azure Synapse Analytics, entre em contato com o representante do Atendimento ao cliente da Adobe.
 
 Depois de selecionar o Azure Synapse Analytics, você pode adicionar os seguintes detalhes:
 
@@ -153,7 +157,7 @@ Para o Microsoft Fabric, você pode definir as seguintes opções adicionais:
 >
 >No momento, o conector de banco de dados do Oracle pode **ser usado somente** para casos de uso de criação de público e enriquecimento de público.
 >
->Além disso, antes de configurar o banco de dados do Oracle, entre em contato com o representante do Atendimento ao cliente da Adobe.
+>Antes de configurar o banco de dados do Oracle, incluindo a configuração da conexão Oracle para usar uma conexão segura, entre em contato com o representante do Atendimento ao cliente da Adobe.
 
 Depois de selecionar Oracle, você pode adicionar os seguintes detalhes:
 
