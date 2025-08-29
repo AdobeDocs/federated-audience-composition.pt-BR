@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1953'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Banco de Dados Federado**
->&#x200B;>-**Exibir Banco de Dados Federado**
+>>-**Exibir Banco de Dados Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -154,8 +154,6 @@ Para o Microsoft Fabric, você pode definir as seguintes opções adicionais:
 >[!TAB Oracle]
 
 >[!IMPORTANT]
->
->No momento, o conector de banco de dados do Oracle pode **ser usado somente** para casos de uso de criação de público e enriquecimento de público.
 >
 >Antes de configurar o banco de dados do Oracle, incluindo a configuração da conexão Oracle para usar uma conexão segura, entre em contato com o representante do Atendimento ao cliente da Adobe.
 
