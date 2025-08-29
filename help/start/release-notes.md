@@ -3,9 +3,9 @@ title: Novidades na Composição de público-alvo federado da Experience Platfor
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <table>
 <thead>
 <tr>
-<th><strong>Suporte a chave composta na descoberta de esquema</strong><br/></th>
+<th><strong>Compatibilidade com chave composta na descoberta de esquemas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível combinar colunas para criar uma chave composta para o esquema.</p>
-<p>Para obter mais informações sobre esquemas, leia a <a href="../customer/schemas.md#create">visão geral dos esquemas</a>.</p>
+<p>Agora, é possível combinar colunas para criar uma chave composta para o seu esquema.</p>
+<p>Para mais informações sobre esquemas, leia a <a href="../customer/schemas.md#create">visão geral dos esquemas</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,14 +37,14 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <table>
 <thead>
 <tr>
-<th><strong>Adição de várias associações em um link para modelos</strong><br/></th>
+<th><strong>Adicionar várias associações em um link para modelos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora é possível adicionar várias associações em um único link para seus modelos.</p>
-<p>Para obter mais informações sobre modelos, leia a <a href="../data-management/gs-models.md#create">visão geral dos modelos</a>.</p>
+<p>Agora, é possível adicionar várias associações em um mesmo link para os seus modelos.</p>
+<p>Para mais informações sobre modelos, leia a <a href="../data-management/gs-models.md#create">visão geral dos modelos</a>.</p>
 </br>
 </td>
 </tr>
@@ -55,25 +55,25 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 
 Esta versão inclui os seguintes aprimoramentos:
 
-* **Adicionada a função `StringAgg`**
+* **Adição da função `StringAgg`**
 
-  Agora você pode usar a função `StringAgg` para Bancos de dados Amazon Redshift Spectrum quando. usando o editor de expressão.
+  Agora, você pode usar a função `StringAgg` para bancos de dados do Amazon Redshift Spectrum ao usar o editor de expressões.
 
-* **`Replace`função**
+* Função **`Replace`**
 
   A descrição e a sintaxe da função `Replace` foram esclarecidas na documentação.
 
 ### Compatibilidade {#fac-25-8-compatibility}
 
-* **bancos de dados Azure Synapse**
+* **Bancos de dados do Azure Synapse**
 
-  Agora você pode se conectar com segurança aos bancos de dados do Azure Synapse com PrivateLink ou VPN. Entre em contato com o Atendimento ao cliente da Adobe para obter mais informações.
+  Agora, você pode se conectar com segurança aos bancos de dados do Azure Synapse com PrivateLink ou VPN. Entre em contato com o atendimento ao cliente da Adobe para mais informações.
 
-* **Banco de dados do Oracle**
+* **Banco de dados da Oracle**
 
-  Agora você pode se conectar com segurança aos bancos de dados do Oracle. Entre em contato com o Atendimento ao cliente da Adobe para obter mais informações.
+  Agora, você pode se conectar com segurança aos bancos de dados da Oracle. Entre em contato com o atendimento ao cliente da Adobe para mais informações.
 
-Para obter mais informações sobre os bancos de dados compatíveis na Federated Audience Composition, leia a [visão geral das conexões](../connections/home.md).
+Para mais informações sobre os bancos de dados compatíveis com a composição de público-alvo federado, leia a [visão geral das conexões](../connections/home.md).
 
 ## Versão de julho de 2025 {#fac-25-7}
 
