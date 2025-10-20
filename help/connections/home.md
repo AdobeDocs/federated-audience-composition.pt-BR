@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
+source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1991'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
 >-**Gerenciar Banco de Dados Federado**
->&#x200B;>-**Exibir Banco de Dados Federado**
+>>-**Exibir Banco de Dados Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -155,7 +155,7 @@ Para o Microsoft Fabric, você pode definir as seguintes opções adicionais:
 
 >[!IMPORTANT]
 >
->O Federated Audience Composition oferece suporte à configuração de conexão federada com o banco de dados do Oracle versão 11g ou superior e hospedado no AWS, Azure, Exadata ou em uma nuvem privada (desde que seja acessível por uma rede externa). Se você tiver mais dúvidas relacionadas à configuração do banco de dados do Oracle ou precisar criar uma conexão segura com o Oracle, entre em contato com o representante do Atendimento ao cliente da Adobe.
+>O Federated Audience Composition é compatível com a configuração de conexão federada com bancos de dados do Oracle na versão 11g ou superior e hospedado no AWS, Azure, Exadata ou em uma nuvem privada (desde que seja acessível por uma rede externa). Se você tiver mais dúvidas relacionadas à configuração do banco de dados do Oracle ou precisar criar uma conexão segura com o Oracle, entre em contato com o representante do Atendimento ao cliente da Adobe.
 
 Depois de selecionar Oracle, você pode adicionar os seguintes detalhes:
 
