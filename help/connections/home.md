@@ -3,9 +3,9 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2298'
 ht-degree: 10%
 
 ---
@@ -127,11 +127,15 @@ Se você selecionar **[!UICONTROL Conta/Autenticação de senha]**, poderá adic
 
 Se você selecionar **[!UICONTROL OAuth 2.0]**, será possível adicionar as seguintes informações de logon:
 
+>[!NOTE]
+>
+>Antes de se conectar ao Google BigQuery usando o OAuth 2.0, será necessário configurar o URL de redirecionamento no projeto do Google Cloud. Adicione a URL de redirecionamento `https://fac-oauth.adobe.io/oauth` ao seu projeto da Google Cloud na configuração da ID do cliente OAuth 2.0.
+
 | Campo | Descrição |
 | ----- | ----------- |
 | ID de cliente | A ID do cliente do seu projeto do Google BigQuery. Este campo atua como um nome de usuário para o seu projeto. |
 | Segredo do cliente | O segredo do cliente do seu projeto do Google BigQuery. Este campo atua como uma senha para o seu projeto. |
-| URL de redirecionamento | O URL que o aplicativo redirecionará após a autorização bem-sucedida. |
+| Escopo de acesso | Informações pré-preenchidas que listam os escopos para os quais o token OAuth está autorizado nos recursos da Google Cloud. |
 
 Selecione **[!UICONTROL Entrar]** para concluir sua autenticação.
 
@@ -176,7 +180,7 @@ Para o Microsoft Fabric, você pode definir as seguintes opções adicionais:
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >O Federated Audience Composition é compatível com a configuração de conexão federada com bancos de dados do Oracle na versão 11g ou superior e hospedado no AWS, Azure, Exadata ou em uma nuvem privada (desde que seja acessível por uma rede externa). Se você tiver mais dúvidas relacionadas à configuração do banco de dados do Oracle ou precisar criar uma conexão segura com o Oracle, entre em contato com o representante do Atendimento ao cliente da Adobe.
 
@@ -205,6 +209,10 @@ Se você selecionar **[!UICONTROL Conta/Autenticação de senha]**, poderá adic
 | Senha | A senha da conta. |
 
 Se você selecionar **[!UICONTROL OAuth 2.0]**, será possível adicionar as seguintes informações de logon:
+
+>[!NOTE]
+>
+>Antes de se conectar ao Snowflake usando o OAuth 2.0, será necessário configurar o URL de redirecionamento no objeto de integração do Snowflake OAuth. Adicione a URL de redirecionamento `https://fac-oauth.adobe.io/oauth` à sua configuração de integração do Snowflake OAuth.
 
 | Campo | Descrição |
 | ----- | ----------- |
