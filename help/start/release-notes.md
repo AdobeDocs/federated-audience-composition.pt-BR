@@ -2,16 +2,54 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+workflow-type: tm+mt
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
 # Notas de versão {#rn-new}
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de outubro de 2025 {#fac-25-10}
+
+### Novos recursos {#fac-25-10-feature}
+
+<!-- <table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Autenticação OAuth para o Google BigQuery e Snowflake</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode se conectar ao Google BigQuery e ao Snowflake usando OAuth.</p>
+<p>Para obter mais informações sobre como criar conexões, leia a <a href="../connections/home.md#create">visão geral das conexões</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versão de agosto de 2025 {#fac-25-8}
 
