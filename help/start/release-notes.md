@@ -28,7 +28,7 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
