@@ -2,7 +2,7 @@
 title: Novidades na Composição de público-alvo federado da Experience Platform
 description: Atualizações e notas de versão mais recentes
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
+source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
@@ -28,7 +28,7 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -414,3 +414,4 @@ A composição de público-alvo federado supre o aumento das demandas do mercado
 Saiba mais sobre os recursos da composição de público-alvo federado [nesta página](get-started.md) e nas [Perguntas frequentes](faq.md).
 
 Para obter informações detalhadas dos pré-requisitos para acessar Composição de público-alvo federado e as medidas de proteção atuais, consulte [esta página](access-prerequisites.md).
+
