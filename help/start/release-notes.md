@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -39,14 +39,14 @@ O [!DNL Federated Audience Composition] fornece continuamente novos recursos, me
 <table>
 <thead>
 <tr>
-<th><strong>Autenticação OAuth para o Google BigQuery e Snowflake</strong><br/></th>
+<th><strong>Autenticação OAuth para Google BigQuery e Snowflake</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode se conectar ao Google BigQuery e ao Snowflake usando OAuth.</p>
-<p>Para obter mais informações sobre como criar conexões, leia a <a href="../connections/home.md#create">visão geral das conexões</a>.</p>
+<p>Agora, você pode se conectar ao Google BigQuery e ao Snowflake com a OAuth.</p>
+<p>Para mais informações sobre como criar conexões, leia a <a href="../connections/home.md#create">visão geral das conexões</a>.</p>
 </br>
 </td>
 </tr>
