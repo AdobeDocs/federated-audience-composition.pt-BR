@@ -2,61 +2,43 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 82%
 
 ---
 
 
 # Documentação da Composição de público-alvo federado da Experience Platform {#using}
 
-+ [Documentação da Composição de público-alvo federado da Experience Platform](home.md)
-+ [Notas de versão](start/release-notes.md)
-+ [Notas de versão](start/e-release-notes.md)
-+ Introdução à composição de público-alvo federado {#start}
-   + [O que é a composição de público-alvo federado](start/get-started.md)
-   + [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
-   + [Trabalhar com públicos-alvo](start/audiences.md)
-   + [Trabalhar com o Assistente de IA](start/ai-assistant.md)
-   + [Perguntas frequentes](start/faq.md)
-+ Governança, privacidade e segurança {#governance-privacy-security}
-   + [Visão geral](./governance-privacy-security/home.md)
-   + [Controle de acesso](governance-privacy-security/access-control.md)
-+ Etapas de configuração {#config}
-   + [Visão geral das conexões](connections/home.md)
-   + [Matriz de direitos do FDA](connections/fda-rights.md)
-   + Modelos de dados e esquemas{#datamodel}
-      + [Criar e configurar esquemas](customer/schemas.md)
-      + [Configurar modelos de dados](data-management/gs-models.md)
-   + [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
-+ Compor públicos-alvo {#compositions}
-   + [Introdução a composições](compositions/gs-compositions.md)
-   + Criar e executar a sua primeira composição {#create-composition}
-      + [Princípios básicos da criação de composição](compositions/gs-composition-creation.md)
-      + [Criar e configurar a composição](compositions/create-composition.md)
-      + [Orquestrar atividades](compositions/orchestrate-activities.md)
-      + [Iniciar e monitorar sua composição](compositions/start-monitor-composition.md)
-   + Trabalhar com atividades {#activities}
-      + [Lista de atividades](compositions/activities/about-activities.md)
-      + [AND-Join](compositions/activities/and-join.md)
-      + [Criar público-alvo](compositions/activities/build-audience.md)
-      + [Alterar fonte de dados](compositions/activities/change-data-source.md)
-      + [Mudar dimensão](compositions/activities/change-dimension.md)
-      + [Combinar](compositions/activities/combine.md)
-      + [Desduplicação](compositions/activities/deduplication.md)
-      + [Enriquecimento](compositions/activities/enrichment.md)
-      + [Bifurcação](compositions/activities/fork.md)
-      + [Reconciliação](compositions/activities/reconciliation.md)
-      + [Salvar público-alvo](compositions/activities/save-audience.md)
-      + [Salvar perfis](compositions/activities/save-profiles.md)
-      + [Scheduler](compositions/activities/scheduler.md)
-      + [Divisão](compositions/activities/split.md)
-      + [Aguardar](compositions/activities/wait.md)
-+ Consultar o banco de dados {#query-database}
-   + [Trabalhar com o modelador de consultas](query/query-modeler-overview.md)
-   + [Criar a primeira consulta](query/build-query.md)
-   + [Editar expressões](query/expression-editor.md)
-+ [Trilha de auditoria](admin/audit-trail.md)
-
+- [Documentação da Composição de público-alvo federado da Experience Platform](landing.md)
+- [Visão geral da composição do Federated Audience](./overview.md)
+- Introdução à composição de público-alvo federado {#start}
+   - [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
+   - [Trabalhar com públicos-alvo](start/audiences.md)
+   - [Trabalhar com o Assistente de IA](start/ai-assistant.md)
+- Governança, privacidade e segurança {#governance-privacy-security}
+   - [Visão geral](./governance-privacy-security/home.md)
+   - [Controle de acesso](governance-privacy-security/access-control.md)
+- Conexões {#connections}
+   - [Visão geral das conexões](connections/home.md)
+   - [Matriz de direitos de acesso a dados](connections/fda-rights.md)
+   - [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
+- Modelos de dados e esquemas {#models}
+   - [Visão geral dos esquemas](data-modelling/schemas.md)
+   - [Visão geral dos modelos de dados](data-modelling/models.md)
+- Composições {#compositions}
+   - [Visão geral da composição](compositions/home.md)
+   - [Criar uma composição](compositions/create-composition.md)
+   - [Visão geral das atividades](compositions/activities.md)
+- Modelador de consultas {#query-database}
+   - [Visão geral do modelador de consulta](query/home.md)
+   - [Criar uma consulta](query/build-query.md)
+   - [Editar expressões](query/expression-editor.md)
+- [Trilha de auditoria](admin/audit-trail.md)
+- [Perguntas frequentes](./faq.md)
+- Notas de versão {#release-notes}
+   - [Notas de versão mais recentes](./release-notes/latest.md)
+   - [2024](./release-notes/2024.md)
+   - [Notas de pré-lançamento](./release-notes/e-release-notes.md)

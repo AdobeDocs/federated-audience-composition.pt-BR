@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Criar a primeira consulta usando o modelador de consultas
-description: Saiba como criar sua primeira consulta no modelador de consultas.
+title: Visão geral do editor de expressão
+description: Saiba como usar as funções no editor de expressão para criar uma consulta no modelador de consultas.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '4107'
-ht-degree: 10%
+source-wordcount: '4108'
+ht-degree: 9%
 
 ---
 
-# Editar expressões {#expression}
+# Visão geral do editor de expressão {#expression}
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, cadeias de caracteres, campos numéricos, classificação etc.
 
@@ -28,11 +28,11 @@ O editor de expressão fornece:
 * A lista de **campos (2)** disponíveis que podem ser usados na expressão e que correspondem ao esquema, também conhecido como targeting dimension, da consulta.
 * **Funções auxiliares (3)**, ordenadas por categoria.
 
-Para editar a expressão, insira uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão à qual deseja adicionar o campo e clique no botão +.
+Para editar a expressão, insira uma expressão diretamente no campo de entrada. Para adicionar um campo ou uma função auxiliar, coloque o cursor na expressão em que deseja adicioná-lo e selecione o botão +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Quando a expressão estiver pronta, clique no botão **[!UICONTROL Confirmar]**. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
+Quando a expressão estiver pronta, selecione **[!UICONTROL Confirmar]**. A expressão é exibida no campo selecionado. Para editá-lo, abra o editor de expressão e faça as alterações desejadas.
 
 O exemplo abaixo mostra uma expressão configurada para o campo **[!UICONTROL Value]**. Para editá-lo, é necessário abrir o editor de expressão usando o botão **[!UICONTROL Editar expressão]**.
 

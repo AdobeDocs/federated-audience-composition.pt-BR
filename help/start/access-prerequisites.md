@@ -2,10 +2,10 @@
 title: Pré-requisitos e medidas de proteção para a Composição de público-alvo federado
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ A Composição de público-alvo federado é compatível com os seguintes warehou
 * Vertica Analytics
 * Microsoft Fabric
 
-Saiba como criar uma conexão com esses sistemas [nesta página](../connections/home.md).
+Você pode aprender a criar uma conexão com esses sistemas na [visão geral das conexões](../connections/home.md).
 
 ## Sandboxes
 
@@ -39,7 +39,7 @@ Para exibir a lista de sandboxes ativas da composição de público-alvo federad
 
 1. Na Composição de público-alvo federado, acesse o menu **[!UICONTROL Uso da licença]** em **[!UICONTROL Administração]**.
 
-1. Clique no ícone ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) em **[!UICONTROL Volume total de saída de dados]** para acessar as propriedades da sandbox.
+1. Selecione o ícone ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) em **[!UICONTROL Volume total de saída de dados]** para acessar as propriedades da sandbox.
 
    ![](assets/sandbox_1.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Trilha de auditoria
 description: Saiba como ações e eventos são registrados e acessíveis na trilha de auditoria
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,20 +31,20 @@ O recurso **[!UICONTROL Trilha de auditoria]** registra constantemente um log de
 
 * **A trilha de auditoria do esquema do Source** permite monitorar atividades e modificações recentes feitas em seus esquemas na instância do Adobe Federated Audience Composition.
 
-  Para obter informações detalhadas sobre esquemas, consulte esta [página](../customer/schemas.md).
+  Para obter informações detalhadas sobre esquemas, consulte esta [página](../data-modelling/schemas.md).
 
 * A **trilha de auditoria do fluxo de trabalho** permite acompanhar atividades e alterações recentes feitas nos fluxos de trabalho, incluindo seus estados atuais, como:
 
    * Start
    * Pause
-   * Stop
+   * Parar
    * Restart
    * Limpeza que é igual ao histórico de Expurgação da ação
    * Simular qual é igual ao Início da ação no modo de simulação
    * Ativar que é igual à ação Executar tarefas pendentes agora
-   * Unconditional Stop
+   * Interrupção incondicional
 
-  Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../compositions/gs-compositions.md).
+  Para obter mais informações sobre fluxos de trabalho, consulte esta [página](../compositions/home.md).
 
 * **Conta externa** permite verificar as modificações feitas em contas externas na instância do Adobe Audience Composition.
 

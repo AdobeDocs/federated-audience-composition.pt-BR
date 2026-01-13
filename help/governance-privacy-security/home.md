@@ -2,7 +2,7 @@
 title: Privacidade e segurança na composição de público-alvo federado
 description: Saiba como a composição de público-alvo federado lida com a privacidade e a segurança de dados do usuário, incluindo recursos como governança de dados, aplicação de consentimento, controle de acesso, criptografia de dados e conformidade de privacidade.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Você pode usar o controle de dados para gerenciar e identificar os dados do cli
 
 Você pode usar rótulos de uso de dados para categorizar conjuntos de dados e campos com base nas políticas de governança que se aplicam a esses dados. Depois de criar um público-alvo usando composições, você pode aplicar os rótulos de dados apropriados ao esquema resultante para garantir que ele respeite as restrições de uso necessárias.
 
-Para obter mais informações sobre como usar rótulos de dados na Composição de Público-Alvo Federado, leia a [seção Aplicar rótulos de acesso](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Para obter mais informações sobre como usar rótulos de dados na Composição de Público-Alvo Federado, leia a [seção Aplicar rótulos de acesso](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Privacidade
 

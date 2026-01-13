@@ -2,7 +2,7 @@
 title: Controle de acesso na composição de público-alvo federado
 description: Saiba como gerenciar o acesso a dados para usuários na Composição de público-alvo federado.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -80,4 +80,4 @@ O usuário receberá um email com instruções para acessar a sua instância. Se
 
 Você pode gerenciar o acesso a uma composição específica aplicando rótulos de acesso.
 
-Para obter mais informações sobre como aplicar rótulos de acesso a uma composição, leia a [seção aplicar rótulos de acesso](/help/compositions/gs-compositions.md#access-labels) do guia de composições.
+Para obter mais informações sobre como aplicar rótulos de acesso a uma composição, leia a [seção aplicar rótulos de acesso](/help/compositions/home.md#access-labels) do guia de composições.

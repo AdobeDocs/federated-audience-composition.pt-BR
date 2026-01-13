@@ -3,28 +3,28 @@ audience: end-user
 title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos-alvo
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
+workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Trabalhar com públicos-alvo {#gs-audiences}
 
-A Composição de público-alvo federado da Experience Platform permite [criar composições](../compositions/gs-compositions.md), aproveitando várias atividades em uma tela visual para criar públicos-alvo. Depois, você pode armazená-los no Portal de público-alvo da Adobe Experience Platform.
+A Composição de público-alvo federado da Experience Platform permite [criar composições](../compositions/home.md), aproveitando várias atividades em uma tela visual para criar públicos-alvo. Depois, você pode armazená-los no Portal de público-alvo da Adobe Experience Platform.
 
 Em seguida, é possível direcionar esses públicos-alvo no Journey Optimizer ou ativá-los para qualquer destino compatível com a Adobe Experience Platform.
 
 ## Criação de público-alvo usando composições {#creation}
 
-Para criar públicos-alvo usando a Composição de público-alvo federado, você precisa criar uma composição que inclua a atividade **[!UICONTROL Salvar público-alvo]**. Assim, é possível salvar no Portal de público-alvo e selecionar campos de seus bancos de dados externos para incluir no público-alvo. [Saiba como configurar uma atividade Salvar público-alvo](../compositions/activities/save-audience.md)
+Para criar públicos-alvo usando a Composição de público-alvo federado, você precisa criar uma composição que inclua a atividade **[!UICONTROL Salvar público-alvo]**. Assim, é possível salvar no Portal de público-alvo e selecionar campos de seus bancos de dados externos para incluir no público-alvo. [Saiba como configurar uma atividade Salvar público-alvo](../compositions/activities.md#save-audience)
 
 O público-alvo criado usando a Composição de dados federados da Adobe inclui todos os campos selecionados na atividade **[!UICONTROL Salvar público-alvo]** e é armazenado no Portal junto a todos os públicos-alvo da Adobe Experience Platform.
 
 Depois de executar a composição, o público-alvo resultante é salvo na Adobe Experience Platform como um público-alvo externo e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer.
 
-Você pode ativar esses públicos-alvo para qualquer destino compatível com a Adobe Experience Platform. Aprenda a trabalhar com destinos na [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home){target="_blank"}
+Você pode ativar esses públicos-alvo para qualquer destino compatível com a Adobe Experience Platform. Saiba como trabalhar com destinos no [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
