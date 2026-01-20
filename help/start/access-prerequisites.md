@@ -3,9 +3,9 @@ title: Pré-requisitos e medidas de proteção para a Composição de público-a
 description: Saiba mais sobre os pré-requisitos, as permissões e as medidas de proteção da Composição de público-alvo federado
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para exibir a lista de sandboxes ativas da composição de público-alvo federad
 
 1. Na Composição de público-alvo federado, acesse o menu **[!UICONTROL Uso da licença]** em **[!UICONTROL Administração]**.
 
-1. Selecione o ícone ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) em **[!UICONTROL Volume total de saída de dados]** para acessar as propriedades da sandbox.
+1. Clique no ícone ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) em **[!UICONTROL Volume total de saída de dados]** para acessar as propriedades da sandbox.
 
    ![](assets/sandbox_1.png)
 

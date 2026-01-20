@@ -4,9 +4,9 @@ title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos-alvo
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ O público-alvo criado usando a Composição de dados federados da Adobe inclui 
 
 Depois de executar a composição, o público-alvo resultante é salvo na Adobe Experience Platform como um público-alvo externo e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer.
 
-Você pode ativar esses públicos-alvo para qualquer destino compatível com a Adobe Experience Platform. Saiba como trabalhar com destinos no [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home){target="_blank"}
+Você pode ativar esses públicos-alvo para qualquer destino compatível com a Adobe Experience Platform. Saiba como trabalhar com destinos na [Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >

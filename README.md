@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Contribuir com o artigo
@@ -26,8 +26,8 @@ Esse projeto segue o [Código de conduta aberto da Adobe](code-of-conduct.md) ou
 Se você estiver contribuindo com uma pequena atualização:
 
 1. Navegue até o tópico que deseja editar.
-2. No banner “Este conteúdo foi útil?”, banner que aparece na parte inferior da janela do navegador, selecione **Opções de feedback detalhadas**.
-3. Selecione **Sugerir uma edição** e envie uma solicitação de pull com suas alterações na interface do GitHub.
+2. No banner “Este conteúdo foi útil?”, que aparece na parte inferior da janela do navegador, clique em **Opções de feedback detalhadas**.
+3. Clique em **Sugerir uma edição** e envie uma solicitação de pull (PR) com as suas alterações na interface do GitHub.
 
    Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR) para obter mais informações.
 

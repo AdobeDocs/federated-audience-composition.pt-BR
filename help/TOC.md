@@ -3,9 +3,9 @@ user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 82%
 # Documentação da Composição de público-alvo federado da Experience Platform {#using}
 
 - [Documentação da Composição de público-alvo federado da Experience Platform](landing.md)
-- [Visão geral da composição do Federated Audience](./overview.md)
+- [Visão geral da composição de público-alvo federado](./overview.md)
 - Introdução à composição de público-alvo federado {#start}
    - [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
    - [Trabalhar com públicos-alvo](start/audiences.md)
@@ -33,7 +33,7 @@ ht-degree: 82%
    - [Criar uma composição](compositions/create-composition.md)
    - [Visão geral das atividades](compositions/activities.md)
 - Modelador de consultas {#query-database}
-   - [Visão geral do modelador de consulta](query/home.md)
+   - [Visão geral do modelador de consultas](query/home.md)
    - [Criar uma consulta](query/build-query.md)
    - [Editar expressões](query/expression-editor.md)
 - [Trilha de auditoria](admin/audit-trail.md)
