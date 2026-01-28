@@ -2,9 +2,9 @@
 audience: end-user
 title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4619'
+source-wordcount: '4662'
 ht-degree: 33%
 
 ---
@@ -420,6 +420,8 @@ Depois de adicionar a atividade **Salvar público-alvo** à sua composição, vo
 Agora você pode especificar os mapeamentos para selecionar quais campos deseja transferir para o público-alvo recém-criado. Selecione **Adicionar mapeamento de público-alvo** e escolha os campos de público-alvo de origem e de destino, repetindo quantas vezes forem necessárias.
 
 Depois de adicionar os mapeamentos, é possível selecionar a identidade e o namespace principais para identificar os perfis direcionados no banco de dados. O campo de identidade principal é usado para identificar os perfis, enquanto o namespace de identidade atua como uma chave para identificar a identidade.
+
+Além disso, você pode definir a expiração dos dados para o público-alvo. A expiração dos dados determina o número de dias após o qual a associação de público-alvo expirará. A expiração dos dados pode variar de 1 a 90 dias. Por padrão, esse valor é definido como 30.
 
 +++
 

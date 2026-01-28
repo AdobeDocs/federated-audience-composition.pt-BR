@@ -2,10 +2,10 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 84%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -106,7 +106,7 @@ Os dados resultantes do público-alvo não persistem indefinidamente na Adobe Ex
 
 +++ Resposta
 
-Não, na versão atual, não é possível excluir públicos da composição de público-alvo federado.
+Sim, você pode excluir públicos-alvo de composição de público-alvo federado no Audience Portal.
 
 +++
 
