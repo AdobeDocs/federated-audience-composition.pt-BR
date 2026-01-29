@@ -2,7 +2,7 @@
 audience: end-user
 title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 33%
@@ -23,7 +23,7 @@ Há **dois** tipos diferentes de atividades para usar na Federated Audience Comp
 
 As atividades de direcionamento permitem definir quais componentes do seu público-alvo para a composição.
 
-#### Criar público-alvo
+#### Criar público-alvo {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ Após selecionar suas opções, você pode optar por **Gerar uma transição de 
 
 +++
 
-#### Alterar fonte de dados
+#### Alterar fonte de dados {#change-data-source}
 
 A atividade **Alterar fonte de dados** permite alterar qual fonte de dados está sendo usada pela sua composição.
 
@@ -80,7 +80,7 @@ Depois de selecionar **[!UICONTROL FDA external account]**, você pode escolher 
 
 +++
 
-#### Mudar dimensão
+#### Mudar dimensão {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ Após executar a composição, os resultados serão atualizados.
 
 +++
 
-#### Combinar
+#### Combinar {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ Depois de configurar as regras de exclusão, você também pode selecionar a op�
 
 +++
 
-#### Desduplicação
+#### Desduplicação {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Além disso, você pode selecionar a opção **Gerar complemento**. A geração 
 
 +++
 
-#### Enriquecimento
+#### Enriquecimento {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ Depois de adicionar a atividade **Enriquecimento** à sua composição, você po
 
 +++
 
-#### Reconciliação
+#### Reconciliação {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ Também é possível filtrar os dados reconciliados. Selecione **Criar filtro** 
 
 +++
 
-#### Salvar público-alvo
+#### Salvar público-alvo {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ A atividade **Salvar público-alvo** permite criar um público-alvo com base na 
 
 Depois de adicionar a atividade **Salvar público-alvo** à sua composição, você pode especificar o nome do público recém-criado.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Agora você pode especificar os mapeamentos para selecionar quais campos deseja transferir para o público-alvo recém-criado. Selecione **Adicionar mapeamento de público-alvo** e escolha os campos de público-alvo de origem e de destino, repetindo quantas vezes forem necessárias.
 
@@ -425,7 +425,7 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 
 +++
 
-#### Divisão
+#### Divisão {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Agora que os subconjuntos foram configurados, há mais algumas opções adiciona
 
 As atividades de controle de fluxo permitem definir a organização e a coordenação de sua composição.
 
-#### E se juntar
+#### E se juntar {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ Na seção **Opções de mesclagem**, você pode selecionar todas as atividades 
 
 +++
 
-#### Fim
+#### Fim {#end}
 
 A atividade **End** marca graficamente o fim da composição e não tem impacto funcional.
 
-#### Bifurcação
+#### Bifurcação {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ Depois de adicionar a atividade **Bifurcação** à sua composição, duas trans
 
 +++
 
-#### Scheduler
+#### Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ Depois de selecionar a frequência de execução, você pode escolher o **Perío
 
 +++
 
-#### Aguardar
+#### Aguardar {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
