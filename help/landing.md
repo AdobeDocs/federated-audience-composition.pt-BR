@@ -2,10 +2,10 @@
 title: Página inicial da documentação da Composição de público-alvo federado da Adobe Experience Platform
 description: Documentação da Composição de público-alvo federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,4 +78,3 @@ Adicione e configure atividades (Divisão, Enriquecimento, Consulta etc.) para c
 ## Recursos adicionais  {#additional-resources}
 
 [Documentação da Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home){target="_blank"}: [documentação do Adobe Audience Portal](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutoriais](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
