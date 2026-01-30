@@ -2,7 +2,7 @@
 title: Notas de versão da Federated Audience Composition
 description: Atualizações e notas de versão mais recentes da Composição de público-alvo federado.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+source-git-commit: 595e98d09eff993bdac60ff3474415863739ff7d
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -26,7 +26,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 
@@ -37,4 +37,3 @@ Esta versão vem com a seguinte melhoria.
   Agora é possível definir uma expiração de dados ao usar a atividade **Salvar público-alvo** em uma composição.
 
   Para saber mais sobre as expirações de dados na Federated Audience Composition, leia o [guia de atividades](../compositions/activities.md#save-audience).
-
