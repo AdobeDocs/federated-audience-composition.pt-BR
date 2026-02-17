@@ -2,10 +2,11 @@
 audience: end-user
 title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ As atividades permitem definir os componentes dentro do público-alvo.
 Há **dois** tipos diferentes de atividades para usar na Federated Audience Composition: atividades de direcionamento e atividades de controle de fluxo.
 
 ### Atividades de direcionamento {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enriquecer campos"
+>abstract="A atividade Enrich fields permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo aprimorar esquemas do Experience Platform com atributos adicionais. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Campo de namespace de identificação primário"
+>abstract="O namespace da identidade primária. O namespace ajuda a fornecer contexto para descrever a classificação da identidade primária."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Selecionar esquema do Experience Platform"
+>abstract="Escolha o schema do Experience Platform que deseja enriquecer."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Enriquecer o modo de atualização de campos"
+>abstract="Os modos de atualização disponíveis para a atividade de enriquecimento de campos incluem atualização completa e atualização incremental."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Atualização completa"
+>abstract="O modo de atualização completa atualiza o conjunto completo de atributos nos esquemas selecionados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Atualização incremental"
+>abstract="O modo de atualização incremental atualiza os campos que foram modificados desde a última execução de enriquecimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Campo de identidade principal"
+>abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para enriquecimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Critérios de campo obrigatório"
+>abstract="Um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro ao exportar dados. Se um campo obrigatório estiver ausente, a exportação não será concluída ou válida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Critérios de campo de identidade principal"
+>abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Lista de esquemas"
+>abstract="Uma lista dos esquemas disponíveis em sua sandbox. Você pode selecionar esquemas padrão ou relacionais."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Selecionar atributo"
+>abstract="É possível criar um mapeamento de origem/destino para os campos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Selecionar conjunto de dados"
+>abstract="Uma lista dos conjuntos de dados que pertencem ao esquema. Você pode selecionar em qual conjunto de dados deseja que os dados enriquecidos sejam salvos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Chave primária"
+>abstract="A chave primária para o esquema relacional. Esse valor garante a exclusividade nos conjuntos de dados, evitando que registros duplicados sejam assimilados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descritor de versão"
+>abstract="O descritor de versão do esquema relacional. Esse valor ajuda a determinar qual propriedade terá precedência se vários valores compartilharem a mesma chave primária, garantindo que a atualização mais recente seja aplicada."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descritor de carimbo de data e hora"
+>abstract="O descritor de carimbo de data e hora do esquema relacional. Esse valor ajuda a definir a hora do evento para solicitação e só existe se você estiver trabalhando com dados de série temporal."
 
 As atividades de direcionamento permitem definir quais componentes do seu público-alvo para a composição.
 
