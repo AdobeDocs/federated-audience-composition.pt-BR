@@ -3,10 +3,10 @@ audience: end-user
 title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 33%
+source-wordcount: '5477'
+ht-degree: 31%
 
 ---
 
@@ -21,81 +21,6 @@ As atividades permitem definir os componentes dentro do público-alvo.
 Há **dois** tipos diferentes de atividades para usar na Federated Audience Composition: atividades de direcionamento e atividades de controle de fluxo.
 
 ### Atividades de direcionamento {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="Enriquecer campos"
->abstract="A atividade Enrich fields permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo aprimorar esquemas do Experience Platform com atributos adicionais. "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Campo de namespace de identificação primário"
->abstract="O namespace da identidade primária. O namespace ajuda a fornecer contexto para descrever a classificação da identidade primária."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="Selecionar esquema do Experience Platform"
->abstract="Escolha o schema do Experience Platform que deseja enriquecer."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="Enriquecer o modo de atualização de campos"
->abstract="Os modos de atualização disponíveis para a atividade de enriquecimento de campos incluem atualização completa e atualização incremental."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="Atualização completa"
->abstract="O modo de atualização completa atualiza o conjunto completo de atributos nos esquemas selecionados."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="Atualização incremental"
->abstract="O modo de atualização incremental atualiza os campos que foram modificados desde a última execução de enriquecimento."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="Campo de identidade principal"
->abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para enriquecimento."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Critérios de campo obrigatório"
->abstract="Um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro ao exportar dados. Se um campo obrigatório estiver ausente, a exportação não será concluída ou válida."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Critérios de campo de identidade principal"
->abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Lista de esquemas"
->abstract="Uma lista dos esquemas disponíveis em sua sandbox. Você pode selecionar esquemas padrão ou relacionais."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="Selecionar atributo"
->abstract="É possível criar um mapeamento de origem/destino para os campos."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="Selecionar conjunto de dados"
->abstract="Uma lista dos conjuntos de dados que pertencem ao esquema. Você pode selecionar em qual conjunto de dados deseja que os dados enriquecidos sejam salvos."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="Chave primária"
->abstract="A chave primária para o esquema relacional. Esse valor garante a exclusividade nos conjuntos de dados, evitando que registros duplicados sejam assimilados."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="Descritor de versão"
->abstract="O descritor de versão do esquema relacional. Esse valor ajuda a determinar qual propriedade terá precedência se vários valores compartilharem a mesma chave primária, garantindo que a atualização mais recente seja aplicada."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="Descritor de carimbo de data e hora"
->abstract="O descritor de carimbo de data e hora do esquema relacional. Esse valor ajuda a definir a hora do evento para solicitação e só existe se você estiver trabalhando com dados de série temporal."
 
 As atividades de direcionamento permitem definir quais componentes do seu público-alvo para a composição.
 
@@ -200,7 +125,7 @@ Após executar a composição, os resultados serão atualizados.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Selecione o tipo de segmentação"
->abstract="Selecione como combinar públicos: união, interseção ou exclusão."
+>abstract="Selecione como combinar públicos-alvo: união, interseção ou exclusão."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -215,7 +140,7 @@ Após executar a composição, os resultados serão atualizados.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regras de exclusão"
->abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outro esquema, também conhecido como dimensão de direcionamento, esse público-alvo deve ser retornado ao mesmo esquema que o público-alvo principal. Para fazer isso, selecione **Adicionar uma regra** na seção E **regras de exclusão** e especifique as condições de alteração do esquema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
+>abstract="Quando necessário, é possível manipular tabelas de entrada. De fato, para excluir um público-alvo de outro esquema, também conhecido como dimensão de direcionamento, esse público-alvo deve ser retornado ao mesmo esquema que o público-alvo principal. Para fazer isso, selecione **Adicionar uma regra** na seção **Regras de exclusão** e especifique as condições de alteração do esquema. A reconciliação de dados é realizada por meio de um atributo ou de uma união."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -287,7 +212,7 @@ Depois de configurar as regras de exclusão, você também pode selecionar a op�
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campos para identificar duplicatas"
->abstract="Na seção **[!UICONTROL Fields to identify duplicates]**, selecione o botão **[!UICONTROL Add attribute]** para especificar os campos para os quais os valores idênticos permitem a identificação das duplicatas, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar os que devem ser processados primeiro."
+>abstract="Na seção **[!UICONTROL Campos para identificar duplicados]**, selecione **[!UICONTROL Adicionar atributo]** para especificar os campos nos quais os valores idênticos permitem a identificação de duplicados, como: endereço de email, nome, sobrenome etc. A ordem dos campos permite especificar quais devem ser processados primeiro."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -395,7 +320,7 @@ Depois de adicionar a atividade **Enriquecimento** à sua composição, você po
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Esquema"
->abstract="Selecione o novo esquema a ser aplicado aos dados. Um esquema, também conhecido como dimensão de direcionamento, permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. Por padrão, o esquema atual da composição está selecionado."
+>abstract="Selecione o novo esquema a ser aplicado aos dados. Um esquema, também conhecido como dimensão de direcionamento, permite definir a população direcionada: destinatários, assinantes de aplicativos, operadores, assinantes etc. Por padrão, o esquema de composição atual é selecionado."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -501,6 +426,138 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 
 +++
 
+#### Salvar campos {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Salvar campos"
+>abstract="A atividade Save fields permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo aprimorar esquemas do Experience Platform com atributos adicionais. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Campo de namespace de identificação primário"
+>abstract="O namespace da identidade primária. O namespace ajuda a fornecer contexto para descrever a classificação da identidade primária."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Selecionar esquema do Experience Platform"
+>abstract="Escolha o schema do Experience Platform que deseja enriquecer."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Salvar modo de atualização de campos"
+>abstract="Os modos de atualização disponíveis para a atividade de salvar campos incluem atualização completa e atualização incremental."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Atualização completa"
+>abstract="O modo de atualização completa atualiza o conjunto completo de atributos nos esquemas selecionados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Atualização incremental"
+>abstract="O modo de atualização incremental atualiza os campos que foram modificados desde a última execução de enriquecimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Campo de identidade principal"
+>abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para o enriquecimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Critérios de campos obrigatórios"
+>abstract="Um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro ao exportar dados. Se um campo obrigatório estiver ausente, a exportação não será concluída ou válida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Critérios do campo de identidade principal"
+>abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Lista de esquemas"
+>abstract="Uma lista dos esquemas disponíveis em sua sandbox. Você pode selecionar esquemas padrão ou relacionais."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Selecionar atributo"
+>abstract="É possível criar um mapeamento de origem/destino para os campos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Selecionar conjunto de dados"
+>abstract="Uma lista dos conjuntos de dados que pertencem ao esquema. Você pode selecionar em qual conjunto de dados deseja que os dados enriquecidos sejam salvos."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Chave primária"
+>abstract="A chave primária para o esquema relacional. Esse valor garante a exclusividade nos conjuntos de dados, evitando que registros duplicados sejam assimilados."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descritor de versão"
+>abstract="O descritor de versão do esquema relacional. Esse valor ajuda a determinar qual propriedade terá precedência se vários valores compartilharem a mesma chave primária, garantindo que a atualização mais recente seja aplicada."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descritor de carimbo de data e hora"
+>abstract="O descritor de carimbo de data e hora do esquema relacional. Esse valor ajuda a definir a hora do evento para solicitação e só existe se você estiver trabalhando com dados de série temporal."
+
+A atividade **[!UICONTROL Save Fields]** permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo enriquecer esquemas do Experience Platform com atributos adicionais.
+
+Essa atividade é usada para enriquecer esquemas trazendo atributos e insights adicionais sem mover fisicamente ou duplicar os dados na plataforma.
+
++++ Detalhes de configuração
+
+>[!IMPORTANT]
+>
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
+Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
+
+![Os esquemas disponíveis são exibidos.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB Esquema padrão]
+
+Se você selecionar um esquema padrão, precisará escolher o conjunto de dados em que o enriquecimento é salvo.
+
+![A seção selecionar conjunto de dados está realçada.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+Após selecionar o conjunto de dados, você pode ver o campo de identidade principal que será usado para identificar perfis no banco de dados. No entanto, será necessário mapear os campos primário e obrigatório. Selecione **[!UICONTROL Adicionar campos]** e especifique o campo **[!UICONTROL Source]** (dados externos) e o campo **[!UICONTROL Destino]** (campo de esquema) para cada atributo que você deseja mapear.
+
+![O botão adicionar campos e a seção de mapeamento de campos estão realçados.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+Você também pode especificar o modo de atualização para o enriquecimento.
+
+![Os tipos de modo de atualização são exibidos.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Modo de atualização | Descrição |
+| ----------- | ----------- |
+| Atualizações completas | O conjunto completo de atributos nos esquemas selecionados é atualizado para enriquecimento. |
+| Atualizações incrementais | Somente os campos que foram modificados desde a última execução do enriquecimento são atualizados para o enriquecimento. |
+
+Se você selecionar [!UICONTROL Atualizações incrementais], também precisará escolher a data da última modificação para determinar quais dados serão enviados.
+
+>[!TAB Esquema relacional]
+
+Se você selecionar um esquema relacional, precisará escolher o conjunto de dados em que o enriquecimento é salvo.
+
+![A seção selecionar conjunto de dados está realçada.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+Após selecionar o conjunto de dados, você pode ver a chave primária e o descritor de versão do banco de dados.  No entanto, será necessário mapear a chave primária e os campos obrigatórios. Selecione **[!UICONTROL Adicionar campo]s** e especifique o campo **[!UICONTROL Source]** (dados externos) e o campo **[!UICONTROL Destino]** (campo de esquema) para cada atributo que você deseja mapear.
+
+![O botão adicionar campos e a seção de mapeamento de campos estão realçados.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Como os esquemas relacionais são compatíveis apenas com atualizações incrementais, será necessário escolher a data da última modificação para determinar quais dados serão enviados. As atualizações incrementais atualizam apenas os campos que foram modificados desde a última execução de enriquecimento.
+
+![O modo de atualização, atualizações incrementais, é exibido.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### Divisão {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,7 +568,7 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmentos para atividade de divisão"
->abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade **Divisão** é executada, a população é segmentada nos diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar a sua composição, certifique-se de ter ordenado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
+>abstract="Adicione quantos subconjuntos desejar para segmentar a população recebida.<br/></br>Quando a atividade de **Divisão** é executada, a população é segmentada entre os diferentes subconjuntos na ordem em que são adicionados à atividade. Antes de iniciar a sua composição, certifique-se de ter ordenado os subconjuntos na ordem que atenda às suas necessidades usando os botões de seta."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
@@ -546,7 +603,7 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Habilitar sobreposição de populações de saída"
->abstract="A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro.  "
+>abstract="A opção **[!UICONTROL Habilitar sobreposição de populações de saída]** permite gerenciar populações pertencentes a vários subconjuntos. Quando a caixa não está marcada, a atividade Divisão garante que um destinatário não possa estar presente em diversas transições de saída, mesmo que atenda aos critérios de vários subconjuntos. Eles estarão no público-alvo da primeira guia com critérios correspondentes. Quando a caixa for marcada, os destinatários poderão ser encontrados em vários subconjuntos se atenderem aos critérios de filtro. "
 
 A atividade **Split** separa a população de entrada em várias partes, dependendo dos critérios fornecidos.
 
@@ -582,7 +639,7 @@ Agora que os subconjuntos foram configurados, há mais algumas opções adiciona
 
 As atividades de controle de fluxo permitem definir a organização e a coordenação de sua composição.
 
-#### E se juntar {#and-join}
+#### And join {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -615,7 +672,7 @@ A atividade **End** marca graficamente o fim da composição e não tem impacto 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Transições da atividade bifurcação"
->abstract="Por padrão, duas transições são criadas com uma atividade **Bifurcação**. Selecione o botão **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
+>abstract="Por padrão, duas transições são criadas com uma atividade **Bifurcação**. Selecione **Adicionar transição** para definir uma transição de saída adicional e insira seu rótulo."
 
 A atividade **Fork** permite criar várias transições de saída que iniciam várias atividades simultaneamente.
 
