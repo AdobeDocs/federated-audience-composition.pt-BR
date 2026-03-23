@@ -5,7 +5,7 @@ description: Saiba como criar composições
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1603'
 ht-degree: 20%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 A Composição de público-alvo federado permite criar composições, onde é possível aproveitar várias atividades em uma tela visual para criar públicos-alvo. Após criar a composição, os públicos-alvo resultantes são salvos na Adobe Experience Platform e podem ser aproveitados nos destinos da Experience Platform e no Adobe Journey Optimizer para o direcionamento de clientes.
 
-## Definir sua composição {#create}
+## Definir a composição {#create}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
@@ -124,7 +124,7 @@ A tela **[!UICONTROL Composição de logs e tarefas]** é exibida. Isso fornece 
 
 O histórico é organizado em várias guias, detalhadas abaixo:
 
-* A guia **[!UICONTROL Log]** contém o histórico de execução de todas as atividades de composição. Ele indexa as operações realizadas e os erros de execução por ordem cronológica.
+* A guia **[!UICONTROL Log]** contém o histórico de execução de todas as atividades de composição. Eles indicam as operações efetuadas e os erros de execução por ordem cronológica.
 * A guia **[!UICONTROL Tasks]** detalha a sequência de execução das atividades. O botão localizado no final de cada tarefa permite listar as variáveis de evento transmitidas pela atividade.
 * A guia **[!UICONTROL Variáveis]** lista todas as variáveis passadas na composição. Ela está disponível ao acessar os logs e as tarefas somente a partir da tela de composição. Agora está disponível ao acessar os logs por meio do painel de propriedades de uma atividade.
 

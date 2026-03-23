@@ -4,8 +4,8 @@ description: Saiba mais sobre a Composição de público federado do Adobe e com
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1280'
+ht-degree: 54%
 
 ---
 
@@ -60,7 +60,7 @@ A Composição de público-alvo federado da Adobe permite criar e atualizar púb
 
 >[!NOTE]
 >
->Depois de executar a composição, o público-alvo resultante é salvo como externo na Adobe Experience Platform e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele é disponibilizado no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Depois de executar a composição, o público-alvo resultante é salvo como externo na Adobe Experience Platform e disponibilizado na Adobe Real-time Customer Data Platform e/ou no Adobe Journey Optimizer. Ele se tornou acessível no menu **Públicos-alvo**. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governança, privacidade e segurança {#governance-privacy-security}
 
@@ -91,7 +91,7 @@ Para obter respostas para perguntas frequentes, leia as [Perguntas frequentes so
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Configurações de execução"
->abstract="Nesta seção, você pode definir configurações relacionadas à execução do fluxo de trabalho, como o número de dias em que o histórico de composição é mantido."
+>abstract="Nessa seção, é possível definir as configurações relacionadas à execução do fluxo de trabalho, de modo que o número de dias do histórico da composição seja mantido."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
@@ -136,5 +136,5 @@ Para obter respostas para perguntas frequentes, leia as [Perguntas frequentes so
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Selecione a dimensão de direcionamento"
->abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários(as) de contrato, operadores(as), assinantes, etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
+>abstract="A dimensão de direcionamento permite definir a população-alvo da operação: destinatários, beneficiários de contrato, operadores, assinantes etc. Por padrão, para emails e SMS, o público-alvo é selecionado na tabela integrada Destinatários. Para notificações por push, a dimensão de direcionamento padrão é Aplicativos do assinante."
 

@@ -511,7 +511,7 @@ Essa atividade é usada para enriquecer esquemas trazendo atributos e insights a
 
 >[!IMPORTANT]
 >
->Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
 

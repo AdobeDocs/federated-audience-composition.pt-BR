@@ -5,8 +5,8 @@ description: Saiba como criar sua primeira consulta no modelador de consultas
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 34%
+source-wordcount: '2082'
+ht-degree: 36%
 
 ---
 
@@ -18,13 +18,13 @@ Você pode adicionar dois tipos de elementos:
 
 * **Os componentes de filtragem** (Condição personalizada, Selecionar público) permitem que você crie suas próprias regras ou selecione um público para refinar sua consulta. Elas são adicionadas no início da query e em transições pontilhadas. [Saiba como trabalhar com componentes de filtragem](#filtering)
 
-  Exemplo: *Destinatários que assinaram o informativo &quot;Esportes&quot;*. *Recipients morando em Nova York*, *Recipients morando em São Francisco*
+  Exemplo: *Destinatários que assinaram o informativo &#39;Esportes&#39;*. *Recipients que vivem em Nova York*, *Recipients que vivem em São Francisco*
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
 * **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama. Eles são adicionados em transições existentes antes de um componente de filtragem. [Saiba como trabalhar com operadores](#filtering)
 
-  Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**&#x200B;que vivem em Nova York **OR**&#x200B;San Francisco*.
+  Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**que vivem em Nova York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -129,7 +129,7 @@ Aqui, o query é direcionado a recipients que fizeram compras relacionadas ao pr
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Adicione subcondições para atender às suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
+1. Adicione subcondições para suprir as suas necessidades. Aqui adicionamos uma condição aos perfis do público-alvo que compraram um produto BrewMaster.
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -237,9 +237,9 @@ No exemplo abaixo, criamos um grupo intermediário para incluir resultados dos p
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Propriedades da regra"
->abstract="Depois de criar a consulta na tela, é possível verificá-la usando o painel **[!UICONTROL Propriedades da regra]** localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros direcionados.<br/>Use o botão **[!UICONTROL Selecionar ou salvar filtro]** para salvar sua consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro."
+>abstract="Depois de criar a consulta na tela, você pode verificá-la usando o painel **[!UICONTROL Propriedades da regra]**, localizado no lado direito.<br/>Esse painel permite exibir os dados resultantes, recuperar uma versão de código SQL da consulta e verificar o número de registros selecionados.<br/>Use o botão **[!UICONTROL Selecionar ou salvar filtro]** para salvar a consulta como um filtro predefinido ou substituir o conteúdo da tela por um filtro existente."
 
-Depois de criar a consulta na tela, você pode verificá-la usando o painel **[!UICONTROL Propriedades da regra]**, localizado no lado direito. Esse painel é exibido ao construir uma consulta para criar um público-alvo. As operações disponíveis são:
+Depois de criar a consulta na tela, é possível verificá-la usando o painel **[!UICONTROL Propriedades da regra]** localizado no lado direito. Esse painel é exibido ao construir uma consulta para criar um público-alvo. As operações disponíveis são:
 
 * **[!UICONTROL Exibir resultados]:** Exibe os dados resultantes da sua consulta.
 * **[!UICONTROL Visualização do código]**: exibe uma versão baseada no código da consulta em SQL.

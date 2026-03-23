@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Descrição do esquema"
->abstract="A descrição do esquema lista colunas, tipos e rótulos. Você também pode verificar a chave de reconciliação do esquema. Para atualizar a definição do schema, selecione o ícone de lápis."
+>abstract="A descrição do esquema lista colunas, tipos e rótulos. Você também pode verificar a chave de reconciliação do esquema. Para atualizar a definição do esquema, selecione o ícone de lápis."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
