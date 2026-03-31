@@ -2,10 +2,10 @@
 title: Notas de versão da Federated Audience Composition
 description: Atualizações e notas de versão mais recentes da Composição de público-alvo federado.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
@@ -13,6 +13,20 @@ ht-degree: 11%
 # Notas de versão
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. [!DNL Federated Audience Composition] O é construído nativamente no [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de março de 2026 {#fac-26-03}
+
+A versão de março do Federated Audience Composition é compatível com os seguintes recursos:
+
+### Novos recursos {#fac-26-03-feature}
+
+| Segmentação baseada em IA |
+| --- |
+| Agora é possível criar composições de público-alvo federado de forma independente no Assistente do AI. Ao usar o Assistente do AI para criar o público-alvo, o Assistente do AI gera um plano que, após ser aprovado, será executado no navegador. Para obter mais informações sobre como usar o Assistente de IA para criar públicos, leia a [Visão geral do Assistente de IA](/help/start/ai-assistant.md). |
+
+| Assistente de IA para Insights Operacionais |
+| --- |
+| Agora você pode fazer perguntas ao Assistente de IA sobre insights operacionais na Composição de público federado. As áreas compatíveis incluem conexões, esquemas e modelos de dados. Composições federadas **não** são compatíveis com esta versão. Para obter mais informações sobre o Assistente de IA na Composição de Público-Alvo Federado, leia a [Visão geral do Assistente de IA](/help/start/ai-assistant.md). |
 
 ## Versão de fevereiro de 2026 {#fac-26-02}
 
@@ -40,7 +54,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 
