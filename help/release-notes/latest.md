@@ -54,7 +54,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 

@@ -67,4 +67,4 @@ Atualmente, a habilidade de criação de público-alvo suporta os seguintes recu
 
 Para obter mais informações sobre o Assistente de IA, incluindo exemplos de objetivos que você pode realizar com o Assistente de IA e saber como o Assistente de IA funciona, leia a [Visão geral do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Para obter uma lista completa das perguntas sobre o Operational Insight que você pode fazer para a Federated Audience Composition, leia a [seção de insights operacionais](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Para obter uma lista completa das perguntas sobre o Operational Insight que você pode fazer para a Federated Audience Composition, leia a [seção de insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
