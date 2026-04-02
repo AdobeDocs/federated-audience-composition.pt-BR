@@ -3,7 +3,7 @@ audience: end-user
 title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '2970'
 ht-degree: 9%
@@ -166,7 +166,7 @@ Depois de inserir os detalhes de logon, é possível adicionar as seguintes info
 | ----- | ----------- |
 | Caminho HTTP | O caminho para o Cluster ou Warehouse. Para obter mais informações sobre o caminho, leia a [documentação do Databricks sobre detalhes de conexão](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catálogo | O nome do Catálogo de Databricks. Para obter mais informações sobre catálogos em Databricks, leia a [documentação sobre Databricks em catálogos](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** Você pode usar **qualquer** esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
+| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** você pode usar o esquema **any** do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
 Para Databricks, você pode definir as seguintes opções adicionais:
@@ -291,7 +291,7 @@ Depois de inserir os detalhes de logon, é possível adicionar os seguintes deta
 | Campo | Descrição |
 | ----- | ----------- |
 | Banco de dados | O nome do banco de dados. Se isso for especificado no nome do servidor, esse campo poderá ser deixado em branco. |
-| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** Você pode usar **qualquer** esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
+| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** você pode usar o esquema **any** do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
 | Chave privada | A chave privada da conexão de banco de dados. Você pode carregar um arquivo `.pem` do seu sistema local. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
@@ -317,7 +317,7 @@ Depois de selecionar Vertica Analytics, você pode adicionar os seguintes detalh
 | Conta | O nome de usuário da conta. |
 | Senha | A senha da conta. |
 | Banco de dados | O nome do banco de dados. Se isso for especificado no nome do servidor, esse campo poderá ser deixado em branco. |
-| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** Você pode usar **qualquer** esquema do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
+| Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** você pode usar o esquema **any** do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
 Para o Vertica Analytics, você pode definir as seguintes opções adicionais:
@@ -337,7 +337,7 @@ Depois de adicionar os detalhes da conexão, observe as seguintes configuraçõe
 | Configurações | Detalhes |
 | -------- | ------- |
 | Habilitar conexão | Um botão booleano que determina se a conexão será ativada automaticamente. |
-| IPs do servidor | Incluir na lista de permissões Um popover que exibe quais endereços IP precisam ser resolvidos para se conectar ao banco de dados. |
+| IPs do servidor | Um popover que exibe quais endereços IP precisam ser resolvidos para se conectar ao banco de dados. |
 | Testar conexão | Permite verificar os detalhes da configuração. |
 
 Agora você pode selecionar **[!UICONTROL Implantar funções]**, seguido de **[!UICONTROL Adicionar]** para finalizar a conexão entre o banco de dados federado e o Experience Platform.
