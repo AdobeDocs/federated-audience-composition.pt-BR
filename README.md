@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # Contribuir com o artigo
@@ -54,7 +54,7 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor da equipe d
 Todos os artigos neste repositório usam o GitHub Flavored Markdown. Se você não estiver familiarizado com o Markdown, consulte:
 
 * [Noções básicas sobre o Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Página de consulta do Markdown para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Cheatsheet de markdown para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Rótulos
 
