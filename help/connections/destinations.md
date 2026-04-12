@@ -5,8 +5,8 @@ description: Saiba como refinar e enriquecer públicos-alvo do Adobe Experience 
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
 
 1. Na seção **[!UICONTROL Alertas]**, você pode habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino.
 
-   Para obter mais informações sobre alertas, consulte a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Para obter mais informações sobre alertas, consulte a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. Na etapa **[!UICONTROL Política de governança e ações de aplicação]**, você pode definir suas políticas de governança de dados e garantir que os dados usados estejam em conformidade quando os públicos-alvo forem enviados e estiverem ativos.
 
@@ -74,10 +74,10 @@ As principais etapas para enviar públicos-alvo da Adobe Experience Platform par
    >
    >Informações detalhadas sobre como configurar um agendamento e nomes de arquivo estão disponíveis nas seguintes seções da documentação do Adobe Experience Platform:
    >
-   >* [Agendar exportação de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Configurar nomes de arquivo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [Agendar exportação de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Configurar nomes de arquivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Na etapa **[!UICONTROL Mapping]**, selecione quais campos de atributo e identidade serão exportados para seu(s) público(s). Para obter mais informações, exiba a [etapa de mapeamento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} na documentação do Adobe Experience Platform.
+1. Na etapa **[!UICONTROL Mapping]**, selecione quais campos de atributo e identidade serão exportados para seu(s) público(s). Para obter mais informações, exiba a [etapa de mapeamento](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} na documentação do Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 

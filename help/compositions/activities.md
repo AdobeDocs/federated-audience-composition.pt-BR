@@ -511,7 +511,7 @@ Essa atividade é usada para enriquecer esquemas trazendo atributos e insights a
 
 >[!IMPORTANT]
 >
->Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
 
@@ -705,7 +705,7 @@ A atividade **Scheduler** permite agendar quando iniciar a execução da composi
 
 +++ Detalhes de configuração
 
-Depois de adicionar a atividade **Scheduler** à sua composição, você pode definir a **Frequência de execução** para a composição. As opções incluem **Uma Vez**, **Diariamente**, **Várias vezes por dia**, **Semanalmente** e **Mensalmente**.
+Depois de adicionar a atividade **Scheduler** à sua composição, você pode definir a **Frequência de execução** para a composição. Options include **Once**, **Daily**, **Several times a day**, **Weekly**, and **Monthly**.
 
 >[!BEGINTABS]
 
@@ -713,28 +713,28 @@ Depois de adicionar a atividade **Scheduler** à sua composição, você pode de
 
 >[!NOTE]
 >
->A hora é definida como UTC.
+>The time is set to UTC.
 
-Se você selecionar **Uma Vez**, a composição será executada somente uma vez. Você pode selecionar a data e a hora em que a composição será executada.
+If you select **Once**, the composition is only executed once. You can select the date and time the composition is run.
 
->[!TAB Diariamente]
+>[!TAB Daily]
 
-Se você selecionar **Diariamente**, a composição será executada uma vez por dia. No entanto, você pode definir em qual dia do mês a composição será executada na seção **Dia do mês**. Os valores possíveis incluem **Todos os dias**, **Nos dias da semana**, **Até um período selecionado** e **Dias da semana selecionados**.
+If you select **Daily**, the composition is executed once a day. However, you can which day of the month the composition is executed under the **Day of the month** section. Possible values include **Every day**, **On week days**, **Through a selected period**, and **Selected days of the week**.
 
-| Dia do mês | Descrição |
+| Day of the month | Descrição |
 | ---------------- | ----------- |
-| Todos os dias | A composição é executada todos os dias. |
-| Nos dias da semana | A composição é executada todos os dias da semana. |
-| Por um período selecionado | A composição é executada todos os dias durante todo o período selecionado. Você pode definir a duração do período de recorrência, bem como a data em que o período começa. |
-| Dias da semana selecionados | A composição é executada todos os dias da semana selecionada. |
+| Every day | The composition is executed every day. |
+| On week days | The composition is executed every weekday. |
+| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
+| Selected days of the week | The composition is executed every day of the week that is selected. |
 
-Após escolher o dia do mês em que a programação será executada, você pode selecionar **Visualizar horários de inicialização** para verificar a programação das próximas dez execuções da sua composição.
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
 
->[!TAB Várias vezes ao dia]
+>[!TAB Several times a day]
 
-Se você selecionar **Várias vezes por dia**, a composição será executada várias vezes por dia. Você pode escolher se a composição será executada em horários específicos por dia ou periodicamente em horários definidos.
+If you select **Several times a day**, the composition is executed multiple times per day. You can choose whether the composition is executed at specific times per day or periodically at set times.
 
-Se você selecionar **Horas selecionadas**, poderá escolher as horas específicas em que a composição será executada. Se você selecionar **Periódico**, poderá escolher com que frequência a composição será executada em horas ou minutos e entre que horas será executada. Todos os horários estão em UTC.
+If you select **Selected hours**, you can choose the specific times the composition will run. If you select **Periodic**, you can choose how often the composition will run in either hours or minutes and between what times it will run. All the times are in UTC.
 
 Após selecionar as horas, você pode escolher com que frequência a execução é executada na seção **Dia do mês**.
 
@@ -767,20 +767,20 @@ Após escolher a frequência mensal, você pode escolher o **Dia do mês** em qu
 | Dia do mês | Descrição |
 | ---------------- | ----------- |
 | Todos os dias | A composição é executada todos os dias. |
-| Nos dias da semana | A composição é executada todos os dias da semana. |
-| Por um período selecionado | A composição é executada todos os dias durante todo o período selecionado. Você pode definir a duração do período de recorrência, bem como a data em que o período começa. |
-| Dias da semana selecionados | A composição é executada todos os dias da semana selecionada. |
+| Nos dias da semana | The composition is executed every weekday. |
+| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
+| Selected days of the week | A composição é executada todos os dias da semana selecionada. |
 
-Depois de definir o **Dia do mês**, você pode escolher a hora de início. Todos os horários estão em UTC.
+Once you set the **Day of the month**, you can choose the start time. All the times are in UTC.
 
 >[!ENDTABS]
 
-Depois de selecionar a frequência de execução, você pode escolher o **Período de validade** do agendamento.
+After selecting the execution frequency, you can choose the **Validity period** of the schedule.
 
 | Período de validade | Descrição |
 | --------------- | ----------- |
-| **Permanente (nunca expira)** | A composição nunca expirará. |
-| **Período de validade** | A composição será executada entre as datas especificadas. |
+| **Permanent (never expires)** | The composition will never expire. |
+| **Validity period** | The composition will run between the given dates. |
 
 +++
 
@@ -791,26 +791,26 @@ Depois de selecionar a frequência de execução, você pode escolher o **Perío
 >title="Atividade aguardar"
 >abstract="A atividade **Aguardar** é usada para atrasar a transição de uma atividade para outra."
 
-A atividade **Wait** pausa a execução da composição pelo período de tempo especificado.
+The **Wait** activity pauses the composition&#39;s execution for the specified amount of time.
 
 +++ Detalhes de configuração
 
-Depois de adicionar a atividade **Aguardar** à sua composição, você pode torná-la uma **Duração** ou uma **Tempo fixo** de espera.
+After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
 
 ![](./assets/activities/wait.png)
 
-Se você selecionar duração, poderá definir o período de tempo de espera. Esse período pode ser em segundos, minutos, horas ou dias.
+If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
 
-Se você selecionar tempo fixo, poderá definir a composição para aguardar até a data e hora especificadas. A hora está definida para o seu **fuso horário local**.
+If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
 
 +++
 
 ## Transições {#transitions}
 
-Em composições, as transições mostram como os dados são transportados de uma atividade para outra. As transições armazenam os dados em uma tabela de trabalho temporária. Se você selecionar a transição, poderá exibir as seguintes informações:
+In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
 
-- **Visualizar esquema**: você pode selecionar esta opção para visualizar o esquema da tabela de trabalho.
-- **Visualizar resultados**: você pode selecionar esta opção para visualizar os dados transportados na transição selecionada. Esta opção só estará disponível se **Manter o resultado de populações interinas entre duas execuções** estiver habilitada.
+- **Preview schema**: You can select this to view the schema for the work table.
+- **Preview results**: You can select this to visualize the data that&#39;s transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
 
 ![](assets/transition-preview.png)
 
