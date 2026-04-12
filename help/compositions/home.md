@@ -5,8 +5,8 @@ description: Saiba como começar a usar as composições
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 82%
+source-wordcount: '655'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >
 >Para acessar composições, você precisará de uma das seguintes permissões:
 >
->-**Gerenciar composições federadas**
+>-**Gerenciar Composições Federadas**
 >-**Visualizar composições federadas**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
@@ -32,7 +32,7 @@ Uma composição na Composição do Federated Audience é composta pelas seguint
 - **[!UICONTROL Atividades]**: uma atividade é uma tarefa a ser executada, e são representadas na composição por ícones.
 - **[!UICONTROL Transições]**: as transições vinculam uma atividade de origem a uma atividade de destino e definem sua sequência. As informações contidas nas transições são armazenadas em uma tabela de trabalho. Cada composição usa várias tabelas de trabalho. Os dados transmitidos nessas tabelas podem ser usados durante todo o ciclo de vida da composição.
 
-## Acessar e gerenciar composições  {#access}
+## Acessar e gerenciar composições {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
