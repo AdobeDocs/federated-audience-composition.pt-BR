@@ -4,9 +4,9 @@ description: Atualizações e notas de versão mais recentes
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+source-git-commit: 049b33e4c237f3de232341caf11076018ab0d103
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1174'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Esta versão inclui os seguintes aprimoramentos:
 
 ## Versão de abril de 2025 {#fac-25-4}
 
-### Melhorias {#fac-25-4-improvements}
+### Aprimoramentos {#fac-25-4-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -77,7 +77,7 @@ Esta versão inclui as melhorias listadas abaixo.
 
 ## Versão de março de 2025 {#fac-25-3}
 
-### Melhorias {#fac-25-3-improvements}
+### Aprimoramentos {#fac-25-3-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -137,7 +137,7 @@ Esta versão inclui as alterações listadas abaixo.
 
 ## Versão de novembro de 2024 {#fac-24-11}
 
-### Melhorias {#fac-24-11-improvements}
+### Aprimoramentos {#fac-24-11-improvements}
 
 Esta versão inclui as melhorias listadas abaixo.
 
@@ -168,7 +168,7 @@ Com esta nova versão, a Composição de público-alvo federado agora é compat�
 
   Com esta nova versão, a Composição de público-alvo federado oferece suporte ao [Amazon Redshift Serverless](https://aws.amazon.com/pt/redshift/redshift-serverless/){target="_blank"}.
 
-### Melhorias {#fac-24-10-improvements}
+### Aprimoramentos {#fac-24-10-improvements}
 
 Esta versão vem com as melhorias listadas abaixo.
 
