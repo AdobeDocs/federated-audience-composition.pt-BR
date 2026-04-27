@@ -2,10 +2,13 @@
 title: Página inicial da documentação da Composição de público-alvo federado da Adobe Experience Platform
 description: Documentação da Composição de público-alvo federado
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 275
+ht-degree: 94%
 
 ---
 
@@ -31,7 +34,7 @@ Crie, configure, teste e salve a conexão para seu banco de dados externo.
 
 >[!TAB Compor um público-alvo]
 
-Adicione e configure atividades (Divisão, Enriquecimento, Consulta etc.) para construir composições e criar seu público-alvo.
+Adicione e configure atividades (Split, Enrichment, Query etc.) para criar composições e criar seu público-alvo.
 
 [![imagem](assets/learn-more-button.svg)](compositions/home.md)
 

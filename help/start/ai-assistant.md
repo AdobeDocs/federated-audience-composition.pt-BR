@@ -2,9 +2,12 @@
 title: Visão geral do assistente de IA
 description: Saiba como usar o Assistente de IA, incluindo conhecimento do produto, insights operacionais e criação de composições de público federado.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 651
 ht-degree: 16%
 
 ---
@@ -67,4 +70,4 @@ Atualmente, a habilidade de criação de público-alvo suporta os seguintes recu
 
 Para obter mais informações sobre o Assistente de IA, incluindo exemplos de objetivos que você pode realizar com o Assistente de IA e saber como o Assistente de IA funciona, leia a [Visão geral do Assistente de IA](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Para obter uma lista completa das perguntas sobre o Operational Insight que você pode fazer para a Federated Audience Composition, leia a [seção de insights operacionais](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Para obter uma lista completa das perguntas sobre o Operational Insight que você pode fazer para a Federated Audience Composition, leia a [seção de insights operacionais](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
