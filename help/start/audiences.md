@@ -3,9 +3,12 @@ audience: end-user
 title: Trabalhar com públicos-alvo
 description: Saiba como trabalhar com públicos-alvo
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: ht
-source-wordcount: '309'
+TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+workflow-type: tm+mt
+source-wordcount: 326
 ht-degree: 100%
 
 ---

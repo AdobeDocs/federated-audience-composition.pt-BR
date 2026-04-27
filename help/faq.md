@@ -2,10 +2,16 @@
 title: Perguntas frequentes
 description: Perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
+TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 83%
+source-wordcount: 975
+ht-degree: 75%
 
 ---
 
@@ -46,7 +52,7 @@ Para obter mais informações sobre como se conectar a um data warehouse, leia a
 
 +++ Resposta
 
-Sim, vários warehouses podem ser consultados na mesma composição e podem combinar dados de várias fontes.  Geralmente, cada [atividade de composição](./compositions/activities.md) (Consulta, Enriquecimento, Divisão, etc.) executa uma ou várias instruções SQL, dependendo da configuração da atividade, dos bancos de dados de destino (pode haver vários casos de Federated Data Access) e das saídas de uma ou mais tabelas de trabalho com o resultado da execução. Essas tabelas de trabalho são usadas como entrada para atividades consecutivas.
+Sim, vários warehouses podem ser consultados na mesma composição e podem combinar dados de várias fontes.  Normalmente, cada [atividade de composição](./compositions/activities.md) (Query, Enriquecimento, Split, etc.) O executa uma ou várias instruções SQL dependendo da configuração da atividade, dos bancos de dados de destino (pode haver vários casos de acesso a dados federados) e das saídas de uma ou mais tabelas de trabalho com o resultado da execução. Essas tabelas de trabalho são usadas como entrada para atividades consecutivas.
 
 +++
 
@@ -114,7 +120,7 @@ Sim, você pode excluir públicos-alvo de composição de público-alvo federado
 
 +++ Resposta
 
-Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário, etc. Você deve selecionar a identidade usada como o identificador no público-alvo para a seleção no data warehouse. Em um público-alvo resultante da Composição de público-alvo federado, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
+Não, o Serviço de identidade não está sendo usado durante uma composição. Os dados entre as várias fontes usadas na composição são unidos por meio de uma lógica definida pelo usuário (conforme expresso no modelo subjacente), por exemplo, ID de CRM, número de conta do usuário etc. Você deve selecionar a identidade usada como o identificador no público-alvo para seleção no data warehouse. Em um público-alvo resultante da Composição de público-alvo federado, é necessário identificar o namespace de identidade da identidade no conjunto de dados resultante.
 
 +++
 
