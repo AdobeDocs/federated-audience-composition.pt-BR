@@ -4,9 +4,8 @@ title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
 ht-degree: 31%
@@ -207,6 +206,8 @@ Se você selecionar **Exclusão**, precisará selecionar o **Conjunto principal*
 Depois de escolher o conjunto principal, você pode configurar as **Regras de exclusão**. Você pode selecionar **Corresponder por atributo** ou **Ingressar**.
 
 Depois de configurar as regras de exclusão, você também pode selecionar a opção **Gerar complemento**. A geração de um complemento processa a população restante e contém os dados **não** incluídos como parte da exclusão. Uma transição de saída adicional será adicionada à atividade.
+
+>[!ENDTABS]
 
 +++
 
@@ -514,7 +515,7 @@ Essa atividade é usada para enriquecer esquemas trazendo atributos e insights a
 
 >[!IMPORTANT]
 >
->Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
 
