@@ -4,12 +4,11 @@ title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -440,13 +439,13 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Campo de namespace de identificação primário"
->abstract="O namespace da identidade primária. O namespace ajuda a fornecer contexto para descrever a classificação da identidade primária."
+>title="Campo de namespace de identificação primária"
+>abstract="O namespace para a identidade primária. O namespace ajuda a fornecer contexto para descrever a classificação da identidade primária."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
->title="Selecionar esquema do Experience Platform"
->abstract="Escolha o schema do Experience Platform que deseja enriquecer."
+>title="Selecione o esquema do Experience Platform"
+>abstract="Escolha o esquema do Experience Platform que deseja enriquecer."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
@@ -456,32 +455,32 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
 >title="Atualização completa"
->abstract="O modo de atualização completa atualiza o conjunto completo de atributos nos esquemas selecionados."
+>abstract="O modo de atualização completa atualiza todo o conjunto de atributos nos esquemas selecionados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="Atualização incremental"
->abstract="O modo de atualização incremental atualiza os campos que foram modificados desde a última execução de enriquecimento."
+>abstract="O modo de atualização incremental atualiza os campos modificados desde a última execução de enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="Campo de identidade principal"
->abstract="O campo de identidade principal indica a fonte da verdade ao mesclar perfis para o enriquecimento."
+>abstract="O campo de identidade principal indica a origem da verdade ao mesclar perfis para o enriquecimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
 >title="Critérios de campos obrigatórios"
->abstract="Um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro ao exportar dados. Se um campo obrigatório estiver ausente, a exportação não será concluída ou válida."
+>abstract="Ao exportar dados, um campo obrigatório é um atributo que deve ser preenchido para cada perfil ou registro. Se um campo obrigatório estiver faltando, a exportação não será concluída ou válida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Critérios do campo de identidade principal"
->abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser distintamente reconhecido e correspondido, evitando a duplicação de dados."
+>title="Critério de campo de identidade principal"
+>abstract="O identificador exclusivo de cada perfil ou registro. Isso garante que cada registro possa ser reconhecido e correspondido distintamente, o que evita a duplicação de dados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
 >title="Lista de esquemas"
->abstract="Uma lista dos esquemas disponíveis em sua sandbox. Você pode selecionar esquemas padrão ou relacionais."
+>abstract="Uma lista dos esquemas disponíveis na sandbox. É possível selecionar esquemas padrão ou relacionais."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepattribute"
@@ -491,22 +490,22 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
 >title="Selecionar conjunto de dados"
->abstract="Uma lista dos conjuntos de dados que pertencem ao esquema. Você pode selecionar em qual conjunto de dados deseja que os dados enriquecidos sejam salvos."
+>abstract="Uma lista dos conjuntos de dados que pertencem ao esquema. É possível selecionar em qual conjunto os dados enriquecidos devem ser salvos."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
 >title="Chave primária"
->abstract="A chave primária para o esquema relacional. Esse valor garante a exclusividade nos conjuntos de dados, evitando que registros duplicados sejam assimilados."
+>abstract="A chave primária para o esquema relacional. Esse valor garante a exclusividade nos conjuntos de dados, o que evita a assimilação de registros duplicados."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="Descritor de versão"
->abstract="O descritor de versão do esquema relacional. Esse valor ajuda a determinar qual propriedade terá precedência se vários valores compartilharem a mesma chave primária, garantindo que a atualização mais recente seja aplicada."
+>abstract="O descritor de versão do esquema relacional. Esse valor ajuda a determinar qual propriedade terá precedência se vários valores compartilharem a mesma chave primária, o que garante que a aplicação da atualização mais recente."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Descritor de carimbo de data e hora"
->abstract="O descritor de carimbo de data e hora do esquema relacional. Esse valor ajuda a definir a hora do evento para solicitação e só existe se você estiver trabalhando com dados de série temporal."
+>abstract="O descritor de carimbo de data e hora do esquema relacional. Esse valor ajuda a definir a hora do evento para classificação e só existe se estiver trabalhando com dados de série temporal."
 
 A atividade **[!UICONTROL Save Fields]** permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo enriquecer esquemas do Experience Platform com atributos adicionais.
 
@@ -516,7 +515,7 @@ Essa atividade é usada para enriquecer esquemas trazendo atributos e insights a
 
 >[!IMPORTANT]
 >
->Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
 
