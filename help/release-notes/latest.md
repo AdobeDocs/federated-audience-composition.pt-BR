@@ -5,16 +5,36 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 13%
+source-wordcount: 545
+ht-degree: 11%
 
 ---
 
 # Notas de versão
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de abril de 2026 {#fac-26-04}
+
+A versão de abril do Federated Audience Composition é compatível com os seguintes recursos e melhorias:
+
+### Novos recursos {#fac=26-04-feature}
+
+| Novo conector - Teradata |
+| --- |
+| O conector do Teradata agora está disponível para uso com a Federated Audience Composition. Você pode usar o conector do Teradata para casos de uso de criação e enriquecimento de público. Para obter mais informações sobre o conector do Teradata, leia a [visão geral das conexões](/help/connections/home.md). |
+
+### Aprimoramentos {#fac-26-04-improvements}
+
+Esta versão vem com a seguinte melhoria.
+
+- **Suporte a chave não criptografada para o Snowflake**
+
+  Agora você pode usar chaves não criptografadas ao usar a autenticação de par de chaves para se conectar com data warehouses da Snowflake.
+
+  Para saber mais sobre como usar chaves não criptografadas com o Snowflake, leia a [visão geral das conexões](/help/connections/home.md).
 
 ## Versão de março de 2026 {#fac-26-03}
 

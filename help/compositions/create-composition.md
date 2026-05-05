@@ -6,7 +6,7 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 20%
@@ -73,6 +73,7 @@ As opções incluem:
 * **[!UICONTROL Pausar]/[!UICONTROL Retomar]**: pausar ou retomar a atividade. Quando a composição é executada, ela é pausada na atividade pausada. A tarefa correspondente e todas as seguintes no mesmo caminho não são executadas.
 * **[!UICONTROL Copiar]**: copia a atividade para colá-la em outro local na composição. Para fazer isso, clique no botão **+** em uma transição e selecione **[!UICONTROL Colar X atividade]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configure **[!UICONTROL Opções de execução]** para a atividade selecionada. As opções de execução disponíveis incluem o seguinte:
+
   +++Opções de execução disponíveis
 
   A seção **[!UICONTROL Properties]** permite definir configurações genéricas referentes à execução da atividade:
@@ -88,6 +89,7 @@ As opções incluem:
   A seção **[!UICONTROL Initialization script]** permite inicializar variáveis ou modificar propriedades de atividades. Selecione o botão **[!UICONTROL Editar código]** e digite o trecho de código a ser executado. O script é chamado quando a atividade é executada.
 
   +++
+
 * **Logs e tarefas**: exibir os logs e tarefas da atividade selecionada.
 
 ## Iniciar e monitorar sua composição {#start-and-monitor}
