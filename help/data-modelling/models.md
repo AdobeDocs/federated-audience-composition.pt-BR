@@ -4,16 +4,12 @@ title: Introdução a modelos de dados
 description: Saiba como começar a usar modelos de dados
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +28,11 @@ Um modelo de dados é um conjunto de esquemas, públicos-alvo e links entre eles
 
 Na Composição de público-alvo federado, você pode criar e gerenciar modelos de dados diretamente na exibição da Tela. Isso inclui adicionar esquemas e públicos-alvo, bem como definir os links entre eles com base no caso de uso.
 
-Saiba mais sobre [esquemas](../data-modelling/schemas.md#schema-start) e [públicos](../start/audiences.md).
+Para saber mais sobre esquemas, leia a [visão geral dos esquemas](../data-modelling/schemas.md). Para saber mais sobre públicos-alvo, leia o [guia Trabalhar com públicos-alvo](../start/audiences.md).
 
 Por exemplo, você pode ver abaixo uma representação de um modelo de dados: as tabelas com seu nome e os links entre elas.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![Uma representação de exemplo de um modelo de dados, com as tabelas e os links entre as tabelas exibidos.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Criar um modelo de dados {#data-model-create}
 
