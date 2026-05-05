@@ -44,7 +44,7 @@ A página **[!UICONTROL Configurar novo destino]** é exibida. Nesta página, vo
 
 Na seção **[!UICONTROL Alertas]**, você pode habilitar alertas para receber notificações sobre o status do fluxo de dados para o seu destino. Isso inclui alertas de atrasos de execução de fluxo de dados, falhas de execução, sucessos de execução, inicializações de execução e ignoramentos de ativação.
 
-Para obter mais informações sobre alertas, leia a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Para obter mais informações sobre alertas, leia a documentação do Adobe Experience Platform sobre [assinatura em alertas de destinos usando a interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Os alertas disponíveis para o destino são exibidos.](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ O popover **[!UICONTROL Agendando]** é exibido. Nesse popover, você pode defin
 >
 >Para obter informações detalhadas sobre como configurar um agendamento e nomes de arquivo, leia as seguintes seções da documentação do Adobe Experience Platform:
 >
->* [Agendar exportação de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [Configurar nomes de arquivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [Agendar exportação de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configurar nomes de arquivo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 Na etapa **[!UICONTROL Mapping]**, selecione quais campos de atributo e identidade serão exportados para seu(s) público(s).
 
@@ -79,7 +79,7 @@ Na etapa **[!UICONTROL Mapping]**, selecione quais campos de atributo e identida
 >
 >Você **não pode** usar colunas geradas pelo sistema ao ativar seu destino. Selecionar uma coluna gerada pelo sistema fará com que a ativação falhe.
 
-Para obter mais informações, leia a [seção de mapeamento](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} na documentação do Adobe Experience Platform.
+Para obter mais informações, leia a [seção de mapeamento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} na documentação do Adobe Experience Platform.
 
 ![A página de atributos de mapeamento é exibida.](assets/destinations/attributes.png)
 
