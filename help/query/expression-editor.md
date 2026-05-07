@@ -4,8 +4,7 @@ title: Visão geral do editor de expressão
 description: Saiba como usar as funções no editor de expressão para criar uma consulta no modelador de consultas.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM75FU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
 source-wordcount: 4215
@@ -489,8 +488,8 @@ Numeric functions are not available.
 | **Random** | Retorna um número aleatório entre 0 (inclusivo) e 1 (exclusivo). | Random() | Aleatório () |
 | **ToDouble** | Converte o número fornecido em um duplo. | ToDouble(&lt;NUMBER>) | ToDouble(5) |
 | **ToInteger** | Converte o número fornecido em um inteiro. | ToInteger(&lt;NUMBER>) | ToInteger(45) |
-| **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
-| **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER>, &lt;NUMBER>) | Trunc(36.9348934, 3) |
+| **ToInt64** | Converte o número fornecido em um inteiro de 64 bits. | ToInt64(&lt;NUMBER>) | ToInt64(493) |
+| **Trunc** | Trunca o número fornecido para o número solicitado de casas decimais. | Trunc(&lt;NUMBER>, &lt;NUMBER>) | Trunc(36.9348934, 3) |
 
 <!-- 
 
@@ -520,11 +519,11 @@ Esta tabela contém as demais funções disponíveis.
 
 | Nome | Descrição | Sintaxe | Exemplo |
 | ---- | ----------- | ------ | ------- |
-| **Case** | Returns the first value if the expression is true. Otherwise, returns the second value. | Case(When(&lt;EXPRESSION> &lt;VALUE>), Else(&lt;VALUE>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
-| **When** | Used as part of the Case function. Used to check the expression within Case. | When(&lt;EXPRESSION> &lt;VALUE>) | When(a > b, &quot;yes&quot;) |
-| **Else** | Used as part of the Case function. Used to choose the other option, if the When expression is false. | Else(&lt;VALUE>) | Else (&quot;no&quot;) |
-| **Coalesce** | Returns the first non-null value. | Coalesce(&lt;VALUE>, &lt;VALUE>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
-| **Decode** | Returns the first option if the values are equal. Returns the second option if the values are not equal. | Decode(&lt;VALUE>, &lt;VALUE>, &lt;VALUE>, &lt;VALUE>) | Decode( 1, 2, &quot;verdadeiro&quot;, &quot;falso&quot;) |
+| **Case** | Retorna o primeiro valor se a expressão for verdadeira. Caso contrário, retorna o segundo valor. | Case(When(&lt;EXPRESSÃO> &lt;VALOR>), Else(&lt;VALOR>)) | Case(Quando(a > b, &quot;sim&quot;), Else(&quot;não&quot;)) |
+| **When** | Usado como parte da função Case. Usado para verificar a expressão em maiúsculas e minúsculas. | When(&lt;EXPRESSÃO> &lt;VALOR>) | Quando(a > b, &quot;sim&quot;) |
+| **Else** | Usado como parte da função Case. Usado para escolher a outra opção, se a expressão When for falsa. | Else(&lt;VALOR>) | Senão (&quot;não&quot;) |
+| **Coalesce** | Retorna o primeiro valor não nulo. | Coalesce(&lt;VALUE>, &lt;VALUE>) | União (&quot;&quot;, &quot;string&quot;) |
+| **Decode** | Retorna a primeira opção se os valores forem iguais. Retorna a segunda opção se os valores não forem iguais. | Decode(&lt;VALUE>, &lt;VALUE>, &lt;VALUE>, &lt;VALUE>) | Decode( 1, 2, &quot;verdadeiro&quot;, &quot;falso&quot;) |
 | **GetEmailDomain** | Extrai o domínio do endereço de email fornecido. | GetEmailDomain(&lt;CADEIA DE CARACTERES>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Retorna a primeira opção se a condição for verdadeira e retorna a segunda opção se a condição for falsa. | Iif(&lt;CONDIÇÃO>, &lt;VALOR>, &lt;VALOR>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | Retorna a primeira opção se a cadeira de caracteres estiver vazia. Caso contrário, retorna a segunda opção. | IsEmptyString( &lt;CADEIA DE CARACTERES> ,&lt;VALOR>, &lt;VALOR>) | IsEmptyString(&quot;string&quot;, &quot;sim&quot;, &quot;não&quot;) |
@@ -643,15 +642,15 @@ As funções de string são usadas para manipular um conjunto de strings.
 | **IfEquals** | Pega quatro cadeias de caracteres e retorna a terceira se as duas primeiras forem iguais, e retorna a quarta se as duas primeiras não forem iguais. | IfEquals(&lt;STRING>, &lt;STRING>, &lt;STRING>, &lt;STRING>) | IfEquals(&quot;a&quot;, &quot;a&quot;, &quot;yes&quot;, &quot;no&quot;) |
 | **IsMemoNull** | Retorna 1 se a string for nula, caso contrário, retorna 0. | IsMemoNull(&lt;STRING>) | IsMemoNull(&quot;Olá&quot;) |
 | **JuxtWords** | Pega duas cordas e as combina em uma única. Se necessário, os espaços entre as cadeias de caracteres são adicionados. | JuxtWords(&lt;STRING>, &lt;STRING>) | JuxtWords(&quot;Olá&quot;, &quot;Mundo&quot;) |
-| **JuxtWords3** | Pega três strings e as combina em uma única string. Se necessário, os espaços entre as cadeias de caracteres são adicionados. | JuxtWords3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | JuxtWords3(&quot;Hello&quot;, &quot;New&quot;, &quot;World&quot;) |
-| **Left** | Takes a string and returns the leftmost characters as specified. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
-| **Length** | Returns the length of the string. | Length(&lt;STRING>) | Length(&quot;MyString&quot;) |
-| **Md5Digest** | Converts the MD5-hashed string into its hexadecimal representation. | Md5Digest(&lt;STRING>) | Md5Digest(&quot;String&quot;) |
-| **MemoContains** | Checks if the string contains the provided substring. | MemoContains(&lt;STRING>, &lt;STRING>) | MemoContains(&quot;string&quot;, &quot;str&quot;) |
-| **Right** | Takes a string and returns the rightmost characteres as specified. | Right(&lt;STRING>, &lt;NUMBER>) | Right (&quot;Substring&quot;, 3) |
-| **Smart** | Returns the string with the first letter of each word capitalized. | Smart(&lt;STRING>) | Smart(&quot;hello world&quot;) |
-| **Substring** | Take a string and returns a portion of the provided string, based on the positions given. | Substring(&lt;STRING>, &lt;LEFT_NUMBER>, RIGHT_NUMBER>) | Substring(&quot;Substring&quot;, 3, 5) |
-| **Sha256Digest** | Converts the SHA256-hashed string into its hexadecimal representation. | Sha256Digest(&lt;STRING>) | Sha256Digest(&quot;string&quot;) |
+| **JuxtWords3** | Pega três strings e as combina em uma única string. Se necessário, os espaços entre as cadeias de caracteres são adicionados. | JuxtWords3(&lt;STRING>, &lt;STRING>, &lt;STRING>) | JuxtWords3(&quot;Olá&quot;, &quot;Novo&quot;, &quot;Mundo&quot;) |
+| **Left** | Pega uma string e retorna os caracteres mais à esquerda, conforme especificado. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
+| **Length** | Retorna o comprimento da cadeira de caracteres. | Length(&lt;CADEIA DE CARACTERES>) | Length(&quot;MyString&quot;) |
+| **Md5Digest** | Converte a string com hash MD5 em sua representação hexadecimal. | Md5Digest(&lt;CADEIA DE CARACTERES>) | Md5Digest(&quot;Cadeia De Caracteres&quot;) |
+| **MemoContains** | Verifica se a cadeia de caracteres contém a subsequência fornecida. | MemoContains(&lt;STRING>, &lt;STRING>) | MemoContains(&quot;string&quot;, &quot;str&quot;) |
+| **Right** | Pega uma sequência de caracteres e retorna os caracteres mais à direita, conforme especificado. | Right(&lt;STRING>, &lt;NUMBER>) | À Direita (&quot;Substring&quot;, 3) |
+| **Smart** | Retorna a cadeira de caracteres com a primeira letra de cada palavra em maiúscula. | Smart(&lt;CADEIA DE CARACTERES>) | Smart(&quot;olá mundo&quot;) |
+| **Substring** | Pega uma sequência de caracteres e retorna uma parte da sequência fornecida, com base nas posições fornecidas. | Substring(&lt;STRING>, &lt;LEFT_NUMBER>, RIGHT_NUMBER>) | Substring(&quot;Substring&quot;, 3, 5) |
+| **Sha256Digest** | Converte a string com hash SHA256 em sua representação hexadecimal. | Sha256Digest(&lt;CADEIA DE CARACTERES>) | Sha256Digest(&quot;string&quot;) |
 | **Sha512Digest** | Converte a string com hash SHA512 em sua representação hexadecimal. | Sha512Digest(&lt;CADEIA DE CARACTERES>) | Sha512Digest(&quot;string&quot;) |
 | **ToString** | Retorna o valor como uma string. | ToString(&lt;VALOR>) | ToString(123) |
 
@@ -725,12 +724,12 @@ String functions are not available.
 | **Left** | Pega uma string e retorna os caracteres mais à esquerda, conforme especificado. | Left(&lt;STRING>, &lt;NUMBER>) | Left(&quot;Substring&quot;, 3) |
 | **Length** | Retorna o comprimento da cadeira de caracteres. | Length(&lt;CADEIA DE CARACTERES>) | Length(&quot;MyString&quot;) |
 | **Linha** | Retorna a linha numerada especificada da cadeia de caracteres. | Line(&lt;STRING>, &lt;NUMBER>) | Linha (multilinestring, 5) |
-| **Md5Digest** | Converte a string com hash MD5 em sua representação hexadecimal. | Md5Digest(&lt;CADEIA DE CARACTERES>) | Md5Digest(&quot;String&quot;) |
-| **Replace** | Takes a string and replaces all instances of the substring with a replacement substring. | Replace(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;Captain Steve&quot;, &quot;Captain&quot;, &quot;Engineer&quot;) |
-| **Right** | Takes a string and returns the rightmost characteres as specified. | Right(&lt;STRING>, &lt;NUMBER>) | Right (&quot;Substring&quot;, 3) |
-| **Sha256Digest** | Converts the SHA256-hashed string into its hexadecimal representation. | Sha256Digest(&lt;STRING>) | Sha256Digest(&quot;string&quot;) |
+| **Md5Digest** | Converte a string com hash MD5 em sua representação hexadecimal. | Md5Digest(&lt;CADEIA DE CARACTERES>) | Md5Digest(&quot;Cadeia De Caracteres&quot;) |
+| **Replace** | Pega uma sequência de caracteres e substitui todas as instâncias da subsequência por uma subsequência de substituição. | Replace(&lt;STRING>, &lt;STRING&amp;gt, &lt;STRING&amp;gt) | Replace(&quot;Capitão Steve&quot;, &quot;Capitão&quot;, &quot;Engenheiro&quot;) |
+| **Right** | Pega uma sequência de caracteres e retorna os caracteres mais à direita, conforme especificado. | Right(&lt;STRING>, &lt;NUMBER>) | À Direita (&quot;Substring&quot;, 3) |
+| **Sha256Digest** | Converte a string com hash SHA256 em sua representação hexadecimal. | Sha256Digest(&lt;CADEIA DE CARACTERES>) | Sha256Digest(&quot;string&quot;) |
 | **Sha512Digest** | Converte a string com hash SHA512 em sua representação hexadecimal. | Sha512Digest(&lt;CADEIA DE CARACTERES>) | Sha512Digest(&quot;string&quot;) |
-| **Smart** | Returns the string with the first letter of each word capitalized. | Smart(&lt;STRING>) | Smart(&quot;hello world&quot;) |
+| **Smart** | Retorna a cadeira de caracteres com a primeira letra de cada palavra em maiúscula. | Smart(&lt;CADEIA DE CARACTERES>) | Smart(&quot;olá mundo&quot;) |
 | **ToString** | Retorna o valor como uma string. | ToString(&lt;VALOR>) | ToString(123) |
 
 <!-- 
@@ -771,8 +770,8 @@ String functions are not available.
 
 | Nome | Descrição | Sintaxe | Exemplo |
 | ---- | ----------- | ------ | ------- |
-| **RowNum** | Returns a sequence of rows based on the table partition and the sorting sequence. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
-| **PartitionBy** | Separates the input rows into different partitions, based on the expression given. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(division) |
+| **RowNum** | Retorna uma sequência de linhas com base na partição da tabela e na sequência de classificação. | RowNum(PartitionBy(&lt;EXPRESSION>), OrderBy(&lt;EXPRESSION>)) | RowNum(PartitionBy(division), OrderBy(time)) |
+| **PartitionBy** | Separa as linhas de entrada em diferentes partições, com base na expressão fornecida. | PartitionBy(&lt;EXPRESSION>) | PartitionBy(divisão) |
 | **OrderBy** | Classifica o resultado da partição. | OrderBy(&lt;EXPRESSION>) | OrderBy(age) |
 | **Desc** | Permite que o OrderBy seja classificado por ordem decrescente, em vez de crescente. | Desc(OrderBy(&lt;EXPRESSION>)) | Desc(OrderBy(age)) |
 
