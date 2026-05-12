@@ -10,7 +10,7 @@ index: true
 source-git-commit: 886ec67750791aecbb40b611d3d149b81d5bd9e7
 workflow-type: tm+mt
 source-wordcount: 70
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 74%
 
 O arquivo metadata.md inclui metadados de nível de repositório que são repassados para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo do arquivo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-Consulte [Metadados](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) para obter uma lista de valores válidos para **solução**, **produto** e **tipo**.
+Consulte [Metadados](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=pt-BR) para obter uma lista de valores válidos para **solução**, **produto** e **tipo**.
