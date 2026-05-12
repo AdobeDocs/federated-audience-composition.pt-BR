@@ -3,9 +3,9 @@ user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
 source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
