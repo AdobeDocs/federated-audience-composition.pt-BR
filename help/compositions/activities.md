@@ -4,12 +4,11 @@ title: Visão geral das atividades
 description: Saiba mais sobre as diferentes atividades e transições disponíveis para uso na Composição de público-alvo federado.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -436,7 +435,7 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Salvar campos"
->abstract="A atividade Save fields permite enriquecer esquemas do Experience Platform federando dados de depósitos externos, permitindo aprimorar esquemas do Experience Platform com atributos adicionais. "
+>abstract="A atividade Salvar campos permite enriquecer esquemas da Experience Platform por meio da federação de dados de warehouses externos. Isso permite aprimorar esquemas da Experience Platform com atributos adicionais. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -450,8 +449,8 @@ Além disso, você pode definir a expiração dos dados para o público-alvo. A 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Salvar modo de atualização de campos"
->abstract="Os modos de atualização disponíveis para a atividade de salvar campos incluem atualização completa e atualização incremental."
+>title="Salve o modo de atualização de campos"
+>abstract="Os modos de atualização disponíveis para a atividade de salvamento de campos incluem atualização completa e incremental."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -516,7 +515,7 @@ Essa atividade é usada para enriquecer esquemas trazendo atributos e insights a
 
 >[!IMPORTANT]
 >
->Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se o conjunto de dados selecionado **não** tiver a substituição habilitada, os dados serão **substituídos**. Para saber como habilitar a substituição para seus conjuntos de dados, leia o [guia de habilitação de substituição](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Depois de adicionar a atividade **[!UICONTROL Salvar Campos]** à sua composição, você pode dar um rótulo para a atividade e selecionar o esquema do Adobe Experience Platform que deseja usar. O esquema pode ser um esquema padrão ou relacional.
 
