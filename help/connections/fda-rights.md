@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 24%
+source-wordcount: 445
+ht-degree: 22%
 
 ---
 
@@ -30,8 +30,8 @@ A tabela a seguir descreve as permissões de banco de dados necessárias para ca
 | **Monitoramento de execuções** | Privilégio `MONITOR` no objeto necessário | Nenhuma permissão necessária para usar o comando `EXPLAIN` | Função de `monitoring.viewer` | `CAN_VIEW` permissão |
 | **Gravação de dados** | Privilégios `INSERT` e/ou `UPDATE` (dependendo da operação de gravação) | `INSERT` e `UPDATE` permissões | A função atribuída à conta de serviço deve conter: `bigquery.jobs.create` e `bigquery.tables.updateData` | `MODIFY` permissão |
 | **Carregamento de dados em tabelas** | `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` e `INSERT` sobre os privilégios da tabela de destino | `SELECT` e `INSERT` permissões | A função atribuída à conta de serviço deve conter: `bigquery.jobs.create`, `bigquery.tables.getData` e `bigquery.tables.updateData` | `SELECT` e `MODIFY` permissões |
-| **Acesso aos dados do cliente** | Privilégio(s) `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | `SELECT` permissão | A função atribuída à conta de serviço deve conter: `bigquery.jobs.create` e `bigquery.tables.getData` para tabelas ou a função `bigquery.dataViewer` | `SELECT` permissão |
-| **Acesso aos metadados** | Privilégio `SELECT on INFORMATION_SCHEMA SCHEMA` | `SELECT` permissão | Função de `bigquery.metadataViewer` |  `SELECT on INFORMATION_SCHEMA SCHEMA` permissão |
+| **Acessando dados do cliente** | Privilégio(s) `SELECT on (FUTURE) TABLE(S)` ou `VIEW(S)` | `SELECT` permissão | A função atribuída à conta de serviço deve conter: `bigquery.jobs.create`, `bigquery.readsessions.create` e `bigquery.tables.getData` para tabelas ou a função `bigquery.dataViewer` | `SELECT` permissão |
+| **Acessando metadados** | Privilégio `SELECT on INFORMATION_SCHEMA SCHEMA` | `SELECT` permissão | Função de `bigquery.metadataViewer` |  `SELECT on INFORMATION_SCHEMA SCHEMA` permissão |
 
 
 |   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
