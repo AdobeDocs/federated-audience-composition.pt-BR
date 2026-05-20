@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 12%
@@ -24,16 +24,6 @@ A versão de maio do Federated Audience Composition é compatível com o seguint
 | --- |
 | Agora você pode se conectar ao Google Big Query usando a autenticação WIF. Para obter mais detalhes sobre como se conectar usando a autenticação WIF, leia a [visão geral das conexões](/help/connections/home.md#wif-configuration). |
 
-## Versão de abril de 2026 {#fac-26-04}
-
-A versão de abril do Federated Audience Composition é compatível com os seguintes recursos e melhorias:
-
-### Novos recursos {#fac=26-04-feature}
-
-| Novo conector - Teradata |
-| --- |
-| O conector do Teradata agora está disponível para uso com a Federated Audience Composition. Você pode usar o conector do Teradata para casos de uso de criação e enriquecimento de público. Para obter mais informações sobre o conector do Teradata, leia a [visão geral das conexões](/help/connections/home.md). |
-
 ### Aprimoramentos {#fac-26-05-improvements}
 
 Esta versão vem com a seguinte melhoria.
@@ -43,6 +33,16 @@ Esta versão vem com a seguinte melhoria.
   Agora você pode aproveitar os atributos de público-alvo do FAC como identificadores complementares nas jornadas de público-alvo de leitura do Journey Optimizer. Isso permite ativar os públicos-alvo em várias entidades, como contas ou nível de assinatura.
 
   Para obter mais informações, leia [usando identificadores complementares no guia do jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
+## Versão de abril de 2026 {#fac-26-04}
+
+A versão de abril do Federated Audience Composition é compatível com os seguintes recursos e melhorias:
+
+### Novos recursos {#fac=26-04-feature}
+
+| Novo conector - Teradata |
+| --- |
+| O conector do Teradata agora está disponível para uso com a Federated Audience Composition. Você pode usar o conector do Teradata para casos de uso de criação e enriquecimento de público. Para obter mais informações sobre o conector do Teradata, leia a [visão geral das conexões](/help/connections/home.md). |
 
 ### Aprimoramentos {#fac-26-04-improvements}
 
