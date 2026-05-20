@@ -3,18 +3,25 @@ title: Notas de versão da Federated Audience Composition
 description: Atualizações e notas de versão mais recentes da Composição de público-alvo federado.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 13%
+source-wordcount: 671
+ht-degree: 12%
 
 ---
 
 # Notas de versão
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
+
+## Versão de maio de 2026 {#fac-26-05}
+
+A versão de maio do Federated Audience Composition é compatível com o seguinte recurso:
+
+| Autenticação WIF (Federação de Identidade de Carga de Trabalho) para Google Big Query |
+| --- |
+| Agora você pode se conectar ao Google Big Query usando a autenticação WIF. Para obter mais detalhes sobre como se conectar usando a autenticação WIF, leia a [visão geral das conexões](/help/connections/home.md#wif-configuration). |
 
 ## Versão de abril de 2026 {#fac-26-04}
 
@@ -25,6 +32,16 @@ A versão de abril do Federated Audience Composition é compatível com os segui
 | Novo conector - Teradata |
 | --- |
 | O conector do Teradata agora está disponível para uso com a Federated Audience Composition. Você pode usar o conector do Teradata para casos de uso de criação e enriquecimento de público. Para obter mais informações sobre o conector do Teradata, leia a [visão geral das conexões](/help/connections/home.md). |
+
+### Aprimoramentos {#fac-26-05-improvements}
+
+Esta versão vem com a seguinte melhoria.
+
+- **Direcionamento de várias entidades com públicos de composição de público federado no Adobe Journey Optimizer Read Audience jornada**
+
+  Agora você pode aproveitar os atributos de público-alvo do FAC como identificadores complementares nas jornadas de público-alvo de leitura do Journey Optimizer. Isso permite ativar os públicos-alvo em várias entidades, como contas ou nível de assinatura.
+
+  Para obter mais informações, leia [usando identificadores complementares no guia do jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
 ### Aprimoramentos {#fac-26-04-improvements}
 
@@ -76,7 +93,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 
