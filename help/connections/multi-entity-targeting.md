@@ -2,7 +2,7 @@
 audience: end-user
 title: Direcionamento De Várias Entidades Com Públicos-Alvo Federados De Composição No Adobe Journey Optimizer
 description: Saiba como direcionar perfis de públicos-alvo de Composição de público-alvo federado no Adobe Journey Optimizer jornada.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ Sua jornada agora segmentará os perfis de público-alvo com base no **identific
 ## Próximas etapas {#next-steps}
 
 Depois de ler este guia, agora você sabe como usar identificadores complementares dos públicos-alvo do Federated Audience Composition no Journey Optimizer jornada. Para obter mais informações sobre como usar jornadas complementares, leia o [usar identificadores complementares no guia do jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
