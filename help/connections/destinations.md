@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ Na etapa **[!UICONTROL Mapping]**, selecione quais campos de atributo e identida
 
 >[!IMPORTANT]
 >
->Você **não pode** usar colunas geradas pelo sistema ao ativar seu destino. Selecionar uma coluna gerada pelo sistema fará com que a ativação falhe.
+>Você **não pode** usar colunas geradas pelo sistema ao ativar para destinos. Selecionar uma coluna gerada pelo sistema causará um erro.
 
 Para obter mais informações, leia a [seção de mapeamento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} na documentação do Adobe Experience Platform.
 
