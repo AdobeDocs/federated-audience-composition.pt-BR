@@ -2,10 +2,10 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
    - [Visão geral das conexões](connections/home.md)
    - [Matriz de direitos de acesso a dados](connections/fda-rights.md)
    - [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
+   - [Direcionamento de várias entidades](connections/multi-entity-targeting.md)
 - Modelos de dados e esquemas {#models}
    - [Visão geral dos esquemas](data-modelling/schemas.md)
    - [Visão geral dos modelos de dados](data-modelling/models.md)
