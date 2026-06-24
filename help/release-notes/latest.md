@@ -3,11 +3,10 @@ title: Notas de versão da Federated Audience Composition
 description: Atualizações e notas de versão mais recentes da Composição de público-alvo federado.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: 726
 ht-degree: 12%
 
 ---
@@ -16,13 +15,21 @@ ht-degree: 12%
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
+## Versão de junho de 2026 {#fac-26-06}
+
+A versão de junho do Federated Audience Composition é compatível com o seguinte recurso:
+
+| Conector da API REST com suporte de gateway [!DNL Apigee] para Google [!DNL BigQuery] |
+| --- |
+| Agora você pode se conectar ao Google [!DNL BigQuery] usando um conector REST API, com a opção de rotear sua conexão através de um gateway [!DNL Apigee] ao usar a autenticação de conta de serviço. Para obter mais detalhes sobre como se conectar usando o [!DNL Apigee], leia a [visão geral das conexões](/help/connections/home.md#apigee). |
+
 ## Versão de maio de 2026 {#fac-26-05}
 
 A versão de maio do Federated Audience Composition é compatível com o seguinte recurso:
 
-| Autenticação WIF (Federação de Identidade de Carga de Trabalho) para Google Big Query |
+| Autenticação WIF (Federação de Identidade de Carga de Trabalho) para Google [!DNL BigQuery] |
 | --- |
-| Agora você pode se conectar ao Google Big Query usando a autenticação WIF. Para obter mais detalhes sobre como se conectar usando a autenticação WIF, leia a [visão geral das conexões](/help/connections/home.md#wif-configuration). |
+| Agora você pode se conectar ao Google [!DNL BigQuery] usando a autenticação WIF. Para obter mais detalhes sobre como se conectar usando a autenticação WIF, leia a [visão geral das conexões](/help/connections/home.md#wif-configuration). |
 
 ### Aprimoramentos {#fac-26-05-improvements}
 
@@ -94,7 +101,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 
