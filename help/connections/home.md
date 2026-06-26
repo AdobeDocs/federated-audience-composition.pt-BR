@@ -4,17 +4,12 @@ title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 8%
 
 ---
@@ -25,8 +20,7 @@ ht-degree: 8%
 >
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
->-**Gerenciar Banco de Dados Federado**
->-**Exibir Banco de Dados Federado**
+>-**Gerenciar Banco de Dados Federado-** Exibir Banco de Dados Federado **
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
@@ -225,8 +219,9 @@ Depois de inserir os detalhes de logon, é possível adicionar os seguintes deta
 | ----- | ----------- |
 | Projeto | A ID do seu projeto. Para obter mais informações, leia a [documentação do projeto do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Conjunto de dados | O nome do conjunto de dados. Para obter mais informações, leia a [documentação do conjunto de dados da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Localização do bucket do Google | A localização do seu Google Bucket. Você só precisa adicionar este campo se estiver usando a atividade **Alterar Dimensão** na sua composição. Para obter mais informações, leia a [documentação sobre locais do bucket do Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Caminho do arquivo de chave | O arquivo de chave para o servidor. Somente `json` arquivos são suportados. |
+| Localização do bucket do Google | A localização do seu Google Bucket. Você só precisa adicionar este campo se estiver usando a atividade **Alterar Dimensão** na sua composição. Para obter mais informações, leia a [documentação sobre locais do bucket do Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Usar conector de API REST | Um botão que permite que o conector da API REST seja usado. Esta opção está disponível **somente** se você estiver usando a autenticação de Conta/Senha. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
 Para o Google BigQuery, você pode definir as seguintes opções adicionais:
