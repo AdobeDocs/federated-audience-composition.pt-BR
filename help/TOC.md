@@ -2,7 +2,7 @@
 user-guide-title: Composição de público-alvo federado da Experience Platform
 title: Documentação da Composição de público-alvo federado da Experience Platform
 breadcrumb-title: Composição de público-alvo federado da Experience Platform
-source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 97%
@@ -15,32 +15,32 @@ ht-degree: 97%
 - [Documentação da Composição de público-alvo federado da Experience Platform](landing.md)
 - [Visão geral da composição de público-alvo federado](./overview.md)
 - Introdução à composição de público-alvo federado {#start}
-   - [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
-   - [Trabalhar com públicos-alvo](start/audiences.md)
-   - [Trabalhar com o Assistente de IA](start/ai-assistant.md)
+  - [Pré-requisitos e medidas de proteção](start/access-prerequisites.md)
+  - [Trabalhar com públicos-alvo](start/audiences.md)
+  - [Trabalhar com o Assistente de IA](start/ai-assistant.md)
 - Governança, privacidade e segurança {#governance-privacy-security}
-   - [Visão geral](./governance-privacy-security/home.md)
-   - [Controle de acesso](governance-privacy-security/access-control.md)
+  - [Visão geral](./governance-privacy-security/home.md)
+  - [Controle de acesso](governance-privacy-security/access-control.md)
 - Conexões {#connections}
-   - [Visão geral das conexões](connections/home.md)
-   - [Matriz de direitos de acesso a dados](connections/fda-rights.md)
-   - [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
-   - [Direcionamento de várias entidades](connections/multi-entity-targeting.md)
+  - [Visão geral das conexões](connections/home.md)
+  - [Matriz de direitos de acesso a dados](connections/fda-rights.md)
+  - [Enriqueça os públicos-alvo da Adobe Experience Platform com dados externos](connections/destinations.md)
+  - [Direcionamento de várias entidades](connections/multi-entity-targeting.md)
 - Modelos de dados e esquemas {#models}
-   - [Visão geral dos esquemas](data-modelling/schemas.md)
-   - [Visão geral dos modelos de dados](data-modelling/models.md)
+  - [Visão geral dos esquemas](data-modelling/schemas.md)
+  - [Visão geral dos modelos de dados](data-modelling/models.md)
 - Composições {#compositions}
-   - [Visão geral da composição](compositions/home.md)
-   - [Criar uma composição](compositions/create-composition.md)
-   - [Visão geral das atividades](compositions/activities.md)
+  - [Visão geral da composição](compositions/home.md)
+  - [Criar uma composição](compositions/create-composition.md)
+  - [Visão geral das atividades](compositions/activities.md)
 - Modelador de consultas {#query-database}
-   - [Visão geral do modelador de consultas](query/home.md)
-   - [Criar uma consulta](query/build-query.md)
-   - [Editar expressões](query/expression-editor.md)
+  - [Visão geral do modelador de consultas](query/home.md)
+  - [Criar uma consulta](query/build-query.md)
+  - [Editar expressões](query/expression-editor.md)
 - [Trilha de auditoria](admin/audit-trail.md)
 - [Perguntas frequentes](./faq.md)
 - Notas de versão {#release-notes}
-   - [Notas de versão mais recentes](./release-notes/latest.md)
-   - [2024](./release-notes/2024.md)
-   - [2025](./release-notes/2025.md)
-   - {hide-from-toc}[Notas de pré-lançamento](./release-notes/e-release-notes.md)
+  - [Notas de versão mais recentes](./release-notes/latest.md)
+  - [2025](./release-notes/2025.md)
+  - [2024](./release-notes/2024.md)
+  - {hide-from-toc}[Notas de pré-lançamento](./release-notes/e-release-notes.md)
