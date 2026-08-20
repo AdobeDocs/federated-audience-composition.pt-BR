@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +25,30 @@ ht-degree: 8%
 >
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
->-**Gerenciar Banco de Dados Federado-** Exibir Banco de Dados Federado **
+>-**Gerenciar Banco de Dados Federado**
+>-**Exibir Banco de Dados Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
 
 A Composição de público-alvo federado do Experience Platform permite criar e enriquecer públicos-alvo de data warehouses de terceiros e importar os públicos-alvo para o Adobe Experience Platform.
 
 ## Bancos de dados compatíveis {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Chave privada"
+>abstract="Conteúdo temporário em branco."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Caminho do arquivo de chave"
+>abstract="Conteúdo temporário em branco."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="IP do servidor"
+>abstract="Conteúdo temporário em branco."
+
 
 Para trabalhar com o banco de dados federado e o Adobe Experience Platform, primeiro é necessário estabelecer uma conexão entre as duas fontes. Com a Federated Audience Composition, você pode se conectar aos seguintes bancos de dados.
 
@@ -401,9 +418,9 @@ O apêndice a seguir descreve como configurar as conexões do lado da conta exte
 Antes de definir a configuração da Google Cloud Platform, você precisará dos seguintes valores:
 
 - ID da conta do AWS
-   - Entre em contato com seu representante da Adobe para obter esse valor.
+  - Entre em contato com seu representante da Adobe para obter esse valor.
 - Nome da função do AWS IAM
-   - O nome da função IAM do AWS segue o formato resultante: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - O nome da função IAM do AWS segue o formato resultante: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 No Google Cloud Console, crie um **Pool de Identidade da Carga de Trabalho** na **seção IAM e Administrador**. Isso permite organizar e gerenciar identidades externas.
 
