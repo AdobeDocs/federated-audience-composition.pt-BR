@@ -4,18 +4,13 @@ title: Criar e gerenciar conexões com bancos de dados federados
 description: Saiba como criar e gerenciar conexões com bancos de dados federados
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +69,7 @@ A seção Federated databases é exibida. Selecione **[!UICONTROL Adicionar banc
 
 >[!NOTE]
 >
->Para solicitar conectividade segura usando um link privado ou VPN, você **deve** ter licenciado o Privacy and Security Shield ou o Healthcare Shield.
+>Para solicitar conectividade segura usando PrivateLink ou VPN, você **deve** ter licenciado o Privacy and Security Shield ou o Healthcare Shield.
 
 O popover de propriedades da conexão é exibido. Você pode nomear sua conexão e selecionar o tipo de banco de dados que deseja criar.
 
@@ -90,7 +85,7 @@ Após selecionar um tipo, a seção **[!UICONTROL Detalhes]** é exibida. Esta s
 >
 >Somente o Amazon Redshift AWS, o Amazon Redshift Spectrum e o Amazon Redshift Serverless são suportados.
 >
->Além disso, o acesso seguro ao data warehouse externo do Amazon Redshift por meio de um link privado é suportado.
+>Além disso, o acesso seguro ao data warehouse externo do Amazon Redshift por meio do PrivateLink é compatível.
 
 Depois de selecionar Amazon Redshift, você pode adicionar os seguintes detalhes:
 
@@ -162,7 +157,7 @@ Em sua conexão com o Azure Synapse, defina os seguintes detalhes de configuraç
 
 >[!NOTE]
 >
->Há suporte para o acesso seguro ao data warehouse externo do Databricks por meio de link privado. Isso inclui conexões seguras com bancos de dados do Databricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados do Databricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
+>O acesso seguro ao Data Warehouse externo por meio do PrivateLink é compatível. Isso inclui conexões seguras com bancos de dados Databricks hospedados no Amazon Web Services (AWS) via PrivateLink e bancos de dados Databricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
 
 Depois de selecionar Databricks, você pode escolher com o método de autenticação que deseja usar ao se conectar com a Federated Audience Composition.
 
@@ -295,7 +290,7 @@ Depois de selecionar Oracle, você pode adicionar os seguintes detalhes:
 
 >[!NOTE]
 >
->Há suporte para o acesso seguro ao data warehouse externo do Snowflake por meio de link privado. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
+>O acesso seguro ao data warehouse externo do Snowflake por meio do PrivateLink é compatível. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
 
 Depois de selecionar o Snowflake, você pode escolher qual método de autenticação deseja usar ao se conectar com a Federated Audience Composition.
 
