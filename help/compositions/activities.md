@@ -627,7 +627,7 @@ Agora você pode fornecer detalhes para cada um desses subcaminhos. Você pode d
 Depois de criar a condição de filtragem, você pode aplicar as seguintes regras adicionais:
 
 - **Habilitar limite**: limita o número de perfis que podem ser divididos no subconjunto. Você pode definir isso como um número ou uma porcentagem da população.
-   - Se você ativar um limite, também poderá classificar os perfis selecionados com base em um atributo de perfil específico. Ative **Habilitar classificação** e você poderá classificar os atributos em ordem crescente ou decrescente.
+  - Se você ativar um limite, também poderá classificar os perfis selecionados com base em um atributo de perfil específico. Ative **Habilitar classificação** e você poderá classificar os atributos em ordem crescente ou decrescente.
 - **Ignorar transição vazia**: desabilita a transição se a população de entrada estiver vazia.
 
 Agora que os subconjuntos foram configurados, há mais algumas opções adicionais que você pode definir.
