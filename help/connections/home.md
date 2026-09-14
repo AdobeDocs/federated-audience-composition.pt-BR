@@ -6,19 +6,22 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3987
+source-wordcount: '3987'
 ht-degree: 7%
-
 ---
-
 # Criar conexões {#connections-fdb}
 
 >[!AVAILABILITY]
@@ -37,17 +40,17 @@ A Composição de público-alvo federado do Experience Platform permite criar e 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_privatekey"
 >title="Chave privada"
->abstract="Conteúdo temporário em branco."
+>abstract="Conteúdo temporariamente em branco."
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_keyfilepath"
 >title="Caminho do arquivo de chave"
->abstract="Conteúdo temporário em branco."
+>abstract="Conteúdo temporariamente em branco."
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_serverip"
 >title="IP do servidor"
->abstract="Conteúdo temporário em branco."
+>abstract="Conteúdo temporariamente em branco."
 
 
 Para trabalhar com o banco de dados federado e o Adobe Experience Platform, primeiro é necessário estabelecer uma conexão entre as duas fontes. Com a Federated Audience Composition, você pode se conectar aos seguintes bancos de dados.
