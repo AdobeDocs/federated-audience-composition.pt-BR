@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
+source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
 workflow-type: tm+mt
-source-wordcount: '3987'
+source-wordcount: '3999'
 ht-degree: 7%
 ---
 # Criar conexões {#connections-fdb}
@@ -48,10 +48,9 @@ A Composição de público-alvo federado do Experience Platform permite criar e 
 >abstract="Conteúdo temporariamente em branco."
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="IP do servidor"
->abstract="Conteúdo temporariamente em branco."
-
+>abstract="Os endereços IP que precisam ser classificados para se conectar ao banco de dados."
 
 Para trabalhar com o banco de dados federado e o Adobe Experience Platform, primeiro é necessário estabelecer uma conexão entre as duas fontes. Com a Federated Audience Composition, você pode se conectar aos seguintes bancos de dados.
 
