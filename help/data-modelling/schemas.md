@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '580'
 ht-degree: 18%
 ---
 # Visão geral dos esquemas {#schemas}
@@ -29,11 +29,6 @@ ht-degree: 18%
 >-**Exibir Esquema Federado**
 >
 >Para mais informações sobre as permissões exigidas, leia o [guia de controle de acesso](/help/governance-privacy-security/access-control.md).
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Gerenciar configuração"
->abstract="Conteúdo temporariamente em branco."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ Ao criar um esquema, você pode definir uma representação da tabela na Composi
 >Ao conectar várias sandboxes com o mesmo banco de dados, você deve usar esquemas de trabalho distintos.
 
 ## Criar um esquema {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="Chave composta"
->abstract="Uma chave de esquema composta de várias colunas de esquema. Marque as colunas que deseja usar como chave composta."
 
 Para criar um esquema na Composição de Público Federado, selecione **[!UICONTROL Modelos]** na seção **[!UICONTROL Dados Federados]**. Na guia **[!UICONTROL Esquema]**, selecione **[!UICONTROL Criar esquema]**.
 
