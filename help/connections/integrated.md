@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: Criar e gerenciar conexões com bancos de dados federados
-description: Saiba como criar e gerenciar conexões com bancos de dados federados
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: Criar e gerenciar conexões com bancos de dados federados na interface do usuário do Experience Platform
+description: Saiba como criar e gerenciar conexões com bancos de dados federados na interface do usuário do Experience Platform.
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4385'
 ht-degree: 7%
 ---
-# Criar conexões {#connections-fdb}
+# Criar conexões na interface do Experience Platform
 
 >[!AVAILABILITY]
+>
+>A nova experiência de conexões unificadas só está disponível para clientes selecionados. Para obter mais informações, entre em contato com o Atendimento ao cliente da Adobe.
+>
+>Se você não tiver acesso à nova experiência de conexões, leia a [visão geral das conexões](./home.md).
 >
 >Para acessar conexões, você precisará de uma das seguintes permissões:
 >
@@ -38,11 +40,21 @@ A Composição de público-alvo federado do Experience Platform permite criar e 
 
 ## Bancos de dados compatíveis {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Chave privada"
+>abstract="Conteúdo temporariamente em branco."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Caminho do arquivo de chave"
+>abstract="Conteúdo temporariamente em branco."
+
 Para trabalhar com o banco de dados federado e o Adobe Experience Platform, primeiro é necessário estabelecer uma conexão entre as duas fontes. Com a Federated Audience Composition, você pode se conectar aos seguintes bancos de dados.
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- DataBricks
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -52,23 +64,34 @@ Para trabalhar com o banco de dados federado e o Adobe Experience Platform, prim
 
 ## Criar conexão {#create}
 
-Para criar uma conexão, selecione **[!UICONTROL Federated databases]** na seção Federated data.
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="IP do servidor"
+>abstract="Os endereços IP que precisam ser classificados para se conectar ao banco de dados."
 
-![O botão Federated Databases está realçado dentro da navegação à esquerda.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+Para criar uma conexão, selecione **[!UICONTROL Fontes]** na seção **[!UICONTROL Conexões]**.
 
-A seção Federated databases é exibida. Selecione **[!UICONTROL Adicionar banco de dados federado]** para criar uma conexão.
+O catálogo Origens é exibido. Selecione **[!UICONTROL Dados federados]** para exibir a lista de bancos de dados federados disponíveis para sua organização.
 
-![O botão Adicionar banco de dados federado está realçado na página de exibição do banco de dados federado.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![A seção Dados Federados do Catálogo de Fontes está realçada.](/help/connections/assets/integrated/federated-data-sources.png)
+
+Depois de selecionar o tipo de banco de dados federado, selecione **[!UICONTROL Configurar]** se estiver fazendo uma nova conexão ou **[!UICONTROL Adicionar dados]** se estiver usando uma conexão existente.
+
+A página Conectar conta é exibida. Você pode usar uma conta **existente** ou criar uma conta **nova**.
+
+### Conta existente {#existing-account}
+
+Se você selecionar **[!UICONTROL Conta existente]**, poderá escolher uma das conexões de origem criadas anteriormente.
+
+![Um exemplo de seção de contas existentes é exibido.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->Para solicitar conectividade segura usando PrivateLink ou VPN, você **deve** ter licenciado o Privacy and Security Shield ou o Healthcare Shield.
+>Para solicitar conectividade segura usando um link privado ou VPN, você **deve** ter licenciado o Privacy and Security Shield ou o Healthcare Shield.
 
-O popover de propriedades da conexão é exibido. Você pode nomear sua conexão e selecionar o tipo de banco de dados que deseja criar.
+### Nova conta {#new-account}
 
-![Os tipos de banco de dados federado são exibidos.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-Após selecionar um tipo, a seção **[!UICONTROL Detalhes]** é exibida. Esta seção difere com base no tipo de banco de dados escolhido anteriormente.
+Se você selecionar **[!UICONTROL Nova conta]**, a página de detalhes da conexão será exibida. Nesta página, você pode definir detalhes sobre sua conexão, incluindo o nome da conta, a descrição e os detalhes de autenticação da conta. A seção de autenticação de conta difere com base no tipo de banco de dados escolhido anteriormente.
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Após selecionar um tipo, a seção **[!UICONTROL Detalhes]** é exibida. Esta s
 >
 >Somente o Amazon Redshift AWS, o Amazon Redshift Spectrum e o Amazon Redshift Serverless são suportados.
 >
->Além disso, o acesso seguro ao data warehouse externo do Amazon Redshift por meio do PrivateLink é compatível.
+>Além disso, o acesso seguro ao data warehouse externo do Amazon Redshift por meio de um link privado é suportado.
 
 Depois de selecionar Amazon Redshift, você pode adicionar os seguintes detalhes:
 
@@ -146,52 +169,52 @@ Em sua conexão com o Azure Synapse, defina os seguintes detalhes de configuraç
 | Banco de dados | O nome do banco de dados. Se isso for especificado no nome do servidor, esse campo poderá ser deixado em branco. |
 | Opções | Opções adicionais para a conexão. Para usar a autenticação da Entidade de Serviço, será necessário definir `Authentication="ActiveDirectoryServicePrincipal"`. |
 
->[!TAB Databricks]
+>[!TAB DataBricks]
 
 >[!NOTE]
 >
->O acesso seguro ao Data Warehouse externo por meio do PrivateLink é compatível. Isso inclui conexões seguras com bancos de dados Databricks hospedados no Amazon Web Services (AWS) via PrivateLink e bancos de dados Databricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
+>O acesso seguro ao data warehouse externo DataBricks por meio de link privado é suportado. Isso inclui conexões seguras com bancos de dados DataBricks hospedados no Amazon Web Services (AWS) por meio de link privado e bancos de dados DataBricks hospedados no Microsoft Azure via VPN. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro.
 
-Depois de selecionar Databricks, você pode escolher com o método de autenticação que deseja usar ao se conectar com a Federated Audience Composition.
+Depois de selecionar DataBricks, você pode escolher com o método de autenticação que deseja usar ao se conectar com a Federated Audience Composition.
 
-Se você selecionar **Conta/Autenticação de senha**, poderá adicionar os seguintes detalhes de logon:
-
-| Campo | Descrição |
-| ----- | ----------- |
-| Servidor | O nome do servidor Databricks. |
-| Senha | O token de acesso para o servidor Databricks. Para obter mais informações sobre esse valor, leia a [documentação de Databricks sobre tokens de acesso pessoal](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
-
-Se você selecionar **Autenticação da Entidade de Serviço**, poderá adicionar os seguintes detalhes:
+Se você selecionar **[!UICONTROL Autenticação básica]**, poderá adicionar os seguintes detalhes de logon:
 
 | Campo | Descrição |
 | ----- | ----------- |
-| Servidor | O nome do servidor Databricks. |
-| ID de cliente | A ID do cliente do servidor Databricks. Este campo atua como um nome de usuário para o seu projeto. |
-| Segredo do cliente | O segredo do cliente do servidor Databricks. Este campo atua como uma senha para o seu projeto. |
+| Servidor | O nome do servidor DataBricks. |
+| Senha | O token de acesso do servidor DataBricks. Para obter mais informações sobre esse valor, leia a [documentação de DataBricks sobre tokens de acesso pessoal](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
-Se você selecionar **OAuth 2.0**, poderá adicionar os seguintes detalhes:
+Se você selecionar **[!UICONTROL Código de autenticação do OAuth2]**, poderá adicionar os seguintes detalhes:
 
 | Campo | Descrição |
 | ----- | ----------- |
-| Servidor | O nome do servidor Databricks. |
-| ID de cliente | A ID do cliente do servidor Databricks. Este campo é usado para identificar o aplicativo durante a autenticação do OAuth 2.0 e atua como um nome de usuário para o seu projeto. |
-| Segredo do cliente | O segredo do cliente do servidor Databricks. Essa credencial confidencial é emitida com a ID do cliente e atua como uma senha para o projeto. |
-| Escopo de acesso | Informações pré-preenchidas que listam os escopos para os quais seu token OAuth está autorizado no servidor do Databricks. |
+| Servidor | O nome do servidor DataBricks. |
+| ID de cliente | A ID do cliente do servidor DataBricks. Este campo é usado para identificar o aplicativo durante a autenticação do OAuth 2.0 e atua como um nome de usuário para o seu projeto. |
+| Segredo do cliente | O segredo do cliente do servidor DataBricks. Essa credencial confidencial é emitida com a ID do cliente e atua como uma senha para o projeto. |
+| Escopo de acesso | Informações pré-preenchidas que listam os escopos para os quais o token OAuth está autorizado no servidor DataBricks. |
+
+Se você selecionar **[!UICONTROL Autenticação da Entidade de Serviço]**, poderá adicionar os seguintes detalhes:
+
+| Campo | Descrição |
+| ----- | ----------- |
+| Servidor | O nome do servidor DataBricks. |
+| ID de cliente | A ID do cliente do servidor DataBricks. Este campo atua como um nome de usuário para o seu projeto. |
+| Segredo do cliente | O segredo do cliente do servidor DataBricks. Este campo atua como uma senha para o seu projeto. |
 
 Depois de inserir os detalhes de logon, é possível adicionar as seguintes informações:
 
 | Campo | Descrição |
 | ----- | ----------- |
-| Caminho HTTP | O caminho para o Cluster ou Warehouse. Para obter mais informações sobre o caminho, leia a [documentação do Databricks sobre detalhes de conexão](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Catálogo | O nome do Catálogo de Databricks. Para obter mais informações sobre catálogos em Databricks, leia a [documentação sobre Databricks em catálogos](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| Caminho HTTP | O caminho para o Cluster ou Warehouse. Para obter mais informações sobre o caminho, leia a [documentação de DataBricks sobre detalhes de conexão](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Catálogo | O nome do Catálogo de DataBricks. Para obter mais informações sobre catálogos em DataBricks, leia a [documentação sobre DataBricks sobre catálogos](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** você pode usar o esquema **any** do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
-Para Databricks, você pode definir as seguintes opções adicionais:
+Para DataBricks, você pode definir as seguintes opções adicionais:
 
 | Opções | Descrição |
 | ------- | ----------- |
-| TimeZoneName | O nome do fuso horário a ser usado. Este valor representa o parâmetro de sessão `TIMEZONE`. Para obter mais informações sobre fusos horários, leia a [documentação de Databricks sobre fusos horários](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
+| TimeZoneName | O nome do fuso horário a ser usado. Este valor representa o parâmetro de sessão `TIMEZONE`. Para obter mais informações sobre fusos horários, leia a [documentação de DataBricks sobre fusos horários](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Para Databricks, você pode definir as seguintes opções adicionais:
 
 Depois de selecionar o Google BigQuery, você pode escolher qual método de autenticação deseja usar ao se conectar com a Federated Audience Composition.
 
-Se você selecionar **[!UICONTROL Conta/Autenticação de senha]**, poderá adicionar as seguintes informações de logon:
+Se você selecionar **[!UICONTROL Autenticação básica]**, poderá adicionar as seguintes informações de logon:
 
 | Campo | Descrição |
 | ----- | ----------- |
 | Conta de serviço | O endereço de email da sua conta de serviço. Para obter mais informações, leia a [documentação da conta do Google Cloud Service](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
-Se você selecionar **[!UICONTROL OAuth 2.0]**, será possível adicionar as seguintes informações de logon:
+Se você selecionar **[!UICONTROL Código de autorização OAuth2]**, poderá adicionar as seguintes informações de logon:
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Se você selecionar **[!UICONTROL OAuth 2.0]**, será possível adicionar as seg
 
 Selecione **[!UICONTROL Entrar]** para concluir sua autenticação.
 
-Se você selecionar **[!UICONTROL WIF]**, **não** precisará fornecer informações de logon. No entanto, você **deve** adicionar a configuração da biblioteca do cliente como o **[!UICONTROL caminho do arquivo da chave]**. Para obter mais informações sobre a configuração da biblioteca do cliente, leia a [seção de configuração do Google BigQuery (Workload Identity Federation)](#wif-configuration).
+Se você selecionar **[!UICONTROL WIF]**, **não** precisará fornecer informações de logon. No entanto, você **deve** adicionar a configuração da biblioteca do cliente como o **[!UICONTROL Caminho do arquivo de configuração]**. Para obter mais informações sobre a configuração da biblioteca do cliente, leia a [seção de configuração do Google BigQuery (Workload Identity Federation)](#wif-configuration).
 
 Depois de inserir os detalhes de logon, é possível adicionar os seguintes detalhes:
 
@@ -229,9 +252,9 @@ Depois de inserir os detalhes de logon, é possível adicionar os seguintes deta
 | ----- | ----------- |
 | Projeto | A ID do seu projeto. Para obter mais informações, leia a [documentação do projeto do Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Conjunto de dados | O nome do conjunto de dados. Para obter mais informações, leia a [documentação do conjunto de dados da Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Caminho do arquivo de chave | O arquivo de chave para o servidor. Somente `json` arquivos são suportados. |
+| Caminho do arquivo de configuração | O arquivo de configuração para o servidor. Somente `json` arquivos são suportados. |
 | Localização do bucket do Google | A localização do seu Google Bucket. Você só precisa adicionar este campo se estiver usando a atividade **Alterar Dimensão** na sua composição. Para obter mais informações, leia a [documentação sobre locais do bucket do Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| Usar conector de API REST | Um botão que permite que o conector da API REST seja usado. Esta opção está disponível **somente** se você estiver usando a autenticação de Conta/Senha. |
+| Usar conector de API REST | Um botão que permite que o conector da API REST seja usado. Esta opção está disponível **somente** se você estiver usando autenticação básica. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
 Para o Google BigQuery, você pode definir as seguintes opções adicionais:
@@ -283,11 +306,11 @@ Depois de selecionar Oracle, você pode adicionar os seguintes detalhes:
 
 >[!NOTE]
 >
->O acesso seguro ao data warehouse externo do Snowflake por meio do PrivateLink é compatível. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
+>Há suporte para o acesso seguro ao data warehouse externo do Snowflake por meio de link privado. Observe que a conta do Snowflake deve estar hospedada no Amazon Web Services (AWS) ou Azure e localizada na mesma região do ambiente da Composição de público-alvo federado. Entre em contato com o representante da Adobe para obter assistência na configuração do acesso seguro à conta do Snowflake.
 
 Depois de selecionar o Snowflake, você pode escolher qual método de autenticação deseja usar ao se conectar com a Federated Audience Composition.
 
-Se você selecionar **[!UICONTROL Conta/Autenticação de senha]**, poderá adicionar as seguintes informações de logon:
+Se você selecionar **[!UICONTROL Autenticação básica]**, poderá adicionar as seguintes informações de logon:
 
 | Campo | Descrição |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Se você selecionar **[!UICONTROL Conta/Autenticação de senha]**, poderá adic
 | Usuário(a) | O nome de usuário da conta. |
 | Senha | A senha da conta. |
 
-Como alternativa, você também pode fornecer uma chave privada em vez de fornecer uma senha. Se você adicionar uma chave privada, precisará fornecer as seguintes informações:
+Se você selecionar **[!UICONTROL Autenticação de par de chaves]**, poderá adicionar as seguintes informações de logon:
 
 | Campo | Descrição |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Como alternativa, você também pode fornecer uma chave privada em vez de fornec
 | Chave privada | A chave privada da conta. Somente `.pem` arquivos são suportados. |
 | Senha | (Opcional) A senha da conta. |
 
-Se você selecionar **[!UICONTROL OAuth 2.0]**, será possível adicionar as seguintes informações de logon:
+Se você selecionar **[!UICONTROL Código de autorização OAuth2]**, poderá adicionar as seguintes informações de logon:
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Depois de inserir os detalhes de logon, é possível adicionar os seguintes deta
 | ----- | ----------- |
 | Banco de dados | O nome do banco de dados. Se isso for especificado no nome do servidor, esse campo poderá ser deixado em branco. |
 | Esquema de trabalho | O nome do esquema de banco de dados a ser usado para as tabelas de trabalho. <br/><br/>**Observação:** você pode usar o esquema **any** do banco de dados, incluindo esquemas usados para processamento temporário de dados, desde que tenha as permissões necessárias para se conectar a este esquema. No entanto, você **deve** usar esquemas de trabalho distintos ao conectar várias sandboxes com o mesmo banco de dados. |
-| Chave privada | A chave privada da conexão de banco de dados. Você pode carregar um arquivo `.pem` do seu sistema local. |
+| Chave privada | A chave privada codificada na Base64 de sua conta do Snowflake. Você pode gerar chaves privadas criptografadas ou não. Se você estiver usando uma chave privada criptografada, também deverá fornecer uma senha de chave privada ao autenticar no Experience Platform. Leia o guia em [recuperando a chave privada do Snowflake](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/databases/snowflake) para obter mais informações. |
+| Frase secreta da chave privada | A senha da chave privada é uma camada adicional de segurança que deve ser usada ao autenticar com uma chave privada criptografada. Não é necessário fornecer a senha se você estiver usando uma chave privada não criptografada. |
 | Opções | Opções adicionais para a conexão. As opções disponíveis estão listadas na tabela a seguir. |
 
 Para o Snowflake, você pode definir as seguintes opções adicionais:
@@ -395,7 +419,39 @@ Depois de adicionar os detalhes da conexão, observe as seguintes configuraçõe
 | IPs do servidor | Um popover que exibe quais endereços IP precisam ser resolvidos para se conectar ao banco de dados. |
 | Testar conexão | Permite verificar os detalhes da configuração. |
 
-Agora você pode selecionar **[!UICONTROL Implantar funções]**, seguido de **[!UICONTROL Adicionar]** para finalizar a conexão entre o banco de dados federado e o Experience Platform.
+Agora você pode selecionar **[!UICONTROL Conectar à origem]** para configurar os detalhes do esquema para a conexão de banco de dados.
+
+## Seleção de esquema {#schema-selection}
+
+A página **[!UICONTROL Seleção de esquema]** é exibida. Nesta página, você pode definir o esquema para sua conexão de banco de dados federado.
+
+![O botão Adicionar tabela está realçado na tela Adicionar dados.](/help/data-modelling/assets/integrated/select-add-table.png)
+
+Para obter mais informações sobre a configuração de detalhes do esquema, leia o [guia de esquemas](/help/data-modelling/schemas-integrated.md).
+
+Depois de escolher seus esquemas, selecione **[!UICONTROL Avançar]** para continuar.
+
+## Revisar {#review}
+
+A página **[!UICONTROL Revisão]** é exibida. Nesta página, você pode verificar os detalhes da sua conexão de banco de dados federado. Se os detalhes parecem corretos, selecione **[!UICONTROL Concluir]** para criar a conexão.
+
+![A página Revisar é exibida. Esta página mostra os detalhes da conexão e as informações sobre esquemas.](/help/connections/assets/integrated/review.png)
+
+A conexão é criada. Um pop-up é exibido, solicitando que você **[!UICONTROL Exiba o esquema]** ou **[!UICONTROL Crie relações]**. Se você selecionar **[!UICONTROL Exibir esquema]**, a página [procurar esquema](/help/data-modelling/schemas-integrated.md#edit-a-schema) será exibida. Se você selecionar **[!UICONTROL Criar relações]**, a página [diagrama de entidades](/help/data-modelling/schemas-integrated.md#edit-relationships) será exibida.
+
+## Editar conexão {#edit-connection}
+
+Se precisar editar os detalhes de logon da conexão de origem, selecione **[!UICONTROL Fontes]**, seguido de **[!UICONTROL Contas]**.
+
+![O botão Contas está realçado, exibindo a página de navegação das contas de origem.](/help/connections/assets/integrated/select-accounts.png)
+
+A página de navegação dos conectores de origem é exibida. Localize o conector de origem que você deseja atualizar, selecione ![os três pontos](/help/assets/icons/more.png), seguido de **[!UICONTROL Editar detalhes]**.
+
+![O botão Editar detalhes está realçado.](/help/connections/assets/integrated/select-edit-details.png)
+
+O popover **[!UICONTROL Editar detalhes da conta]** é exibido. Nesse popover, você pode atualizar os detalhes da conexão de origem do banco de dados federado.
+
+![O popover Editar detalhes da conta é exibido.](/help/connections/assets/integrated/edit-account-details.png)
 
 ## Apêndice {#appendix}
 
