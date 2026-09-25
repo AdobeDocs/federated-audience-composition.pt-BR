@@ -99,7 +99,7 @@ Para editar um esquema, selecione o ![ícone de reticências](/help/assets/icons
 
 ![O botão Editar esquema está realçado.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Na janela **[!UICONTROL Editar esquema]**, você pode ver o Editor de esquemas. Para obter mais informações sobre como usar o Editor de Esquemas, leia o [guia da interface do usuário do esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Na janela **[!UICONTROL Editar esquema]**, você pode ver o Editor de esquemas. Para obter mais informações sobre como usar o Editor de Esquemas, leia o [guia da interface do usuário do esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![O Editor de Esquemas é exibido.](/help/data-modelling/assets/integrated/schema-editor.png)
 
