@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # Visão geral dos esquemas {#schemas}
 
@@ -69,7 +69,7 @@ O popover **[!UICONTROL Selecionar banco de dados federado]** é exibido. Neste 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="Chave composta"
->abstract="Uma chave de esquema composta de várias colunas de esquema. Marque as colunas que deseja usar como chave composta."
+>abstract="Uma chave de esquema constituída por várias colunas de esquema. Marque as colunas que deseja usar como chave composta."
 
 Após escolher o banco de dados federado, você pode definir seu esquema. A tela **[!UICONTROL Adicionar dados]** é exibida. Nesta página, você pode selecionar **[!UICONTROL Adicionar tabela]** para escolher quais tabelas deseja adicionar ao esquema.
 
@@ -99,7 +99,7 @@ Para editar um esquema, selecione o ![ícone de reticências](/help/assets/icons
 
 ![O botão Editar esquema está realçado.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Na janela **[!UICONTROL Editar esquema]**, você pode ver o Editor de esquemas. Para obter mais informações sobre como usar o Editor de Esquemas, leia o [guia da interface do usuário do esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Na janela **[!UICONTROL Editar esquema]**, você pode ver o Editor de esquemas. Para obter mais informações sobre como usar o Editor de Esquemas, leia o [guia da interface do usuário do esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![O Editor de Esquemas é exibido.](/help/data-modelling/assets/integrated/schema-editor.png)
 
