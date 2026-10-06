@@ -67,7 +67,7 @@ Para trabalhar com o banco de dados federado e o Adobe Experience Platform, prim
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="IP do servidor"
->abstract="Os endereços IP que precisam ser classificados para se conectar ao banco de dados."
+>abstract="Os endereços IP que precisam ser incluídos na lista de permissões para se conectar ao banco de dados."
 
 Para criar uma conexão, selecione **[!UICONTROL Fontes]** na seção **[!UICONTROL Conexões]**.
 
