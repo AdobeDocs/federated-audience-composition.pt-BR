@@ -5,18 +5,17 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: '825'
 ht-degree: 11%
-
 ---
-
 # Notas de versão
 
 O [!DNL Federated Audience Composition] fornece continuamente novos recursos, melhorias para os recursos existentes e correções de erros. Todas as alterações são consolidadas nestas notas de versão. O [!DNL Federated Audience Composition] é construído nativamente na [!DNL Adobe Experience Platform] e herda suas mais recentes inovações e melhorias. Saiba mais sobre essas alterações nas [Notas de versão da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR){target="_blank"}.
 
-## Versão de julho de 26 {#fac-26-07}
+## Versão de julho de 2026 {#fac-26-07}
 
 A versão de julho do Federated Audience Composition é compatível com o seguinte recurso:
 
@@ -30,7 +29,7 @@ Esta versão vem com a seguinte melhoria.
 
 - **Suporte para públicos-alvo de Composição de Público Federado na simulação de Jornada**
 
-  A simulação de jornada agora permite testar suas jornadas criadas com públicos-alvo de composição de público-alvo federado antes de publicar com usuários simulados. Para obter mais informações, leia o [guia de introdução à simulação do Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  A simulação de jornada agora permite testar suas jornadas criadas com públicos-alvo de composição de público-alvo federado antes de publicar com usuários simulados. Para obter mais informações, leia o [guia de introdução à simulação do Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Versão de junho de 2026 {#fac-26-06}
 
@@ -118,7 +117,7 @@ A versão de janeiro da Composição do Federated Audience oferece suporte aos s
 
 | Disponibilidade para clientes do Adobe Experience Platform no Amazon Web Services (AWS) |
 | --- |
-| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/landing/multi-cloud). |
+| Agora você pode usar a Composição de público federado se a instância do Experience Platform estiver no AWS. Para obter mais informações sobre o Experience Platform no AWS, leia a [visão geral das várias nuvens](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Aprimoramentos {#fac-26-01-improvements}
 

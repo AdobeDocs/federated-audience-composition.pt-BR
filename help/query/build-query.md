@@ -6,13 +6,12 @@ exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: '2084'
 ht-degree: 36%
-
 ---
-
 # Criar a primeira consulta {#build-query}
 
 Para começar a criar uma consulta, acesse o modelador de consultas do local de sua escolha, dependendo da ação que deseja executar. O modelador de Consulta é aberto com uma tela em branco. Selecione o botão **+** para configurar o primeiro nó da consulta.
@@ -27,7 +26,7 @@ Você pode adicionar dois tipos de elementos:
 
 * **Operadores de grupo** (AND, OR, EXCEPT) permitem agrupar componentes de filtragem no diagrama. Eles são adicionados em transições existentes antes de um componente de filtragem. [Saiba como trabalhar com operadores](#filtering)
 
-  Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**&#x200B;que vivem em Nova York **OR**&#x200B;San Francisco*.
+  Exemplo: *Recipients que assinaram o informativo &quot;Esportes&quot;**AND**que vivem em Nova York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

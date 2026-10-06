@@ -5,16 +5,17 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '981'
 ht-degree: 75%
-
 ---
-
 # Perguntas frequentes {#faq}
 
 Veja a seguir uma lista das perguntas frequentes sobre a Composição de público-alvo federado da Adobe Experience Platform. As perguntas frequentes globais também estão disponíveis para o serviço de segmentação da Adobe Experience Platform [nesta página](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq){target="_blank"}.
@@ -96,8 +97,8 @@ Por exemplo:
 Observe que a expiração dos dados atuais para públicos-alvo gerados externamente é de 30 dias. Essa expiração de dados reduz a quantidade de dados em excesso armazenados em uma organização. Depois que o período de expiração dos dados passar, o conjunto de dados associado ainda estará visível no inventário do conjunto de dados, mas não será possível ativar o público-alvo e a contagem de perfis será exibida como zero. Saiba mais na [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * No caso de um enriquecimento de público-alvo, o ponto de partida é um público-alvo da Adobe Experience Platform já existente. Você pode ver dois cenários aqui:
-   1. Trazer atributos adicionais de conteúdo de público-alvo do data warehouse federado: nesse caso, os atributos adicionais incluídos aparecerão como parte dessa definição de público-alvo. A expiração de dados para públicos-alvo gerados externamente é a mesma descrita acima, 30 dias.
-   1. Refine o público-alvo existente da Adobe Experience Platform com base em atributos adicionais existentes em seu data warehouse.<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+  1. Trazer atributos adicionais de conteúdo de público-alvo do data warehouse federado: nesse caso, os atributos adicionais incluídos aparecerão como parte dessa definição de público-alvo. A expiração de dados para públicos-alvo gerados externamente é a mesma descrita acima, 30 dias.
+  1. Refine o público-alvo existente da Adobe Experience Platform com base em atributos adicionais existentes em seu data warehouse.<!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 ## Se os dados para os padrões de casos de uso de Criação de público-alvo e Enriquecimento de público não forem mantidos, como eles são armazenados temporariamente?
