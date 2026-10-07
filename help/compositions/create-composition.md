@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 20%
-
 ---
-
 # Criar uma composição
 
 A Composição de público-alvo federado permite criar composições, onde é possível aproveitar várias atividades em uma tela visual para criar públicos-alvo. Após criar a composição, os públicos-alvo resultantes são salvos na Adobe Experience Platform e podem ser aproveitados nos destinos da Experience Platform e no Adobe Journey Optimizer para o direcionamento de clientes.
@@ -78,11 +77,11 @@ As opções incluem:
 
   A seção **[!UICONTROL Properties]** permite definir configurações genéricas referentes à execução da atividade:
 
-   * **[!UICONTROL Execução]**: defina a ação a ser executada quando o for iniciado.
-   * **[!UICONTROL Duração máxima da execução]**: especifique uma duração como &quot;30s&quot; ou &quot;1h&quot;. Se a atividade não for concluída após o término da duração especificada, um alerta será acionado. Isso não afeta o funcionamento da composição.
-   * **[!UICONTROL Fuso horário]**: selecione o fuso horário da atividade. A Composição de público-alvo federado permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é definida quando a instância é criada.
-   * **[!UICONTROL Afinidade]**: forçar a atividade de composição a ser executada em uma máquina específica. Para fazer isso, é necessário especificar uma ou várias afinidades para a atividade em questão.
-   * **[!UICONTROL Comportamento]**: defina o procedimento a ser seguido se tarefas assíncronas forem usadas.
+  * **[!UICONTROL Execução]**: defina a ação a ser executada quando o for iniciado.
+  * **[!UICONTROL Duração máxima da execução]**: especifique uma duração como &quot;30s&quot; ou &quot;1h&quot;. Se a atividade não for concluída após o término da duração especificada, um alerta será acionado. Isso não afeta o funcionamento da composição.
+  * **[!UICONTROL Fuso horário]**: selecione o fuso horário da atividade. A Composição de público-alvo federado permite gerenciar as diferenças de tempo entre vários países na mesma instância. A configuração aplicada é definida quando a instância é criada.
+  * **[!UICONTROL Afinidade]**: forçar a atividade de composição a ser executada em uma máquina específica. Para fazer isso, é necessário especificar uma ou várias afinidades para a atividade em questão.
+  * **[!UICONTROL Comportamento]**: defina o procedimento a ser seguido se tarefas assíncronas forem usadas.
 
   A seção **[!UICONTROL Gerenciamento de erros]** permite que você especifique a ação a ser executada caso a atividade encontre um erro.
 

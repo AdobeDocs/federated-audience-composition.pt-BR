@@ -6,13 +6,12 @@ exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM75FU
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 4215
+source-wordcount: '4215'
 ht-degree: 9%
-
 ---
-
 # Visão geral do editor de expressão {#expression}
 
 A edição de uma expressão envolve a inserção manual de condições para formar uma regra. Esse modo permite usar funções avançadas, que permitem manipular os valores usados para realizar consultas específicas, como manipular datas, cadeias de caracteres, campos numéricos, classificação etc.
