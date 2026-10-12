@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Pré-requisitos e medidas de proteção {#fac-access}
 
