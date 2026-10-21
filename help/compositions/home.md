@@ -69,7 +69,7 @@ Também é possível executar ações rápidas nas composições selecionando o 
 | ------ | ----------- |
 | **[!UICONTROL Duplicar]** | Duplica a composição selecionada. |
 | **[!UICONTROL Excluir]** | Exclui a composição selecionada. |
-| **[!UICONTROL Adicionar ao pacote]** | Move a composição entre sandboxes. Para obter mais informações sobre este recurso, leia o [guia de ferramentas da sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Adicionar ao pacote]** | Move a composição entre sandboxes. Para obter mais informações sobre este recurso, leia o [guia de ferramentas da sandbox](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Para refinar a lista e encontrar a composição que está procurando, é possível pesquisar na lista e filtrar as composições por status ou data do último processamento.
 
