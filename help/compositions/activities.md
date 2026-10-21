@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # Visão geral das atividades
@@ -426,7 +426,7 @@ Agora você pode especificar os mapeamentos para selecionar quais campos deseja 
 
 Depois de adicionar os mapeamentos, é possível selecionar a identidade e o namespace principais para identificar os perfis direcionados no banco de dados. O campo de identidade principal é usado para identificar os perfis, enquanto o namespace de identidade atua como uma chave para identificar a identidade.
 
-Além disso, você pode definir a expiração dos dados para o público-alvo. A expiração dos dados determina o número de dias após o qual a associação de público-alvo expirará. A expiração dos dados pode variar de 1 a 90 dias. Por padrão, esse valor é definido como 30.
+Além disso, você pode definir a expiração dos dados para o público-alvo. A expiração dos dados determina o número de dias após o qual a associação de público-alvo expirará. A expiração dos dados pode variar de 1 a 3.650 dias (10 anos). Por padrão, esse valor é definido como 30.
 
 +++
 
