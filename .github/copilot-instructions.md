@@ -110,7 +110,7 @@ elementos de navegação, nomes de página, opções, campos e guias conforme mo
 
 - Negrito nas etapas e na navegação: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Itálico aceitável em texto conceitual (sem etapas) para maior clareza.
-- Nas tabelas do HTML: use `<span class="uicontrol">term</span>` em vez de ``.
+- Nas tabelas do HTML: use `<span class="uicontrol">term</span>` em vez de &grave;&grave;.
 - No texto do link: remova os colchetes da tag.
 - A capitalização deve corresponder exatamente à interface.
 - NÃO se aplique a termos genéricos usados conceitualmente (&quot;segmento&quot;, &quot;métrica&quot;, &quot;campanha&quot;) a menos que
@@ -131,7 +131,7 @@ Não é necessário dentro de blocos de código; eles não são localizados por 
 
 - Pode ser usado em: parágrafos, listas, cabeçalhos, tabelas, selos, texto alternativo e metadados.
 - Não pode ser usado em: blocos de código, acrônimos.
-- Se um campo de metadados começar com uma marca `[!DNL]` ou ``, coloque todo o campo
+- Se um campo de metadados começar com uma marca `[!DNL]` ou &grave;&grave;, coloque todo o campo
 valor entre aspas ou falha na validação.
 
 ## &#x200B;3. Terminologia e identidade visual
@@ -438,10 +438,10 @@ de mecanismos de pesquisa com `hide: true` no front-matter.
 - Ortografia em inglês americano: cor, reconhecimento, licença, enquanto, expiração, medidor, entre
 (não colorido, reconhecido, licenciado, enquanto, expiração, medidor, entre).
 - Reservar aspas para citar pessoas; não citar cadeias de caracteres da interface do usuário (use negrito +
-  `` em vez disso).
+  &grave;&grave; em vez disso).
 - Use itálico para termos usados como termos (*perfil*, não &quot;perfil&quot;). Usar acentos graves para código,
 parâmetros, nomes de arquivo e texto digitado.
-- Negrito somente para elementos da interface em procedimentos (com ``) e termos principais no início
+- Negrito somente para elementos da interface em procedimentos (com &grave;&grave;) e termos principais no início
 introdução.
 - Sem ponto e vírgula, sem traços/hifens em prosa, sem réguas horizontais (consulte a seção 1).
 
@@ -453,7 +453,7 @@ Antes de terminar qualquer edição, verifique:
 - Frases ≤ 20 palavras, parágrafos ≤ 125 palavras
 - Cabeçalhos: caso de frase, ≤5 palavras/69 caracteres, seguido de texto do corpo, sem níveis ignorados
 - Nomes e formulários de produtos corretos; sem termos obsoletos, apenas internos ou não inclusivos
-- `` em cada elemento da interface do usuário nas etapas; `[!DNL]` em cada nome de produto/terceiro
+- &grave;&grave; em cada elemento da interface do usuário nas etapas; `[!DNL]` em cada nome de produto/terceiro
 - Nenhuma tag dentro de blocos de código; campos de metadados com tags encapsulados entre aspas
 - Sintaxe de advertência correta; marcadores de lista consistentes; sem listas de tarefas; sem regras horizontais
 - O texto alternativo é descritivo e completo; sem &quot;clique aqui&quot;; sem linguagem espacial/direcional
