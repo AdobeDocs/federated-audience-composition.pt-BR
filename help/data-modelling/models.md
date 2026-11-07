@@ -143,4 +143,4 @@ Para criar links entre tabelas do seu modelo de dados na guia Exibição da tela
 
 Saiba como criar um modelo de dados neste vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507566?captions=por_br)
