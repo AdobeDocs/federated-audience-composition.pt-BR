@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # Pré-requisitos e medidas de proteção {#fac-access}
 
@@ -50,7 +50,7 @@ Você pode aprender a criar uma conexão com esses sistemas na [visão geral das
 
 ## Sandboxes
 
-Ao adquirir a composição de público-alvo federado, você tem direito a duas sandboxes. Para solicitações adicionais de provisionamento de sandbox, entre em contato com o seu representante da Adobe.
+Ao comprar a Federated Audience Composition, você tem direito a cinco sandboxes. Para solicitações adicionais de provisionamento de sandbox, entre em contato com o seu representante da Adobe.
 
 Para exibir a lista de sandboxes ativas da composição de público-alvo federado, siga as etapas abaixo:
 
